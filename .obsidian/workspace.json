@@ -1,0 +1,217 @@
+{
+  "main": {
+    "id": "4a8eb45d1544bc66",
+    "type": "split",
+    "children": [
+      {
+        "id": "e59d55752685b5b5",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "0914f1d498aeb6d0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Glimmer-Barge.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Glimmer-Barge"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "42d88fe08ff2e6bb",
+    "type": "split",
+    "children": [
+      {
+        "id": "d6aa30d785287dcc",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "789c3b627f68eb05",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "753fa65f9e3daa63",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "7f40061334427b52",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "4aa06451cbaed645",
+    "type": "split",
+    "children": [
+      {
+        "id": "176e473331015895",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "964d331445697a48",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Glimmer-Barge.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Glimmer-Barge"
+            }
+          },
+          {
+            "id": "137178bc9504fdbf",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Glimmer-Barge.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Glimmer-Barge"
+            }
+          },
+          {
+            "id": "34c3ef78dc5eaa59",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "a7f905a0ff1452d0",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "7a4b2aeb50aa6c4d",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Glimmer-Barge.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Glimmer-Barge"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "0914f1d498aeb6d0",
+  "lastOpenFiles": [
+    "Gold Token.md",
+    "Control The Narrative.md",
+    "Holy Day.md",
+    "Safe Passage.md",
+    "Market Crash.md",
+    "Hedge.md",
+    "Unforged Witness.md",
+    "Myr-Sourced Automation.md",
+    "Hype Cycle.md",
+    "Vault of the Liquid Sun.md",
+    "Archive Scrubbing.md",
+    "Ep-Styn's Silent Isle.md",
+    "En-Vidia Processing Core.md",
+    "Gilded Sentinel's Decree.md",
+    "Spark Harvester.md",
+    "The Black Ledger.md",
+    "Glimmer-Barge.md",
+    "The Darksteel Wall.md",
+    "Foundry Citizenship.md",
+    "Reprocessing Agent.md",
+    "Lore.md",
+    "claude-obsidian-guide.md",
+    "Gambling with the Devil.md",
+    "Untitled.canvas",
+    "🎲 GAMBLE.md",
+    "☭REDISTRIBUTE.md",
+    "COMPOUND.md",
+    "Untitled.base"
+  ]
+}
