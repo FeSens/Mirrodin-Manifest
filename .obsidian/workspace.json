@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Unforged Advocate.md",
+                "file": "Holy Day.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Unforged Advocate"
+              "title": "Holy Day"
             }
           }
         ]
@@ -41,7 +41,7 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical",
-                "autoReveal": false
+                "autoReveal": true
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Unforged Advocate.md",
+                "file": "Untitled.base",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Unforged Advocate"
+              "title": "Backlinks for Untitled"
             }
           },
           {
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Unforged Advocate.md",
+                "file": "Untitled.base",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Unforged Advocate"
+              "title": "Outgoing links from Untitled"
             }
           },
           {
@@ -156,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Unforged Advocate.md",
+                "file": "Untitled.base",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Unforged Advocate"
+              "title": "Outline of Untitled"
             }
           }
         ]
@@ -185,6 +185,16 @@
   },
   "active": "da4572b73ffa4fdf",
   "lastOpenFiles": [
+    "Vizier of Remedies.md",
+    "Holy Day.md",
+    "Gold Token.md",
+    "DEBT TOKEN PLAN.md",
+    "COMPOUND.md",
+    "🎲 GAMBLE.md",
+    "Untitled.md",
+    "Untitled.base",
+    "Unforged Advocate.md",
+    "Untitled",
     "README.md",
     "Vault of the Liquid Sun.md",
     "Lore.md",
@@ -203,14 +213,6 @@
     "Nature's Arbiter.md",
     "Sylvok Reclaimer.md",
     "Grove Multiplier.md",
-    "Tangle Elder.md",
-    "Toxic Reclamation.md",
-    "Shadow Accountant.md",
-    "Mephidross Ritualist.md",
-    "Syndicate Enforcer.md",
-    "Dross Overseer.md",
-    "Waypoint Beacon.md",
-    "Lattice Conduit.md",
     "set-health.py",
     "type-breakdown.py",
     "mana-curve.py",
@@ -219,8 +221,6 @@
     "find-orphans.py",
     "dashboard.html",
     "generate-dashboard.py",
-    "spoilers.html",
-    "generate-spoilers.py",
     "Untitled.canvas"
   ]
 }
