@@ -1,6 +1,7 @@
 ---
 tags:
   - card
+  - broken-needs-review
 type: Creature
 subtype: Vedalken Advisor
 color: White/Blue

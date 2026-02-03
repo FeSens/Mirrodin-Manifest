@@ -1,6 +1,7 @@
 ---
 tags:
   - card
+  - broken-needs-review
 type: Legendary Artifact
 color: Colorless
 mana_cost: "{4}"

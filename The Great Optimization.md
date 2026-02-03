@@ -1,6 +1,7 @@
 ---
 tags:
   - card
+  - broken-needs-review
 type: Enchantment
 color: Blue/Black
 mana_cost: "{3}{U}{B}"
