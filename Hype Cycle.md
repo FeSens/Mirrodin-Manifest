@@ -1,6 +1,7 @@
 ---
 tags:
   - card
+  - broken-needs-review
 type: Enchantment
 subtype: Saga
 color: Blue
@@ -39,3 +40,8 @@ Enchantment — Saga
 - Lore connection: [[Lore]] - References the En-Vidia Lattice and the "Calculated Futures" that promised everything and delivered collapse
 - Mak-Ron (Macron) watches his grand plans evaporate like the Quicksilver Sea
 - Perfect satire of tech/crypto hype cycles
+
+## Outside of this set interactions
+- **Notable Synergies:** [[Vorinclex, Monstrous Raider]] quadruples your counters (Vorinclex doubles the doubling); Planeswalkers get 4x loyalty enabling instant ultimates; Charge counter artifacts ([[Everflowing Chalice]], [[Astral Cornucopia]]) generate exponential mana
+- **BROKEN COMBOS:** [[Darksteel Reactor]] start at 20, Chapter I = 40, Chapter II = 80 (instant win); [[Helix Pinnacle]] exponential growth toward 100; [[Magistrate's Scepter]] double time counters for extra turns; [[Chisei, Heart of Oceans]]/[[Power Conduit]] stay at Chapter II permanently, avoiding crash
+- **Balance Assessment:** EXTREMELY POWERFUL - Doubling ALL counters twice (4x total) enables numerous combo wins. With Vorinclex, this becomes 16x. Chapter III crash can be avoided with counter removal effects. Consider making it only affect creatures or only your permanents

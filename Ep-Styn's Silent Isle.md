@@ -1,6 +1,7 @@
 ---
 tags:
   - card
+  - broken-needs-review
 type: Land
 subtype:
 color: Black
@@ -39,3 +40,8 @@ Legendary Land
 - Enters untapped for legendary creatures — the elite always had easy access
 - Mythic Rare because it's a central plot location and mechanically powerful
 - Pairs thematically with: [[The Black Ledger]], [[Control The Narrative]], [[Unforged Witness]], [[Glimmer-Barge]]
+
+## Outside of this set interactions
+- **Notable Synergies:** [[Ashnod's Altar]] sacrifice Unforged for mana; [[Blood Artist]]/[[Zulaport Cutthroat]] each death drains; [[Skullclamp]] draw 2 per Unforged
+- **BROKEN COMBOS:** [[Pitiless Plunderer]] each Unforged death creates Treasure, funds more token creation; [[Words of Waste]] replace draws with forcing discards; Lands are harder to remove than other permanents
+- **Balance Assessment:** BROKEN - Too many abilities on a land. Lands are harder to remove, and this generates tokens, grows counters, AND provides repeatable discard. Consider making this a legendary artifact instead of a land

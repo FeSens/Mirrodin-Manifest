@@ -1,7 +1,7 @@
 ---
 tags:
   - card
-  - unvetted
+  - broken-needs-review
 type: Creature
 subtype: Human Soldier Mer-Ikan
 color: White
@@ -34,3 +34,8 @@ Creature — Human Soldier Mer-Ikan
 - Simple, effective hate card
 - Lore connection: [[Lore#The Mer-Ikan Foundry (America)]] - checkpoint enforcement
 - Pairs with: [[Tromp, the Gilded Sentinel]], [[The Darksteel Wall]], [[Foundry Border Commander]]
+
+## Outside of this set interactions
+- **Notable Synergies:** [[Containment Priest]] - similar effect but this ALSO hits tokens; [[Rest in Peace]] prevents graveyard recursion
+- **BROKEN COMBOS:** Auto-exiles ALL tokens as they enter (devastating vs token strategies); Shuts down [[Reanimate]], [[Animate Dead]], [[Show and Tell]], [[Sneak Attack]], [[Oath of Druids]]
+- **Balance Assessment:** BROKEN - Strictly better than Containment Priest against tokens at the same mana cost. A 2-mana creature that auto-exiles all tokens AND all cheated creatures is far too efficient. Consider adding "nontoken" or making it trigger only once per turn

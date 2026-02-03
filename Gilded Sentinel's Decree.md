@@ -1,6 +1,7 @@
 ---
 tags:
   - card
+  - broken-needs-review
 type: Sorcery
 color: White
 mana_cost: "{2}{W}{W}"

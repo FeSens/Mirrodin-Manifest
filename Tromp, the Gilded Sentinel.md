@@ -1,7 +1,7 @@
 ---
 tags:
   - card
-  - unvetted
+  - broken-needs-review
 type: Creature
 subtype: Loxodon Artificer
 color:
@@ -41,3 +41,8 @@ Legendary Creature — Loxodon Artificer
 - Counter synergy: [[Hype Cycle]] doubles counters = massive damage, [[COMPOUND]] accelerates
 - Anti-token, anti-reanimate hosing
 - Pairs with: [[The Darksteel Wall]], [[Gilded Sentinel's Decree]], [[Foundry Border Commander]], [[Reprocessing Agent]]
+
+## Outside of this set interactions
+- **Notable Synergies:** [[Proliferate effects]] accelerate counter growth; [[Propaganda]]/[[Ghostly Prison]] combined with "can't attack" clause creates soft lock
+- **BROKEN COMBOS:** [[Doubling Season]]/[[Vorinclex, Monstrous Raider]] enters with 6 counters, deals 6 damage immediately, doubles each turn; [[Paradox Haze]] double upkeep = double counter growth and double damage
+- **Balance Assessment:** POTENTIALLY BROKEN - Exponential scaling damage completely shuts down token and reanimator strategies. With counter doublers, deals 6→14→30 damage per turn. Consider capping damage or adding "nontoken" restriction

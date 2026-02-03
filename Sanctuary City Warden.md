@@ -1,7 +1,7 @@
 ---
 tags:
   - card
-  - unvetted
+  - broken-needs-review
 type: Creature
 subtype: Human Cleric
 color:
@@ -40,3 +40,8 @@ Creature — Human Cleric
 - Selesnya sanctuary city flavor
 - Lore connection: [[Lore#The Mer-Ikan Foundry (America)]] - sanctuary cities resisting deportation
 - Pairs with: [[Hidden Community Elder]], [[DREAM Act Advocate]], [[Asylum Seeker]]
+
+## Outside of this set interactions
+- **Notable Synergies:** [[Avacyn, Angel of Hope]] + this = creatures can't be destroyed OR exiled; [[Shalai, Voice of Plenty]] stacks hexproof; [[Privileged Position]] double protection
+- **BROKEN COMBOS:** Blanket "can't be exiled" shuts down [[Path to Exile]], [[Swords to Plowshares]], [[Terminus]], [[Teferi's Protection]] effects; [[Indestructible creatures]] become nearly unkillable
+- **Balance Assessment:** BROKEN - "Can't be exiled" is extremely rare in MTG for good reason. This shuts down most white/blue premium removal at only 4 mana. Consider "once per turn" or "you may pay {2} to prevent exile"

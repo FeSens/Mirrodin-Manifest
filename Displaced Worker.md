@@ -17,11 +17,9 @@ set: Mirrodin Manifest
 Creature — Human
 
 ## Rules Text
-> When Displaced Worker enters the battlefield, if an opponent controls more artifacts than you, create a 0/1 colorless Myr artifact creature token.
+> When Displaced Worker enters the battlefield, create a 0/1 colorless Myr artifact creature token.
 >
 > Sacrifice an artifact: Displaced Worker gets +2/+0 until end of turn.
->
-> *"They said the Myr would free us. They meant free us from employment."*
 
 ## Power/Toughness
 > 2/2

@@ -1,7 +1,7 @@
 ---
 tags:
   - card
-  - unvetted
+  - broken-needs-review
 type: Instant
 subtype:
 color: Blue
@@ -34,3 +34,8 @@ Instant
 - Blue for copying/replication effects
 - The flavor is pure DeepSeek: "You paid how much for that? We did it cheaper."
 - Pairs with: [[En-Vidia Processing Core]], [[Liang-Wen, the Efficient Mind]]
+
+## Outside of this set interactions
+- **Notable Synergies:** [[Strionic Resonator]] copy triggered abilities then copy the copy; [[Lithoform Engine]]/[[Rings of Brighthearth]] copy activated abilities
+- **BROKEN COMBOS:** [[Mindslaver]] copy activation for 1 mana = control two turns; [[Time Vault]] + [[Voltaic Key]] copy untap for extra turns; [[Basalt Monolith]] infinite mana combos; [[Nevinyrral's Disk]] copy destroy effect
+- **Balance Assessment:** BROKEN - Copying powerful artifact abilities like Mindslaver or Time Vault for only U is severely undercosted. Consider raising to 2U or adding "mana value 3 or less" restriction

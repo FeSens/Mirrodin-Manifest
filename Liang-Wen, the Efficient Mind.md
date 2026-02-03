@@ -1,7 +1,7 @@
 ---
 tags:
   - card
-  - unvetted
+  - broken-needs-review
 type: Creature
 subtype: Human Artificer
 color: Blue/Red
@@ -40,3 +40,8 @@ Legendary Creature — Human Artificer
 - Blue/Red for innovation, artifice, and defiance
 - The quote references how US sanctions forced Chinese AI companies to innovate
 - Pairs with: [[Deep-Sik Efficiency]], [[The Sanctions War]]
+
+## Outside of this set interactions
+- **Notable Synergies:** [[Etherium Sculptor]]/[[Foundry Inspector]] stack cost reductions; [[Vedalken Archmage]] draw + Liang-Wen draw = 2 cards per artifact; [[Jhoira, Weatherlight Captain]] historic triggers
+- **BROKEN COMBOS:** [[Mox Opal]] + [[Mox Amber]] + 0-cost artifacts = free artifacts that draw cards; [[Sensei's Divining Top]] + cost reducers = free Top, draw, put on library, repeat for infinite draws; [[Paradoxical Outcome]] chains
+- **Balance Assessment:** BROKEN - If artifacts cost 0 and opponents have MV 1+ permanents, draws cards for every artifact cast. Can chain through deck rapidly. Consider adding "once per turn" or higher cost

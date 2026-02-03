@@ -1,7 +1,7 @@
 ---
 tags:
   - card
-  - unvetted
+  - broken-needs-review
 type: Creature
 subtype: Vedalken Advisor
 color: Blue
@@ -34,3 +34,20 @@ Creature — Vedalken Advisor
 - Planned economy enforcer
 - Lore connection: [[Lore#The Deep-Sik Collective (DeepSeek / Chinese AI)]] - planned economy ideology
 - Pairs with: [[Mak-Ron, the Glass Orator]], [[Austerity Minister]], [[Free Market Zealot]]
+
+## Cross-Format Interactions
+| External Card | Interaction |
+|---------------|-------------|
+| **Planeswalkers** | Forces redistribution of loyalty counters - can protect low-loyalty walkers or weaken high-loyalty ones |
+| **Solemnity** | With no counters on permanents, Central Planner never triggers |
+| **Vorinclex, Monstrous Raider** | Vorinclex doubles your counters, triggers Central Planner constantly |
+| **Doubling Season** | Creates massive counter inequality, triggers redistribution every upkeep |
+| **Atraxa, Praetors' Voice** | Proliferate creates inequality → forced redistribution |
+| **Hardened Scales / Winding Constrictor** | Asymmetric counter growth triggers redistribution |
+| **Sagas** | Redistributes lore counters - can accelerate or delay chapter progression! |
+| **Poison Counters** | Does NOT affect poison (counters on players, not permanents) |
+
+**Format Assessment:**
+- **Commander**: Powerful political tool - prevents any single threat from accumulating counters
+- **Modern/Legacy**: Shuts down Hardened Scales, Heliod combo, Walking Ballista strategies
+- **Cube**: Strong counter-hoser that creates interesting decisions

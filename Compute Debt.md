@@ -1,7 +1,7 @@
 ---
 tags:
   - card
-  - unvetted
+  - broken-needs-review
 type: Enchantment
 subtype:
 color: Blue/Red
@@ -38,3 +38,8 @@ Enchantment
 - Blue/Red for reckless innovation and "move fast and break things"
 - [[Hype Cycle]] can double debt counters—accelerating both potential and danger
 - Pairs with: [[Sal-Tman, Prophet of the Core-Logic]], [[Infrastructure Collapse]]
+
+## Outside of this set interactions
+- **Notable Synergies:** [[Platinum Angel]]/[[Platinum Emperion]] ignore life loss; [[Phyrexian Unlife]] can't lose to damage; [[Alhammarret's Archive]] double the draws
+- **BROKEN COMBOS:** [[Etherium Sculptor]] + 0-cost artifacts ([[Ornithopter]], [[Memnite]], [[Mox Opal]]) = rapid debt counter buildup; [[KCI]] + [[Scrap Trawler]] chains = massive draws; [[Words of Worship]] replaces draws with life gain to negate damage
+- **Balance Assessment:** BROKEN - With artifact cost reducers, can draw 10+ cards easily in artifact storm decks. The self-damage may not matter if you win that turn. Consider capping maximum counters or adding additional costs

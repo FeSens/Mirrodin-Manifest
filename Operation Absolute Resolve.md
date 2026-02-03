@@ -1,7 +1,7 @@
 ---
 tags:
   - card
-  - unvetted
+  - broken-needs-review
 type: Sorcery
 subtype:
 color: White/Red
@@ -39,3 +39,8 @@ Sorcery
 - **Timeline reference:** Delta Force reached Maduro in 3 minutes, had him in custody in 5
 - Lore connection: [[Lore#The Mer-Ikan Foundry (America)]] - military operations
 - Pairs with: [[Foundry Strike Team]], [[Resonance Disruptor]], [[Lattice Blackout]], [[Tromp, the Gilded Sentinel]]
+
+## Outside of this set interactions
+- **Notable Synergies:** Ramp strategies help cast this earlier; [[Boseiju, Who Shelters All]] redundant uncounterable
+- **BROKEN COMBOS:** Exile and cast opponent's COMMANDER - essentially steal their commander permanently; In artifact-heavy metas, destroying all opponent artifacts is devastating
+- **Balance Assessment:** VERY POWERFUL - Can't be countered + destroy all artifacts + permanently steal legendary creature is an enormous swing. The ability to cast exiled commanders bypasses commander tax entirely. Consider making it "exile until this card leaves the battlefield" or "target noncommander legendary creature"

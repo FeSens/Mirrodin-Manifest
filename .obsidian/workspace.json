@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "e59d55752685b5b5",
+        "id": "db868c4b0789449d",
         "type": "tabs",
         "children": [
           {
-            "id": "0914f1d498aeb6d0",
+            "id": "da4572b73ffa4fdf",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "markdown",
+              "state": {
+                "file": "Central Planner.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Central Planner"
             }
           }
         ]
@@ -90,6 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Central Planner.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -99,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks"
+              "title": "Backlinks for Central Planner"
             }
           },
           {
@@ -108,11 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Central Planner.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links"
+              "title": "Outgoing links from Central Planner"
             }
           },
           {
@@ -150,12 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "Central Planner.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of Central Planner"
             }
           }
         ]
@@ -176,42 +183,42 @@
       "bases:Create new base": false
     }
   },
-  "active": "0914f1d498aeb6d0",
+  "active": "da4572b73ffa4fdf",
   "lastOpenFiles": [
-    "TODO.md",
+    "Austerity Minister.md",
+    "Dross Harvester.md",
+    "Citizen's Defender.md",
+    "Myr Assembly Line.md",
+    "Archive Corruptor.md",
+    "Tangle Berserker.md",
+    "Unforged Shepherd.md",
+    "Calculated Striker.md",
+    "Synod Peacemaker.md",
+    "Undergrowth Titan.md",
+    "Verdant Gambler.md",
+    "Nature's Arbiter.md",
+    "Sylvok Reclaimer.md",
+    "Grove Multiplier.md",
+    "Tangle Elder.md",
+    "Toxic Reclamation.md",
+    "Shadow Accountant.md",
+    "Mephidross Ritualist.md",
+    "Syndicate Enforcer.md",
+    "Dross Overseer.md",
+    "Waypoint Beacon.md",
+    "Lattice Conduit.md",
+    "Verdant Reclaimer.md",
+    "Undergrowth Scout.md",
+    "Nature's Rebuke.md",
+    "Grove Warden.md",
     "set-health.py",
-    "Dream of the Furnace.md",
     "type-breakdown.py",
     "mana-curve.py",
     "color-breakdown.py",
     "set-stats.py",
     "find-orphans.py",
-    "Defecting Officer.md",
-    "Sanctioned General.md",
-    "Resistance Saboteur.md",
-    "Nim Occupation Force.md",
-    "War Refugee Camp.md",
-    "set-guidelines.md",
-    "Foreign Arms Supplier.md",
-    "Civilian Militia.md",
-    "Drone Strike Operator.md",
-    "Rusted Nim Conscript.md",
-    "Watchtower Defender.md",
     "dashboard.html",
-    "DREAM Act Advocate.md",
     "generate-dashboard.py",
-    "Caravan Survivor.md",
-    "Hidden Community Elder.md",
-    "Desperate Crosser.md",
-    "Asylum Seeker.md",
-    "Tunneling Hopeful.md",
-    "Undocumented Worker.md",
-    "Quicksilver Passage Guide.md",
-    "Mephidross Refugee.md",
-    "Foundry Border Commander.md",
-    "Family Separation Agent.md",
-    "Deportation Court Judge.md",
-    "Expedited Removal Enforcer.md",
     "spoilers.html",
     "generate-spoilers.py",
     "Untitled.canvas"

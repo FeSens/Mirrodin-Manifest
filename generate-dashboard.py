@@ -473,12 +473,14 @@ class SetAnalyzer:
                 'status': 'good' if 80 <= pct <= 120 else ('warning' if 50 <= pct <= 150 else 'bad'),
             }
 
-        # Color balance per rarity
+        # Color balance per rarity (mono-color only, per guidelines)
         for rarity in RARITY_ORDER:
             rarity_cards = [c for c in self.cards if c.rarity == rarity]
             color_counts = {}
             for color in COLORS:
-                count = len([c for c in rarity_cards if c.color == color or color in c.colors])
+                # Count only mono-color cards (where this is the only color)
+                count = len([c for c in rarity_cards
+                           if c.color == color and len(c.colors) <= 1])
                 target_key = f'per_color_{rarity.lower()}'
                 target = targets.get(target_key, 0)
                 pct = (count / target * 100) if target > 0 else 0
@@ -487,6 +489,11 @@ class SetAnalyzer:
                     'target': target,
                     'percent': round(pct, 1),
                 }
+            # Also track multicolor and colorless for context
+            multicolor_count = len([c for c in rarity_cards if len(c.colors) > 1])
+            colorless_count = len([c for c in rarity_cards if c.color == 'Colorless' or not c.colors])
+            color_counts['Multicolor'] = {'count': multicolor_count, 'target': 0, 'percent': 0}
+            color_counts['Colorless'] = {'count': colorless_count, 'target': 0, 'percent': 0}
             analysis['color_by_rarity'][rarity] = color_counts
 
         return analysis
@@ -696,18 +703,35 @@ class SetAnalyzer:
         })
 
         # 2. Color Balance
-        color_imbalance = 0
+        # Check how balanced colors are relative to each other (not vs target)
+        # A balanced set has similar card counts across colors at each rarity
+        balance_scores = []
+        imbalanced_rarities = []
         for rarity, colors in skeleton['color_by_rarity'].items():
-            for color, data in colors.items():
-                if data['target'] > 0:
-                    deviation = abs(100 - data['percent'])
-                    if deviation > 30:
-                        color_imbalance += 1
-        color_score = max(0, 100 - color_imbalance * 10)
+            counts = [data['count'] for color, data in colors.items() if color in COLORS]
+            if counts and max(counts) > 0:
+                # Calculate balance as: min/max ratio (1.0 = perfectly balanced)
+                balance_ratio = min(counts) / max(counts) if max(counts) > 0 else 1.0
+                balance_scores.append(balance_ratio)
+                # Also check absolute spread
+                spread = max(counts) - min(counts)
+                if spread > 5:  # More than 5 card difference is notable
+                    imbalanced_rarities.append(f"{rarity} ({min(counts)}-{max(counts)})")
+
+        # Average balance across rarities, convert to 0-100 scale
+        avg_balance = sum(balance_scores) / len(balance_scores) if balance_scores else 1.0
+        color_score = round(avg_balance * 100)
+
+        # Build description
+        if imbalanced_rarities:
+            color_desc = f"Spread in: {', '.join(imbalanced_rarities[:2])}"
+        else:
+            color_desc = "Colors well balanced across rarities"
+
         metrics.append({
             'name': 'Color Balance',
-            'score': round(color_score),
-            'description': 'Equal representation across colors',
+            'score': color_score,
+            'description': color_desc,
             'status': 'good' if color_score >= 75 else ('warning' if color_score >= 50 else 'bad'),
         })
 

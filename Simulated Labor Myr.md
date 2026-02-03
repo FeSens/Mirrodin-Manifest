@@ -1,7 +1,7 @@
 ---
 tags:
   - card
-  - unvetted
+  - broken-needs-review
 type: Creature
 subtype: Myr
 color: Colorless
@@ -33,3 +33,8 @@ Artifact Creature — Myr
 - -1/-1 counters synergize with [[☭REDISTRIBUTE]] (spread the pain)
 - Lore connection: [[Lore#The "Aethel-Inference" (The AI Boom & Nvidia)]] - The Myr performing "Simulated Labor"
 - Pairs with: [[Myr-Sourced Automation]], [[Displaced Worker]], [[Optimization Lie]]
+
+## Outside of this set interactions
+- **Notable Synergies:** [[Hapatra, Vizier of Poisons]] creates snakes from -1/-1 counters; [[The Scorpion God]] draws cards; [[Nest of Scarabs]] creates insects; [[Yawgmoth, Thran Physician]] synergizes with counter theme
+- **BROKEN COMBOS:** [[Devoted Druid]] infinite mana combo (place -1/-1 to untap); [[Persist creatures]] ([[Kitchen Finks]], [[Murderous Redcap]]) + sac outlet = infinite loops; [[Mikaeus, the Unhallowed]] + persist creature + sac outlet
+- **Balance Assessment:** BROKEN - 1-mana artifact that taps for mana AND places -1/-1 counters enables multiple combo lines. Consider adding "once per turn" or "only on creatures with power 3 or greater"

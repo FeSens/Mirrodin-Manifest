@@ -19,11 +19,9 @@ set: Mirrodin Manifest
 Creature — Nim Zombie Soldier
 
 ## Rules Text
-> Rusted Nim Conscript enters the battlefield with a rust counter on it.
+> Rusted Nim Conscript enters the battlefield with a rust counter on it. It gets -1/-1 for each rust counter on it.
 >
-> Rusted Nim Conscript gets -1/-1 for each rust counter on it.
->
-> When Rusted Nim Conscript dies, if it had a rust counter on it, return it to the battlefield tapped at the beginning of the next end step.
+> When Rusted Nim Conscript dies, if it had a rust counter on it, return it to the battlefield tapped.
 
 ## Flavor Text
 > *"They keep marching. They don't know how to stop."*

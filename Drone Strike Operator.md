@@ -1,7 +1,7 @@
 ---
 tags:
   - card
-  - unvetted
+  - broken-needs-review
 type: Creature
 subtype: Leonin Artificer
 color:
@@ -38,3 +38,8 @@ Creature — Leonin Artificer
 - Ukraine drone tactics reference
 - Lore connection: [[Lore#The High Artificers (Political Figures)]] - Zel-Ensk's forces using drone warfare
 - Pairs with: [[Zel-Ensk, the Resilient Spark]], [[Foreign Arms Supplier]], [[Watchtower Defender]]
+
+## Outside of this set interactions
+- **Notable Synergies:** [[Cathars' Crusade]] pumps each Thopter; [[Shared Animosity]] Thopters boost each other; [[Favorable Winds]] flying anthem
+- **BROKEN COMBOS:** [[Intruder Alarm]] = INFINITE - Each Thopter created untaps all creatures including the Operator. Create unlimited Thopters with haste; [[Seedborn Muse]] creates Thopters on each opponent's turn
+- **Balance Assessment:** BROKEN - Creates infinite combo with Intruder Alarm (a commonly played card). The Thopters having deathtouch-like destroy ability AND haste makes them immediate lethal threats. Consider adding "Activate only once each turn"

@@ -1,0 +1,46 @@
+---
+tags:
+  - card
+type: Creature
+subtype: Cat Rogue
+color:
+  - Red
+  - Green
+mana_cost: "{2}{R}{G}"
+cmc: 4
+rarity: Mythic
+power: 3
+toughness: 4
+set: Mirrodin Manifest
+---
+
+# Kha-Sino, Fortune's Dealer
+
+## Card Type Line
+Legendary Creature — Cat Rogue
+
+## Rules Text
+> Whenever you would gamble, you may scry 1 first.
+>
+> At the beginning of your end step, gamble. If you win, create a Gold token. If you lose, each opponent creates a Gold token.
+>
+> Whenever a player sacrifices a Gold token, that player gambles.
+
+## Flavor Text
+> *"The house always wins. I am the house."*
+
+## Image Prompt
+> A magnificent Leonin in dealer's attire, surrounded by floating dice and gold tokens. Their casino floats above the Glimmervoid. Every game is their game.
+
+## Design Notes
+- Gruul Mythic - addresses Red mythic gap (-3) and Green mythic gap (-3)
+- [[🎲 GAMBLE]] lord - the ultimate gamble enabler
+- Scry before all gambles = massive advantage (like [[The House Edge]] built in)
+- Creates economy loop with Gold tokens
+- Lore connection: [[Lore#The Glimmervoid Rally (Gold Rally)]] - The dealer behind the tables
+- Pairs with: [[The House Edge]], [[Glimmervoid Broker]], [[Hedge Fund Manager]]
+
+## Outside of this set interactions
+- **Notable Synergies:** [[Krark's Thumb]] combined with built-in scry means you'll almost always win gambles; [[Chance Encounter]] end step gamble adds luck counters automatically; [[Smothering Tithe]]/[[Revel in Riches]] Gold token synergies
+- **Potential Combos:** [[Clock of Omens]] + Gold tokens - sacrifice triggers more gambles, untap artifacts; [[Strionic Resonator]] copy the end step gamble trigger for more Gold generation; [[Goldspan Dragon]] Gold tokens tap for extra mana
+- **Balance Assessment:** Very powerful as the "gamble lord" - scry before all gambles is like having Krark's Thumb built-in. Strong in Commander but balanced by 4 mana cost

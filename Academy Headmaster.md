@@ -1,7 +1,7 @@
 ---
 tags:
   - card
-  - unvetted
+  - broken-needs-review
 type: Creature
 subtype: Human Advisor
 color:
@@ -40,3 +40,8 @@ Creature — Human Advisor
 - Orzhov colors for institutional corruption
 - Pairs with: [[Ep-Styn's Silent Isle]], [[Spark Harvester]], [[Unforged Witness]], [[The Black Ledger]]
 - Counter synergy: Spark counters on Unforged tokens synergize with [[Hype Cycle]]
+
+## Outside of this set interactions
+- **Notable Synergies:** [[Blood Artist]]/[[Zulaport Cutthroat]] each Unforged death drains opponents; [[Anointed Procession]] doubles token production; [[Skullclamp]] equip to 1/1 tokens, sacrifice, draw 2
+- **BROKEN COMBOS:** [[Phyrexian Altar]] + [[Blood Artist]] = sacrifice 3 Unforged for BBB, drain 3 life, make new token each turn; [[Ashnod's Altar]] + [[Nim Deathmantle]] creates repeatable loops
+- **Balance Assessment:** BROKEN - Guaranteed token every end step PLUS card draw AND mana from sacrifice is too much value in one card. Consider removing the mana generation or requiring more tokens to sacrifice

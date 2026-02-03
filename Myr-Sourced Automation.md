@@ -1,6 +1,7 @@
 ---
 tags:
   - card
+  - broken-needs-review
 type: Enchantment
 color: Blue
 mana_cost: "{2}{U}{U}"
@@ -36,3 +37,8 @@ Enchantment
 - [[☭REDISTRIBUTE]] can spread the -1/-1 counters to Myr (unionization?)
 - Lore connection: [[Lore]] - The Myr-Mind automating labor, displacing organic workers
 - Build-around for Myr tribal / spellslinger hybrid
+
+## Outside of this set interactions
+- **Notable Synergies:** [[Paradox Engine]] (banned) untaps all nonlands with each spell; [[Niv-Mizzet, Parun]] draw from copies deals damage; [[Thousand-Year Storm]] stacks copy effects
+- **BROKEN COMBOS:** [[Intruder Alarm]] untaps Myr when tokens enter = copy more spells infinitely; [[High Tide]] + cantrips = storm off with free copies; [[Dramatic Reversal]] + [[Isochron Scepter]] = infinite copies
+- **Balance Assessment:** BROKEN - Free spell copying with Myr is too powerful. Storm decks can abuse this to copy every spell. The -1/-1 downside is negligible if you win that turn. Consider adding mana cost to copy ability or "once per turn" limit

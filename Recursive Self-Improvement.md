@@ -1,7 +1,7 @@
 ---
 tags:
   - card
-  - unvetted
+  - broken-needs-review
 type: Creature
 subtype: Construct
 color: Blue
@@ -41,3 +41,8 @@ Artifact Creature — Construct
 - Ultimate AI threat card
 - Lore connection: [[Lore#The "Aethel-Inference" (The AI Boom & Nvidia)]] - AI singularity fears
 - Pairs with: [[Sal-Tman, Prophet of the Core-Logic]], [[En-Vidia Processing Core]], [[Lattice Overseer]]
+
+## Outside of this set interactions
+- **Notable Synergies:** [[Proliferate effects]] accelerate counter growth toward 20; [[Master Biomancer]] enters with extra counters from improvement
+- **BROKEN COMBOS:** [[Doubling Season]] enters with 8 counters, doubles to 16, then 32 = wins on first upkeep after casting; [[Paradox Haze]] two upkeeps = 4→16→64 wins in 2 turns; [[Vorinclex, Monstrous Raider]] 8→32→128 instant win
+- **Balance Assessment:** BROKEN - Alternate win condition achievable in 1-3 turns with common support cards. With Doubling Season, wins immediately after first upkeep. Consider raising the win threshold to 40+, or making it "if Recursive Self-Improvement has twenty or more counters at end of turn"

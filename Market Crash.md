@@ -1,6 +1,7 @@
 ---
 tags:
   - card
+  - broken-needs-review
 type: Instant
 color: Black
 mana_cost: "{2}{B}"
