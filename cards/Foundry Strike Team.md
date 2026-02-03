@@ -45,3 +45,8 @@ Creature — Human Soldier
 - 3/2 stats: deadly but not invincible (several U.S. troops were wounded)
 - Lore connection: [[Lore#The Mer-Ikan Foundry (America)]] - elite special operations unit
 - Pairs with: [[Operation Absolute Resolve]], [[Resonance Disruptor]], [[Lattice Blackout]]
+
+## Outside of this set interactions
+- **Notable Synergies:** [[Ephemerate]] (blink to exile multiple creatures - but loses the original), [[Charming Prince]] (flicker for value), [[Restoration Angel]] (flash blink synergy), [[Fiend Hunter]] (compare: similar effect)
+- **BROKEN COMBOS:** O-Ring style exile trick - If you can remove Foundry Strike Team from the battlefield before its ETB resolves ([[Cloudshift]]), the creature is permanently exiled. This is a known interaction with [[Fiend Hunter]].
+- **Balance Assessment:** Fair - Strong but fair. Flash Banishing Light on a body is good at 4 mana. The first strike makes it a reasonable blocker.

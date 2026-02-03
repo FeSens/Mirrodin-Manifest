@@ -21,7 +21,7 @@ Instant
 > *"What doesn't kill you becomes a weapon."*
 
 ## Image Prompt
-> A creature's wounds seeping with black ichor, their touch now lethal.
+> Toxic Resilience — Instant. Action depicted: A wounded creature's injuries seeping with lethal black ichor, transforming pain into poison. Setting: The Dross Dominion — toxic battlefield near the Mephidross. Focal point: Creature's wounds glowing with necrogen-touched ichor, their hands becoming weapons. Mood: Grim determination. Style reference: Nils Hamm. Color palette: Near-black, dark olive, necrogen green glow.
 
 ## Design Notes
 - Black common instant - addresses Black common gap (-6)

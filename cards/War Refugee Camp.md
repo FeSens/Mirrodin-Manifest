@@ -31,7 +31,7 @@ Creature — Assembly
 > *"We shelter those who flee. We train those who fight."*
 
 ## Image Prompt
-> A fortified camp where refugees gather, some tending to families, others training with weapons. Safety and preparation.
+> War Refugee Camp, Assembly from Mirrodin Manifest. Setting: Fortified camp between war zones — temporary sanctuary. Mood: Genuine hope. Pose: Static defensive position, refugees inside its protective walls. Key visual elements: Fortified metal walls forming sanctuary, some refugees tending families while others train with weapons, Leonin citizens finding safety. Style reference: Kev Walker meets Greg Staples. Color palette: White defensive walls, gold warmth inside, bronze equipment.
 
 ## Design Notes
 - Creates Citizen tokens (refugees)
@@ -40,3 +40,7 @@ Creature — Assembly
 - Refugee camp as creature
 - Lore connection: [[Lore#The High Artificers (Political Figures)]] - refugee camps from Put-In's invasion
 - Pairs with: [[Zel-Ensk, the Resilient Spark]], [[Civilian Militia]], [[Hidden Community Elder]]
+
+## Outside of this set interactions
+- **Notable Synergies:** [[Anointed Procession]], [[Cathars' Crusade]], token doublers
+- **Balance Assessment:** Fair - 4-mana defender with token creation

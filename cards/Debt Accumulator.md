@@ -24,7 +24,7 @@ Creature — Vedalken Wizard
 > *"Time is money. Specifically, your money."*
 
 ## Image Prompt
-> A calculating Vedalken in blue robes manipulating a floating abacus that adds debt counters to a hovering contract. Numbers and calculations swirl around them. Cold, mathematical cruelty. MTG card art style.
+> Debt Accumulator, Vedalken Wizard from Mirrodin Manifest. Setting: Seat of the Synod/En-Vidia Lattice — financial calculation chamber. Mood: Corrupted triumph. Pose: Standing with arms raised, manipulating floating abacus of debt. Key visual elements: Chrome-boned fingers, iron-veined skin, holographic debt contracts swirling. Style reference: Greg Staples meets Nils Hamm. Color palette: Steel blue, chrome, red debt markers.
 
 ## Design Notes
 - Blue common creature
@@ -33,3 +33,8 @@ Creature — Vedalken Wizard
 - Defensive 1/3 body
 - Addresses Blue common gap
 - Pairs with: [[Credit Default]], [[Economic Warfare]]
+
+## Outside of this set interactions
+- **Notable Synergies:** [[Thousand-Year Elixir]] / [[Lightning Greaves]] (immediate activation), [[Pemmin's Aura]] / [[Freed from the Real]] (multiple activations per turn), Debt Ceiling (Debts already have 3 counters; adding more is devastating)
+- **Potential Combos:** With [[Freed from the Real]] + any mana-positive artifact: Infinite debt counter additions (but requires opponent to have Debt tokens)
+- **Balance Assessment:** Fair - Requires Debt tokens to exist. Scaling damage is the intended design.

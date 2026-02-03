@@ -21,7 +21,7 @@ Instant
 > *"Mercy is its own reward."*
 
 ## Image Prompt
-> A benevolent figure in white robes tearing apart a debt contract, releasing the debtor from their chains. Light pours from the torn contract, healing the freed individual. Divine mercy, MTG card art style.
+> Debt Forgiveness — Instant. Action depicted: A robed figure tearing a glowing debt contract, light pouring from the torn pages as chains dissolve. Setting: The Great Furnace/Mer-Ikan Foundry — mercy chamber. Focal point: The moment of tearing, light erupting from contract. Mood: Genuine hope. Style reference: Rebecca Guay meets Greg Staples. Color palette: White, gold, bronze warmth.
 
 ## Design Notes
 - White common instant
@@ -29,3 +29,8 @@ Instant
 - Life gain scales with debt size (rewards destroying big debts)
 - Addresses White common gap
 - Pairs with: [[Jubilee Declaration]], [[Natural Economy]]
+
+## Outside of this set interactions
+- **Notable Synergies:** Your own large Debts (with Debt Ceiling, your own Debts have 3+ counters = 3+ life), Soul Warden effects (incidental life gain)
+- **Potential Combos:** None
+- **Balance Assessment:** Fair - Solid Debt removal at common.

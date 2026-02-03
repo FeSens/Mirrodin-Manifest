@@ -26,7 +26,7 @@ Enchantment
 > — Sealed Testimony, Vault Record ██████
 
 ## Image Prompt
-> A page from the Black Ledger lying on a chrome desk within the Seat of the Synod. Most text is obscured by thick black bars of solidified ink, applied by small Redaction-Myr whose metallic appendages drip with dark fluid. A few visible words hint at names of High Artificers, dates, and coordinates to the Private Isle. The Synod's official seal glows faintly in the corner, half-covered. The lighting is cold chrome and blue, institutional Vedalken aesthetic. In the reflection of the polished surface, the silhouette of a hooded figure watches. Mirrodin chrome architecture visible through a window. MTG card art style, digital painting, bureaucratic horror meets metallic dystopia.
+> Control The Narrative — Enchantment. Visual focus: A page from the Black Ledger with redaction bars obscuring names, Redaction-Myr applying dark ink. Setting: Seat of the Synod, cold chrome desk, hooded figure reflected in surface. Mood: Institutional horror. Style reference: Nils Hamm meets Seb McKinnon. Color palette: Steel blue, chrome, black ink, cold white.
 
 ## Design Notes
 - Mechanic: Global protection enchantment - represents systemic, institutional cover-up across the entire plane
@@ -39,3 +39,8 @@ Enchantment
 - Or flip it: Name "Unforged" and "Mer-Ikan" to protect survivors from Reprocessing Agents
 - The asymmetry is intentional—whoever controls the narrative decides who is untouchable
 - Pairs thematically with: [[The Black Ledger]], [[Ep-Styn's Silent Isle]], [[Unforged Witness]]
+
+## Outside of this set interactions
+- **Notable Synergies:** Changelings (have all creature types, can be named), [[Conspiracy]] (make all your creatures one type), [[Arcane Adaptation]] (all creatures become chosen type)
+- **Potential Combos:** [[Conspiracy]] naming "Eldrazi" + Control The Narrative "Eldrazi" from "Human" (your Eldrazi have protection from all Human creatures), With [[Shields of Velis Vel]] (temporary creature type manipulation)
+- **Balance Assessment:** Fair - Interesting design space. Both types must be relevant on the battlefield to matter. 3 mana for conditional protection is balanced.

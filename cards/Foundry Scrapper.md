@@ -35,3 +35,7 @@ Creature — Human Artificer
 - Fills high-CMC gap at common
 - Synergizes with Gold tokens and Myr
 - Pairs with: [[Displaced Worker]], [[Scrap Salvager]]
+
+## Outside of this set interactions
+- **Notable Synergies:** Treasure tokens (sacrifice for pump), [[Mycosynth Wellspring]] (sacrifice for land + pump), [[Ichor Wellspring]] (sacrifice for draw + pump), [[Kuldotha Rebirth]] (artifact sacrifice synergy)
+- **Balance Assessment:** Fair - Solid limited common. 5 mana 4/4 with upside is appropriate.

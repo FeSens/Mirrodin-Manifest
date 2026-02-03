@@ -26,7 +26,7 @@ Artifact
 > — Overseer of the Lattice
 
 ## Image Prompt
-> A massive crystalline processor core suspended in a web of chrome filaments, pulsing with blue-white energy. Myr workers tend to the cooling systems below while data streams visibly flow through the Lattice connections above. The Seat of the Synod is visible in the background, connected by energy conduits. Electric blues, chrome silvers, and pulsing white energy. MTG card art style, high-tech aesthetic, awe-inspiring scale.
+> En-Vidia Processing Core — Artifact. Visual focus: A massive crystalline processor core suspended in chrome filament web, pulsing with blue-white energy. Setting: Seat of the Synod/En-Vidia Lattice — heart of data processing infrastructure. Mood: False promise. Style reference: Mark Tedin meets Seb McKinnon. Color palette: Steel blue, chrome silver, pulsing cyan energy, white core.
 
 ## Design Notes
 - Mana acceleration for artifact strategies with charge counter fuel
@@ -36,3 +36,7 @@ Artifact
 - Lore connection: [[Lore]] - The En-Vidia Lattice processing units (NVIDIA GPUs)
 - Scry 2 synergizes with [[🎲 GAMBLE]] (stack the deck before gambling)
 - Enables the artifact-heavy themes of the set
+
+## Outside of this set interactions
+- **Notable Synergies:** [[Coretapper]] (adds charge counters to extend mana production), [[Power Conduit]] (counter manipulation), [[Voltaic Key]] (untap for repeated activations), Proliferate effects like [[Inexorable Tide]] (maintain counters while using them)
+- **Balance Assessment:** Fair - Limited charges prevent abuse. Requires build-around. Strong in artifact decks but not broken.

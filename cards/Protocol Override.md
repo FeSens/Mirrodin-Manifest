@@ -24,7 +24,7 @@ Instant
 > — Synod Protocol Administrator
 
 ## Image Prompt
-> A Vedalken administrator pressing a glowing "DENIED" button, shutting down a Myr's function mid-action.
+> Protocol Override — Instant. Action depicted: A Vedalken administrator with chrome-threaded skin slamming their palm on a glowing red denial rune, freezing a Myr mid-motion as its ability fizzles into sparks. Setting: Seat of the Synod control chamber. Focal point: The spreading wave of blue cancellation energy from the denial rune. Mood: Institutional horror, cold authority. Style reference: Greg Staples meets Mark Tedin. Color palette: Steel blue, chrome, cyan, harsh red denial glow.
 
 ## Design Notes
 - **Blue utility connector** - useful spell that links themes

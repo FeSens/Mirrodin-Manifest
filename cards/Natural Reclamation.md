@@ -21,7 +21,7 @@ Sorcery
 > *"What the machines take, the Tangle reclaims."*
 
 ## Image Prompt
-> Copper vines crushing a Foundry mining machine, life energy flowing back into the ground.
+> Natural Reclamation — Sorcery. Action depicted: Massive copper vines constricting and crushing a Foundry mining automaton, emerald life energy draining from the wreckage into the living earth. Setting: The border between Tangle and Foundry territory. Focal point: The moment of destruction as metal buckles under organic force. Mood: Grim determination, nature's vengeance. Style reference: Rebecca Guay meets Kev Walker. Color palette: Copper, forest green, olive, healing emerald glow.
 
 ## Design Notes
 - Green common sorcery - addresses Green common gap (-7)

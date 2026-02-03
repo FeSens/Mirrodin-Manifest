@@ -27,7 +27,7 @@ Creature — Human Artificer
 > *"The Synod sends weapons, not soldiers. Make them count."*
 
 ## Image Prompt
-> A human artificer unloading crates of weapons from a transport, Leonin soldiers eagerly receiving them. Aid from abroad.
+> Foreign Arms Supplier, Human Artificer from Mirrodin Manifest. Setting: The Great Furnace/Mer-Ikan Foundry — supply depot at border. Mood: Grim determination. Pose: Unloading weapon crates from transport, handing them to eager Leonin soldiers. Key visual elements: Iron-veined arms lifting chrome weapons, supply counters glowing on crates, Leonin soldiers in background receiving arms. Style reference: Kev Walker meets Mark Tedin. Color palette: White, gold crates, bronze accents, chrome weapons.
 
 ## Design Notes
 - Creates Equipment tokens (foreign aid)
@@ -36,3 +36,7 @@ Creature — Human Artificer
 - Western arms support theme
 - Lore connection: [[Lore#The High Artificers (Political Figures)]] - foreign aid to Zel-Ensk
 - Pairs with: [[Zel-Ensk, the Resilient Spark]], [[Watchtower Defender]], [[Drone Strike Operator]]
+
+## Outside of this set interactions
+- **Notable Synergies:** [[Puresteel Paladin]] (free equips + card draw), [[Sigarda's Aid]] (flash equip), [[Sram, Senior Edificer]] (draw on equipment creation), [[Kemba, Kha Regent]] (equipment token synergy)
+- **Balance Assessment:** Fair - Good equipment support card. Grows defensively as you create more equipment.

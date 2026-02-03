@@ -24,7 +24,7 @@ Creature — Zombie
 > *"The Dross feeds on what the living discard."*
 
 ## Image Prompt
-> A rotting zombie crawling through the toxic swamps of Mephidross, collecting discarded memories and metal scraps.
+> Mephidross Scavenger, Zombie from Mirrodin Manifest. Setting: Dross Dominion — the toxic swamps of Mephidross at night. Mood: Exhaustion. Pose: Crawling on all fours through the muck, clawed hands sifting through debris. Key visual elements: Exposed chrome bones visible through rotting flesh, necrogen-green glow in hollow eye sockets, corroded metal fragments embedded in skin. Style reference: Nils Hamm meets Daarken. Color palette: Near-black, dark olive, sickly necrogen glow.
 
 ## Design Notes
 - Black common creature - addresses Black common gap (-6)

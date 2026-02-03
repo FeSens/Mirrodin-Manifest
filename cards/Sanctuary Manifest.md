@@ -27,7 +27,7 @@ Enchantment
 > — Sanctuary doctrine
 
 ## Image Prompt
-> A hidden grove within the Tangle where refugees from across Mirrodin have gathered. Leonin warriors stand guard while Mephidross survivors receive food and healing. A Viridian elder performs a blessing over new arrivals. Makeshift shelters blend into the copper trees. Warm green and white light filters through metallic leaves. Hope amid persecution. MTG card art style, sanctuary, resistance, found family.
+> Sanctuary Manifest — Enchantment. Visual focus: A hidden grove transformed into a sanctuary, the enchantment's magic making refugees part of something greater. Setting: The Tangle — makeshift shelters blending into copper trees, metallic leaves filtering warm light. Mood: Genuine hope. Key visual elements: Leonin warriors with chrome manes standing guard, Mephidross survivors with necrogen scars receiving healing, Viridian elder with copper-veined hands blessing new arrivals. Style reference: Rebecca Guay meets Seb McKinnon. Color palette: Copper, forest green, warm white light.
 
 ## Design Notes
 - **Anti-Tromp:** Direct counter to [[Tromp, the Gilded Sentinel]]'s "not cast from hand" hate

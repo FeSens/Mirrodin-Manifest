@@ -26,7 +26,7 @@ Creature — Human Rogue
 > *"The first payment is always free."*
 
 ## Image Prompt
-> A sleek, predatory human in dark chrome armor lurking in the shadows of the Furnace district. Sharp teeth visible in a calculating smile, holding a contract scroll that glows with red runes. Gold coins and debt markers float around them. Noir aesthetic, MTG card art style.
+> Loan Shark, Human Rogue from Mirrodin Manifest. Setting: Dross Dominion — lurking in the shadows of the Furnace district's debtor quarter. Mood: Corrupted triumph, predatory patience. Pose: Leaning against a wall, one hand holding a contract scroll that glows with debt-runes, calculating smile revealing sharp chrome-capped teeth. Key visual elements: Dark chrome armor with predatory styling, iron-veined skin, Debt tokens manifesting around potential victims, gold coins and markers floating in orbit. Style reference: Nils Hamm meets Kev Walker. Color palette: Near-black, dark olive, debt-red runes, gold glints.
 
 ## Design Notes
 - Black common creature
@@ -35,3 +35,7 @@ Creature — Human Rogue
 - Creates [[Debt Token]] on combat damage
 - Pairs with: [[Collection Agent]], [[Compound Interest]], [[Predatory Lending]]
 - [[☭REDISTRIBUTE]] synergy: creates targets for redistribution
+
+## Outside of this set interactions
+- **Notable Synergies:** [[Curse of Stalked Prey]] / Equipment (pump to ensure damage), [[Whispersilk Cloak]] (unblockable debt creation), [[Tainted Strike]] (extra pressure with infect)
+- **Balance Assessment:** Fair - Combat damage trigger on a 2/1 for 2 is reasonable. Debt tokens appear to be 1 damage then sacrifice.

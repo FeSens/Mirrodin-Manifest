@@ -21,7 +21,7 @@ Sorcery
 > *"More dice, more fire, more chaos. What's not to love?"*
 
 ## Image Prompt
-> A pyromancer surrounded by a storm of flaming dice, each roll adding to a growing inferno. The more they gamble, the bigger the blast.
+> Pyromantic Gambit — Sorcery. Action depicted: A pyromancer with chrome-veined arms hurls flaming dice into the air, each roll exploding into cascading fire that grows exponentially. Setting: The Great Furnace gambling dens, molten metal pools below. Focal point: The swirling vortex of burning dice and fire converging on a single target. Mood: Reckless exhilaration. Style reference: Kev Walker meets Raymond Swanland. Color palette: Furnace orange, copper, violent reds.
 
 ## Design Notes
 - Red rare sorcery - addresses Red rare gap (-10)

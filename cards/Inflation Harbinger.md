@@ -27,7 +27,7 @@ Creature — Spirit
 > *"Your savings? Worth less every day."*
 
 ## Image Prompt
-> A fiery spirit swooping through a marketplace, leaving wilting value in its wake. Prices rise as it passes. Economic devastation.
+> Inflation Harbinger, Spirit from Mirrodin Manifest. Setting: The Great Furnace — a marketplace district with vendor stalls and trading posts. Mood: Buried rage, economic devastation. Pose: Swooping through the market, trailing heat-distortion and devaluation. Key visual elements: Flame-wreathed incorporeal form, +1/+1 counter crystals wilting and cracking as it passes, merchants recoiling in despair. Style reference: Kev Walker meets Seb McKinnon. Color palette: Furnace orange, copper, sickly gold, ash grey.
 
 ## Design Notes
 - Punishes +1/+1 counter strategies
@@ -37,3 +37,7 @@ Creature — Spirit
 - Lore connection: [[Lore#The Great Doubt (The AI Hype Correction)]] - economic instability
 - -1/-1 counters synergize with [[☭REDISTRIBUTE]] (spread the debuffs)
 - Pairs with: [[Market Crash]], [[Bubble Speculator]], [[Quantitative Easer]], [[Simulated Labor Myr]]
+
+## Outside of this set interactions
+- **Notable Synergies:** [[Panharmonicon]] (double the counter hate), Blink effects (repeatable counter removal), [[Hapatra, Vizier of Poisons]] (-1/-1 counter payoffs), [[The Scorpion God]] (card draw when countered creatures die)
+- **Balance Assessment:** Fair - Hosers are fine. Punishes specific strategies.

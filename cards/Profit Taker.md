@@ -24,7 +24,7 @@ Creature — Human Rogue
 > *"Your loss is my gain. Literally."*
 
 ## Image Prompt
-> A shadowy figure collecting coins from a gambling table while others argue. They always profit from chaos.
+> Profit Taker, Human Rogue from Mirrodin Manifest. Setting: Dross Dominion — a dim gambling den at the edge of Mephidross. Mood: Corrupted triumph. Pose: Crouching at the edge of a table, sweeping coins toward themselves while others fight. Key visual elements: Iron-veined skin barely visible under a dark hood, chrome fingernails clicking coins, glinting eyes in shadow. Style reference: Nils Hamm meets Kev Walker. Color palette: Near-black, dark olive, gold coin highlights.
 
 ## Design Notes
 - Black common creature - addresses Black common gap (-13)

@@ -26,7 +26,7 @@ Creature — Goblin Warrior
 > *"The Foundry doesn't pay for safety equipment."*
 
 ## Image Prompt
-> A wild-eyed Goblin charging from a pile of scrap metal, sparks flying from makeshift weapons.
+> Scrapheap Raider, Goblin Warrior from Mirrodin Manifest. Setting: Oxidda scrapheap — jagged metal debris and smoldering forge pits. Mood: Buried rage. Pose: Bursting from a pile of scrap in full charge, sparks flying from crude weapons. Key visual elements: Wild iron-flecked eyes, chrome bone visible through torn skin on forearms, makeshift blade trailing sparks. Style reference: Kev Walker. Color palette: Furnace orange, rust, copper, spark yellow.
 
 ## Design Notes
 - Red common creature - addresses Red common gap (-6)
@@ -34,3 +34,7 @@ Creature — Goblin Warrior
 - NWO-compliant simple design
 - Lore connection: [[Lore#The Mer-Ikan Foundry (America)]]
 - Pairs with: [[Furnace Populist]], [[Rusted Nim Conscript]]
+
+## Outside of this set interactions
+- **Notable Synergies:** [[Purphoros, God of the Forge]] (2 damage ETB offsets 1 self-damage), [[Impact Tremors]] (same as above), [[Cavalcade of Calamity]] (1-power attacks), [[Madcap Experiment]] (Goblin tribal)
+- **Balance Assessment:** Fair - Standard aggressive common with drawback.

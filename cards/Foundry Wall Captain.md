@@ -2,6 +2,7 @@
 tags:
   - card
   - unvetted
+card_name: Foundry Wall Captain
 type: Creature
 subtype: Human Soldier Mer-Ikan
 color:
@@ -15,17 +16,17 @@ toughness: 4
 set: Mirrodin Manifest
 ---
 
-# Foundry Border Commander
+# Foundry Wall Captain
 
 ## Card Type Line
 Creature — Human Soldier Mer-Ikan
 
 ## Rules Text
-> Whenever a creature is exiled from under an opponent's control, put a deportation counter on Foundry Border Commander.
+> Whenever a creature is exiled from under an opponent's control, put a deportation counter on Foundry Wall Captain.
 >
-> Mer-Ikan creatures you control get +1/+1 for each deportation counter on Foundry Border Commander.
+> Mer-Ikan creatures you control get +1/+1 for each deportation counter on Foundry Wall Captain.
 >
-> {R}{W}, Remove five deportation counters from Foundry Border Commander: Exile all creatures opponents control that weren't cast from their hands.
+> {R}{W}, Remove five deportation counters from Foundry Wall Captain: Exile all creatures opponents control that weren't cast from their hands.
 
 ## Flavor Text
 > *"The numbers speak for themselves. Enforcement works."*
@@ -41,3 +42,7 @@ Creature — Human Soldier Mer-Ikan
 - Counter synergy: [[Hype Cycle]] doubles deportation counters, [[COMPOUND]] accelerates
 - Lore connection: [[Lore#The Mer-Ikan Foundry (America)]] - border enforcement leadership
 - Pairs with: [[Tromp, the Gilded Sentinel]], [[The Darksteel Wall]], [[Reprocessing Agent]]
+
+## Outside of this set interactions
+- **Notable Synergies:** Oblivion Ring chains (generate counters through repeated exile), Fiend Hunter (exile triggers add counters), Skyclave Apparition (exile creatures for counters), Eldrazi Displacer (repeatedly exile/return for counter buildup)
+- **Balance Assessment:** Fair - Build-around rare. Requires exile synergy to maximize. The ultimate ability is powerful but telegraphed.

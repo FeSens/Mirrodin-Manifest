@@ -23,7 +23,7 @@ Sorcery
 > *"Equality is not theft. Equality is justice."*
 
 ## Image Prompt
-> A Synod official distributing counters evenly between two arguing parties. Neither looks satisfied.
+> Redistribute the Wealth — Sorcery. Action depicted: A Synod official with chrome-lined robes forcibly dividing glowing counters between two arguing parties with metallic bone structures. Setting: Seat of the Synod judgment chamber, golden and bronze architecture. Focal point: The official's hands splitting a pile of luminous counters. Mood: Institutional horror, forced equality. Style reference: Greg Staples.
 
 ## Design Notes
 - White common sorcery - addresses White common gap (-11)

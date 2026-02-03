@@ -27,7 +27,7 @@ Creature — Human Advisor
 > *"Concentrate wealth at the top. It will flow down... eventually."*
 
 ## Image Prompt
-> A wealthy figure atop a tower of gold, a single coin falling toward distant workers below. They never catch it.
+> Trickle-Down Theorist, Human Advisor from Mirrodin Manifest. Setting: The Great Furnace — golden tower overlooking worker districts. Mood: False promise. Pose: Standing atop accumulated wealth, gesturing magnanimously while coin falls. Key visual elements: Ornate robes of gold and bronze, tower of accumulated counters, single coin falling toward distant workers who will never catch it. Style reference: Greg Staples meets Kev Walker. Color palette: Gold, bronze, dark red tower, distant workers in muted tones.
 
 ## Design Notes
 - Forces [[COMPOUND]] on the richest permanent
@@ -36,3 +36,8 @@ Creature — Human Advisor
 - Counter concentration mechanic - pairs with [[Hype Cycle]] for exponential wealth
 - Lore connection: [[Lore#The Glimmervoid Rally (Gold Rally)]] - economic ideology
 - Pairs with: [[Free Market Zealot]], [[Austerity Minister]], [[Bailout Facilitator]]
+
+## Outside of this set interactions
+- **Notable Synergies:** [[Doubling Season]], [[Hardened Scales]], [[The Ozolith]]
+- **BROKEN COMBOS:** Forces counters onto richest permanent; with sacrifice outlets on a counter-heavy permanent, triggers team-wide +1/+1 counters
+- **Balance Assessment:** Fair - 4-mana 2/4 with conditional effects

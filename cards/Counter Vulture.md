@@ -26,7 +26,7 @@ Creature — Bird
 > *"Where equality is enforced, opportunity follows."*
 
 ## Image Prompt
-> A chrome-feathered vulture circling above a redistribution ceremony, waiting to pick up the scraps of value lost in the rounding.
+> Counter Vulture, Bird from Mirrodin Manifest. Setting: Dross Dominion — circling above a redistribution ceremony in the swamps. Mood: Corrupted triumph. Pose: Wings spread wide, descending toward scattered counters. Key visual elements: Chrome-plated feathers with necrogen glow, metallic talons, glowing +1/+1 counter fragments in grip. Style reference: Nils Hamm meets Seb McKinnon. Color palette: Near-black, dark olive, sickly green necrogen glow.
 
 ## Design Notes
 - Black common creature - addresses Black common gap (-13)

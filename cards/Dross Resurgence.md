@@ -9,7 +9,7 @@ rarity: Uncommon
 set: Mirrodin Manifest
 ---
 
-# Toxic Resurgence
+# Dross Resurgence
 
 ## Card Type Line
 Sorcery
@@ -25,7 +25,7 @@ Sorcery
 > *"The Dross and the Tangle share one truth: death is not the end."*
 
 ## Image Prompt
-> Spirits rising from both the toxic swamps and the copper forest, life and death intertwined in the cycle.
+> Dross Resurgence — Sorcery. Action depicted: Spirits rising simultaneously from toxic Mephidross swamps and copper Tangle forest, death and life intertwined. Setting: Border between Dross Dominion and the Tangle — where decay feeds growth. Focal point: The two streams of spirits meeting and merging. Mood: Genuine hope. Style reference: Seb McKinnon meets Rebecca Guay. Color palette: Near-black and dark olive left, copper and forest green right, merging in center.
 
 ## Design Notes
 - **Graveyard bridge** - connects Dross AND Tangle themes

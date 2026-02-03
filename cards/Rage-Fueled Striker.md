@@ -26,7 +26,7 @@ Creature — Human Berserker
 > *"The Foundry runs on anger as much as fuel."*
 
 ## Image Prompt
-> A snarling human worker with veins of molten metal visible beneath their skin, charging recklessly.
+> Rage-Fueled Striker, Human Berserker from Mirrodin Manifest. Setting: The Great Furnace — molten metal channels and forge pits. Mood: Buried rage. Pose: Mid-charge with arms thrown wide, screaming. Key visual elements: Veins of molten copper visible beneath translucent skin, iron-reinforced knuckles, furnace-singed hair with metallic strands. Style reference: Kev Walker. Color palette: Furnace orange, copper, deep red.
 
 ## Design Notes
 - Red common creature - addresses Red common gap (-6)
@@ -34,3 +34,8 @@ Creature — Human Berserker
 - Must-attack downside for flavor
 - NWO-compliant simple design
 - Lore connection: [[Lore#The Mer-Ikan Foundry (America)]]
+
+## Outside of this set interactions
+- **Notable Synergies:** [[Goblin Bushwhacker]] (hasty 1-drops work well together), [[Mana Echoes]] (Human tribal mana generation), [[Cavalcade of Calamity]] (deals 1 damage when 1-power creature attacks), [[Raid Bombardment]] (similar effect)
+- **Potential Combos:** None significant - basic aggressive creature
+- **Balance Assessment:** Fair - Compare to [[Goblin Guide]] (2/2 haste for R with downside) or [[Monastery Swiftspear]] (1/2 prowess). This is significantly weaker than pushed 1-drops. Must-attack is a real downside. Fine for common.

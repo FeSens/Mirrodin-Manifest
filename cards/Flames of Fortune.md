@@ -23,7 +23,7 @@ Enchantment
 > *"Luck burns bright. Failure burns you."*
 
 ## Image Prompt
-> A brazier of chaotic fire, flames leaping higher with each dice roll. The flames lick at both enemies and allies.
+> Flames of Fortune — Enchantment. Visual focus: A brazier of chaotic fire, flames leaping higher with each visible dice roll, licking at both enemies and caster. Setting: Glimmervoid gambling hall — fire at the heart of fortune. Mood: Buried rage. Style reference: Seb McKinnon meets Kev Walker. Color palette: Gold brazier, orange-red chaotic flames, amber dice glow.
 
 ## Design Notes
 - Red uncommon enchantment - addresses Red uncommon gap (-10)

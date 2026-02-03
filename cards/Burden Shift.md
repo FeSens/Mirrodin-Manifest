@@ -21,7 +21,7 @@ Instant
 > *"Your debt becomes their debt. And they pay the price."*
 
 ## Image Prompt
-> A shadowy figure transferring glowing red debt markers from one contract to another while draining life force from a victim. Dark tendrils connect the debt to the suffering. Black's weaponized equality, MTG card art style.
+> Burden Shift — Instant. Action depicted: A shadowy figure pulling red debt markers from one contract to another, life force draining visibly from a victim. Setting: Dross Dominion — a dim debt collection office. Focal point: Dark tendrils connecting debt tokens to suffering victim. Mood: Buried rage. Style reference: Nils Hamm meets Seb McKinnon.
 
 ## Design Notes
 - Black uncommon instant
@@ -29,3 +29,8 @@ Instant
 - Flat 2 life loss keeps it simple
 - [[☭REDISTRIBUTE]] Black access
 - Pairs with: [[Spite Redistributor]], [[Vindictive Redistribution]]
+
+## Outside of this set interactions
+- **Notable Synergies:** Debt token infrastructure
+- **Potential Combos:** None
+- **Balance Assessment:** Fair - Narrow, requires Debt tokens.

@@ -27,7 +27,7 @@ Land
 > *"The Myr-Mind calculates futures. The Vault holds certainties."*
 
 ## Image Prompt
-> A vast underground vault within the Glimmervoid, filled with pools of molten gold that are slowly solidifying into pure ingots. Vedalken bankers carefully catalog each pool while worried investors watch the En-Vidia Lattice flicker on monitors above. The gold glows with warm, stable light contrasting the erratic blue pulses of the Lattice. Warm golds, amber, and anxious blue flickers. MTG card art style, treasury atmosphere, safe haven amid chaos.
+> Vault of the Liquid Sun — Land. Time of day: Eternal golden glow from molten pools. Vantage point: Interior of vast underground vault, looking across gold pools. Key features: Pools of molten gold solidifying into ingots, Vedalken bankers cataloging wealth, worried investors watching flickering Lattice monitors above. Mood: False promise mixed with stability. Style reference: John Avon meets Mark Tedin. Color palette: Warm gold, amber, anxious blue Lattice flickers.
 
 ## Design Notes
 - Mana fixing for artifacts
@@ -38,3 +38,7 @@ Land
 - Safe haven for those who don't trust the Thought-Sync
 - [[Gold Token]] synergy: Creates Gold for [[🎲 GAMBLE]] and [[COMPOUND]] strategies
 - Pairs with: [[Hedge Fund Manager]], [[Quantitative Easer]], [[Gold Token]], [[The House Edge]]
+
+## Outside of this set interactions
+- **Notable Synergies:** [[Clock of Omens]], artifact synergies
+- **Balance Assessment:** Fair - Enters tapped with reasonable abilities

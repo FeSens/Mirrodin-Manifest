@@ -21,7 +21,7 @@ Enchantment
 > *"Every action has a cost. We ensure they pay it."*
 
 ## Image Prompt
-> A war room filled with Vedalken strategists manipulating holographic market data, targeting enemy economies. Red debt markers spread across a map of Mirrodin like an invasion. Cold, calculated economic destruction, MTG card art style.
+> Economic Warfare — Enchantment. Visual focus: A war room of Vedalken strategists manipulating holographic market data, red debt markers spreading across a Mirrodin map like invasion routes. Setting: Seat of the Synod/En-Vidia Lattice — strategic command center. Mood: Corrupted triumph. Style reference: Greg Staples meets Nils Hamm. Color palette: Steel blue, chrome, red debt markers on cyan map.
 
 ## Design Notes
 - Dimir rare enchantment
@@ -29,3 +29,7 @@ Enchantment
 - Creates debt pressure over time
 - [[Lore]] connection: sanctions and economic pressure
 - Pairs with: [[The Sanctions War]], [[Credit Default]]
+
+## Outside of this set interactions
+- **Notable Synergies:** [[Rhystic Study]] (complements spell-taxing strategies), [[Rule of Law]] (locks opponents at one spell per turn to avoid debt OR creating debt), [[Narset, Parter of Veils]] (stax package), [[Notion Thief]] (if debt creation draws cards, this pairs well)
+- **Balance Assessment:** Fair - Punishing but not broken. Storm decks hate this, but it requires setup and doesn't immediately win. Good design.

@@ -26,7 +26,7 @@ Artifact Creature — Construct
 > *"Imbalance detected. Correction initiated."*
 
 ## Image Prompt
-> A towering white construct with scales for hands, constantly measuring and redistributing. Its eyes glow with mechanical fairness.
+> Equality Enforcer, Construct from Mirrodin Manifest. Setting: The Great Furnace/Mer-Ikan Foundry — redistribution enforcement zone. Mood: Institutional horror. Pose: Standing rigid, scale-shaped hands raised and balancing counters between them. Key visual elements: White chrome body, glowing eyes of mechanical impartiality, scales constantly weighing and redistributing. Style reference: Mark Tedin meets Greg Staples. Color palette: White chrome, gold accents, bronze interior glow.
 
 ## Design Notes
 - White uncommon creature - addresses White uncommon gap (-4)

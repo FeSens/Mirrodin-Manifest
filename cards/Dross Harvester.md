@@ -24,7 +24,7 @@ Creature — Zombie Worker
 > *"Death is just a temporary inconvenience."*
 
 ## Image Prompt
-> A zombie methodically pulling corpses from the muck of Mephidross, handing them to a necromancer.
+> Dross Harvester, Zombie Worker from Mirrodin Manifest. Setting: Vault of Whispers/Dross Dominion — necrogen-soaked harvesting pools. Mood: Exhaustion. Pose: Bent over, methodically pulling corpses from muck with chrome-boned hands. Key visual elements: Rusted chrome skeleton visible through rotting flesh, corpse draped over arms, pools of necrogen reflecting sickly light. Style reference: Nils Hamm meets Kev Walker. Color palette: Near-black, dark olive pools, faint necrogen glow.
 
 ## Design Notes
 - Black common creature - addresses Black common gap (-6)

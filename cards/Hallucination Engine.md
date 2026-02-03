@@ -27,7 +27,7 @@ Artifact Creature — Construct
 > *"It looks real. It acts real. It isn't."*
 
 ## Image Prompt
-> A chrome machine projecting a flickering holographic duplicate of a warrior. The projection glitches and distorts at the edges, clearly artificial. Other incomplete projections hover nearby. AI hallucination made manifest.
+> Hallucination Engine — Artifact Creature Construct. Visual focus: A chrome machine with crystalline projector arrays generating a flickering holographic warrior, the duplicate glitching at the edges with static and distortion, incomplete projections hovering like ghosts. Setting: The Seat of the Synod, a data processing chamber. Mood: Institutional horror, false promise. Style reference: Mark Tedin meets Nils Hamm. Color palette: Steel blue, chrome, cyan glitch-light, flickering whites.
 
 ## Design Notes
 - Represents AI hallucinations/confabulations
@@ -37,3 +37,8 @@ Artifact Creature — Construct
 - Lore connection: [[Lore#The Great Doubt (The AI Hype Correction)]] - AI unreliability
 - Scry triggers synergize with [[🎲 GAMBLE]] (scry before gambling)
 - Pairs with: [[Sal-Tman, Prophet of the Core-Logic]], [[Trough of Disillusionment]], [[The Vibe Shift]], [[The House Edge]]
+
+## Outside of this set interactions
+- **Notable Synergies:** [[Sensei's Divining Top]] (scry every turn = counters every turn), [[Thassa, God of the Sea]] (free scry each upkeep), [[Preordain]]/[[Serum Visions]] (multiple scry triggers), [[The Reality Chip]] (continuous card advantage + scry)
+- **Potential Combos:** [[Thousand-Year Elixir]] + lots of scry - Multiple activations per turn. [[Aphetto Alchemist]] - Untap to use multiple times. Copy [[Kiki-Jiki, Mirror Breaker]] or [[Splinter Twin]] target - The copy can make more copies before EOT sacrifice.
+- **Balance Assessment:** Fair - Requires significant scry investment. Three scry triggers for one temporary creature is reasonable.

@@ -1,7 +1,6 @@
 ---
 tags:
   - card
-  - broken-needs-review
 type: Creature
 subtype: Vedalken Advisor
 color: White/Blue
@@ -21,7 +20,7 @@ Creature — Vedalken Advisor
 ## Rules Text
 > Whenever you redistribute, scry 2.
 >
-> {W}{U}, {T}: Redistribute among any number of target permanents. *(Remove all counters from them, then distribute that many counters among them as you choose.)*
+> {W}{U}, {T}: Redistribute among any number of target permanents you control. *(Remove all counters from them, then distribute that many counters among them as you choose.)*
 >
 > *"Perfect balance requires perfect information."*
 
@@ -29,7 +28,7 @@ Creature — Vedalken Advisor
 >
 
 ## Image Prompt
-> A Vedalken with precisely balanced scales, redistributing glowing counters between two permanents with mathematical precision. Data streams flow behind them.
+> The Equalizer, Vedalken Advisor from Mirrodin Manifest. Setting: Seat of the Synod — sterile chrome chamber with data streams. Mood: Institutional horror. Pose: Standing with precisely balanced scales, redistributing counters with mathematical precision. Key visual elements: Chrome-touched blue skin, scales holding glowing counters, data streams flowing behind, cold calculating gaze. Style reference: Greg Staples meets Nils Hamm. Color palette: Steel blue, chrome, cyan data streams.
 
 ## Design Notes
 - **Redistribute hub** - triggers on ANY redistribute effect
@@ -38,3 +37,9 @@ Creature — Vedalken Advisor
 - Scry triggers synergize with [[🎲 GAMBLE]] and [[The House Edge]]
 - Azorius (W/U) for political/bureaucratic theme
 - Pairs with [[Central Planner]], [[Mak-Ron, the Glass Orator]]
+- **Restriction added:** "permanents you control" prevents infinite persist combos by stopping you from removing -1/-1 counters from opponent's persist creatures or moving counters to opponents
+
+## Outside of this set interactions
+- **Notable Synergies:** [[Doubling Season]], [[Hardened Scales]], [[Winding Constrictor]], [[The Ozolith]]
+- **BROKEN COMBOS:** With persist creatures ([[Kitchen Finks]], [[Murderous Redcap]]), can remove -1/-1 counters and redistribute as +1/+1 elsewhere - infinite persist with a sac outlet
+- **Balance Assessment:** FIXED - Changed to "permanents you control" only, preventing persist combo exploitation with opponent's creatures

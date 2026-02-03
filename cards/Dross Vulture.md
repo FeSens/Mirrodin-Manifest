@@ -30,10 +30,14 @@ Creature — Zombie Bird
 > 2/1
 
 ## Image Prompt
-> A decaying bird circling above the Mephidross swamps, black ichor dripping from its wings. Ominous and patient, MTG card art style.
+> Dross Vulture, Zombie Bird from Mirrodin Manifest. Setting: Vault of Whispers/Dross Dominion — circling above Mephidross swamps. Mood: Suspicion. Pose: Wings spread in lazy circle, dripping black ichor, watching below with dead patience. Key visual elements: Chrome skeleton visible through rotting feathers, ichor trailing from wings, necrogen-lit eyes. Style reference: Nils Hamm. Color palette: Near-black body, dark olive ichor, faint necrogen eye glow.
 
 ## Design Notes
 - Black common flyer with drain effect
 - Simple death trigger for NWO compliance
 - Aggressive evasion for black strategies
 - Pairs with: [[Mephidross Refugee]], [[Dross Harvester]]
+
+## Outside of this set interactions
+- **Notable Synergies:** [[Rally the Ancestors]] (mass reanimation for drain effects), [[Skullclamp]] (draw and drain), [[Teysa Karlov]] (doubles death trigger), [[Bloodghast]] (similar recursive pressure cards)
+- **Balance Assessment:** Fair - Appropriate power level for a common. Well-designed Limited card.

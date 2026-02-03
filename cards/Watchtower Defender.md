@@ -30,7 +30,7 @@ Creature — Leonin Soldier
 > — Zel-Ensk, the Resilient Spark
 
 ## Image Prompt
-> A Leonin soldier crouched in a fortified position, well-equipped with salvaged gear. The Vault of Whispers burns in the distance. Determined defense.
+> Watchtower Defender, Leonin Soldier from Mirrodin Manifest. Setting: Fortified watchtower — overlooking approaching threats. Mood: Grim determination. Pose: Crouched in fortified position, equipment at ready, eyes scanning horizon. Key visual elements: Chrome-maned Leonin with metallic fur, well-maintained salvaged equipment, first-strike stance, Vault of Whispers burning distantly. Style reference: Kev Walker. Color palette: White and gold armor, bronze equipment, distant fire orange.
 
 ## Design Notes
 - First strike for defensive advantage
@@ -39,3 +39,7 @@ Creature — Leonin Soldier
 - Ukraine defense flavor
 - Lore connection: [[Lore#The High Artificers (Political Figures)]] - Zel-Ensk's defenders
 - Pairs with: [[Zel-Ensk, the Resilient Spark]], [[Foreign Arms Supplier]], [[Drone Strike Operator]]
+
+## Outside of this set interactions
+- **Notable Synergies:** Equipment strategies, [[Puresteel Paladin]]
+- **Balance Assessment:** Fair - Simple 2-drop with equipment synergy

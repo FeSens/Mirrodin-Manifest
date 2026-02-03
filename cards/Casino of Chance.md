@@ -7,7 +7,7 @@ rarity: Rare
 set: Mirrodin Manifest
 ---
 
-# Den of Chance
+# Casino of Chance
 
 ## Card Type Line
 Land
@@ -23,7 +23,7 @@ Land
 > *"Every game played here fuels the next."*
 
 ## Image Prompt
-> A hidden gambling den beneath the Tangle, lit by flickering gold light. Dice and cards scattered on chrome tables. Fortune flows through the very stones.
+> Casino of Chance — Land. Time of day: Eternal twilight beneath the canopy. Vantage point: Entering through hidden copper-root doorway. Key features: Flickering gold-lit gambling den, chrome tables scattered with dice and cards, fortune energy flowing through stone floor. Mood: False promise. Style reference: John Avon meets Seb McKinnon. Color palette: Copper, forest green, gold light, chrome table surfaces.
 
 ## Design Notes
 - RG land - addresses mana fixing needs (Priority 4)

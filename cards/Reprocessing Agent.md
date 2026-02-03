@@ -26,7 +26,7 @@ Creature — Golem Mer-Ikan
 > *"Documentation, please. No? Then you're scheduled for extraction."*
 
 ## Image Prompt
-> A imposing chrome golem in militaristic armor standing at a checkpoint made of darksteel barriers. It holds a glowing scanner in one hand, the other hand transformed into restraining clamps. Behind it, a long line of frightened creatures wait to be processed. The Great Furnace glows ominously in the background. Stark white and silver color palette with harsh industrial lighting. MTG card art style, authoritarian atmosphere, Mirrodin aesthetic.
+> Reprocessing Agent, Golem Mer-Ikan from Mirrodin Manifest. Setting: Mer-Ikan Foundry checkpoint — darksteel barriers, The Great Furnace glowing behind. Mood: Institutional horror. Pose: Standing rigid at checkpoint, scanner in one hand, restraining clamps formed from the other. Key visual elements: Militaristic chrome armor with Foundry insignia, long line of frightened creatures with visible metal bone structures waiting to be processed, harsh white spotlights. Style reference: Mark Tedin meets Kev Walker. Color palette: Stark white, silver, furnace glow.
 
 ## Design Notes
 - Mechanic: Temporary exile with lasting trauma
@@ -36,3 +36,8 @@ Creature — Golem Mer-Ikan
 - Creature type Mer-Ikan establishes the faction
 - Lore connection: [[Lore]] - The Mer-Ikan Foundry's enforcement arm
 - White fits the "law and order" flavor, even when unjust
+
+## Outside of this set interactions
+- **Notable Synergies:** [[Flickerwisp]] / [[Restoration Angel]] (blink to repeatedly exile and debuff creatures), [[Panharmonicon]] (double exile triggers), [[Skullclamp]] (drawing cards from debuffed 1/1s that return), [[Solemnity]] (prevents -1/-1 counters on YOUR creatures, but opponents still get debuffed)
+- **Potential Combos:** [[Thassa, Deep-Dwelling]] + Reprocessing Agent (repeated exile every end step, stacking -1/-1 counters on returned creatures)
+- **Balance Assessment:** Fair - The MV 3 or less restriction is meaningful. Similar to existing Banisher Priest variants with added debuff.

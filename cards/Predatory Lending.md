@@ -21,7 +21,7 @@ Instant
 > *"Sign here. Don't read the fine print."*
 
 ## Image Prompt
-> A shadowy figure extending a glowing contract toward an unsuspecting victim, their smile hidden in darkness. The contract pulses with red energy while gold coins flow from the victim toward the lender. Corporate predator aesthetic, MTG card art style.
+> Predatory Lending — Instant. Action depicted: A shadowy figure with chrome fingernails extending a blood-red glowing contract toward a desperate victim, gold already flowing from the victim's pockets toward the predator. Setting: A dim alley in the Dross Dominion financial district. Focal point: The pulsing contract and the one-directional flow of wealth. Mood: Corrupted triumph, false promise. Style reference: Nils Hamm meets Greg Staples. Color palette: Near-black, dark olive, blood-red contract glow, gold flowing away.
 
 ## Design Notes
 - Black common instant
@@ -29,3 +29,8 @@ Instant
 - Life swing: opponent will lose 1, you gain 2 = 3 life differential
 - Enables aggressive debt strategies
 - Pairs with: [[Loan Shark]], [[Collection Agent]], [[Master of Debt]]
+
+## Outside of this set interactions
+- **Notable Synergies:** [[Tainted Remedy]] (if debt tokens cause life gain when sacrificed, this reverses it), [[Wound Reflection]] (doubles the life loss from debt), [[Ob Nixilis, Unshackled]] (punishes opponent)
+- **Potential Combos:** Mass debt + [[Bloodchief Ascension]] (every debt payment triggers Ascension). With [[Painful Quandary]] style effects to compound the punishment
+- **Balance Assessment:** Fair - 1 mana for 3 life differential (assuming debt = lose 1 life) is reasonable. Compares to cards like Chaplain's Blessing but requires setup.

@@ -29,7 +29,7 @@ Creature — Human Unforged
 > *"They thought silence would protect them. They were wrong."*
 
 ## Image Prompt
-> A determined young figure with burning eyes, striding forward despite wounds. Behind them, the Private Isle burns. Their testimony is their weapon. Justice through survival.
+> Escaped Testimony, Human Unforged from Mirrodin Manifest. Setting: Fleeing Ep-Styn's Silent Isle — the burning Private Isle behind. Mood: Grim determination. Pose: Striding forward despite wounds, eyes burning with conviction. Key visual elements: Young face with iron-veined scars of survival, metallic hair matted with ash, burning isle reflecting in eyes. Style reference: Rebecca Guay meets Kev Walker. Color palette: White survivor's rags, gold flames behind, bronze wounds.
 
 ## Design Notes
 - Testimony counters provide protection and fuel revenge
@@ -38,3 +38,7 @@ Creature — Human Unforged
 - The survivor who escaped and spoke
 - Lore connection: [[Lore#The Great Ep-Styn Mystery]] - survivors who testified
 - Pairs with: [[Ep-Styn's Silent Isle]], [[The Black Ledger]], [[Unforged Witness]], [[Control The Narrative]]
+
+## Outside of this set interactions
+- **Notable Synergies:** [[Flickerwisp]] / [[Restoration Angel]] (reset counters for repeated legendary removal), Proliferate effects (maintain protection while attacking), [[Sword of Feast and Famine]] (evasion to ensure hits), [[Aqueous Form]] (unblockable for reliable triggers)
+- **Balance Assessment:** Fair - Very strong against specific strategies but counters deplete. Interesting anti-legendary hate card.

@@ -26,7 +26,7 @@ Creature — Human Cleric
 > *"Equality hurts. That's the point."*
 
 ## Image Prompt
-> A malicious cleric in black robes, taking counters from one pile and distributing them while draining life from onlookers. Cruel equality.
+> Spite Redistributor, Human Cleric from Mirrodin Manifest. Setting: Vault of Whispers redistribution chamber — dark chrome altar surrounded by supplicants. Mood: Corrupted triumph. Pose: Standing over two piles of glowing counters, maliciously dividing them while life drains visibly from onlookers. Key visual elements: Black robes with necrogen-green trim, chrome-traced veins pulsing with stolen life, cruel smile revealing metal teeth. Style reference: Nils Hamm. Color palette: Near-black, dark olive, sickly green counter glow.
 
 ## Design Notes
 - Black uncommon creature - addresses Black uncommon gap (-10)

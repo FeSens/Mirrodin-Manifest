@@ -28,7 +28,7 @@ Creature — Elf Druid
 > 3/4
 
 ## Image Prompt
-> An ancient elf druid surrounded by younger Tangle creatures, all growing stronger in their presence. Wise and nurturing, MTG card art style.
+> Tangle Elder, Elf Druid from Mirrodin Manifest. Setting: The Tangle — ancient grove with towering copper trees. Mood: Genuine hope. Pose: Standing with arms spread, blessing gathered creatures. Key visual elements: Weathered chrome-touched skin, bark-like metallic growths, younger creatures growing stronger nearby. Style reference: Rebecca Guay meets Greg Staples. Color palette: Copper, forest green, warm bronze.
 
 ## Design Notes
 - Green uncommon lord effect

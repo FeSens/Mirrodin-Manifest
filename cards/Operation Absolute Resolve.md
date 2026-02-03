@@ -27,7 +27,7 @@ Sorcery
 > *The Foundry doesn't negotiate. It resolves.*
 
 ## Image Prompt
-> A massive aerial assault on a fortified chrome compound at night. Mer-Ikan aircraft rain fire on defensive structures while elite soldiers in heavy powered armor fast-rope from hovering thopters. Explosions light up the Mirrodin sky in orange and white. The compound's defenses crumble. In the center, a terrified figure in ornate robes is being dragged from a building by armored soldiers. The scene is chaos and precision combined—surgical destruction. MTG card art style, military action, dramatic lighting.
+> Operation Absolute Resolve — Sorcery. Action depicted: Elite Foundry soldiers in chrome power armor fast-roping from thopters into a fortified compound as explosions shatter defenses. A terrified figure in ornate robes is dragged from the chaos. Setting: Night assault on an enemy stronghold. Focal point: The captured leader being extracted as the world burns around them. Mood: Grim determination, surgical precision amid chaos. Style reference: Kev Walker meets Raymond Swanland. Color palette: Golds, bronze, explosion orange, night sky, military chrome.
 
 ## Design Notes
 - **Source:** Operation Absolute Resolve, January 3, 2026 — the U.S. Delta Force raid that captured Maduro
@@ -41,6 +41,6 @@ Sorcery
 - Pairs with: [[Foundry Strike Team]], [[Resonance Disruptor]], [[Lattice Blackout]], [[Tromp, the Gilded Sentinel]]
 
 ## Outside of this set interactions
-- **Notable Synergies:** Ramp strategies help cast this earlier; [[Boseiju, Who Shelters All]] redundant uncounterable
+- **Notable Synergies:** Ramp strategies help cast this earlier; [[Boseiju, Who Shelters All]] redundant uncounterability
 - **BROKEN COMBOS:** Exile and cast opponent's COMMANDER - essentially steal their commander permanently; In artifact-heavy metas, destroying all opponent artifacts is devastating
 - **Balance Assessment:** VERY POWERFUL - Can't be countered + destroy all artifacts + permanently steal legendary creature is an enormous swing. The ability to cast exiled commanders bypasses commander tax entirely. Consider making it "exile until this card leaves the battlefield" or "target noncommander legendary creature"

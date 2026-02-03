@@ -24,7 +24,7 @@ Creature — Human Soldier
 > *"The Wall keeps them out. That's all that matters."*
 
 ## Image Prompt
-> A soldier standing atop a massive metal wall, scanning the horizon for unauthorized crossings.
+> Border Wall Sentry, Human Soldier from Mirrodin Manifest. Setting: The Great Furnace — atop the massive Darksteel border wall. Mood: Exhaustion. Pose: Standing rigid at attention, scanning the horizon with weary eyes. Key visual elements: Bronze-plated armor with gold trim, iron-veined skin visible at neck, searchlight staff. Style reference: Kev Walker meets Greg Staples. Color palette: Golds, bronze, dark red of the Foundry.
 
 ## Design Notes
 - White common creature - addresses White common gap (-5)

@@ -33,7 +33,7 @@ Legendary Creature — Loxodon Artificer
 > *"The unrefined have no place within these walls."*
 
 ## Image Prompt
-> A massive Loxodon in gilded armor standing atop a wall under construction, gesturing grandly. His trunk is adorned with gold rings, his eyes gleam with self-satisfaction. The Great Furnace blazes behind him. Authoritarian grandeur.
+> Tromp, the Gilded Sentinel, Legendary Loxodon Artificer from Mirrodin Manifest. Setting: The Darksteel Wall — atop his signature construction project. Mood: Corrupted triumph. Pose: Standing grandly atop the wall, gesturing to his achievement. Key visual elements: Massive gilded armor, trunk adorned with gold rings, self-satisfied gleam in eyes, Great Furnace blazing behind, wall under construction beneath. Style reference: Greg Staples meets Kev Walker. Color palette: Gold, bronze, furnace orange, dark red, chrome construction.
 
 ## Design Notes
 - Tromp from [[Lore#The High Artificers (Political Figures)]] - Trump allegory
@@ -43,6 +43,6 @@ Legendary Creature — Loxodon Artificer
 - Pairs with: [[The Darksteel Wall]], [[Gilded Sentinel's Decree]], [[Foundry Border Commander]], [[Reprocessing Agent]]
 
 ## Outside of this set interactions
-- **Notable Synergies:** [[Proliferate effects]] accelerate counter growth; [[Propaganda]]/[[Ghostly Prison]] combined with "can't attack" clause creates soft lock
+- **Notable Synergies:** Proliferate effects accelerate counter growth; [[Propaganda]]/[[Ghostly Prison]] combined with "can't attack" clause creates soft lock
 - **BROKEN COMBOS:** [[Doubling Season]]/[[Vorinclex, Monstrous Raider]] enters with 6 counters, deals 6 damage immediately, doubles each turn; [[Paradox Haze]] double upkeep = double counter growth and double damage
 - **Balance Assessment:** POTENTIALLY BROKEN - Exponential scaling damage completely shuts down token and reanimator strategies. With counter doublers, deals 6→14→30 damage per turn. Consider capping damage or adding "nontoken" restriction

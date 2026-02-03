@@ -27,7 +27,7 @@ Enchantment
 > *The Foundry thought scarcity would cripple the Oxidda Chain. It only made them resourceful.*
 
 ## Image Prompt
-> A border checkpoint between gleaming Mer-Ikan territory and the rugged Oxidda mountains. En-Vidia Processing Cores are stacked behind barriers on one side, forbidden from crossing. On the other side, Oxidda artificers work with scraps and recycled parts, building something that glows with similar power. The checkpoint guards look smug; the Oxidda workers look determined. MTG card art style.
+> The Sanctions War — Enchantment. Visual focus: Border checkpoint blocking En-Vidia Cores from crossing to Oxidda. Setting: Border between Mer-Ikan territory and Oxidda mountains — gleaming vs rugged. Focal point: Stacked forbidden Cores on one side, determined Oxidda artificers building alternatives from scraps on the other, smug checkpoint guards between. Mood: Grim determination. Style reference: Kev Walker meets Mark Tedin. Color palette: Furnace orange, copper Oxidda, chrome barrier, dark red restrictions.
 
 ## Design Notes
 - **Source:** US chip sanctions against China; Nvidia H200 export restrictions
@@ -37,3 +37,8 @@ Enchantment
 - Red for resourcefulness, defiance, and overcoming restrictions
 - Symmetrical effect—sanctions hurt everyone
 - Pairs with: [[Liang-Wen, the Efficient Mind]], [[Deep-Sik Efficiency]]
+
+## Outside of this set interactions
+- **Notable Synergies:** [[Aven Mindcensor]], [[Leonin Arbiter]], [[Stranglehold]]
+- **BROKEN COMBOS:** Stacks with other search denial for complete library lockout
+- **Balance Assessment:** Fair - Symmetrical effect with slight upside on extra draws; 3 mana is appropriate for this stax piece

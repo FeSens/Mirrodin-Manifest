@@ -25,7 +25,7 @@ Instant
 > *The Oxidda Chain proved that efficiency beats extravagance.*
 
 ## Image Prompt
-> A sleek, minimalist Myr design emerging from rough-hewn copper and iron in an Oxidda forge. The Myr is smaller and simpler than En-Vidia constructs but glows with the same inner light. In the background, a massive, ornate En-Vidia Processing Core sits idle while the humble Myr performs the same task. Red and orange Oxidda mountains in the background. Efficiency over opulence. MTG card art style, contrast between simple and complex.
+> Deep-Sik Efficiency — Instant. Action depicted: A minimalist Myr replicating energy from an ornate En-Vidia Processing Core, same output from humbler origins. Setting: Oxidda Chain forge — contrast between simple copper workshop and chrome complexity. Focal point: The small efficient Myr glowing while massive equipment sits idle. Mood: Grim determination. Style reference: Mark Tedin meets Kev Walker. Color palette: Furnace orange, copper, chrome contrast.
 
 ## Design Notes
 - **Source:** DeepSeek matching OpenAI's capabilities at a fraction of the cost

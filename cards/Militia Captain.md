@@ -28,7 +28,7 @@ Creature — Human Soldier
 >
 
 ## Image Prompt
-> A battle-worn captain rallying citizen soldiers, their improvised banners held high. Unity in the face of oppression.
+> Militia Captain, Human Soldier from Mirrodin Manifest. Setting: Mer-Ikan Foundry — a bronze-gilded plaza during an uprising. Mood: Genuine hope amidst struggle. Pose: Standing atop rubble with sword raised, rallying citizens behind them. Key visual elements: Battle-scarred chrome-inlaid armor, iron-gray hair streaked with metallic threads, citizens with improvised weapons gathering behind. Style reference: Kev Walker meets Greg Staples. Color palette: Golds, bronze, dark red, warm hopeful lighting cutting through smoke.
 
 ## Design Notes
 - **Militia/Soldier tribal hub** - connects combat cards

@@ -21,7 +21,7 @@ Instant
 > *"When retreat isn't an option, advance faster."*
 
 ## Image Prompt
-> A human soldier charging forward with blazing fists, leaving a trail of fire behind.
+> Desperate Charge — Instant. Action depicted: A human soldier charging forward with fists wreathed in furnace fire, leaving a trail of flames behind. Setting: The Great Furnace/Oxidda battleground — no retreat possible. Focal point: The moment of desperate aggression, fire trailing from hands. Mood: Buried rage. Style reference: Kev Walker. Color palette: Furnace orange, copper red, dark smoke.
 
 ## Design Notes
 - Red common instant - addresses Red common gap (-6)
@@ -29,3 +29,8 @@ Instant
 - NWO-compliant simple design
 - Lore connection: [[Lore#The Sanctions War (The Ukraine War)]]
 - Pairs with: [[Zel-Ensk, the Resilient Spark]], [[Civilian Militia]]
+
+## Outside of this set interactions
+- **Notable Synergies:** Standard combat trick synergies, [[Feather, the Redeemed]] (returns to hand)
+- **Potential Combos:** None
+- **Balance Assessment:** Fair - Standard combat trick.

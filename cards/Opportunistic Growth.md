@@ -26,7 +26,7 @@ Creature — Plant
 > *"It grows wherever fortune blooms."*
 
 ## Image Prompt
-> A strange metallic plant sprouting golden flowers in a Glimmervoid gambling den. It thrives on luck.
+> Opportunistic Growth, Plant from Mirrodin Manifest. Setting: The Glimmervoid — a gambling den where fortune literally blooms. Mood: False promise. Pose: A metallic plant unfurling copper petals upward, roots drinking from spilled gold coins. Key visual elements: Chrome stem with copper leaves, golden flower buds that pulse brighter with each nearby dice roll, metal thorns. Style reference: Rebecca Guay meets Mark Tedin. Color palette: Copper, forest green, gold accents, bright Glimmervoid white.
 
 ## Design Notes
 - Green common creature - addresses Green common gap (-16)

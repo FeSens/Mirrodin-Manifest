@@ -29,7 +29,7 @@ Creature — Leonin Artificer
 > *"We see them before they see us. We strike before they can react."*
 
 ## Image Prompt
-> A Leonin technician piloting drones from a bunker, screens showing reconnaissance footage. Cheap drones devastate expensive targets.
+> Drone Strike Operator, Leonin Artificer from Mirrodin Manifest. Setting: Seat of the Synod/Mer-Ikan Foundry — underground drone command bunker. Mood: Grim determination. Pose: Seated at console, metallic mane catching screen glow, directing Thopter swarms. Key visual elements: Chrome-furred Leonin with iron-threaded whiskers, multiple screens showing reconnaissance, tiny Thopters launching in background. Style reference: Mark Tedin meets Greg Staples. Color palette: Steel blue screens, white armor, chrome fur.
 
 ## Design Notes
 - Creates deadly Thopter tokens

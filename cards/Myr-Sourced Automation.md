@@ -27,7 +27,7 @@ Enchantment
 > — Core-Logic Directive 7.1
 
 ## Image Prompt
-> A factory floor where Myr workers seamlessly perform tasks while organic workers stand idle, their tools rusting in their hands. Holographic displays show productivity charts rising while a "workforce reduction" counter ticks upward. The Myr move with perfect synchronization while the displaced workers fade into the background. Cold blues and industrial chrome with warm flesh tones fading to gray. MTG card art style, dystopian automation, job displacement horror.
+> Myr-Sourced Automation — Enchantment. Visual focus: A factory floor where synchronized Myr units perform tasks flawlessly while organic workers with chrome-bones visible under skin stand idle, their tools rusting. Setting: En-Vidia Lattice industrial sector. Mood: Institutional horror, displacement. Style reference: Mark Tedin meets Seb McKinnon. Color palette: Steel blue, chrome, cyan displays, warm flesh tones fading to gray obsolescence.
 
 ## Design Notes
 - Creates Myr tokens for value

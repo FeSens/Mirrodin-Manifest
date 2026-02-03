@@ -28,7 +28,7 @@ Creature — Beast
 > 4/3
 
 ## Image Prompt
-> A massive beast lurking in the metal trees of the Tangle, ready to snatch flying prey. Predatory and patient, MTG card art style.
+> Tangle Stalker, Beast from Mirrodin Manifest. Setting: The Tangle — high canopy of copper-leafed trees. Mood: Suspicion. Pose: Crouched in branches, coiled to strike at passing flyers. Key visual elements: Chrome claws extended, metallic hide blending with copper bark, predator's patient gaze upward. Style reference: Rebecca Guay meets Nils Hamm. Color palette: Copper, forest green, dark olive.
 
 ## Design Notes
 - Green 4-drop with reach

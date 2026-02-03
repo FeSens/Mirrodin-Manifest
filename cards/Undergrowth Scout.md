@@ -28,7 +28,7 @@ Creature — Elf Scout
 > 1/1
 
 ## Image Prompt
-> A nimble elf scout emerging from beneath the copper undergrowth, carrying supplies. Quick and resourceful, MTG card art style.
+> Undergrowth Scout, Elf Scout from Mirrodin Manifest. Setting: The Tangle — beneath the copper undergrowth root system. Mood: Grim determination. Pose: Emerging from roots, supplies secured, alert for danger. Key visual elements: Nimble chrome-veined elf, copper root camouflage, pouches of gathered supplies, quick resourceful eyes scanning. Style reference: Rebecca Guay meets Kev Walker. Color palette: Copper, forest green, olive undergrowth.
 
 ## Design Notes
 - Green ramp creature at common

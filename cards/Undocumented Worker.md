@@ -27,7 +27,7 @@ Creature — Human Citizen
 > *"They don't want us here, but they need what we build."*
 
 ## Image Prompt
-> A tired worker in simple clothes tending to a gleaming forge, creating something beautiful despite their precarious status. Essential but invisible.
+> Undocumented Worker, Human Citizen from Mirrodin Manifest. Setting: The Great Furnace — worker forge area, official eyes elsewhere. Mood: Exhaustion. Pose: Tending to a gleaming forge with tired but skilled hands. Key visual elements: Simple worn clothes, iron-veined hands creating something beautiful, precarious glances toward official areas, essential work rendered invisible. Style reference: Kev Walker meets Rebecca Guay. Color palette: Copper, forest green worker clothing, furnace orange, muted dignity.
 
 ## Design Notes
 - Mana dork that improves creatures
@@ -37,3 +37,7 @@ Creature — Human Citizen
 - Counter synergy: Creates +1/+1 counters that synergize with [[Hype Cycle]] and [[COMPOUND]]
 - Lore connection: [[Lore#The Mer-Ikan Foundry (America)]] - undocumented labor
 - Pairs with: [[Hidden Community Elder]], [[Sanctuary City Warden]], [[Foundry Citizenship]]
+
+## Outside of this set interactions
+- **Notable Synergies:** [[Hardened Scales]], [[Winding Constrictor]], creature-heavy decks
+- **Balance Assessment:** Fair - Conditional [[Llanowar Elves]] with bonus is reasonable

@@ -34,3 +34,7 @@ Creature — Human Soldier
 - Team pump rewards wide boards
 - Lore connection: [[Lore#The Sanctions War (The Ukraine War)]]
 - Pairs with: [[Civilian Militia]], [[Rally the Militia]]
+
+## Outside of this set interactions
+- **Notable Synergies:** [[Aurelia, the Warleader]] (extra combat = extra pump triggers), [[Winota, Joiner of Forces]] (pulls humans into combat), [[Hero of Bladehold]] (creates attackers that get pumped), [[Krenko, Mob Boss]] (go-wide with pump)
+- **Balance Assessment:** Fair - Excellent RW aggro uncommon. Well-designed signpost.

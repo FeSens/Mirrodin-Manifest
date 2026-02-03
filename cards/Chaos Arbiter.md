@@ -29,7 +29,7 @@ Creature — Elemental
 > *"In chaos, there is profit—if you know when to bet."*
 
 ## Image Prompt
-> A being made of swirling fire and lightning, coins orbiting it like planets, each flip determining fates.
+> Chaos Arbiter, Elemental from Mirrodin Manifest. Setting: Above the Great Furnace — floating in the smoke and ember-filled sky. Mood: Corrupted triumph. Pose: Arms spread wide, commanding chaos around it. Key visual elements: Body of swirling fire and lightning, chrome skeleton visible within flames, coins orbiting like planets. Style reference: Seb McKinnon meets Kev Walker. Color palette: Furnace orange, electric blue, molten gold.
 
 ## Design Notes
 - Red mythic - addresses Red mythic gap (-3)

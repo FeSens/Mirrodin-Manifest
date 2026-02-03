@@ -25,7 +25,7 @@ Instant
 > — Last transmission from the Synod Trading Floor
 
 ## Image Prompt
-> The interior of the Seat of the Synod's trading floor in chaos. Holographic charts plummet to zero as Vedalken traders scream and clutch their heads. Mana crystals shatter and go dark. Gold tokens evaporate into worthless vapor. A massive En-Vidia node explodes in the background, sending sparks everywhere. One trader leaps from a balcony. Harsh reds cutting through cold blues, panic lighting, screens filled with downward arrows. MTG card art style, financial apocalypse, 1929 crash aesthetic meets sci-fi.
+> Market Crash — Instant. Action depicted: The Synod trading floor in catastrophic collapse — holographic charts plummeting, Vedalken traders with chrome-threaded skin clutching their heads as mana crystals shatter, gold evaporating into nothing. Setting: Seat of the Synod trading floor, En-Vidia node exploding in background. Focal point: A trader with iron-veined hands reaching toward disintegrating wealth as everything crashes to zero. Mood: Institutional horror, total collapse. Style reference: Nils Hamm meets Seb McKinnon. Color palette: Steel blue shattering into harsh red, chrome going dark, gold dissolving, panic lighting.
 
 ## Design Notes
 - Clean, devastating effect at instant speed
@@ -35,3 +35,8 @@ Instant
 - Anti-synergy: Devastating if opponent casts after your counters doubled
 - Lore connection: [[Lore]] - The inevitable crash of the En-Vidia Lattice bubble
 - Black gets "everyone suffers" symmetrical effects
+
+## Outside of this set interactions
+- **Notable Synergies:** [[Phyrexian Etchings]] (removes age counters, stays in play), [[Thing in the Ice]] (removes ice counters, transforms it)
+- **BROKEN COMBOS:** [[Dark Depths]] (20 ice counters) + Market Crash = 20/20 indestructible flying [[Marit Lage]] for 3 mana total. The life loss (20 for you if you control Dark Depths) is survivable and can be mitigated. This is extremely powerful - getting a 20/20 indestructible flyer for 3 mana (plus the land) is format-warping.
+- **Balance Assessment:** POTENTIALLY BROKEN - The Dark Depths interaction exists at the same efficiency as Thespian's Stage but works differently. Also concerning: wipes out planeswalker loyalty (kills all planeswalkers), removes poison counters from players (helps infect victims). Recommendation: Add "nonland permanents" or increase cost significantly.

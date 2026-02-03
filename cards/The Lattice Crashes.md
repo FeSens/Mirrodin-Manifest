@@ -24,7 +24,7 @@ Sorcery
 > — Final broadcast from the Synod Trading Floor
 
 ## Image Prompt
-> The En-Vidia Lattice shattering in a catastrophic cascade, nodes exploding in sequence like dominoes. Vedalken traders falling from platforms as the floor beneath them dissolves. Myr constructs going haywire, attacking randomly. Gold tokens melting into worthless puddles. The sky above Lumengrid filled with debris and screaming. Black and red energy tears through chrome structures. Apocalyptic, MTG card art style, financial/technological collapse, maximum chaos.
+> The Lattice Crashes — Sorcery. Action depicted: The En-Vidia Lattice shattering in catastrophic cascade, nodes exploding like dominoes. Setting: Lumengrid and the Synod trading floor — total systemic collapse. Focal point: Vedalken traders falling from dissolving platforms, Myr going haywire, gold melting to worthless puddles. Mood: Buried rage. Style reference: Seb McKinnon meets Nils Hamm. Color palette: Black and red destruction energy, chrome debris, dead gold.
 
 ## Design Notes
 - **Combo piece:** Devastating after [[Market Crash]] or [[Hype Cycle]] Chapter III
@@ -35,3 +35,8 @@ Sorcery
 - **Pairs with:** [[Hype Cycle]], [[Market Crash]], [[Gold Token]], [[Tromp, the Gilded Sentinel]], [[Ep-Styn's Silent Isle]]
 - **Anti-synergy:** Devastating to your own counter strategies if mistimed
 - Creates tension: Do you remove counters first for value, or keep them and risk this?
+
+## Outside of this set interactions
+- **Notable Synergies:** [[Vampire Hexmage]] (instant counter removal), [[Aether Snap]], [[Thief of Blood]]
+- **BROKEN COMBOS:** [[Vampire Hexmage]] removes all counters from a permanent, then this forces sacrifice equal to counters removed; with [[Dark Depths]], that's 0 counters removed there but opponents with counters lose everything
+- **Balance Assessment:** Fair - Requires setup and timing; punishes counter-heavy strategies

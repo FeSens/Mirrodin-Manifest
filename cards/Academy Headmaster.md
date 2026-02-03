@@ -31,7 +31,7 @@ Creature — Human Advisor
 > *"The Spark Refinement Academy produces graduates of exceptional... value."*
 
 ## Image Prompt
-> A well-dressed headmaster standing before an academy building, smiling warmly while gesturing young figures inside. Behind the gleaming facade, shadows suggest something darker. False legitimacy.
+> Academy Headmaster, Human Advisor from Mirrodin Manifest. Setting: Spark Refinement Academy — gleaming chrome facade with dark shadows behind. Mood: False promise. Pose: Standing at entrance, arms wide in welcoming gesture, smile not reaching eyes. Key visual elements: Pristine white and gold robes, chrome-capped teeth, young Unforged figures entering behind, shadows suggesting darker purpose. Style reference: Greg Staples meets Nils Hamm. Color palette: Golds, bronze, dark shadows beneath white surfaces.
 
 ## Design Notes
 - Creates Unforged each turn (recruitment)

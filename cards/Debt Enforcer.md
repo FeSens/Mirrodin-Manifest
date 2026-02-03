@@ -28,10 +28,15 @@ Creature — Human Rogue
 > 4/3
 
 ## Image Prompt
-> A menacing debt collector in dark attire, holding a ledger of names. Intimidating presence, MTG card art style.
+> Debt Enforcer, Human Rogue from Mirrodin Manifest. Setting: Vault of Whispers/Dross Dominion — shadowy debt collection alley. Mood: Buried rage. Pose: Looming forward, ledger in one hand, other fist clenched. Key visual elements: Iron-veined face with cold eyes, dark chrome-threaded attire, names glowing on ledger pages. Style reference: Kev Walker meets Nils Hamm. Color palette: Near-black, dark olive, faint necrogen glow on ledger.
 
 ## Design Notes
 - Black 5-drop with discard ETB
 - Fills high-CMC creature gap
 - Economic theme flavor
 - Pairs with: [[Loan Shark]], [[Predatory Lending]]
+
+## Outside of this set interactions
+- **Notable Synergies:** [[Panharmonicon]] (double discard), [[Conjurer's Closet]] / Blink effects (repeated discard), [[Waste Not]] (benefits from forced discard)
+- **Potential Combos:** None
+- **Balance Assessment:** Fair - Overcosted for the effect. Ravenous Chupacabra is better at the same rate.

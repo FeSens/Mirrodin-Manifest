@@ -32,7 +32,7 @@ Legendary Creature — Human Advisor
 > 2/4
 
 ## Image Prompt
-> A corpulent figure in gaudy, oil-stained robes of red and black sitting on an oversized chrome throne. His face is sweating, eyes darting nervously. The throne room is opulent but crumbling—gold leaf peeling, myr servants standing motionless and unpowered. Through tall windows, fires burn in the distance. He clutches the armrests with white knuckles. A hollow crown sits crooked on his head. Mirrodin aesthetic meets decaying autocracy, paranoid atmosphere, MTG card art style.
+> Mad-Uro, the Hollow Throne, Human Advisor from Mirrodin Manifest. Setting: A crumbling throne room — opulent but decaying, fires visible through distant windows. Mood: False promise collapsing, paranoid desperation. Pose: Sitting rigid on an oversized chrome throne, knuckles white on armrests, eyes darting as Myr servants stand unpowered around him. Key visual elements: Corpulent figure in oil-stained red and black robes, hollow crown sitting crooked, gold leaf peeling from walls, sweat on iron-veined brow. Style reference: Seb McKinnon meets Nils Hamm. Color palette: Near-black, deep red, tarnished gold, distant fire orange, decay seeping through opulence.
 
 ## Design Notes
 - **Source:** Nicolás Maduro, Venezuelan president captured during Operation Absolute Resolve
@@ -43,3 +43,8 @@ Legendary Creature — Human Advisor
 - 2/4 stats: defensive, not a fighter himself
 - Black/Red represents tyranny, desperation, and resource extraction
 - Pairs with: [[Operation Absolute Resolve]], [[Sanctum of the Despot]], [[Terrified Survivor]]
+
+## Outside of this set interactions
+- **Notable Synergies:** [[Pitiless Plunderer]] (death triggers generate treasure), Haste enablers like [[Fervor]] (immediate mana from creatures), Proliferate effects like [[Inexorable Tide]] (add loyalty counters back)
+- **BROKEN COMBOS:** [[Intruder Alarm]] + Mad-Uro + any repeatable creature generator (like [[Squirrel Nest]] + basic land) = potentially infinite mana. Each creature enters, untaps all creatures, they tap for BR removing loyalty, but new creature ETBs add more untaps than loyalty removed. Actually requires 4+ creatures generating to go infinite.
+- **Balance Assessment:** POTENTIALLY BROKEN - The Intruder Alarm combo needs testing. The "3 creature minimum" requirement and death trigger punish provide some safety valve, but monitor in testing.

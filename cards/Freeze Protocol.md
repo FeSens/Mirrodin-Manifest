@@ -28,3 +28,7 @@ Instant
 - Cheap removal/tempo for Blue at common
 - Simple NWO-compliant design
 - Lore connection: [[Lore#The "Aethel-Inference" (The AI Boom & Nvidia)]]
+
+## Outside of this set interactions
+- **Notable Synergies:** [[Frost Titan]] (similar tap-down effects), [[Dungeon Geists]] (lock down creatures), [[Niblis of Frost]] (prowess tap synergy), [[Chilling Trap]] (compare: similar card)
+- **Balance Assessment:** Fair - Classic design at appropriate cost. Good common.

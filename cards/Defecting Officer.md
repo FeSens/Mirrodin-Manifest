@@ -29,7 +29,7 @@ Creature — Human Soldier
 > *"I followed orders until the orders became atrocities. Then I walked."*
 
 ## Image Prompt
-> A haunted officer in torn insignia walking away from a burning village, heading toward Leonin lines. Moral defection.
+> Defecting Officer, Human Soldier from Mirrodin Manifest. Setting: Border between Dross Dominion and Mer-Ikan Foundry — burning settlement behind, freedom ahead. Mood: Grim determination. Pose: Walking away from destruction, torn insignia trailing, heading toward distant safety. Key visual elements: Iron-veined face showing inner conflict, chrome military armor half-removed, distant Leonin sentries watching. Style reference: Kev Walker meets Greg Staples. Color palette: White, black smoke, bronze flames behind.
 
 ## Design Notes
 - Rewards opponent sacrifices (defection intel)
@@ -38,3 +38,8 @@ Creature — Human Soldier
 - Orzhov moral complexity
 - Lore connection: [[Lore#The High Artificers (Political Figures)]] - soldiers fleeing Put-In's regime
 - Pairs with: [[Put-In, the Iron Despot]], [[Zel-Ensk, the Resilient Spark]], [[Nim Occupation Force]]
+
+## Outside of this set interactions
+- **Notable Synergies:** [[Grave Pact]] / [[Dictate of Erebos]] (forces opponent to sacrifice, triggers growth), [[Smokestack]] (stax synergy, grows while locking opponents), [[Sheoldred, Whispering One]] (opponent sacrifice on upkeep = growth)
+- **Potential Combos:** With [[Contamination]] + [[Bitterblossom]]: You sac tokens, opponent can't play spells, if they have creatures they may sac for your cards
+- **Balance Assessment:** Fair - The opponent chooses to sacrifice, and giving you 2 cards is optional. Growth is incidental.

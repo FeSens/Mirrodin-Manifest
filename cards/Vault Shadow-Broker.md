@@ -27,7 +27,7 @@ Creature — Human Rogue
 > *"Everyone has a price. I ensure they can afford it."*
 
 ## Image Prompt
-> A hooded figure in the Vault of Whispers, surrounded by ledgers and blackmail documents. Their smile is predatory. Coins and secrets flow equally.
+> Vault Shadow-Broker, Human Rogue from Mirrodin Manifest. Setting: Vault of Whispers — private chamber of secrets and leverage. Mood: Corrupted triumph. Pose: Seated among ledgers and blackmail documents, predatory smile visible beneath hood. Key visual elements: Chrome-touched features barely visible under hood, corruption counters accumulating nearby, coins and secrets flowing equally through their hands. Style reference: Nils Hamm meets Greg Staples. Color palette: Near-black shadows, dark olive, necrogen glow on documents.
 
 ## Design Notes
 - Drains life each turn (corruption tax)
@@ -36,3 +36,8 @@ Creature — Human Rogue
 - Black political corruption archetype
 - Lore connection: [[Lore#The High Artificers (Political Figures)]] - political corruption
 - Pairs with: [[Glimmervoid Lobbyist]], [[The Black Ledger]], [[Veiled Client]]
+
+## Outside of this set interactions
+- **Notable Synergies:** Proliferate, [[Doubling Season]], multiplayer games
+- **BROKEN COMBOS:** With proliferate, can rapidly accumulate corruption counters for repeated mind control
+- **Balance Assessment:** Fair - 4 mana, requires 3 turns to activate steal, limited targets

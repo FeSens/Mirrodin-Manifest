@@ -26,7 +26,7 @@ Creature — Human Unforged
 > *"They told me I was special. That I had potential. They were right—I was currency."*
 
 ## Image Prompt
-> A young human figure with dimmed, flickering spark-light in their eyes, standing before a council of shadowy figures. They point an accusatory finger while holding a torn page from the Black Ledger. The council members recoil, their faces obscured but their ornate regalia visible. Pale whites and grays with flickers of dying golden light. MTG card art style, courtroom drama, tense atmosphere.
+> Unforged Witness, Human Unforged from Mirrodin Manifest. Setting: Synod tribunal chamber — courtroom of power confronted. Mood: Grim determination. Pose: Standing before shadowy council, accusatory finger pointing, torn Ledger page held as evidence. Key visual elements: Dimmed flickering spark-light in young eyes, council members recoiling in obscured faces, ornate regalia of the guilty visible. Style reference: Rebecca Guay meets Nils Hamm. Color palette: Pale whites and grays, dying golden spark-light, shadowy council robes.
 
 ## Design Notes
 - **Counter synergy:** Testimony counters grow, scaling the reveal on sacrifice
@@ -35,3 +35,7 @@ Creature — Human Unforged
 - [[Market Crash]] silences all witnesses (removes testimony counters)
 - Lore connection: [[Lore]] - Survivors of Ep-Styn's trafficking
 - The Unforged creature type marks them as victims
+
+## Outside of this set interactions
+- **Notable Synergies:** Proliferate, [[Doubling Season]], flicker effects
+- **Balance Assessment:** Fair - Information and legendary lockout is niche

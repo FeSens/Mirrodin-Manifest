@@ -27,7 +27,7 @@ Creature — Human Advisor
 > *"My clients' interests are, of course, completely aligned with the public good."*
 
 ## Image Prompt
-> A well-dressed human whispering into the ear of a powerful figure, placing a coin in their pocket. The Glimmervoid gleams behind them. Influence for sale.
+> Glimmervoid Lobbyist, Human Advisor from Mirrodin Manifest. Setting: The Mer-Ikan Foundry — a gilded corridor outside the chambers of power. Mood: False promise, suspicion. Pose: Leaning close to whisper, one hand discreetly placing a gold coin into a powerful figure's robes. Key visual elements: Fine chrome-thread clothing, favor tokens glinting in pockets, the Glimmervoid's golden spires visible through windows. Style reference: Greg Staples. Color palette: Golds, bronze, dark red accents, white marble.
 
 ## Design Notes
 - Puts favor counters on legendaries (influence)
@@ -36,3 +36,7 @@ Creature — Human Advisor
 - Common politician enabler
 - Lore connection: [[Lore#The Glimmervoid Rally (Gold Rally)]] - political lobbying
 - Pairs with: [[Tromp, the Gilded Sentinel]], [[Synod High Chancellor]], [[Vault Shadow-Broker]]
+
+## Outside of this set interactions
+- **Notable Synergies:** [[Kodama of the East Tree]] (protect and make unblockable), [[Thrun, the Last Troll]] (more hexproof redundancy), [[Skullbriar, the Walking Grave]] (counters stick across zones)
+- **Balance Assessment:** Fair - Weak body, tap ability, requires legendary. Balanced support card.

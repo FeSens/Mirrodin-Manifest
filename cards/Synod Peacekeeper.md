@@ -26,7 +26,7 @@ Creature — Human Soldier
 > *"Order will be maintained. By any means."*
 
 ## Image Prompt
-> A uniformed soldier in chrome armor raising a hand, a protester freezing mid-step.
+> Synod Peacekeeper, Human Soldier from Mirrodin Manifest. Setting: Mer-Ikan Foundry street — bronze buildings, tense crowd. Mood: Institutional horror masked as peace. Pose: Uniformed soldier raising one chrome-gauntleted hand as a protester freezes mid-step, other hand resting on weapon. Key visual elements: Chrome armor with Synod insignia, iron-reinforced bone visible at jaw, vigilant stance even while enforcing stillness. Style reference: Kev Walker meets Greg Staples. Color palette: Golds, bronze, chrome armor, dark red accents.
 
 ## Design Notes
 - White common creature - addresses White common gap (-5)

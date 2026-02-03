@@ -28,7 +28,7 @@ Creature — Human
 > *Forty years at the forge. Replaced by something that doesn't even have hands.*
 
 ## Image Prompt
-> A tired human worker standing outside a chrome factory, holding a termination notice. Through the window behind them, tiny Myr inefficiently attempt to do the work they once did. The worker's expression is a mix of anger and resignation. Other displaced workers gather nearby, some organizing, some simply lost. Industrial Mirrodin backdrop, MTG card art style.
+> Displaced Worker, Human from Mirrodin Manifest. Setting: The Great Furnace/Mer-Ikan Foundry — outside chrome factory gates. Mood: Buried rage. Pose: Standing defeated, holding termination notice, watching through window as Myr replace them. Key visual elements: Iron-veined hands crumpling notice, chrome factory behind, tiny inefficient Myr visible through window. Style reference: Kev Walker meets Rebecca Guay. Color palette: White notice, bronze factory, gold and dark red accents.
 
 ## Design Notes
 - **Source:** The 50,000+ workers laid off with AI cited as the reason; the "AI-washing" phenomenon
@@ -38,3 +38,8 @@ Creature — Human
 - White for the working class, community, and displaced labor
 - Common because this is happening everywhere
 - Pairs with: [[Optimization Lie]], [[Trough of Disillusionment]]
+
+## Outside of this set interactions
+- **Notable Synergies:** Treasure tokens / artifact token generators (fuel for pump), [[Cranial Plating]] (already in artifact deck), [[Shrapnel Blast]] (sacrifice synergies)
+- **Potential Combos:** [[Dross Scorpion]] + [[Krark-Clan Ironworks]]: Sacrifice Myr for mana, untap Dross Scorpion, but need death trigger creatures. Not broken with just this card.
+- **Balance Assessment:** Fair - Solid common for artifact strategies.

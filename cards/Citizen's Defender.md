@@ -28,10 +28,15 @@ Creature — Human Knight
 > 1/2
 
 ## Image Prompt
-> A stalwart knight standing between civilians and danger. Protective stance, worn but reliable armor, MTG card art style.
+> Citizen's Defender, Human Knight from Mirrodin Manifest. Setting: Mer-Ikan Foundry — civilian district street, danger approaching. Mood: Grim determination. Pose: Shield raised, standing protectively between civilians and unseen threat. Key visual elements: Worn but reliable bronze armor, iron-veined arms braced against shield, civilians huddled behind. Style reference: Kev Walker meets Greg Staples. Color palette: Golds, bronze, dark red, warm civilian tones.
 
 ## Design Notes
 - White 1-drop to fill aggro curve
 - Human tribal synergy
 - Simple conditional bonus for NWO compliance
 - Pairs with: [[Civilian Militia]], [[Refugee Aid Worker]]
+
+## Outside of this set interactions
+- **Notable Synergies:** [[Thalia's Lieutenant]] (Human tribal), [[Champion of the Parish]] (Humans matter)
+- **Potential Combos:** None
+- **Balance Assessment:** Fair - Standard tribal 1-drop. Clean design.

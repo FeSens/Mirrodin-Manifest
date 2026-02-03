@@ -33,7 +33,7 @@ Creature — Human Noble
 > *"My name was never in that ledger. I was never on that isle."*
 
 ## Image Prompt
-> A wealthy noble in a hooded cloak, face obscured, being escorted off a Glimmer-Barge by Myr servants. They clutch documents close to their chest. The Private Isle looms behind them. Guilt and privilege.
+> Veiled Client, Human Noble from Mirrodin Manifest. Setting: Glimmer-Barge dock near Ep-Styn's Silent Isle — departing with secrets. Mood: Suspicion. Pose: Being escorted by Myr servants, clutching documents to chest, face obscured by hood. Key visual elements: Wealthy robes barely visible beneath concealing cloak, Private Isle looming in background, guilt counters faintly visible around their form. Style reference: Nils Hamm meets Greg Staples. Color palette: Black hood, white noble robes beneath, gold accents, Isle's dark silhouette.
 
 ## Design Notes
 - Protection from Unforged = witnesses can't touch them
@@ -42,3 +42,8 @@ Creature — Human Noble
 - Counter synergy: [[COMPOUND]]/[[Hype Cycle]] extends their guilt supply
 - Lore connection: [[Lore#The Great Ep-Styn Mystery]] - The Veiled Clients from the Black Ledger
 - Pairs with: [[Ep-Styn's Silent Isle]], [[The Black Ledger]], [[Private Isle Guard]], [[Glimmer-Barge]]
+
+## Outside of this set interactions
+- **Notable Synergies:** Proliferate, [[Solemnity]] (never loses guilt counters but can't draw!)
+- **BROKEN COMBOS:** With [[Solemnity]], can't remove guilt counters so can't draw but also never dies - mild synergy
+- **Balance Assessment:** Fair - Self-limiting design

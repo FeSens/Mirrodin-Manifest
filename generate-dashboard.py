@@ -450,6 +450,8 @@ class SetAnalyzer:
             'rarity': c.rarity,
             'power': c.power,
             'toughness': c.toughness,
+            'mana_cost': c.mana_cost,
+            'rules_text': c.rules_text,
         } for c in sorted(self.cards, key=lambda x: (x.color, x.cmc, x.name))]
 
     def _set_skeleton_analysis(self) -> Dict:
@@ -944,6 +946,74 @@ def _generate_nwo_warnings_html(warnings: List[Dict]) -> str:
         html += f'<div style="color: var(--text-secondary); text-align: center;">...and {len(warnings) - 10} more</div>'
     html += '</div>'
     return html
+
+
+def _generate_card_html(card: Dict) -> str:
+    """Generate HTML for a single card in the spoiler grid."""
+    import html as html_lib
+
+    name = html_lib.escape(card['name'])
+    card_type = html_lib.escape(card['type'])
+    color = card['color']
+    rarity = card['rarity']
+    cmc = card['cmc']
+    mana_cost = html_lib.escape(card.get('mana_cost', str(cmc)))
+    rules_text = html_lib.escape(card.get('rules_text', ''))
+    power = card.get('power', '')
+    toughness = card.get('toughness', '')
+
+    # Determine base type for filtering
+    type_lower = card_type.lower()
+    if 'creature' in type_lower:
+        base_type = 'Creature'
+    elif 'instant' in type_lower:
+        base_type = 'Instant'
+    elif 'sorcery' in type_lower:
+        base_type = 'Sorcery'
+    elif 'enchantment' in type_lower:
+        base_type = 'Enchantment'
+    elif 'artifact' in type_lower:
+        base_type = 'Artifact'
+    elif 'land' in type_lower:
+        base_type = 'Land'
+    else:
+        base_type = 'Other'
+
+    # Header color class
+    header_class = color
+    if base_type == 'Land' and color == 'Colorless':
+        header_class = 'Land'
+
+    # P/T display
+    pt_html = ''
+    if power and toughness:
+        pt_html = f'<span class="card-pt">{power}/{toughness}</span>'
+
+    # Rules text display
+    rules_html = rules_text if rules_text else '<em>View card file for rules text</em>'
+
+    return f'''
+            <div class="mtg-card"
+                 data-name="{name.lower()}"
+                 data-color="{color}"
+                 data-rarity="{rarity}"
+                 data-type="{base_type}">
+                <div class="card-header {header_class}">
+                    <span class="card-name">{name}</span>
+                    <span class="card-mana">{mana_cost}</span>
+                </div>
+                <div class="card-type-line">{card_type}</div>
+                <div class="card-text-box">
+                    <div class="rules-text">{rules_html}</div>
+                </div>
+                <div class="card-footer">
+                    <div>
+                        <span class="rarity-gem {rarity}"></span>
+                        <span class="card-rarity-label">{rarity}</span>
+                    </div>
+                    {pt_html}
+                </div>
+            </div>'''
 
 
 def generate_dashboard_html(analyzer: SetAnalyzer) -> str:
@@ -1516,6 +1586,238 @@ def generate_dashboard_html(analyzer: SetAnalyzer) -> str:
             .removal-grid {{
                 grid-template-columns: repeat(2, 1fr);
             }}
+
+            .spoiler-grid {{
+                grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+            }}
+        }}
+
+        /* Card Spoiler View Styles */
+        .filter-bar {{
+            display: flex;
+            flex-wrap: wrap;
+            gap: 12px;
+            margin-bottom: 20px;
+            padding: 16px;
+            background: var(--bg-card);
+            border-radius: 12px;
+            border: 1px solid rgba(255,255,255,0.1);
+            align-items: center;
+        }}
+
+        .filter-group {{
+            display: flex;
+            flex-direction: column;
+            gap: 4px;
+        }}
+
+        .filter-group label {{
+            font-size: 0.75em;
+            color: var(--text-secondary);
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }}
+
+        .filter-group select,
+        .filter-group input {{
+            padding: 8px 12px;
+            background: rgba(0,0,0,0.3);
+            border: 1px solid rgba(255,255,255,0.1);
+            border-radius: 6px;
+            color: var(--text-primary);
+            font-size: 0.9em;
+            min-width: 140px;
+        }}
+
+        .filter-group select:focus,
+        .filter-group input:focus {{
+            outline: none;
+            border-color: var(--accent);
+        }}
+
+        .filter-group input::placeholder {{
+            color: var(--text-secondary);
+        }}
+
+        .filter-count {{
+            margin-left: auto;
+            font-size: 0.9em;
+            color: var(--text-secondary);
+        }}
+
+        .filter-count span {{
+            color: var(--accent);
+            font-weight: 600;
+        }}
+
+        .clear-filters {{
+            padding: 8px 16px;
+            background: transparent;
+            border: 1px solid var(--accent);
+            border-radius: 6px;
+            color: var(--accent);
+            cursor: pointer;
+            font-size: 0.85em;
+            transition: all 0.2s;
+        }}
+
+        .clear-filters:hover {{
+            background: var(--accent);
+            color: var(--bg-primary);
+        }}
+
+        .spoiler-grid {{
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+            gap: 20px;
+            padding: 10px 0;
+        }}
+
+        .mtg-card {{
+            width: 100%;
+            height: 400px;
+            background: #1a1a1a;
+            border-radius: 12px;
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+            border: 3px solid #333;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.4);
+            transition: transform 0.2s, box-shadow 0.2s;
+        }}
+
+        .mtg-card:hover {{
+            transform: translateY(-4px);
+            box-shadow: 0 8px 25px rgba(0,0,0,0.5);
+        }}
+
+        .mtg-card.hidden {{
+            display: none;
+        }}
+
+        .card-header {{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 12px 14px;
+            min-height: 48px;
+        }}
+
+        .card-header.White {{ background: linear-gradient(135deg, #f8f6d8 0%, #e8e6c8 100%); color: #333; }}
+        .card-header.Blue {{ background: linear-gradient(135deg, #1a7dc4 0%, #0e68ab 100%); color: #fff; }}
+        .card-header.Black {{ background: linear-gradient(135deg, #5b4d54 0%, #3b2d34 100%); color: #ddd; }}
+        .card-header.Red {{ background: linear-gradient(135deg, #e33030 0%, #c31a1a 100%); color: #fff; }}
+        .card-header.Green {{ background: linear-gradient(135deg, #1a8a4e 0%, #00633e 100%); color: #fff; }}
+        .card-header.Colorless {{ background: linear-gradient(135deg, #b1a8a1 0%, #918881 100%); color: #333; }}
+        .card-header.Multicolor {{ background: linear-gradient(135deg, #d9b237 0%, #b99217 100%); color: #333; }}
+        .card-header.Land {{ background: linear-gradient(135deg, #9b8365 0%, #7b6345 100%); color: #fff; }}
+
+        .card-name {{
+            font-family: 'Cinzel', serif;
+            font-size: 0.95em;
+            font-weight: 600;
+            line-height: 1.2;
+            flex: 1;
+            margin-right: 8px;
+        }}
+
+        .card-mana {{
+            font-size: 0.85em;
+            font-weight: 600;
+            white-space: nowrap;
+            background: rgba(0,0,0,0.2);
+            padding: 2px 6px;
+            border-radius: 4px;
+        }}
+
+        .card-type-line {{
+            padding: 8px 14px;
+            background: rgba(255,255,255,0.05);
+            font-size: 0.85em;
+            color: var(--text-secondary);
+            border-top: 1px solid rgba(255,255,255,0.1);
+            border-bottom: 1px solid rgba(255,255,255,0.1);
+        }}
+
+        .card-text-box {{
+            flex: 1;
+            padding: 14px;
+            overflow-y: auto;
+            font-size: 0.85em;
+            line-height: 1.5;
+            color: var(--text-primary);
+            background: rgba(0,0,0,0.2);
+        }}
+
+        .card-text-box::-webkit-scrollbar {{
+            width: 6px;
+        }}
+
+        .card-text-box::-webkit-scrollbar-track {{
+            background: rgba(0,0,0,0.2);
+        }}
+
+        .card-text-box::-webkit-scrollbar-thumb {{
+            background: rgba(255,255,255,0.2);
+            border-radius: 3px;
+        }}
+
+        .rules-text {{
+            color: var(--text-primary);
+        }}
+
+        .rules-text em {{
+            color: var(--text-secondary);
+            font-style: italic;
+        }}
+
+        .card-footer {{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 14px;
+            background: rgba(0,0,0,0.3);
+            border-top: 1px solid rgba(255,255,255,0.1);
+        }}
+
+        .rarity-gem {{
+            width: 14px;
+            height: 14px;
+            border-radius: 50%;
+            display: inline-block;
+        }}
+
+        .rarity-gem.Common {{ background: radial-gradient(circle at 30% 30%, #888 0%, #444 100%); }}
+        .rarity-gem.Uncommon {{ background: radial-gradient(circle at 30% 30%, #c0c8d0 0%, #606870 100%); }}
+        .rarity-gem.Rare {{ background: radial-gradient(circle at 30% 30%, #ffd700 0%, #b8941c 100%); }}
+        .rarity-gem.Mythic {{ background: radial-gradient(circle at 30% 30%, #ff6b35 0%, #d35f10 100%); }}
+
+        .card-pt {{
+            font-size: 1.1em;
+            font-weight: 700;
+            color: var(--text-primary);
+            background: rgba(255,255,255,0.1);
+            padding: 4px 10px;
+            border-radius: 4px;
+        }}
+
+        .card-rarity-label {{
+            font-size: 0.75em;
+            color: var(--text-secondary);
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }}
+
+        .no-results {{
+            grid-column: 1 / -1;
+            text-align: center;
+            padding: 60px 20px;
+            color: var(--text-secondary);
+        }}
+
+        .no-results h3 {{
+            color: var(--accent);
+            margin-bottom: 10px;
         }}
     </style>
 </head>
@@ -1899,31 +2201,54 @@ def generate_dashboard_html(analyzer: SetAnalyzer) -> str:
 
         <!-- Card List Tab -->
         <div class="tab-content" id="cardlist">
-            <div class="table-container">
-                <table class="card-table">
-                    <thead>
-                        <tr>
-                            <th>Card Name</th>
-                            <th>Type</th>
-                            <th>Color</th>
-                            <th>CMC</th>
-                            <th>P/T</th>
-                            <th>Rarity</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        {''.join(f"""
-                        <tr>
-                            <td>{card['name']}</td>
-                            <td>{card['type']}</td>
-                            <td><span class="color-dot {card['color']}"></span>{card['color']}</td>
-                            <td>{card['cmc']}</td>
-                            <td>{f"{card['power']}/{card['toughness']}" if card['power'] else '—'}</td>
-                            <td><span class="rarity-badge {card['rarity']}">{card['rarity']}</span></td>
-                        </tr>
-                        """ for card in stats['card_list'])}
-                    </tbody>
-                </table>
+            <!-- Filter Controls -->
+            <div class="filter-bar">
+                <div class="filter-group">
+                    <label>Search</label>
+                    <input type="text" id="searchFilter" placeholder="Card name...">
+                </div>
+                <div class="filter-group">
+                    <label>Color</label>
+                    <select id="colorFilter">
+                        <option value="">All Colors</option>
+                        <option value="White">White</option>
+                        <option value="Blue">Blue</option>
+                        <option value="Black">Black</option>
+                        <option value="Red">Red</option>
+                        <option value="Green">Green</option>
+                        <option value="Colorless">Colorless</option>
+                        <option value="Multicolor">Multicolor</option>
+                    </select>
+                </div>
+                <div class="filter-group">
+                    <label>Rarity</label>
+                    <select id="rarityFilter">
+                        <option value="">All Rarities</option>
+                        <option value="Common">Common</option>
+                        <option value="Uncommon">Uncommon</option>
+                        <option value="Rare">Rare</option>
+                        <option value="Mythic">Mythic</option>
+                    </select>
+                </div>
+                <div class="filter-group">
+                    <label>Type</label>
+                    <select id="typeFilter">
+                        <option value="">All Types</option>
+                        <option value="Creature">Creature</option>
+                        <option value="Instant">Instant</option>
+                        <option value="Sorcery">Sorcery</option>
+                        <option value="Enchantment">Enchantment</option>
+                        <option value="Artifact">Artifact</option>
+                        <option value="Land">Land</option>
+                    </select>
+                </div>
+                <button class="clear-filters" onclick="clearFilters()">Clear Filters</button>
+                <div class="filter-count">Showing <span id="visibleCount">0</span> of <span id="totalCount">0</span> cards</div>
+            </div>
+
+            <!-- Spoiler Grid -->
+            <div class="spoiler-grid" id="spoilerGrid">
+                {''.join(_generate_card_html(card) for card in stats['card_list'])}
             </div>
         </div>
     </div>
@@ -2166,6 +2491,79 @@ def generate_dashboard_html(analyzer: SetAnalyzer) -> str:
                 document.getElementById(tab.dataset.tab).classList.add('active');
             }});
         }});
+
+        // ========================================
+        // Card Spoiler Grid Filtering
+        // ========================================
+
+        // Filter cards based on current filter values
+        function filterCards() {{
+            const searchValue = document.getElementById('searchFilter').value.toLowerCase();
+            const colorValue = document.getElementById('colorFilter').value;
+            const rarityValue = document.getElementById('rarityFilter').value;
+            const typeValue = document.getElementById('typeFilter').value;
+
+            const cards = document.querySelectorAll('.mtg-card');
+
+            cards.forEach(card => {{
+                const name = card.dataset.name;
+                const color = card.dataset.color;
+                const rarity = card.dataset.rarity;
+                const type = card.dataset.type;
+
+                let show = true;
+
+                // Search filter
+                if (searchValue && !name.includes(searchValue)) {{
+                    show = false;
+                }}
+
+                // Color filter
+                if (colorValue && color !== colorValue) {{
+                    show = false;
+                }}
+
+                // Rarity filter
+                if (rarityValue && rarity !== rarityValue) {{
+                    show = false;
+                }}
+
+                // Type filter
+                if (typeValue && type !== typeValue) {{
+                    show = false;
+                }}
+
+                card.classList.toggle('hidden', !show);
+            }});
+
+            updateVisibleCount();
+        }}
+
+        // Update visible card count
+        function updateVisibleCount() {{
+            const allCards = document.querySelectorAll('.mtg-card');
+            const visibleCards = document.querySelectorAll('.mtg-card:not(.hidden)');
+            document.getElementById('visibleCount').textContent = visibleCards.length;
+            document.getElementById('totalCount').textContent = allCards.length;
+        }}
+
+        // Clear all filters
+        function clearFilters() {{
+            document.getElementById('searchFilter').value = '';
+            document.getElementById('colorFilter').value = '';
+            document.getElementById('rarityFilter').value = '';
+            document.getElementById('typeFilter').value = '';
+            filterCards();
+        }}
+
+        // Add event listeners for filters
+        document.getElementById('searchFilter').addEventListener('input', filterCards);
+        document.getElementById('colorFilter').addEventListener('change', filterCards);
+        document.getElementById('rarityFilter').addEventListener('change', filterCards);
+        document.getElementById('typeFilter').addEventListener('change', filterCards);
+
+        // Initialize counts on page load
+        updateVisibleCount();
     </script>
 </body>
 </html>

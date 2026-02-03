@@ -23,7 +23,7 @@ Artifact
 > *"When paper fails, gold endures."*
 
 ## Image Prompt
-> A golden vault surrounded by crumbling paper contracts and failing currencies. As debt piles up around it, the gold inside glows brighter and multiplies. Safe haven aesthetic, MTG card art style.
+> Inflation Hedge — Artifact. Visual focus: A golden vault with reinforced chrome doors, glowing brighter as crumbling debt contracts and failing currency notes pile up around its base, gold multiplying within. Setting: The Glimmervoid, financial district ruins. Mood: False promise, sanctuary amid collapse. Style reference: Mark Tedin meets Greg Staples. Color palette: Gold, white, crumbling grey paper, copper reinforcement.
 
 ## Design Notes
 - Selesnya rare artifact
@@ -32,3 +32,7 @@ Artifact
 - Emergency debt destruction on sacrifice
 - [[Lore]] connection: gold rally, hedging against collapse
 - Pairs with: [[Gold Token]], [[Hedge Fund Manager]], [[Vault of the Liquid Sun]]
+
+## Outside of this set interactions
+- **Notable Synergies:** Cards that give opponents Debt (convert their punishment to your advantage), [[Smothering Tithe]] (similar "opponent does thing, you benefit" designs)
+- **Balance Assessment:** Fair - Set-specific hoser/payoff. Depends on Debt token prevalence.

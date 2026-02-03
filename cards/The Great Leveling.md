@@ -2,6 +2,7 @@
 tags:
   - card
   - broken-needs-review
+card_name: The Great Leveling
 type: Creature
 subtype: Construct
 color: White
@@ -13,7 +14,7 @@ toughness: 5
 set: Mirrodin Manifest
 ---
 
-# The Grand Equalizer
+# The Great Leveling
 
 ## Card Type Line
 Legendary Artifact Creature — Construct
@@ -21,7 +22,7 @@ Legendary Artifact Creature — Construct
 ## Rules Text
 > Vigilance
 >
-> When The Grand Equalizer enters the battlefield, redistribute among all permanents with counters on them. *(Remove all counters from all of them, then distribute that many counters evenly among them, rounded down, of the same types.)*
+> When The Great Leveling enters the battlefield, redistribute among all permanents with counters on them. *(Remove all counters from all of them, then distribute that many counters evenly among them, rounded down, of the same types.)*
 >
 > At the beginning of each end step, if any permanent has three or more counters than another permanent with counters, redistribute among those permanents.
 
@@ -29,7 +30,7 @@ Legendary Artifact Creature — Construct
 > *"No one rises. No one falls. All are equal before the Equalizer."*
 
 ## Image Prompt
-> A massive chrome construct with scales for arms, standing in perfect balance. All around it, counters flow from the wealthy to the poor, evening out. Cold, absolute fairness.
+> The Great Leveling, Legendary Construct from Mirrodin Manifest. Setting: The Great Furnace — central plaza where all are made equal. Mood: Institutional horror. Pose: Standing in perfect balance, scale-arms extended, redistributing everything. Key visual elements: Massive chrome form with literal scales for arms, counters flowing from rich to poor in every direction, cold perfect symmetry, emotionless face. Style reference: Seb McKinnon meets Greg Staples. Color palette: Cold chrome, white institutional light, flowing counter energy.
 
 ## Design Notes
 - White Mythic - addresses White mythic gap (-3)

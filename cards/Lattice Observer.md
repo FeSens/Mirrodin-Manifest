@@ -30,10 +30,14 @@ Creature — Vedalken Wizard
 > 2/4
 
 ## Image Prompt
-> A vedalken wizard floating above the Lattice network, observing data streams with glowing eyes. Serene and analytical, MTG card art style.
+> Lattice Observer, Vedalken Wizard from Mirrodin Manifest. Setting: The Seat of the Synod — floating serenely above the Lattice network, data streams flowing past. Mood: Suspicion, detached analysis. Pose: Hovering in meditation, head slightly tilted, glowing eyes tracking multiple data flows simultaneously. Key visual elements: Chrome skin reflecting data-light, flowing robes merging with information streams, cards materializing and dissolving as the looting effect is represented. Style reference: Greg Staples meets Mark Tedin. Color palette: Steel blue, chrome, cyan data-glow, deep observation-purple.
 
 ## Design Notes
 - Blue 4-drop flyer with card filtering
 - Fills 4-CMC gap at common
 - Looting helps find key cards
 - Pairs with: [[Lattice Interface]], [[Synod High Chancellor]]
+
+## Outside of this set interactions
+- **Notable Synergies:** Madness cards (enables madness triggers), [[Archfiend of Ifnir]] (discard triggers), [[Drake Haven]] (creates additional tokens), [[Rielle, the Everwise]] (draw from discard)
+- **Balance Assessment:** Fair - A 4-mana 2/4 flyer with loot is appropriate for common.

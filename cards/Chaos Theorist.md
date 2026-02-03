@@ -26,7 +26,7 @@ Creature — Human Wizard
 > *"Entropy is not disorder. It is opportunity."*
 
 ## Image Prompt
-> A wild-haired wizard surrounded by probability equations that catch fire. Dice orbit them like electrons.
+> Chaos Theorist, Human Wizard from Mirrodin Manifest. Setting: Oxidda mountains — volcanic research station amid lava flows. Mood: Grim determination. Pose: Standing with arms raised, channeling entropy itself. Key visual elements: Wild metallic hair standing on end, probability equations igniting in the air, dice orbiting like electrons, iron-veined skin glowing with heat. Style reference: Kev Walker meets Seb McKinnon. Color palette: Furnace orange, copper, electric blue equation lines.
 
 ## Design Notes
 - Red uncommon creature - addresses Red uncommon gap (-10)
@@ -38,5 +38,5 @@ Creature — Human Wizard
 
 ## Outside of this set interactions
 - **Notable Synergies:** [[Krark's Thumb]] improves gamble odds while dealing 1 damage per gamble regardless; [[Chance Encounter]] adds luck counters per gamble; [[Dictate of the Twin Gods]]/[[Fiery Emancipation]] damage multipliers
-- **Potential Combos:** [[Intruder Alarm]] + token generators - untap, gamble, deal damage repeatedly; [[Thousand-Year Storm]] + instants - each spell triggers multiple coin flips from Krark, the Thumbless; In multiplayer with multiple opponents, 1 damage to each adds up
+- **Potential Combos:** [[Intruder Alarm]] + token generators - untap, gamble, deal damage repeatedly; [[Thousand-Year Storm]] + instants - each spell triggers multiple coin flips from [[Krark, the Thumbless]]; In multiplayer with multiple opponents, 1 damage to each adds up
 - **Balance Assessment:** Balanced - 2 mana 2/2, damage happens win or lose (only 1 though), requires tap

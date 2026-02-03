@@ -23,7 +23,7 @@ Instant
 > *"The Tangle teaches: risk everything, gain everything."*
 
 ## Image Prompt
-> Two creatures locked in combat, dice rolling between them. The winner glows with added strength.
+> Gamble with Fate — Instant. Action depicted: Two creatures locked in brutal combat, a massive Tangle beast with copper-scaled hide grappling a chrome-plated predator, spectral dice tumbling between them mid-clash. Setting: Dense copper forest of the Tangle, verdigris-stained undergrowth. Focal point: The moment of impact, both creatures committed. Mood: Grim determination, primal risk. Style reference: Kev Walker meets Rebecca Guay. Color palette: Copper, forest green, olive with hints of gold from the dice.
 
 ## Design Notes
 - Green common instant - addresses Green common gap (-16)

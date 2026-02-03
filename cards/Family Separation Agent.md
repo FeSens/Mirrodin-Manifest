@@ -29,7 +29,7 @@ Creature — Human Soldier Mer-Ikan
 > *"The child goes to processing. The parent goes... elsewhere."*
 
 ## Image Prompt
-> A cold-eyed agent physically separating two creatures who reach for each other. The scene is clinical, heartbreaking. Institutional cruelty.
+> Family Separation Agent, Human Soldier Mer-Ikan from Mirrodin Manifest. Setting: The Great Furnace/Mer-Ikan Foundry — sterile processing corridor. Mood: Institutional horror. Pose: Standing between two creatures, arms pushing them apart as they reach for each other. Key visual elements: Cold iron-veined face showing no emotion, white-and-black uniform of bureaucratic enforcement, desperate reaching hands behind. Style reference: Nils Hamm meets Kev Walker. Color palette: White uniform, black accents, bronze skin tones on separated figures.
 
 ## Design Notes
 - Exiles small creatures (children/vulnerable)
@@ -38,3 +38,7 @@ Creature — Human Soldier Mer-Ikan
 - Mechanically represents family separation
 - Lore connection: [[Lore#The Mer-Ikan Foundry (America)]] - family separation policy
 - Pairs with: [[Tromp, the Gilded Sentinel]], [[Detention Warden]], [[Reprocessing Agent]]
+
+## Outside of this set interactions
+- **Notable Synergies:** [[Phyrexian Tower]] (sacrifice after exiling to give opponent a tutor), Wrath effects (mass removal returns creature AND gives tutor), [[Oblivion Ring]] style effects (chain exiles), [[Solitude]] (both exile small creatures in W/B)
+- **Balance Assessment:** Fair - The "family reunion" tutor is a clever design that gives opponents compensation. Well-balanced.

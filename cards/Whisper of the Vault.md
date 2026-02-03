@@ -21,7 +21,7 @@ Instant
 > *"The Black Ledger knows your secrets. All of them."*
 
 ## Image Prompt
-> A shadowy figure whispering into a victim's ear, dark tendrils extracting memories.
+> Whisper of the Vault — Instant. Action depicted: A shadowy figure whispering dark secrets into a victim's ear while tendrils extract memories. Setting: Vault of Whispers — intimate chamber of extracted secrets. Focal point: The moment of extraction, dark tendrils pulling thoughts from victim's mind as whispers enter. Mood: Institutional horror. Style reference: Nils Hamm. Color palette: Near-black shadows, dark olive tendrils, necrogen glow of extracted thoughts.
 
 ## Design Notes
 - Black common instant - addresses Black common gap (-6)

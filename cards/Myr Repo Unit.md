@@ -24,7 +24,7 @@ Artifact Creature — Myr
 > *"Default detected. Initiating collection protocol."*
 
 ## Image Prompt
-> A menacing chrome Myr with clamp-like appendages and a red scanning beam, approaching a debtor's workshop. Behind it, more Repo Units march in formation. Cold, mechanical debt collection. MTG card art style.
+> Myr Repo Unit, Myr from Mirrodin Manifest. Setting: The industrial outskirts — approaching a debtor's workshop at dawn. Mood: Institutional horror, inevitable collection. Pose: Marching forward with clamp-appendages extended, red scanning beam sweeping for assets, more units in formation behind. Key visual elements: Chrome body with corporate insignia, clamp-like hands designed for seizure, red targeting beam, debtor's workshop door in crosshairs. Style reference: Mark Tedin meets Nils Hamm. Color palette: Steel chrome, debt-collection red beam, cold morning light, workshop warmth about to be extinguished.
 
 ## Design Notes
 - Colorless uncommon creature
@@ -32,3 +32,7 @@ Artifact Creature — Myr
 - 2/2 body is reasonable for 3 mana with upside
 - Artifact creature type for set synergies
 - Pairs with: [[Debt Collector Myr]], [[Collection Agent]]
+
+## Outside of this set interactions
+- **Notable Synergies:** [[Panharmonicon]] (double debt creation), [[Conjurer's Closet]] (end step debt creation), [[Metallic Mimic]] (Myr tribal)
+- **Balance Assessment:** Fair - 3 mana 2/2 with opponent gets a 1-damage delayed trigger is reasonable. Standard ETB value, no infinite loops.

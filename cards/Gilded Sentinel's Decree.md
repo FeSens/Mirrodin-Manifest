@@ -27,7 +27,7 @@ Sorcery
 > — Tromp, the Gilded Sentinel
 
 ## Image Prompt
-> Tromp the Loxodon standing on a balcony of the Great Furnace, arms raised, emanating a blinding golden decree that ripples outward. Below, creatures without proper documentation dissolve into light while others cower. The Darksteel Wall looms in the background. Brilliant golds, whites, and burnished bronze. MTG card art style, authoritarian grandeur, propaganda poster aesthetic.
+> Gilded Sentinel's Decree — Sorcery. Action depicted: A massive proclamation scroll unfurling from Tromp's balcony, golden light radiating outward as creatures without proper origin dissolve into exile, others cowering beneath the decree's reach. Setting: The Great Furnace, the Darksteel Wall looming in the distance. Focal point: The blinding golden decree rippling across the land. Mood: Institutional horror, authoritarian grandeur. Style reference: Greg Staples meets Seb McKinnon. Color palette: Brilliant golds, whites, burnished bronze, dark red shadows.
 
 ## Design Notes
 - First mode: Mass exile for tokens/reanimated/cheated creatures (deportation)
@@ -36,3 +36,8 @@ Sorcery
 - Lore connection: [[Lore#The Mer-Ikan Foundry (America)]] - Tromp's signature policy card
 - White's "law and order" taken to authoritarian extreme
 - Pairs with: [[Tromp, the Gilded Sentinel]], [[The Darksteel Wall]], [[Foundry Border Commander]]
+
+## Outside of this set interactions
+- **Notable Synergies:** [[Bitterblossom]] (unaffected; you cast it, tokens are expendable), [[Containment Priest]] (different angle, but similar hate), [[Armageddon]] (follow up with land destruction = no one casts anything)
+- **BROKEN COMBOS:** Gilded Sentinel's Decree (mode 2) + [[Armageddon]]/[[Ravages of War]] = Permanent spell lock. At 0 lands, only 0-cost spells are castable. [[Winter Orb]] + Decree = Soft lock on expensive spells.
+- **Balance Assessment:** POTENTIALLY BROKEN - Mode 1 is a meta-dependent hoser. Mode 2 combined with land destruction creates a hard lock. The "until your next turn" duration prevents infinite lock solo, but in multiplayer or with Seedborn Muse effects, it's oppressive.

@@ -21,7 +21,7 @@ Sorcery
 > *"All debts are forgiven. Begin again."*
 
 ## Image Prompt
-> A grand proclamation being read from a white tower, all debt contracts across the land dissolving into light. Citizens celebrate as their burdens lift. A moment of universal relief and fresh starts. Biblical jubilee aesthetic, MTG card art style.
+> Jubilee Declaration — Sorcery. Action depicted: A grand proclamation unfurling from a white tower, golden light radiating outward as Debt tokens across the land dissolve into motes of light, Citizens raising their arms in celebration as their burdens lift. Setting: The Mer-Ikan Foundry, a central plaza beneath the declaration tower. Focal point: The moment of release, debts becoming light. Mood: Genuine hope, universal relief. Style reference: Greg Staples meets Rebecca Guay. Color palette: Golds, bronze, brilliant whites, warm celebratory light.
 
 ## Design Notes
 - White uncommon sorcery
@@ -30,3 +30,7 @@ Sorcery
 - Life gain compensates for the reset
 - [[Lore]] connection: debt relief programs
 - Pairs with: [[Debt Forgiveness]], [[Central Bank Governor]]
+
+## Outside of this set interactions
+- **Notable Synergies:** Debt creation cards (give opponents Debt, then profit from destruction), Lifegain payoffs like [[Heliod's Intervention]] style (mass lifegain)
+- **Balance Assessment:** Fair - Set-specific Debt hoser. Symmetrical effect.

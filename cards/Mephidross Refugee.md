@@ -27,7 +27,7 @@ Creature — Human Citizen
 > *"The Dross is poison. The Wall is death. I choose the poison I know."*
 
 ## Image Prompt
-> A haggard figure fleeing the toxic Mephidross swamps, looking back at the gleaming Darksteel Wall blocking their path. Caught between horrors.
+> Mephidross Refugee, Human Citizen from Mirrodin Manifest. Setting: The border between Mephidross and the Darksteel Wall — trapped between two nightmares. Mood: Exhaustion, desperate choice. Pose: A haggard figure with iron-veined skin stumbling forward, looking back at the toxic swamps while the gleaming Wall looms ahead, blocking escape. Key visual elements: Ragged clothes stained with necrogen, hollow eyes weighing impossible options, chrome bones visible through malnourished skin. Style reference: Nils Hamm meets Kev Walker. Color palette: Near-black swamp behind, cold chrome Wall ahead, human warmth caught between.
 
 ## Design Notes
 - 1-drop that can evade deportation (exile)
@@ -36,3 +36,7 @@ Creature — Human Citizen
 - Mephidross = origin they're fleeing
 - Lore connection: [[Lore#The Mer-Ikan Foundry (America)]] - refugees fleeing the Mephidross
 - Pairs with: [[The Darksteel Wall]], [[Desperate Crosser]], [[Tunneling Hopeful]]
+
+## Outside of this set interactions
+- **Notable Synergies:** [[Skullclamp]] (draw 2 repeatedly), [[Grave Pact]] / [[Dictate of Erebos]] (sacrifice synergy), [[Phyrexian Altar]] (sacrifice for mana, recovers from exile), [[Rest in Peace]] (still triggers when exiled even if going to exile zone)
+- **Balance Assessment:** Fair - 1/1 can't block for 1 with exile resilience is unique but not broken.

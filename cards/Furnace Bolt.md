@@ -29,3 +29,7 @@ Instant
 - Standard Red removal at common
 - 1 mana for 2 damage is classic rate
 - Lore connection: [[Lore#The Mer-Ikan Foundry (America)]]
+
+## Outside of this set interactions
+- **Notable Synergies:** [[Torbran, Thane of Red Fell]] (becomes 4 damage), [[Guttersnipe]] (triggers on cast), [[Young Pyromancer]] (creates tokens), [[Lightning Bolt]] (compare: strictly worse but still good)
+- **Balance Assessment:** Fair - Shock variant. Perfectly balanced common.

@@ -31,7 +31,7 @@ Legendary Artifact
 > — Tromp, the Gilded Sentinel
 
 ## Image Prompt
-> A colossal wall of seamless darksteel stretching across the horizon, separating the gleaming Great Furnace territory from the toxic swamps of the Mephidross. Desperate figures claw at the base while armored Mer-Ikan sentries patrol the top. Tromp's gilded silhouette stands atop a watchtower. Metallic silver wall contrasting with sickly green Mephidross atmosphere. Epic scale, MTG card art style, imposing and oppressive.
+> The Darksteel Wall — Legendary Artifact. Visual focus: A colossal indestructible wall of seamless darksteel stretching across the horizon. Setting: Border between the Great Furnace and Mephidross — gleaming territory versus toxic swamps. Focal point: Tromp's gilded silhouette atop a watchtower, desperate figures clawing at the base. Mood: Institutional horror. Style reference: Mark Tedin meets John Avon. Color palette: Metallic silver wall, sickly green Mephidross, gold of Tromp's armor.
 
 ## Design Notes
 - Indestructible fits darksteel flavor and the "unbreakable wall" narrative

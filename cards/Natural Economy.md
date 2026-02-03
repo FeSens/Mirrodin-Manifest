@@ -23,7 +23,7 @@ Enchantment
 > *"The forest trades in sunlight, not promises."*
 
 ## Image Prompt
-> A serene grove where nature has reclaimed a collapsed bank building. Vines grow over debt contracts, neutralizing them. A druid tends to the natural economy while artificial debts wither. Nature's rejection of financial systems, MTG card art style.
+> Natural Economy — Enchantment. Visual focus: A serene Tangle grove where copper vines have overgrown and consumed a collapsed chrome bank structure, debt contracts dissolving into mulch. Setting: The Tangle, where nature rejects artificial systems. Mood: Genuine hope, natural reclamation. Style reference: Rebecca Guay meets Terese Nielsen. Color palette: Copper, forest green, olive, dissolving gold of former debts.
 
 ## Design Notes
 - Green uncommon enchantment
@@ -32,3 +32,7 @@ Enchantment
 - Green's nature-based economy rejects artificial debt
 - Strong hoser but only protects YOU
 - Pairs with: [[Bankruptcy Filing]], [[Inflation Hedge]]
+
+## Outside of this set interactions
+- **Notable Synergies:** Debt creation for yourself (completely nullifies downside), [[Solemnity]] (no counters means no debt damage - different approach), [[Spike Feeder]] / [[Kitchen Finks]] (life gain synergies)
+- **Balance Assessment:** Fair - Specific hoser card for the set's debt mechanic. Narrow but effective. Could enable "free" self-debt if any cards let you give yourself debt for benefit.

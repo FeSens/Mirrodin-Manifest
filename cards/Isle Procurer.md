@@ -29,10 +29,14 @@ Creature — Human Rogue
 > *"Fresh potential, as requested. The client list grows."*
 
 ## Image Prompt
-> A shadowy figure in fine clothes standing at a hidden dock, gesturing toward a Glimmer-Barge. Young figures with dim spark-light file past. The procurer's face is half-hidden, their smile cold. Dark waters, darker business.
+> Isle Procurer, Human Rogue from Mirrodin Manifest. Setting: Dross Dominion — a hidden dock at the edge of the Mephidross, Glimmer-Barge waiting in dark waters. Mood: Institutional horror, corrupted triumph. Pose: Standing with one arm extended toward the barge, directing young figures with dim spark-light filing past. Key visual elements: Fine clothes masking predatory intent, iron-veined face half-shadowed, secrecy counters manifesting as shadow-marks. Style reference: Nils Hamm. Color palette: Near-black, dark olive, necrogen glow, cold silver.
 
 ## Design Notes
 - Creates Unforged with spark counters for [[Spark Harvester]]
 - Grows from Unforged deaths (profiting from trafficking)
 - Secrecy counters track complicity
 - Ep-Styn network recruiter
+
+## Outside of this set interactions
+- **Notable Synergies:** Sacrifice outlets like [[Viscera Seer]] (grow Procurer quickly), Token doublers like [[Anointed Procession]] (more Unforged, more counters), [[Skullclamp]] (draw 2, grow Procurer)
+- **Balance Assessment:** Fair - Self-contained synergy piece. Needs work to grow.

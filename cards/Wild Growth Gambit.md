@@ -21,7 +21,7 @@ Sorcery
 > *"Nature rewards the bold. Or at least, the lucky."*
 
 ## Image Prompt
-> A Sylvok druid holding glowing seeds, some sprouting into massive trees, others wilting. The Tangle's growth is unpredictable.
+> Wild Growth Gambit — Sorcery. Action depicted: A Sylvok druid casting seeds with uncertain fates, some sprouting massively, others wilting. Setting: The Tangle clearing — where nature's gamble plays out. Focal point: Seeds mid-transformation, viewer uncertain which will thrive or fail, land magic swirling. Mood: Genuine hope. Style reference: Rebecca Guay. Color palette: Copper, forest green, glowing seed energy, uncertain growth light.
 
 ## Design Notes
 - Green common sorcery - addresses Green common gap (-16)
@@ -34,12 +34,12 @@ Sorcery
 ## Cross-Format Interactions
 | External Card | Interaction |
 |---------------|-------------|
-| **Krark's Thumb** | Improves gamble odds significantly |
-| **Library Manipulation** (Worldly Tutor, Sylvan Library) | Stack high CMC on top to win |
-| **Landfall Triggers** (Lotus Cobra, Omnath) | Win = immediate landfall trigger |
-| **Amulet of Vigor** | Land enters untapped on win = immediate mana |
-| **Tireless Provisioner** | Creates Food/Treasure on landfall |
-| **Crucible of Worlds** | Can replay lands if game goes long |
+| **[[Krark's Thumb]]** | Improves gamble odds significantly |
+| **Library Manipulation** ([[Worldly Tutor]], [[Sylvan Library]]) | Stack high CMC on top to win |
+| **Landfall Triggers** ([[Lotus Cobra]], [[Omnath, Locus of Creation]]) | Win = immediate landfall trigger |
+| **[[Amulet of Vigor]]** | Land enters untapped on win = immediate mana |
+| **[[Tireless Provisioner]]** | Creates Food/Treasure on landfall |
+| **[[Crucible of Worlds]]** | Can replay lands if game goes long |
 | **High CMC Deck Building** | Decks with expensive cards naturally win more gambles |
 
 **Format Assessment:**

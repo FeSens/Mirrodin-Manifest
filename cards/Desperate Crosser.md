@@ -29,7 +29,7 @@ Creature — Human Citizen
 > *"Stop or die. Run or die. What choice is that?"*
 
 ## Image Prompt
-> A figure running desperately across a barren border zone, searchlights sweeping behind them. Pure survival instinct.
+> Desperate Crosser, Human Citizen from Mirrodin Manifest. Setting: The Great Furnace/Mer-Ikan border — barren metal wasteland between zones. Mood: Exhaustion. Pose: Running desperately, glancing back at sweeping searchlights. Key visual elements: Iron-veined legs pumping, ragged clothes, searchlight beams cutting through darkness behind. Style reference: Kev Walker meets Rebecca Guay. Color palette: Furnace orange searchlights, copper ground, dark shadows.
 
 ## Design Notes
 - Must attack (can't stop moving)
@@ -38,3 +38,8 @@ Creature — Human Citizen
 - Represents desperate crossing
 - Lore connection: [[Lore#The Mer-Ikan Foundry (America)]] - desperate refugees
 - Pairs with: [[The Darksteel Wall]], [[Mephidross Refugee]], [[Tunneling Hopeful]]
+
+## Outside of this set interactions
+- **Notable Synergies:** [[Kiki-Jiki, Mirror Breaker]] (make copies that must attack, then die anyway), [[Goblin Bombardment]] (sacrifice before exile to avoid downsides), [[Sundial of the Infinite]] (end turn before sacrifice trigger)
+- **Potential Combos:** With [[Otherworldly Journey]] / [[Cloudshift]] effects: You can exile and return it to "reset" it, taking 2 damage but keeping the creature
+- **Balance Assessment:** Fair - Aggressive 1-drop with real downsides.

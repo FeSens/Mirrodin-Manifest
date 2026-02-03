@@ -23,7 +23,7 @@ Instant
 > *"Lightning strikes twice for those blessed by fortune."*
 
 ## Image Prompt
-> A bolt of golden lightning forking into two targets, the caster rolling dice mid-cast. Chaotic power.
+> Lucky Strike — Instant. Action depicted: A bolt of golden lightning forking mid-strike, one branch already connecting with a target, the second arcing toward another as spectral dice tumble alongside showing the gamble's outcome. Setting: The Great Furnace, combat on a forge-lit battlefield. Focal point: The forking lightning, the moment of doubled fortune. Mood: Buried rage, chaotic triumph. Style reference: Kev Walker. Color palette: Furnace orange, golden lightning, copper, bright strike-light.
 
 ## Design Notes
 - Red uncommon instant - addresses Red uncommon gap (-10)

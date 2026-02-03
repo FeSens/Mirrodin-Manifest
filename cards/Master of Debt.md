@@ -29,7 +29,7 @@ Legendary Creature — Human Warlock
 > *"Your debt is my wealth."*
 
 ## Image Prompt
-> A sinister warlock in black robes surrounded by floating treasure and debt contracts. Their eyes glow with greed as they convert others' suffering into personal wealth. Gold flows toward them while red debt chains bind their victims. Ultimate debt profiteer, MTG card art style.
+> Master of Debt, Human Warlock from Mirrodin Manifest. Setting: Dross Dominion — a vault where suffering becomes wealth. Mood: Corrupted triumph. Pose: Standing amid floating treasure and debt contracts, arms spread to receive the gold flowing toward them from bound victims. Key visual elements: Black robes with gold trim, chrome-bone fingers counting coins, eyes glowing with greed, red debt chains extending from their presence to bind unseen debtors. Style reference: Nils Hamm meets Seb McKinnon. Color palette: Near-black, dark olive, gold flowing inward, blood-red debt chains.
 
 ## Design Notes
 - Black mythic legendary creature
@@ -38,3 +38,7 @@ Legendary Creature — Human Warlock
 - Deathtouch provides defense
 - Inverse relationship with [[Gold Token]]
 - Pairs with: [[Loan Shark]], [[Collection Agent]], [[Vulture Capitalist]]
+
+## Outside of this set interactions
+- **Notable Synergies:** [[Clock of Omens]] (untap Master repeatedly), [[Unwinding Clock]] (untap on each player's turn), [[Thousand-Year Elixir]] + [[Seedborn Muse]] (activate on every turn), [[Intruder Alarm]] + creature ETB debt creators (potential mana loops)
+- **Balance Assessment:** Fair - 5 mana for the effect, requires other debt creators for maximum value. Self-contained 1 debt per turn is slow.

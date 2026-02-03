@@ -37,3 +37,7 @@ Creature — Human Advisor
 - Lore connection: [[Lore#The Glimmervoid Rally (Gold Rally)]] - free market ideology
 - Gold from Compound synergizes with [[🎲 GAMBLE]] (more Gold to gamble with)
 - Pairs with: [[Trickle-Down Theorist]], [[Hedge Fund Manager]], [[Austerity Minister]], [[Glimmervoid Broker]], [[The Rigged Game]]
+
+## Outside of this set interactions
+- **Notable Synergies:** [[Smothering Tithe]] (if Compound is common, massive Gold generation), [[Goldspan Dragon]] (Gold/Treasure synergy), [[Anointed Procession]] (double Gold tokens)
+- **Balance Assessment:** Fair - Requires set-specific mechanics to evaluate fully. Design is interesting risk/reward.

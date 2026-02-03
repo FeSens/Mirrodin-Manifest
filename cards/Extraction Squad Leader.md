@@ -27,7 +27,7 @@ Creature — Human Soldier Mer-Ikan
 > *"Voluntary departure... or assisted extraction. Choose quickly."*
 
 ## Image Prompt
-> An armored squad leader directing soldiers who drag a creature toward a processing center. Efficient, cold, organized.
+> Extraction Squad Leader, Human Soldier Mer-Ikan from Mirrodin Manifest. Setting: The Great Furnace/Mer-Ikan Foundry — processing center entrance. Mood: Institutional horror. Pose: Standing with arm raised directing soldiers who drag captured creature toward facility. Key visual elements: White chrome armor with iron-veined face beneath visor, soldiers in synchronized motion, processing facility looming behind. Style reference: Kev Walker meets Greg Staples. Color palette: White armor, bronze accents, dark red processing center interior.
 
 ## Design Notes
 - Banisher Priest variant with -1/-1 trauma
@@ -36,3 +36,7 @@ Creature — Human Soldier Mer-Ikan
 - Processing marks remain (-1/-1 counters synergize with [[☭REDISTRIBUTE]])
 - Lore connection: [[Lore#The Mer-Ikan Foundry (America)]] - deportation squads
 - Pairs with: [[Tromp, the Gilded Sentinel]], [[Reprocessing Agent]], [[Foundry Border Commander]], [[Simulated Labor Myr]], [[Inflation Harbinger]]
+
+## Outside of this set interactions
+- **Notable Synergies:** [[Flickerwisp]] (blink to exile multiple small creatures), [[Solemnity]] (prevents the -1/-1 counters on return - opponent's creature returns clean), Persist creatures (if targeting your own persist creatures... edge case), [[Hapatra, Vizier of Poisons]] (if you can get -1/-1 counters on your creatures)
+- **Balance Assessment:** Fair - Conditional exile with downside (creature returns weakened). Balanced uncommon.

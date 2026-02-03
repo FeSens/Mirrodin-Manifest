@@ -30,7 +30,7 @@ Creature — Human Soldier
 > 3/5
 
 ## Image Prompt
-> A haggard soldier in dented, worn armor sitting against a chrome wall, blood dried under his nose and around his ears. His eyes are hollow, staring at nothing. His weapon lies abandoned beside him. Other soldiers in similar condition are visible in the background, some being tended to by medics. The scene is aftermath—survival without victory. Muted colors, shell-shocked atmosphere, MTG card art style.
+> Terrified Survivor, Human Soldier from Mirrodin Manifest. Setting: The Great Furnace aftermath — chrome wall of a damaged Foundry facility. Mood: Exhaustion. Pose: Sitting slumped against the wall, weapon abandoned, staring at nothing. Key visual elements: Dented gold-bronze armor, blood dried around ears and nose from sonic trauma, hollow eyes, medics tending to others in background. Style reference: Kev Walker meets Nils Hamm. Color palette: Muted golds, dark bronze, clinical chrome.
 
 ## Design Notes
 - **Source:** Venezuelan guard who survived the raid and gave testimony about the sonic weapon

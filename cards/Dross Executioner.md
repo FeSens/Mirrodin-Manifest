@@ -24,7 +24,7 @@ Creature — Zombie Assassin
 > *"The Dross has its own justice."*
 
 ## Image Prompt
-> A skeletal assassin emerging from toxic mist, blackened blade dripping with corrosive ichor.
+> Dross Executioner, Zombie Assassin from Mirrodin Manifest. Setting: Vault of Whispers/Dross Dominion — toxic mist-shrouded execution grounds. Mood: Corrupted triumph. Pose: Emerging from mist, blackened blade raised and dripping with ichor. Key visual elements: Corroded chrome skeleton, iron-veined rotting flesh, blade weeping corrosive fluid. Style reference: Nils Hamm meets Kev Walker. Color palette: Near-black flesh, dark olive mist, necrogen glow on blade.
 
 ## Design Notes
 - Black common creature - addresses Black common gap (-6)

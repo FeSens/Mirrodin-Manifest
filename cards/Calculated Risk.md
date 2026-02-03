@@ -24,7 +24,7 @@ Instant
 > — Vedalken market analyst
 
 ## Image Prompt
-> A Vedalken studying holographic probability charts before flipping a coin. The outcome is already determined by data.
+> Calculated Risk — Instant. Action depicted: A Vedalken mid-coin-flip, holographic probability equations surrounding the spinning coin. Setting: En-Vidia Lattice data chamber, chrome walls reflecting calculations. Focal point: The coin at apex of its arc, numbers predicting its fall. Mood: False promise. Style reference: Greg Staples meets Mark Tedin.
 
 ## Design Notes
 - **Scry-to-Gamble bridge** - connects scry cards to gamble payoffs

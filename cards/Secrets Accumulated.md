@@ -26,7 +26,7 @@ Enchantment
 > *"Every secret is currency. Every name, a weapon."*
 
 ## Image Prompt
-> A black tome chained to a pedestal, its pages glowing with accumulated names and secrets. Counter-like symbols orbit it, each representing a different type of hidden knowledge.
+> Secrets Accumulated — Enchantment. Visual focus: A black tome chained to a darksteel pedestal, pages glowing with accumulated names and secrets. Setting: Vault of Whispers archive chamber, shadows pooling in every corner. Mood: Corrupted triumph. Key visual elements: Secrecy counters orbiting like dark fireflies, chains of blackened chrome binding the book, each page revealing different counter types as hidden currencies of power. Style reference: Nils Hamm meets Seb McKinnon. Color palette: Near-black, dark olive, faint necrogen glow on text.
 
 ## Design Notes
 - **Secrecy counter hub** - accumulates from all counter types

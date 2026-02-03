@@ -24,7 +24,7 @@ Creature — Elf Shaman
 > *"The Tangle teaches patience. Patience teaches when to leap."*
 
 ## Image Prompt
-> A Sylvok shaman reading patterns in falling leaves before a dice roll. Nature guides their fortune.
+> Sylvok Chance-Shaper, Elf Shaman from Mirrodin Manifest. Setting: The Tangle — copper trees with falling metallic leaves creating pattern. Mood: Grim determination. Pose: Kneeling among falling leaves, reading their patterns before a gamble decision, hands raised to catch fortune's signs. Key visual elements: Green skin with copper-traced veins, hair of fine metallic filaments, leaves frozen mid-fall forming scry pattern. Style reference: Rebecca Guay. Color palette: Copper, forest green, olive, gold leaf highlights.
 
 ## Design Notes
 - Green uncommon creature - addresses Green uncommon gap (-13, critical!)

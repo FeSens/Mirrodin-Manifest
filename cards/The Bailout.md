@@ -21,7 +21,7 @@ Instant
 > *"The Foundry always pays its debts—with other people's money."*
 
 ## Image Prompt
-> A massive white bureaucratic machine redistributing wealth across Mirrodin, with gold flowing from the wealthy to stabilize failing institutions. Life energy flows back to the operators. Grand scale corruption, MTG card art style.
+> The Bailout — Instant. Action depicted: Massive chrome bureaucratic apparatus redistributing counters across the battlefield. Setting: The Great Furnace — grand chamber of the Mer-Ikan Treasury. Focal point: Gold and life energy flowing from wealthy permanents toward failing institutions. Mood: Institutional horror. Style reference: Greg Staples meets Mark Tedin. Color palette: Gold, bronze, white institutional chrome.
 
 ## Design Notes
 - White rare instant

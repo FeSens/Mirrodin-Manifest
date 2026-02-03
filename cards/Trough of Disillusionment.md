@@ -27,7 +27,7 @@ Enchantment
 > *The Myr still function. They just don't perform miracles.*
 
 ## Image Prompt
-> A once-gleaming En-Vidia Processing Core now sitting dormant, covered in a thin layer of dust. Vedalken technicians stand around it, arms crossed, expressions disappointed. Charts on the walls show declining performance curves. The room's lighting is dim—power has been diverted elsewhere. Other Myr stand motionless in the background, awaiting commands that don't come. The aftermath of hype, MTG card art style.
+> Trough of Disillusionment — Enchantment. Visual focus: Once-gleaming En-Vidia Processing Core now dormant and dust-covered. Setting: En-Vidia Lattice facility — aftermath of broken promises. Focal point: Disappointed Vedalken technicians with crossed arms, declining charts on walls, dim lighting as power diverts elsewhere, motionless Myr awaiting commands that never come. Mood: Exhaustion. Style reference: Nils Hamm meets Mark Tedin. Color palette: Dulled steel blue, dusty chrome, fading cyan, disappointed grays.
 
 ## Design Notes
 - **Source:** Gartner's Hype Cycle - GenAI entering the Trough of Disillusionment in 2025

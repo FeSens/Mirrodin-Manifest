@@ -25,7 +25,7 @@ Legendary Artifact
 > *Every visitor. Every transaction. Every secret.*
 
 ## Image Prompt
-> An ancient tome bound in blackened chrome, pages edged with dried quicksilver. Names glow faintly on partially visible pages—some scratched out, some still legible. A Redaction-Myr lurks in the shadows, reaching for the book with ink-stained fingers. The book rests on Ep-Styn's desk in his private study on the Isle. Dark blacks, deep purples, and faint golden text glow. MTG card art style, mysterious and incriminating, noir atmosphere.
+> The Black Ledger — Legendary Artifact. Visual focus: An ancient tome bound in blackened chrome with quicksilver-edged pages. Setting: Ep-Styn's private study on the Silent Isle — shadows and secrets. Focal point: Names glowing faintly on pages, some scratched out, Redaction-Myr lurking with ink-stained fingers. Mood: Institutional horror. Style reference: Nils Hamm meets Mark Tedin. Color palette: Near-black, deep purple, faint golden text glow.
 
 ## Design Notes
 - Information-gathering artifact that builds evidence over time
@@ -33,3 +33,8 @@ Legendary Artifact
 - Ultimate scales with evidence gathered—more secrets = bigger payoff
 - [[Market Crash]] wipes all evidence (cover-up!)
 - Lore connection: [[Lore]] - Ep-Styn's client list that everyone wants destroyed or revealed
+
+## Outside of this set interactions
+- **Notable Synergies:** Proliferate effects ([[Inexorable Tide]], [[Contagion Engine]]), [[Doubling Season]]
+- **BROKEN COMBOS:** Accumulate counters, sacrifice to free-cast opponent's best spell; with proliferate can rapidly scale
+- **Balance Assessment:** Fair - Requires significant setup and sacrifice payoff is opponent-dependent

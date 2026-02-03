@@ -26,7 +26,7 @@ Sorcery
 > *Win, and the wealth compounds. Lose, and everyone shares the pain. Either way, you're never the one who suffers.*
 
 ## Image Prompt
-> A gambling table in a Glimmervoid back room, viewed from above. One player's hand is visible holding cards while their other hand secretly manipulates a mirror beneath the table, showing the opponent's deck. The table surface reflects probabilities and mana values in faint chrome light. The other players are oblivious, focused on their hands. The cheater's expression is serene confidence. Dim gold lighting, intimate corruption, MTG card art style.
+> The Rigged Game — Sorcery. Action depicted: A player secretly manipulating a gambling table from above while opponents remain oblivious. Setting: Glimmervoid back room — intimate private gambling den. Focal point: Mirror beneath table showing opponent's deck, cheater's serene confident smile, probability calculations reflected in chrome. Mood: False promise. Style reference: Nils Hamm meets Greg Staples. Color palette: Dim gold lighting, shadow black, chrome reflections.
 
 ## Design Notes
 - **Mechanic:** Touches all three set mechanics — Scry (gamble support), Gamble, Compound, Redistribute
@@ -38,3 +38,8 @@ Sorcery
 - Cheaper than Market Manipulation (3 vs 4 mana) but less explosive
 - **Philosophy:** The powerful never truly lose — they just change the rules
 - Pairs with: [[The House Edge]], [[Market Manipulation]], [[🎲 GAMBLE]], [[COMPOUND]], [[☭REDISTRIBUTE]]
+
+## Outside of this set interactions
+- **Notable Synergies:** The House Edge (guaranteed win), Proliferate (compound counters)
+- **BROKEN COMBOS:** With The House Edge, this is Scry 2, then scry 1, then guaranteed compound twice - exponential counter growth
+- **Balance Assessment:** Fair - Requires synergy cards to maximize

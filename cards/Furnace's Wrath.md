@@ -32,3 +32,8 @@ Enchantment
 - Lore connection: [[Lore#The Mer-Ikan Foundry (America)]]
 - Pairs with: [[Furnace Populist]], [[Foundry Apprentice]], [[Pyromantic Gambit]]
 - Red aggro payoff enchantment
+
+## Outside of this set interactions
+- **Notable Synergies:** [[Fiery Confluence]] (extra damage on all modes), [[Chain Lightning]] (improved efficiency), [[Guttersnipe]] (burn triggers + bonus damage), [[Thermo-Alchemist]] (repeatable ping now deals 2)
+- **Potential Combos:** With "each target" wording, multi-target spells get significant boosts ([[Searing Blaze]] becomes 4/4 instead of 3/3)
+- **Balance Assessment:** Fair - Similar to Pyromancer's Gauntlet but cheaper with a smaller bonus. Gamble trigger is set-specific.

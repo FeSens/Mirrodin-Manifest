@@ -29,7 +29,7 @@ Creature — Vedalken Advisor
 > *"The Lattice sees all futures. I merely choose which one arrives."*
 
 ## Image Prompt
-> An ancient Vedalken floating above the central node of the En-Vidia Lattice, eyes closed, surrounded by orbiting data streams. Their body is partially merged with chrome cables. The entire Seat of the Synod is visible below. Godlike presence, absolute knowledge.
+> Lattice Overseer, Vedalken Advisor from Mirrodin Manifest. Setting: The Seat of the Synod — suspended above the central node of the En-Vidia Lattice, the entire city visible below. Mood: Corrupted triumph, absolute knowledge. Pose: Floating with eyes closed in omniscient meditation, body partially merged with chrome cables, arms spread as compound counters spiral outward. Key visual elements: Ancient chrome skin webbed with data-filaments, orbiting streams showing every player's library top card, the scry-effect visualized as future-sight halos. Style reference: Seb McKinnon meets Mark Tedin. Color palette: Steel blue, chrome, cyan data-streams, godlike white light.
 
 ## Design Notes
 - Mythic AI lord that [[COMPOUND|compounds]] every turn
@@ -38,3 +38,7 @@ Creature — Vedalken Advisor
 - Lore connection: [[Lore#The "Aethel-Inference" (The AI Boom & Nvidia)]] - The Overseer of the En-Vidia Lattice
 - Scry on compound synergizes with [[🎲 GAMBLE]] (information advantage before gambling)
 - Pairs with: [[En-Vidia Processing Core]], [[Sal-Tman, Prophet of the Core-Logic]], [[Core-Logic Architect]], [[The House Edge]]
+
+## Outside of this set interactions
+- **Notable Synergies:** [[Doubling Season]] / [[Vorinclex, Monstrous Raider]] (double the counters from compound), [[Hardened Scales]] (extra counters when compounding +1/+1 counters), Planeswalkers (free loyalty counter every upkeep), [[Magistrate's Scepter]] (free time counter every upkeep toward extra turns), [[Darksteel Reactor]] (free counter every upkeep toward win condition)
+- **Balance Assessment:** Fair - Slow enough at 5 CMC and requiring setup. The upkeep trigger is powerful but not game-breaking. Commander staple potential.

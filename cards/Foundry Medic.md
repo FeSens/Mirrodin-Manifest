@@ -35,3 +35,7 @@ Creature — Human Cleric
 - Simple tap ability for NWO compliance
 - Defensive option for slower strategies
 - Pairs with: [[Terrified Survivor]], [[Civilian Militia]]
+
+## Outside of this set interactions
+- **Notable Synergies:** [[Pariah]] (redirect damage to Medic, prevent it), Banding (assign damage to creatures), [[Nomads en-Kor]] (redirect damage shenanigans), [[Stuffy Doll]] (prevent the damage you'd take)
+- **Balance Assessment:** Fair - Weak common. Prevent 1 damage is minimal impact.

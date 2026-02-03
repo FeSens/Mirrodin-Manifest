@@ -26,7 +26,7 @@ Creature — Elf Druid
 > *"Even the machines deserve compassion."*
 
 ## Image Prompt
-> An Elf gently repairing a damaged Myr with organic copper fibers, the creature's eyes flickering back to life.
+> Copper Myr Tender, Elf Druid from Mirrodin Manifest. Setting: The Tangle — beneath copper-leafed trees in a hidden grove. Mood: Genuine hope. Pose: Kneeling beside a damaged Myr, hands weaving organic copper fibers into its frame. Key visual elements: Metallic hair with copper streaks, iron-veined hands glowing green, Myr's eyes flickering to life. Style reference: Rebecca Guay meets Mark Tedin. Color palette: Copper, forest green, olive.
 
 ## Design Notes
 - Green common creature - addresses Green common gap (-7)

@@ -26,7 +26,7 @@ Creature — Wurm
 > *"It feeds on luck itself."*
 
 ## Image Prompt
-> A massive wurm bursting from the ground in a Glimmervoid casino, gold tokens cascading off its scales. Triple sevens glow on its hide.
+> Jackpot Wurm, Wurm from Mirrodin Manifest. Setting: The Glimmervoid — erupting through a casino floor, tables and patrons scattering. Mood: Corrupted triumph, primal chaos. Pose: Bursting upward, maw open, body coiled with explosive power. Key visual elements: Copper-scaled hide with embedded gold tokens, triple sevens glowing along its spine, +1/+1 counter crystals forming as it roars, chrome fangs and iron-ridged plates. Style reference: Kev Walker meets Rebecca Guay. Color palette: Gold, copper, forest green undertones, casino bright-lights.
 
 ## Design Notes
 - Green rare creature - addresses Green rare gap (-10, critical!)

@@ -30,7 +30,7 @@ Creature — Human Berserker
 > 3/2
 
 ## Image Prompt
-> A fierce berserker charging through copper undergrowth, nature's fury behind them. Wild and unstoppable, MTG card art style.
+> Tangle Berserker, Human Berserker from Mirrodin Manifest. Setting: The Tangle border with Oxidda — wild copper forest meeting volcanic rock. Mood: Buried rage. Pose: Mid-charge through undergrowth, weapon raised. Key visual elements: Iron-veined skin, wild metallic hair, nature's chaos reflected in eyes. Style reference: Kev Walker meets Rebecca Guay. Color palette: Copper, forest green, furnace orange.
 
 ## Design Notes
 - RG signpost uncommon for Gamble aggro

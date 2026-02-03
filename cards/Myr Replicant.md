@@ -27,7 +27,7 @@ Artifact Creature — Myr
 > *"One becomes two. Two becomes enough."*
 
 ## Image Prompt
-> A small chrome Myr standing next to an identical copy of itself. Both have glowing blue eyes and smooth, rounded bodies. A third partially-formed Myr emerges from a fabrication pod behind them. Assembly line aesthetic.
+> Myr Replicant, Myr from Mirrodin Manifest. Setting: En-Vidia Lattice — a replication chamber where copies spawn copies. Mood: False promise, exponential growth. Pose: A small chrome Myr standing beside its identical twin, both watching as a third emerges half-formed from a fabrication pod behind them. Key visual elements: Smooth chrome bodies with glowing blue eyes, replication counter visible as a pulsing node on chest, assembly precision in every joint. Style reference: Mark Tedin meets Stephan Martiniere. Color palette: Steel blue, chrome, cyan replication glow, cold multiplication.
 
 ## Design Notes
 - Self-replicating Myr for the AI/automation theme
@@ -36,6 +36,6 @@ Artifact Creature — Myr
 - Pairs with: [[Myr-Sourced Automation]], [[Simulated Labor Myr]], [[Recursive Self-Improvement]]
 
 ## Outside of this set interactions
-- **Notable Synergies:** [[Myr Galvanizer]] untaps all Myr; [[Clock of Omens]] tap Myr to untap artifacts; [[Proliferate effects]] add replication counters
+- **Notable Synergies:** [[Myr Galvanizer]] untaps all Myr; [[Clock of Omens]] tap Myr to untap artifacts; Proliferate effects add replication counters
 - **BROKEN COMBOS:** [[Doubling Season]] = INFINITE - Each copy enters with 2 counters due to Doubling Season. Pay {3}, remove 1 counter, create a copy with 2 counters. Repeat infinitely for unlimited Myr tokens; [[Panharmonicon]] each token enters with 2 counters (ETB doubled)
 - **Balance Assessment:** BROKEN with Doubling Season. Creates infinite Myr because each copy enters with 2 counters. Consider adding "nontoken" to ETB or "Tokens created this way don't trigger this ability"

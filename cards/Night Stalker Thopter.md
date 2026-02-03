@@ -32,7 +32,7 @@ Artifact — Vehicle
 > 4/3
 
 ## Image Prompt
-> A sleek, angular military thopter cutting through the night sky over a burning chrome city. Its hull is scarred with blast marks and one engine trails smoke, but it flies on. Foundry soldiers hang from its open bay, weapons ready. Searchlights sweep below but never catch it. The thopter is matte black against the orange glow of fires below. Mirrodin military aesthetic, resilience under fire, MTG card art style.
+> Night Stalker Thopter — Artifact Vehicle. Visual focus: A sleek, angular matte-black military thopter with battle scars and one smoking engine, cutting through darkness. Setting: Night sky over a burning chrome city, searchlights sweeping below. Mood: Grim determination, relentless mission. Style reference: Mark Tedin meets Stephan Martiniere. Color palette: Matte black, furnace orange glow from below, chrome highlights, military grays.
 
 ## Design Notes
 - **Source:** The 160th SOAR (Night Stalkers) MH-47G that was hit during the insertion; the pilot was shot in the legs but completed the mission and flew back to the USS Iwo Jima
@@ -43,3 +43,7 @@ Artifact — Vehicle
 - 4/3 stats: solid but not invincible
 - The flavor text is based on the actual MH-47G pilot's actions
 - Pairs with: [[Foundry Strike Team]], [[Operation Absolute Resolve]]
+
+## Outside of this set interactions
+- **Notable Synergies:** Vehicles matter cards ([[King Macar, the Gold-Cursed]], [[Peacewalker Colossus]]), Flying tribal ([[Favorable Winds]]), Combat damage triggers (enables them on ground creatures), [[Smuggler's Copter]] (general vehicle synergy)
+- **Balance Assessment:** Fair - 4 mana 4/3 flying vehicle with utility is appropriate at uncommon. Combat-focused utility vehicle with no infinite combos.

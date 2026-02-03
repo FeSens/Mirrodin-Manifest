@@ -24,7 +24,7 @@ Creature — Plant
 > *"The Tangle grows faster than the Foundry can clear it."*
 
 ## Image Prompt
-> A massive plant creature made of copper vines and organic metal, standing watch over a hidden refugee camp.
+> Overgrown Sentinel, Plant from Mirrodin Manifest. Setting: The Tangle — standing guard at the edge of a hidden refugee encampment. Mood: Grim determination. Pose: Standing tall and watchful, root-feet planted firmly, vine-arms spread wide in protective stance. Key visual elements: Massive form of interwoven copper vines and living metal, bark-like chrome plating on chest, glowing amber eyes scanning the perimeter. Style reference: Rebecca Guay meets Jesper Ejsing. Color palette: Copper, forest green, olive, warm amber highlights.
 
 ## Design Notes
 - Green common creature - addresses Green common gap (-7)

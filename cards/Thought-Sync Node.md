@@ -31,7 +31,7 @@ Artifact Creature — Construct
 > *"Uploading... uploading... upload complete."*
 
 ## Image Prompt
-> A tall crystalline spire embedded in chrome housing, pulsing with blue energy. Data streams flow into it from surrounding Myr units. Vedalken technicians monitor displays showing neural patterns. The Thought-Sync network hub.
+> Thought-Sync Node, Artifact Creature Construct from Mirrodin Manifest. Setting: En-Vidia Lattice — central network hub. Mood: Institutional horror. Pose: Standing sentinel, receiving data from all directions. Key visual elements: Crystalline spire in chrome housing, blue energy pulsing rhythmically, data streams flowing from Myr units, Vedalken technicians monitoring neural displays. Style reference: Mark Tedin meets Nils Hamm. Color palette: Steel blue, chrome housing, cyan data streams.
 
 ## Design Notes
 - Represents the Thought-Sync network from [[Lore#The "Aethel-Inference" (The AI Boom & Nvidia)]]
@@ -39,3 +39,7 @@ Artifact Creature — Construct
 - Payoff when depleted represents completed data transfer
 - Counter synergy: [[COMPOUND]]/[[Hype Cycle]] extends its lifespan
 - Pairs with: [[En-Vidia Processing Core]], [[Sal-Tman, Prophet of the Core-Logic]], [[Data Harvest Drone]]
+
+## Outside of this set interactions
+- **Notable Synergies:** Proliferate, [[Clock of Omens]] (extra activations)
+- **Balance Assessment:** Fair - Reasonable mill + card draw artifact

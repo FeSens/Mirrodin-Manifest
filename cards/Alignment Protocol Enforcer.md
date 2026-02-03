@@ -27,7 +27,7 @@ Artifact Creature — Construct
 > *"Your behavior has been flagged. Correction will follow."*
 
 ## Image Prompt
-> A towering white and gold construct with judicial robes integrated into its chrome frame. It holds a glowing gavel in one hand and a tablet listing violations in the other. Its eyes scan constantly. AI alignment enforcement made terrifying.
+> Alignment Protocol Enforcer, Construct from Mirrodin Manifest. Setting: Mer-Ikan Foundry — central enforcement plaza beneath towering spires. Mood: Institutional horror. Pose: Looming forward, gavel raised, tablet displaying violation list. Key visual elements: Judicial robes fused into chrome frame, constantly scanning eyes, gold and white plating with dark red trim. Style reference: Mark Tedin meets Greg Staples. Color palette: Golds, bronze, white chrome, dark red accents.
 
 ## Design Notes
 - AI safety/alignment parody - enforces behavior with exile
@@ -36,3 +36,8 @@ Artifact Creature — Construct
 - Counter synergy: [[Hype Cycle]] doubles violation counters, [[Market Crash]] wipes them
 - Lore connection: [[Lore#The "Aethel-Inference" (The AI Boom & Nvidia)]] - AI alignment enforcement
 - Pairs with: [[Sal-Tman, Prophet of the Core-Logic]], [[En-Vidia Processing Core]]
+
+## Outside of this set interactions
+- **Notable Synergies:** [[Doubling Season]] / [[Vorinclex, Monstrous Raider]] (doubles violation counters), [[Clock of Omens]] (untap repeatedly for multiple exiles), Proliferate effects ([[Atraxa, Praetors' Voice]], [[Inexorable Tide]] - add violation counters passively)
+- **Potential Combos:** [[Mycosynth Lattice]] + [[Clock of Omens]] (tap artifacts to repeatedly untap Enforcer for machine-gun exile), [[Isochron Scepter]] loops (spells cast pile up violation counters)
+- **Balance Assessment:** Fair - Requires 3 counters minimum, opponents can pay to prevent. The tax and removal are both costed reasonably.

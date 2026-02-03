@@ -32,3 +32,8 @@ Creature — Human Worker
 - NWO-compliant simple design
 - Lore connection: [[Lore#The Mer-Ikan Foundry (America)]]
 - Pairs with: [[Foundry Flames]], [[Volatile Reaction]]
+
+## Outside of this set interactions
+- **Notable Synergies:** [[Panharmonicon]] (double the mini-sweeper), [[Conjurer's Closet]] (repeatable mini-Pyroclasm), [[Basilisk Collar]] (1 damage + deathtouch = one-sided wrath)
+- **Potential Combos:** Furnace Stoker + [[Basilisk Collar]] - Repeatedly clears the board with blink effects
+- **Balance Assessment:** Fair - A common Inferno Titan variant at much lower power level.

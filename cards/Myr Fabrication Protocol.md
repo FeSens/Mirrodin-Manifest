@@ -26,7 +26,7 @@ Artifact
 > *"Efficiency protocol: Replace. Improve. Repeat."*
 
 ## Image Prompt
-> A gleaming Myr fabrication facility, assembly lines producing identical Myr units. Each emerges slightly improved from the last. The factory never stops.
+> Myr Fabrication Protocol — Artifact. Visual focus: A chrome assembly apparatus with multiple fabrication arms constructing Myr units in sequence. Setting: En-Vidia Lattice industrial sector, endless conveyor belts. Mood: Institutional horror, relentless efficiency. Style reference: Mark Tedin meets Stephan Martiniere. Color palette: Steel blue, chrome, cyan energy lines, cold white lighting.
 
 ## Design Notes
 - **Myr tribal hub** - buffs and replaces Myr

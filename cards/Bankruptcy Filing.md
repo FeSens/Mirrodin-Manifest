@@ -21,7 +21,7 @@ Sorcery
 > *"The Tangle knows no currency."*
 
 ## Image Prompt
-> A figure in green robes standing in a forest clearing, burning all their debt contracts in a ritual fire. The forest embraces them as they reject the artificial economy. Nature's rejection of debt, MTG card art style.
+> Bankruptcy Filing — Sorcery. Action depicted: A figure casting debt contracts into a ritual bonfire, copper-leafed trees bending toward the flames approvingly. Setting: The Tangle — a sacred clearing where nature reclaims. Focal point: Debt tokens dissolving into ash and forest light. Mood: Genuine hope. Style reference: Rebecca Guay meets John Avon.
 
 ## Design Notes
 - Green common sorcery
@@ -30,3 +30,8 @@ Sorcery
 - Green's philosophy: reject the debt system entirely
 - Addresses Green common gap
 - Pairs with: [[Natural Economy]], [[Inflation Hedge]]
+
+## Outside of this set interactions
+- **Notable Synergies:** Self-debt removal card
+- **Potential Combos:** None
+- **Balance Assessment:** Fair - Narrow application, requires Debt token infrastructure.

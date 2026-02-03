@@ -28,10 +28,14 @@ Creature — Human Warlock
 > 2/2
 
 ## Image Prompt
-> A warlock performing dark rituals in the swamps, spirits rising from the muck. Eerie green glow, MTG card art style.
+> Mephidross Ritualist, Human Warlock from Mirrodin Manifest. Setting: Dross Dominion — a ritual circle in the depths of Mephidross swamp. Mood: Corrupted triumph, dark purpose. Pose: Kneeling with chrome-veined arms raised, pulling spectral forms up from the bubbling muck as spirits answer the call. Key visual elements: Black ritual robes absorbing light, necrogen-green runes glowing in the air, ghostly chrome-boned spirits rising from the swamp. Style reference: Nils Hamm meets Seb McKinnon. Color palette: Near-black, dark olive, necrogen green ritual glow, ghostly silver spirits.
 
 ## Design Notes
 - Black uncommon recursion
 - Creature-based Raise Dead effect
 - Solid value for graveyard strategies
 - Pairs with: [[Toxic Reclamation]], [[Soul Extraction]]
+
+## Outside of this set interactions
+- **Notable Synergies:** [[Ephemerate]] / [[Ghostly Flicker]] (repeated recursion), [[Panharmonicon]] (double recursion), [[Karmic Guide]] / [[Reveillark]] (recursion chains), [[Tortured Existence]] (graveyard manipulation)
+- **Balance Assessment:** Fair - Gravedigger variant at uncommon. BB is restrictive, appropriate power level.

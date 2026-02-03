@@ -29,7 +29,7 @@ Creature — Human Advisor
 > *"It's not a bubble if it never pops."*
 
 ## Image Prompt
-> A nervous-looking human watching floating bubbles that contain swirling counters. Each bubble grows larger, more unstable. Inevitable collapse.
+> Bubble Speculator, Human Advisor from Mirrodin Manifest. Setting: En-Vidia Lattice — trading floor with holographic displays. Mood: Suspicion. Pose: Leaning forward nervously, hands raised toward floating bubbles. Key visual elements: Chrome-rimmed spectacles reflecting bubble light, metallic hair slicked back with sweat, iridescent bubbles swelling with counter energy. Style reference: Greg Staples meets Nils Hamm. Color palette: Steel blue, chrome, iridescent highlights.
 
 ## Design Notes
 - Bubble counters double each turn (exponential growth)

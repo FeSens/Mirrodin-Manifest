@@ -31,7 +31,7 @@ Creature — Human Advisor
 > *"The path to citizenship should not require perfection."*
 
 ## Image Prompt
-> An advocate speaking passionately before a Synod tribunal, gesturing toward young people in the gallery. Fighting for belonging.
+> DREAM Act Advocate, Human Advisor from Mirrodin Manifest. Setting: Seat of the Synod/Mer-Ikan court — tribunal hearing chamber. Mood: Genuine hope. Pose: Standing passionately before tribunal, arms outstretched gesturing toward young citizens in gallery. Key visual elements: Metallic hair catching light, iron-veined face showing conviction, young hopeful faces in background. Style reference: Rebecca Guay meets Greg Staples. Color palette: White, steel blue, warm highlights on faces.
 
 ## Design Notes
 - Protection counters prevent exile (once)
@@ -40,3 +40,8 @@ Creature — Human Advisor
 - Azorius legal protection theme
 - Lore connection: [[Lore#The Mer-Ikan Foundry (America)]] - advocacy against deportation
 - Pairs with: [[Sanctuary City Warden]], [[Asylum Seeker]], [[Hidden Community Elder]]
+
+## Outside of this set interactions
+- **Notable Synergies:** Proliferate (add more protection counters), Citizen token generators (protect wide boards), [[Cathars' Crusade]] (already going wide with Citizens)
+- **Potential Combos:** With [[Solemnity]]: DOES NOT BREAK THE CARD - Solemnity prevents counters being PLACED, not removed. Citizens would have 0 protection counters and no replacement effect.
+- **Balance Assessment:** Fair - Niche protection for a specific creature type in-set. Parasitic to Citizen tribal.

@@ -30,7 +30,7 @@ Enchantment — Saga
 > *"The names were always there. Someone just had to read them aloud."*
 
 ## Image Prompt
-> A massive chrome tome rising from the Quicksilver Sea, pages flipping open by themselves, names glowing on each page. Shadowy figures of High Artificers recoiling in horror as their names illuminate. Unforged spirits swirling around the book, finally being acknowledged. The Seat of the Synod visible in the background, its lights flickering. White light of truth cutting through black shadows of secrecy. MTG card art style, revelation, justice, reckoning.
+> The Ledger Surfaces — Saga. Visual focus: The Black Ledger rising dramatically from the Quicksilver Sea. Setting: Waters near the Seat of the Synod — moment of revelation. Focal point: Pages flipping open revealing glowing names, High Artificers recoiling in horror, Unforged spirits swirling triumphantly. Mood: Genuine hope mixed with institutional horror. Style reference: Seb McKinnon meets Nils Hamm. Color palette: White truth-light, black shadow secrets, chrome waters, golden names.
 
 ## Design Notes
 - **Saga synergy:** [[Hype Cycle]] doubles lore counters = skip to later chapters faster
@@ -41,3 +41,8 @@ Enchantment — Saga
 - **Pairs with:** [[The Black Ledger]], [[Ep-Styn's Silent Isle]], [[Unforged Witness]], [[Veiled Client]], [[Silenced Accuser]]
 - The rich can pay their way out (sacrifice) or suffer exposure (life loss)
 - Chapter IV shows how the powerful always escape—evidence returned, but witnesses created
+
+## Outside of this set interactions
+- **Notable Synergies:** [[Clockspinning]], Proliferate, [[Power Conduit]]
+- **BROKEN COMBOS:** Skip to Chapter IV quickly with lore counter manipulation
+- **Balance Assessment:** Fair - Saga timing limits abuse

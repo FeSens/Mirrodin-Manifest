@@ -28,7 +28,7 @@ Creature — Elemental
 > *"The Tangle rewards those who embrace chaos."*
 
 ## Image Prompt
-> A massive elemental of twisted metal vines and chrome leaves, towering over the Tangle. Dice-shaped fruits hang from its branches. Fortune flows through its roots.
+> Tangle Titan, Elemental from Mirrodin Manifest. Setting: The Tangle — towering above the copper forest canopy. Mood: Genuine hope. Pose: Standing triumphant, arms raised as fortune energy radiates outward. Key visual elements: Massive form of twisted chrome vines and copper leaves, dice-shaped fruits hanging from branches, fortune light flowing through root system. Style reference: Seb McKinnon meets Rebecca Guay. Color palette: Copper, forest green, golden fortune glow.
 
 ## Design Notes
 - Green Mythic - addresses Green mythic gap (-3, critical!)

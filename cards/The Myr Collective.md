@@ -26,7 +26,7 @@ Artifact
 > *"One Myr is a tool. Five Myr are a workforce. Twenty Myr are a revolution."*
 
 ## Image Prompt
-> A vast assembly of Myr units linking together, sharing data and power. The collective hums with unified purpose. The Thought-Sync made manifest.
+> The Myr Collective — Artifact. Visual focus: Vast assembly of Myr units physically and digitally linking together. Setting: En-Vidia processing center — the Thought-Sync network hub. Focal point: Myr units sharing data and power streams, unified consciousness emerging, the collective humming with purpose. Mood: False promise. Style reference: Mark Tedin meets Nils Hamm. Color palette: Chrome Myr bodies, cyan data streams, cold steel blue.
 
 ## Design Notes
 - **Myr tribal hub** - connects ALL Myr cards

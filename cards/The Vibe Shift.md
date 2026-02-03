@@ -27,7 +27,7 @@ Instant
 > *The Thought-Sync's most fervent advocates went quiet. That silence spoke volumes.*
 
 ## Image Prompt
-> A crowded Vedalken forum where enthusiasm has visibly drained. Where once holographic charts pointed upward, now they trend down. Prominent artificers who once championed the Lattice now sit with arms crossed, expressions skeptical. A single Myr stands at the center, awaiting a command that no longer comes with conviction. The energy has left the room. Fading hype, MTG card art style.
+> The Vibe Shift — Instant. Action depicted: A once-enthusiastic Vedalken forum suddenly turning skeptical and silent. Setting: Seat of the Synod — forum chamber where hype is dying. Focal point: Charts trending down, prominent artificers crossing arms, a single Myr awaiting commands that never come. Mood: Suspicion. Style reference: Greg Staples meets Nils Hamm. Color palette: Fading cyan hype, cold steel blue, disappointed chrome.
 
 ## Design Notes
 - **Source:** Gary Marcus's "astonishing vibe shift"; Ilya Sutskever expressing doubts about LLMs leading to AGI
@@ -37,3 +37,7 @@ Instant
 - Blue for skepticism, reconsideration, and changing one's mind
 - The flavor references how even AI insiders like Sutskever began expressing limitations
 - Pairs with: [[Trough of Disillusionment]], [[Sal-Tman's Promise]]
+
+## Outside of this set interactions
+- **Notable Synergies:** Affinity decks (punishes opponents), artifact hate strategies
+- **Balance Assessment:** Fair - Modal spell with reasonable modes

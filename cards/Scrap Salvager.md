@@ -27,7 +27,7 @@ Creature — Goblin Artificer
 > *"Trash to treasure to ammunition."*
 
 ## Image Prompt
-> A gleeful Goblin surrounded by scrap metal, converting broken artifacts into weapons and hurling debris.
+> Scrap Salvager, Goblin Artificer from Mirrodin Manifest. Setting: Oxidda scrapyard — mountains of broken artifacts and furnace glow. Mood: Buried rage turned to glee. Pose: Surrounded by scrap, one hand converting debris into a weapon, the other hurling salvaged metal. Key visual elements: Iron-reinforced ears, copper-veined grin, chrome teeth, sparks flying from makeshift forge strapped to back. Style reference: Kev Walker. Color palette: Furnace orange, copper, rust red.
 
 ## Design Notes
 - **Artifact sacrifice hub** - connects artifact synergy cards

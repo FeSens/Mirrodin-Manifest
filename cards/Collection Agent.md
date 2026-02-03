@@ -24,7 +24,7 @@ Creature — Human Rogue
 > *"I'm just here for what's owed."*
 
 ## Image Prompt
-> A stern figure in dark leather armor holding a ledger and a collection of payment receipts. Behind them, debtors hand over their last possessions. Cold, professional debt collection. MTG card art style.
+> Collection Agent, Human Rogue from Mirrodin Manifest. Setting: Dross Dominion — debt collection office in the shadows. Mood: Corrupted triumph. Pose: Standing with ledger open, one hand extended for payment. Key visual elements: Dark leather armor with chrome studs, iron-veined face showing cold satisfaction, debtors surrendering possessions behind. Style reference: Nils Hamm meets Kev Walker. Color palette: Near-black, dark olive, red ledger accents.
 
 ## Design Notes
 - Black common creature
@@ -33,3 +33,8 @@ Creature — Human Rogue
 - Build-around for debt strategies
 - Addresses Black common gap
 - Pairs with: [[Loan Shark]], [[Master of Debt]], [[Predatory Lending]]
+
+## Outside of this set interactions
+- **Notable Synergies:** Cards that force opponents to have Debt tokens, [[Tergrid, God of Fright]] (sacrifice synergy)
+- **Potential Combos:** None standalone
+- **Balance Assessment:** Fair - Requires Debt token infrastructure. Passive draw is good but narrow.

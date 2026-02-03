@@ -21,7 +21,7 @@ Sorcery
 > *"The Foundry saves you—but the Foundry never forgets."*
 
 ## Image Prompt
-> A massive chrome hand descending from above to lift a failing forge, but chains of debt wrap around the forge as it's "saved." Bureaucrats in white robes observe with clipboards. Corporate salvation with strings attached, MTG card art style.
+> Bailout Package — Sorcery. Action depicted: A massive chrome hand descending from clouds to lift a crumbling forge, debt chains wrapping around the structure as it rises. Setting: Mer-Ikan Foundry industrial district, bureaucrats observing from below. Focal point: The intersection of salvation and bondage where chains meet chrome. Mood: False promise. Style reference: Mark Tedin meets Greg Staples.
 
 ## Design Notes
 - White uncommon sorcery
@@ -30,3 +30,8 @@ Sorcery
 - Flavorful: bailouts create debt
 - [[Lore]] connection: government intervention themes
 - Pairs with: [[Central Bank Governor]], [[Debt Restructuring]]
+
+## Outside of this set interactions
+- **Notable Synergies:** Self-targeting artifacts for Debt tokens if you want them, Debt synergy cards from this set
+- **Potential Combos:** None
+- **Balance Assessment:** Fair - Standard removal with set-specific rider. Well-costed.

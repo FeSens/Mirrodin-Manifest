@@ -29,3 +29,7 @@ Sorcery
 - 3 mana for 4 damage is good rate at sorcery
 - NWO-compliant simple design
 - Lore connection: [[Lore#The Mer-Ikan Foundry (America)]]
+
+## Outside of this set interactions
+- **Notable Synergies:** [[Torbran, Thane of Red Fell]] (becomes 6 damage), [[Fiery Emancipation]] (triples to 12), [[Radiant Flames]] (compare: similar rate), [[Bonfire of the Damned]] (similar creature removal)
+- **Balance Assessment:** Fair - 3 mana sorcery for 4 damage to creature is standard rate. Good common.

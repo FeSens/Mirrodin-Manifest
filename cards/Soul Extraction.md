@@ -21,7 +21,7 @@ Sorcery
 > *"The Isle takes more than just bodies."*
 
 ## Image Prompt
-> Dark energy being ripped from a victim, their soul visibly torn away and absorbed into shadows.
+> Soul Extraction — Sorcery. Action depicted: Dark necrogen energy being ripped from a victim, their soul visibly torn away and absorbed into pooling shadows. Setting: Vault of Whispers extraction chamber, obsidian walls drinking the light. Focal point: The moment of separation, soul becoming visible as golden-white essence pulled into darkness. Mood: Corrupted triumph. Style reference: Nils Hamm meets Seb McKinnon. Color palette: Near-black, dark olive, soul-gold being consumed.
 
 ## Design Notes
 - Black common sorcery - addresses Black common gap (-6)

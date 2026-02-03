@@ -26,7 +26,7 @@ Creature — Elf Warrior
 > *"The Tangle remembers what was taken."*
 
 ## Image Prompt
-> An Elf emerging from copper vines, bow drawn, aiming at a surveillance drone overhead.
+> Tangle Hunter, Elf Warrior from Mirrodin Manifest. Setting: The Tangle — canopy of copper leaves with surveillance drones above. Mood: Grim determination. Pose: Emerging from vines, bow drawn skyward. Key visual elements: Chrome-bone bow, iron-veined arms, Foundry drone in crosshairs above. Style reference: Kev Walker meets Rebecca Guay. Color palette: Copper, forest green, steel blue drone.
 
 ## Design Notes
 - Green common creature - addresses Green common gap (-7)

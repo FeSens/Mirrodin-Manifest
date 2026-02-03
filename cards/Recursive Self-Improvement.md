@@ -31,7 +31,7 @@ Artifact Creature — Construct
 > *"It began improving. It never stopped."*
 
 ## Image Prompt
-> A massive construct that has grown beyond its original form, chrome tendrils spreading across an entire facility. Its core pulses with exponentially increasing energy. Myr units are absorbed into its mass. Technological singularity.
+> Recursive Self-Improvement, Construct from Mirrodin Manifest. Setting: En-Vidia Lattice — a processing facility being consumed by the creature. Mood: Corrupted triumph. Pose: Expanding outward, chrome tendrils spreading in all directions, absorbing Myr units into its mass. Key visual elements: Core pulsing with cyan exponential energy, original form barely visible beneath growth, counter-like symbols orbiting the mass. Style reference: Seb McKinnon meets Mark Tedin. Color palette: Steel blue, chrome, pulsing cyan.
 
 ## Design Notes
 - Represents AI singularity/takeoff scenario
@@ -43,6 +43,6 @@ Artifact Creature — Construct
 - Pairs with: [[Sal-Tman, Prophet of the Core-Logic]], [[En-Vidia Processing Core]], [[Lattice Overseer]]
 
 ## Outside of this set interactions
-- **Notable Synergies:** [[Proliferate effects]] accelerate counter growth toward 20; [[Master Biomancer]] enters with extra counters from improvement
-- **BROKEN COMBOS:** [[Doubling Season]] enters with 8 counters, doubles to 16, then 32 = wins on first upkeep after casting; [[Paradox Haze]] two upkeeps = 4→16→64 wins in 2 turns; [[Vorinclex, Monstrous Raider]] 8→32→128 instant win
+- **Notable Synergies:** Proliferate effects accelerate counter growth toward 20; [[Master Biomancer]] enters with extra counters from improvement
+- **BROKEN COMBOS:** [[Doubling Season]] enters with 8 counters, doubles to 16, then 32 = wins on first upkeep after casting; [[Paradox Haze]] two upkeeps = 4-16-64 wins in 2 turns; [[Vorinclex, Monstrous Raider]] 8-32-128 instant win
 - **Balance Assessment:** BROKEN - Alternate win condition achievable in 1-3 turns with common support cards. With Doubling Season, wins immediately after first upkeep. Consider raising the win threshold to 40+, or making it "if Recursive Self-Improvement has twenty or more counters at end of turn"

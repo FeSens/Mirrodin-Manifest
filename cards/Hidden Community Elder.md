@@ -31,7 +31,7 @@ Creature — Human Advisor
 > *"We protect our own. The Foundry takes nothing."*
 
 ## Image Prompt
-> An elderly figure standing protectively before a hidden community, arms spread wide. Behind them, families shelter in secret.
+> Hidden Community Elder, Human Advisor from Mirrodin Manifest. Setting: The Tangle borderlands — a hidden sanctuary within copper-root caves. Mood: Grim determination, genuine hope. Pose: Arms spread protectively wide, body positioned between the viewer and the community behind. Key visual elements: Weathered face with chrome-streaked hair, simple but sturdy clothing, Citizen families sheltering in shadows behind. Style reference: Rebecca Guay meets Kev Walker. Color palette: Copper, forest green, olive, warm hidden firelight.
 
 ## Design Notes
 - Lords Citizens
@@ -40,3 +40,7 @@ Creature — Human Advisor
 - Selesnya immigrant community leader
 - Lore connection: [[Lore#The Mer-Ikan Foundry (America)]] - immigrant community protection
 - Pairs with: [[Sanctuary City Warden]], [[DREAM Act Advocate]], [[Undocumented Worker]]
+
+## Outside of this set interactions
+- **Notable Synergies:** Citizen token generators (masses of protected Citizens), Protective effects like [[Heroic Intervention]] (redundant protection), [[Parallel Lives]] (more Citizens to protect)
+- **Balance Assessment:** Fair - Niche tribal lord, requires Citizen synergy.

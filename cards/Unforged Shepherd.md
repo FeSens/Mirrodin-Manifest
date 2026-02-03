@@ -28,7 +28,7 @@ Creature — Spirit
 > 2/3
 
 ## Image Prompt
-> A ghostly shepherd guiding lost spirits through a metallic wasteland. Sorrowful but protective, MTG card art style.
+> Unforged Shepherd, Spirit from Mirrodin Manifest. Setting: Between the Vault of Whispers and sanctuary — metallic wasteland of lost souls. Mood: Genuine hope. Pose: Ghostly form guiding lost Unforged spirits toward safety. Key visual elements: Translucent spirit form with chrome bones visible, protective gesture over gathering souls, dim spark-lights of the lost following. Style reference: Seb McKinnon meets Rebecca Guay. Color palette: Ghostly white-gray, dim golden sparks, near-black wasteland, sanctuary light ahead.
 
 ## Design Notes
 - WB signpost uncommon for tokens/sacrifice

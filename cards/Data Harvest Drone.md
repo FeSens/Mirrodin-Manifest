@@ -27,7 +27,7 @@ Artifact Creature — Thopter
 > *"It sees everything. It remembers everything. It tells everything."*
 
 ## Image Prompt
-> A sleek surveillance thopter with multiple camera-like eyes, gliding silently over a Mirrodin city. Data streams flow from its sensors to a distant tower. Chrome and glass, silent menace.
+> Data Harvest Drone, Thopter from Mirrodin Manifest. Setting: Seat of the Synod/En-Vidia Lattice — aerial surveillance above chrome cityscape. Mood: Suspicion. Pose: Gliding silently, multiple camera-eyes tracking below. Key visual elements: Sleek chrome carapace, lens clusters for eyes, data streams flowing to distant tower. Style reference: Nils Hamm meets Mark Tedin. Color palette: Steel blue, chrome silver, cyan data trails.
 
 ## Design Notes
 - Data counters accumulate, scaling information gathering
@@ -36,3 +36,8 @@ Artifact Creature — Thopter
 - Surveillance/data harvesting theme
 - Lore connection: [[Lore#The "Aethel-Inference" (The AI Boom & Nvidia)]] - data collection
 - Pairs with: [[The Orb-Seekers]], [[En-Vidia Processing Core]], [[Thought-Sync Node]]
+
+## Outside of this set interactions
+- **Notable Synergies:** Proliferate effects ([[Atraxa, Praetors' Voice]], [[Contagion Engine]]) to rapidly scale data counters, [[Mask of the Mimic]] / [[Spy Network]] for information advantage, [[Lantern of Insight]] + mill (knowledge of opponent's draws enables lock)
+- **Potential Combos:** With proliferate + [[Codex Shredder]] style effects: Lock opponent out of drawing good cards
+- **Balance Assessment:** Fair - Requires combat damage connection. Information advantage isn't directly game-winning.

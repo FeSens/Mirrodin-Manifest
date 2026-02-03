@@ -26,7 +26,7 @@ Creature — Elf Rogue
 > *"The Foundry's eyes can't find what the Tangle hides."*
 
 ## Image Prompt
-> An Elf materializing from copper foliage to shield a companion from a Foundry drone's targeting beam.
+> Tangle Ambusher, Elf Rogue from Mirrodin Manifest. Setting: The Tangle — dense copper-leafed forest with metallic undergrowth. Mood: Grim determination. Pose: Emerging from foliage mid-leap, shielding a companion. Key visual elements: Chrome-veined skin, copper leaf camouflage, Foundry drone's targeting beam deflected. Style reference: Rebecca Guay meets Kev Walker. Color palette: Copper, forest green, olive.
 
 ## Design Notes
 - Green common creature - addresses Green common gap (-7)

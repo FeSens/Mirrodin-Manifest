@@ -23,7 +23,7 @@ Sorcery
 > *"The Tangle knows no hierarchy. Only balance."*
 
 ## Image Prompt
-> Vines redistributing glowing energy between creatures in a forest clearing. Each receives what it needs.
+> Nature's Rebalancing — Sorcery. Action depicted: Copper-threaded vines pulse with emerald energy, transferring glowing essence between creatures of varying sizes until all glow equally. Setting: A Tangle clearing where nature enforces balance. Focal point: The connecting vines forming a web of shared power. Mood: Grim determination, forced equality. Style reference: Rebecca Guay meets Terese Nielsen. Color palette: Copper, forest green, olive, soft emerald glow.
 
 ## Design Notes
 - Green uncommon sorcery - addresses Green uncommon gap (-13)

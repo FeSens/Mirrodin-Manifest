@@ -25,7 +25,7 @@ Artifact
 > *"The En-Vidia sees all. We merely interpret."*
 
 ## Image Prompt
-> A chrome interface terminal with holographic displays, Vedalken fingers dancing across data streams. Connection to the infinite.
+> Lattice Interface — Artifact. Visual focus: A chrome interface terminal with cascading holographic displays, Vedalken hands dancing across data streams, scry-symbols cycling through possible futures. Setting: The Seat of the Synod, a primary access point to the En-Vidia Lattice. Mood: Cold efficiency, infinite connection. Style reference: Mark Tedin meets Greg Staples. Color palette: Steel blue, chrome, cyan holographic light, white data-pulses.
 
 ## Design Notes
 - **Vedalken/Lattice hub** - connects Blue utility cards

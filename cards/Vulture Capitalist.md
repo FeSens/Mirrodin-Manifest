@@ -26,7 +26,7 @@ Creature — Human Advisor
 > *"Crisis is opportunity."*
 
 ## Image Prompt
-> An elegantly dressed human in black and white robes with vulture-like features, perched atop a crumbling forge. They hold a contract in one hand and gold coins in the other, watching the chaos below with calculating eyes. Corporate predator aesthetic, MTG card art style.
+> Vulture Capitalist, Human Advisor from Mirrodin Manifest. Setting: Above the Great Furnace — perched atop a crumbling forge during crisis. Mood: Corrupted triumph. Pose: Elegant predatory perch, contract in one hand, gold in other, surveying chaos below. Key visual elements: Black and white Orzhov robes with vulture-like collar, chrome-touched sharp features, calculating eyes watching opportunity in destruction. Style reference: Greg Staples meets Nils Hamm. Color palette: Black and white robes, gold coins, crumbling bronze forge.
 
 ## Design Notes
 - Orzhov rare creature

@@ -31,7 +31,7 @@ Creature — Human Cleric
 > *"The Foundry's reach ends at our gates."*
 
 ## Image Prompt
-> A defiant cleric standing before a city gate, arms spread protectively. Refugees gather behind them. Sanctuary against deportation.
+> Sanctuary City Warden, Human Cleric from Mirrodin Manifest. Setting: The Tangle — a hidden sanctuary city gate woven from copper vines and living metal. Mood: Grim determination. Pose: Standing defiant before the gate, arms spread protectively as refugees with chrome bone structures gather behind. Key visual elements: Green and white robes with copper trim, iron-veined skin, refuge counters glowing as protective wards around the entrance. Style reference: Rebecca Guay meets Kev Walker. Color palette: Copper, forest green, protective white light.
 
 ## Design Notes
 - Anti-exile protection

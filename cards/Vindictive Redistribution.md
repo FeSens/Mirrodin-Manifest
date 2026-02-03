@@ -21,7 +21,7 @@ Sorcery
 > *"If I cannot have it, no one can. And you will suffer for my loss."*
 
 ## Image Prompt
-> A vindictive figure tearing counters from wealthy permanents, each removed counter draining life from onlookers. Equality through suffering.
+> Vindictive Redistribution — Sorcery. Action depicted: A vindictive figure violently redistributing counters from wealthy sources, life draining with each removal. Setting: Vault of Whispers courtyard — public space of forced equalization. Focal point: Counters being torn away, each one causing visible pain, equality achieved through universal suffering. Mood: Buried rage. Style reference: Nils Hamm meets Kev Walker. Color palette: Near-black, dark olive, necrogen drain glow, life energy escaping.
 
 ## Design Notes
 - Black rare sorcery - addresses Black rare gap (-4)

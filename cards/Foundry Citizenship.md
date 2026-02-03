@@ -34,3 +34,7 @@ Enchantment — Aura
 - **Counter synergy:** +1/+1 counter doubles with [[Hype Cycle]], can be Compounded
 - Lore connection: [[Lore]] - Represents legal status in the Foundry
 - The vigilance represents "productive citizenship"
+
+## Outside of this set interactions
+- **Notable Synergies:** [[Hardened Scales]] (extra +1/+1 counter), [[Ancestral Mask]] (aura stacking), [[Ethereal Armor]] (aura voltron), [[Sram, Senior Edificer]] (draw on cast)
+- **Balance Assessment:** Fair - Strong protection for 2 mana, but auras have inherent card disadvantage risk.

@@ -34,3 +34,8 @@ Creature — Human Rogue
 - Choice gives flexibility
 - Lore connection: [[Lore#The Mer-Ikan Foundry (America)]]
 - Pairs with: [[Resistance Saboteur]], [[Ledger Thief]]
+
+## Outside of this set interactions
+- **Notable Synergies:** [[Sword of Feast and Famine]] (protection to guarantee hits + additional discard), [[Specter's Shroud]] (redundant discard trigger), [[Port Razer]] (multiple combat steps = multiple triggers), [[Tinybones, Trinket Thief]] (discard payoff)
+- **Potential Combos:** Multiple combat step cards ([[Aggravated Assault]], [[Moraug, Fury of Akoum]]) can drain hands quickly
+- **Balance Assessment:** Fair - Strong Rakdos creature but giving the opponent choice keeps it balanced. Specters and similar exist.

@@ -30,7 +30,7 @@ Enchantment — Saga
 > — Mak-Ron, surveying the crash
 
 ## Image Prompt
-> A massive holographic graph projected above the Seat of the Synod, showing an exponential curve rising impossibly high before plummeting to nothing. Vedalken analysts stare in horror as their chrome terminals flicker and die. Shattered mana crystals litter the floor, their glow fading. The En-Vidia Lattice pulses erratically in the background, overloaded nodes burning out one by one. Cool blues and silvers dominating, with harsh red warning lights. MTG card art style, digital painting, dramatic lighting, tech-crash atmosphere, Mirrodin chrome aesthetic.
+> Hype Cycle — Enchantment Saga. Visual focus: A triptych showing the cycle — first panel: counters doubling as a holographic graph soars impossibly high; second panel: counters doubling again, the curve reaching heaven; third panel: all counters stripped away, the graph flatlined, Vedalken staring in horror at blank terminals. Setting: The Seat of the Synod, En-Vidia Lattice pulsing in background. Mood: False promise to institutional horror. Style reference: Seb McKinnon meets Mark Tedin. Color palette: Steel blue, chrome, cyan, harsh red warning lights.
 
 ## Design Notes
 - Mechanic: Saga - tells the story of a boom-bust cycle

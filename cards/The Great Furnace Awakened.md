@@ -28,7 +28,7 @@ Legendary Artifact Creature — Construct
 > *"The heart of industry beats with molten fury."*
 
 ## Image Prompt
-> A massive construct rising from the Great Furnace itself, molten metal forming its body, eyes blazing with industrial fire.
+> The Great Furnace Awakened, Legendary Construct from Mirrodin Manifest. Setting: The Great Furnace — the heart of Mer-Ikan industry itself awakening. Mood: Corrupted triumph. Pose: Rising from molten metal, arms spreading wide with destructive intent. Key visual elements: Massive form of cooling and molten metal, eyes blazing with furnace fire, artifacts orbiting its form. Style reference: Seb McKinnon meets Mark Tedin. Color palette: Furnace orange, molten gold, dark red, chrome.
 
 ## Design Notes
 - Red mythic - addresses Red mythic gap (-3)

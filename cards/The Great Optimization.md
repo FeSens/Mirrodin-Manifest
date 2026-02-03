@@ -26,7 +26,7 @@ Enchantment
 > *"Your position has been optimized. Please report to Reprocessing."*
 
 ## Image Prompt
-> A sterile chrome processing facility where organic workers are being systematically scanned and ejected through portals while identical Myr units march out of production lines to replace them. The workers' faces show shock and betrayal. Overseers with clipboards check off names. Conveyor belts of identity. Cold, corporate, dehumanizing. Blue and black metallic tones. MTG card art style, dystopian automation, the lie of efficiency.
+> The Great Optimization — Enchantment. Visual focus: Sterile processing facility systematically replacing organic workers with Myr. Setting: En-Vidia Lattice processing center — cold chrome efficiency hub. Focal point: Workers ejected through portals while identical Myr march from production lines, clipboard-wielding overseers checking off names. Mood: Institutional horror. Style reference: Nils Hamm meets Mark Tedin. Color palette: Steel blue, chrome, clinical white, necrogen-touched black.
 
 ## Design Notes
 - **AI/Automation theme:** The false promise of AI replacing workers

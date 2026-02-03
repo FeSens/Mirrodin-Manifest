@@ -26,7 +26,7 @@ Creature — Beast
 > *"The Tangle takes back what was scattered."*
 
 ## Image Prompt
-> A massive beast made of reclaimed metal and vines, absorbing discarded counters from smaller creatures. It grows with each redistribution.
+> Tangle Reclaimer, Beast from Mirrodin Manifest. Setting: The Tangle — deep forest where discarded metal accumulates. Mood: Grim determination. Pose: Absorbing energy from surrounding creatures, growing larger. Key visual elements: Massive form of reclaimed chrome and copper vines, glowing counters flowing into its body, smaller creatures giving strength willingly. Style reference: Seb McKinnon meets Rebecca Guay. Color palette: Copper, forest green, glowing counter light.
 
 ## Design Notes
 - Green rare creature - addresses Green rare gap (-10, critical!)

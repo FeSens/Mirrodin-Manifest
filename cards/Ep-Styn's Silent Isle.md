@@ -29,7 +29,7 @@ Legendary Land
 > *"The Glimmer-Barges arrived full. They left empty. The Ledger grew long."*
 
 ## Image Prompt
-> A small, ominous island rising from the Quicksilver Sea at twilight. The liquid mercury waters reflect a sickly purple sky. At the island's center stands a temple-like structure of tarnished chrome and dark iron, with no windows—only a single dock where a Glimmer-Barge is moored, its hull empty. Strange lights flicker within the structure. The architecture is opulent but deeply wrong, with too many locked doors and winding passages visible in cross-section. Small figures (the Unforged) can be seen being led up the dock in a line. The whole scene is viewed from above, as if from a Blinkmoth's surveillance. Mirrodin metallic aesthetic, dark and unsettling, MTG card art style, ominous atmosphere, the horror hidden in plain sight.
+> Ep-Styn's Silent Isle — Vault of Whispers. Time of day: Sickly twilight, mercury waters reflecting purple sky. Vantage point: From above like Blinkmoth surveillance. Key features: Ominous island with windowless chrome-and-iron temple, single dock with empty Glimmer-Barge, small Unforged figures led up dock in a line. Mood: Institutional horror. Style reference: John Avon meets Nils Hamm. Color palette: Near-black iron, tarnished chrome, sickly purple sky, necrogen glow within structure.
 
 ## Design Notes
 - **Lore connection:** [[Lore#The Great Ep-Styn Mystery]] - This is the Private Isle where Ep-Styn trafficked the Unforged

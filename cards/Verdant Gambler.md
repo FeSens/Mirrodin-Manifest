@@ -28,7 +28,7 @@ Creature — Elf Rogue
 > 3/2
 
 ## Image Prompt
-> A daring elf tossing seeds into the wind, watching to see what grows. Playful and confident, MTG card art style.
+> Verdant Gambler, Elf Rogue from Mirrodin Manifest. Setting: The Tangle — edge of a copper clearing where growth is uncertain. Mood: Genuine hope. Pose: Tossing glowing seeds into the wind with confident smile, watching for results. Key visual elements: Chrome-veined elf with playful eyes, seeds mid-flight with uncertain fates, some sprouting into growth, others falling. Style reference: Rebecca Guay. Color palette: Copper, forest green, glowing seed light.
 
 ## Design Notes
 - Green uncommon with Gamble mechanic

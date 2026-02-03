@@ -28,10 +28,14 @@ Creature — Zombie
 > 2/2
 
 ## Image Prompt
-> A hunched zombie collecting remains from the Mephidross swamps, filling bags with bones and artifacts. Grim and methodical, MTG card art style.
+> Mephidross Collector, Zombie from Mirrodin Manifest. Setting: Dross Dominion — the toxic shores of Mephidross where debris washes up. Mood: Exhaustion, grim duty. Pose: Hunched over, methodically filling a corroded bag with chrome bones and artifact fragments from the muck. Key visual elements: Rotting flesh over visible metal skeleton, necrogen-dulled eyes focused on work, swamp debris clinging to form. Style reference: Nils Hamm meets Daarken. Color palette: Near-black, dark olive, necrogen sickly glow, corroded metal browns.
 
 ## Design Notes
 - Black 3-drop with mill effect
 - Fills graveyard for recursion strategies
 - Symmetric effect is fair at common
 - Pairs with: [[Mephidross Scavenger]], [[Toxic Reclamation]]
+
+## Outside of this set interactions
+- **Notable Synergies:** [[Panharmonicon]] (double mill), [[Syr Konrad, the Grim]] (damage from creatures milled), Dredge strategies (enables graveyard), [[Reanimate]] effects (sets up targets)
+- **Balance Assessment:** Fair - Limited common with symmetric mill effect.

@@ -26,7 +26,7 @@ Enchantment — Aura
 > *"Default in 3... 2..."*
 
 ## Image Prompt
-> A creature wrapped in chains made of contract paper, a large "FORECLOSURE" stamp hovering above it. The owner looks on helplessly as debt accumulates. Legal doom approaching. MTG card art style.
+> Foreclosure Notice — Enchantment Aura. Visual focus: A creature wrapped in chains made of contract paper, massive FORECLOSURE stamp hovering above ready to strike. Setting: The Great Furnace/Mer-Ikan Foundry — debt processing zone. Mood: Corrupted triumph. Style reference: Nils Hamm meets Greg Staples. Color palette: White contract paper, red FORECLOSURE stamp, near-black chains, bronze victim.
 
 ## Design Notes
 - Black rare aura
@@ -34,3 +34,7 @@ Enchantment — Aura
 - Draws 2 cards when creature dies (opponent may sacrifice to stop bleeding)
 - Creates pressure and card advantage
 - Pairs with: [[Loan Shark]], [[Collection Agent]], [[Default Cascade]]
+
+## Outside of this set interactions
+- **Notable Synergies:** [[Tergrid, God of Fright]] (steal their permanents when they sacrifice to debt), [[The Meathook Massacre]] (drains when they sacrifice), [[Grave Pact]] (forces more sacrifices)
+- **Balance Assessment:** Fair - Good rare enchantment. Recurring debt is powerful but 3 mana aura with downside if creature dies is balanced.

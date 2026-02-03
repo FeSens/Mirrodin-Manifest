@@ -27,10 +27,15 @@ Creature — Human Rogue
 > *"Copies. I made copies."*
 
 ## Image Prompt
-> A hooded figure slipping documents into their cloak while Redaction-Myr work in the background. Their eyes gleam with hidden knowledge. A single page of the Black Ledger is visible. Theft of truth.
+> Ledger Thief, Human Rogue from Mirrodin Manifest. Setting: The Seat of the Synod — an archive chamber where Redaction-Myr process sensitive documents. Mood: Suspicion, grim determination. Pose: Crouched in shadows, slipping a glowing document into their cloak, eyes gleaming with stolen knowledge. Key visual elements: Hooded figure with iron-veined face barely visible, a single page of the Black Ledger clutched tight, face-down exiled cards represented as shadow-documents in their possession. Style reference: Nils Hamm. Color palette: Steel blue shadows, chrome archive shelves, document-glow, near-black cloak.
 
 ## Design Notes
 - Exiles information (steals secrets)
 - Sacrifice reveals and casts (releasing the truth)
 - Works with [[Ep-Styn's Silent Isle]] face-down exiles
 - The whistleblower who made copies
+
+## Outside of this set interactions
+- **Notable Synergies:** [[Venser, the Sojourner]] (repeated looks at opponent's library), [[Panharmonicon]] (double exile triggers), [[Brago, King Eternal]] (blink loops)
+- **BROKEN COMBOS:** Could exile opponent's expensive spells and cast them free ([[Omniscience]], [[Enter the Infinite]], or any expensive spell). However, requires setup (ETB + sacrifice) and opponent must have the card in top 5.
+- **Balance Assessment:** POTENTIALLY BROKEN - The "cast without paying mana cost" has no restrictions on card types. Recommend adding "with mana value 4 or less" or similar restriction. Likely Fair but worth monitoring in testing.

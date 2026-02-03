@@ -26,7 +26,7 @@ Creature — Human Rogue
 > *"I'm not reckless. I'm committed."*
 
 ## Image Prompt
-> A wild-eyed gambler charging into battle, coins and dice flying around them. Glory or death, nothing in between.
+> All-In Gambler, Human Rogue from Mirrodin Manifest. Setting: The Great Furnace — smoky gambling den near the forge fires. Mood: Grim determination. Pose: Charging forward mid-battle, arms spread wide in reckless abandon. Key visual elements: Wild eyes reflecting furnace light, chrome-plated knuckles, coins and dice orbiting body. Style reference: Kev Walker meets Greg Staples. Color palette: Furnace orange, copper, gold accents.
 
 ## Design Notes
 - Red rare creature - addresses Red rare gap (-10, critical!)

@@ -30,10 +30,14 @@ Creature — Human Rogue
 > 2/1
 
 ## Image Prompt
-> A shadowy figure with wings of ink, carrying a ledger through the night. Numbers float around them, MTG card art style.
+> Shadow Accountant, Human Rogue from Mirrodin Manifest. Setting: Vault of Whispers at night — ledger vaults and shadow-filled corridors. Mood: Suspicion. Pose: Gliding through darkness on wings of solidified ink, clutching a chrome ledger to chest. Key visual elements: Wings made of dripping black ink that trails numbers, chrome-traced face half-hidden by hood, gold tokens forming in wake of flight. Style reference: Nils Hamm. Color palette: Near-black, dark olive, gold highlights.
 
 ## Design Notes
 - Black uncommon with Gold token generation
 - Flying enables consistent triggers
 - Economic theme payoff
 - Pairs with: [[The Black Ledger]], [[Ledger Thief]]
+
+## Outside of this set interactions
+- **Notable Synergies:** [[Revel in Riches]] (Gold tokens for win condition), [[Marionette Master]] (sacrifice Gold for damage), [[Academy Manufactor]] (create Food and Clue alongside Gold), [[Time Sieve]] (sacrifice 5 Gold for extra turns)
+- **Balance Assessment:** Fair - Flying 2/1 for 3 is fragile. Gold generation requires combat damage connection.

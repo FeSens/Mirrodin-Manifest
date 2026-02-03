@@ -23,7 +23,7 @@ Enchantment
 > — Kha-Sino, Glimmervoid Broker
 
 ## Image Prompt
-> A shadowy figure behind a chrome gambling table in a Glimmervoid casino, one hand subtly manipulating a deck of metallic cards while the other gestures welcomingly to unseen patrons. The table's surface shows faint reflection of the cards—the dealer can see everything. Myr croupiers stand motionless in the background. The lighting is warm gold from above but the dealer's face is in shadow, only a knowing smile visible. Opulent corruption, rigged elegance, MTG card art style.
+> The House Edge — Enchantment. Visual focus: A shadowy dealer behind a chrome gambling table, secretly manipulating the game. Setting: Glimmervoid casino — opulent golden chamber with rigged tables. Focal point: Dealer's hand subtly manipulating cards, table surface reflecting everything, knowing smile in shadow. Mood: False promise. Style reference: Nils Hamm meets Greg Staples. Color palette: Warm gold lighting, shadow black, chrome table surface.
 
 ## Design Notes
 - **Mechanic synergy:** The GAMBLE mechanic notes explicitly state "Scry before Gamble is extremely strong" and "Knowledge (scry) = market manipulation"
@@ -36,3 +36,8 @@ Enchantment
 - Pairs with: [[🎲 GAMBLE]], [[Gambling with the Devil]], [[Glimmervoid Broker]], [[Hedge Fund Manager]], [[The Rigged Game]]
 - **Balance note:** Rare because it fundamentally changes the gamble dynamic; you're no longer gambling, you're just winning
 - Lore connection: [[Lore#The Glimmervoid Rally (Gold Rally)]] - rigged financial systems
+
+## Outside of this set interactions
+- **Notable Synergies:** Any Gamble card in the set, [[Sensei's Divining Top]], [[Sylvan Library]]
+- **BROKEN COMBOS:** Turns all Gamble mechanics into guaranteed wins with scry manipulation
+- **Balance Assessment:** Fair - Build-around rare that requires Gamble synergy

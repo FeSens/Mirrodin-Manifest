@@ -23,7 +23,7 @@ Sorcery
 > *"We were refugees. Now we are revolutionaries."*
 
 ## Image Prompt
-> Former refugees rising up with improvised weapons, their eyes blazing with determination. The timid become warriors. Furnace flames illuminate their charge.
+> Citizen Uprising — Sorcery. Action depicted: A mass of Citizen refugees transforming into soldiers mid-charge, improvised weapons raised. Setting: Mer-Ikan Foundry gates, furnace flames illuminating from behind. Focal point: Lead refugee's face shifting from fear to fury. Mood: Genuine hope. Style reference: Kev Walker meets Rebecca Guay.
 
 ## Design Notes
 - **Citizen tribal payoff** - turns tokens into real threats

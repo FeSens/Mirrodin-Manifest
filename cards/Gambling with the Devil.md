@@ -24,7 +24,7 @@ Sorcery
 > — Survivor of Ep-Styn's Isle
 
 ## Image Prompt
-> A dimly lit chamber within a chrome fortress on Mirrodin, two figures seated at a metallic table covered in glowing mana-infused cards. One figure is a menacing iron golem with hollow red eyes, the other a desperate human artificer sweating under the heat of molten furnaces in the background. Flames and liquid gold reflect off every surface. The golem's hand hovers over the deck, fingers like bladed pistons. Dark, ominous atmosphere with deep reds, blacks, and orange furnace glow. MTG card art style, digital painting, cinematic lighting, Mirrodin metallic aesthetic.
+> Gambling with the Devil — Sorcery. Action depicted: A desperate human with chrome-laced skin seated across from a menacing iron golem at a metallic table, both revealing the top cards of glowing decks, the golem's hollow red eyes fixed on its prey. Setting: A private gambling den within Ep-Styn's Isle, molten gold reflections on every surface. Focal point: The revealed cards, life and death in the balance. Mood: False promise, institutional horror. Style reference: Nils Hamm meets Greg Staples. Color palette: Deep reds, blacks, furnace orange, quicksilver reflections.
 
 ## Design Notes
 - Mechanic: [[🎲 GAMBLE]]
@@ -33,3 +33,8 @@ Sorcery
 - At 2 mana, this is an aggressive tempo play for red decks with high-curve strategies
 - Lore connection: References the dark dealings on Ep-Styn's Private Isle where the powerful gambled with things far more valuable than gold
 - The flavor evokes the rigged nature of the games played by the elite in the Quicksilver Sea
+
+## Outside of this set interactions
+- **Notable Synergies:** [[Draco]] (16 CMC stacks your deck to win gambles), [[Emrakul, the Aeons Torn]] (15 CMC near-guarantee), [[Brainstorm]] effects (stack high CMC on top before gambling), [[Cruel Entertainment]] (force opponents to gamble against each other)
+- **Potential Combos:** [[Draco]]/[[Emrakul, the Aeons Torn]] on top + Gambling with the Devil = Essentially {1}{R} deal 6 damage to opponent
+- **Balance Assessment:** Fair - While you can rig it, dealing 6 for 2 mana with setup is reasonable. Burn spells deal 3 for 1 mana without setup.

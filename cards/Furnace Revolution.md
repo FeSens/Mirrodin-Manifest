@@ -32,3 +32,8 @@ Sorcery
 - Threaten all artifacts simultaneously
 - Lore connection: [[Lore#The Mer-Ikan Foundry (America)]]
 - Pairs with: [[Myr-Sourced Automation]], [[Simulated Labor Myr]]
+
+## Outside of this set interactions
+- **Notable Synergies:** [[Mycosynth Lattice]] (all permanents are artifacts; this becomes "gain control of everything, make it 4/4, sacrifice it all"), [[Dockside Extortionist]] (steal opponent's treasures, swing as 4/4s), [[Unwinding Clock]] (untap synergy with stolen artifacts), [[Teferi's Protection]] (opponent's response fizzles the sacrifice)
+- **BROKEN COMBOS:** [[Mycosynth Lattice]] + Furnace Revolution = 6 mana one-sided Plague Wind that also kills all their lands, enchantments, everything. Opponent sacrifices their entire board.
+- **Balance Assessment:** POTENTIALLY BROKEN - With Mycosynth Lattice, this is a one-sided "opponent sacrifices all permanents" for 6 mana total (Lattice already on board). Without Lattice, it's a strong but fair finisher.

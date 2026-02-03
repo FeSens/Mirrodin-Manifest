@@ -27,7 +27,7 @@ Creature — Vedalken Rogue
 > *"The thrill isn't in winning. It's in knowing you might not."*
 
 ## Image Prompt
-> An elegant Vedalken in a pristine suit at a high-stakes table, cards and gold swirling around them. Every gamble brings knowledge.
+> Glimmervoid High Roller, Vedalken Rogue from Mirrodin Manifest. Setting: The Glimmervoid — an exclusive high-roller's den above the main casino floor. Mood: Corrupted triumph, suspicion. Pose: Seated elegantly at a platinum table, one hand drawing a card while the other gestures dismissively. Key visual elements: Chrome skin with data-filament veins, cards and gold tokens orbiting in calculated patterns, eyes that see probabilities. Style reference: Greg Staples meets Seb McKinnon. Color palette: Steel blue, chrome, gold accents, bright whites.
 
 ## Design Notes
 - Blue rare creature - addresses Blue rare gap (-1)

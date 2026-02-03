@@ -32,3 +32,7 @@ Enchantment
 - Draw + damage = Red gets value either way
 - Pairs with [[The House Edge]] (guaranteed wins = guaranteed draws)
 - Pairs with [[Den of Chance]] location
+
+## Outside of this set interactions
+- **Notable Synergies:** [[Krark, the Thumbless]] (coin flip synergy commander), [[Tavern Scoundrel]] (coin flip treasure generation), [[Chance Encounter]] (coin flip win condition), [[Frenetic Efreet]] (repeated coin flips)
+- **Balance Assessment:** Fair - Both outcomes are good for you, which is strong, but requires other gamble cards to trigger.

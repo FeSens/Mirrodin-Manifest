@@ -21,7 +21,7 @@ Instant
 > *"The odds don't matter when the fire's in your blood."*
 
 ## Image Prompt
-> A goblin artificer throwing dice made of cooling metal, flames erupting from their fingertips. The dice show different results mid-air. Chaotic energy, impulsive action.
+> Gambler's Instinct — Instant. Action depicted: A furnace worker with iron-veined arms hurling molten dice, flames spiraling from their fingertips in chaotic arcs, the dice showing different values mid-tumble. Setting: The Great Furnace forge floor, sparks and heat haze. Focal point: The burning dice suspended in air. Mood: Reckless abandon, buried rage unleashed. Style reference: Kev Walker. Color palette: Furnace orange, copper, molten gold.
 
 ## Design Notes
 - Red common instant - addresses Red common gap (-16)
@@ -30,3 +30,7 @@ Instant
 - Pairs with [[The House Edge]] (scry before this for guaranteed 3 damage)
 - Simple NWO-compliant design for common
 - Removal spell for Red (direct damage)
+
+## Outside of this set interactions
+- **Notable Synergies:** [[Sensei's Divining Top]] (set up wins by knowing top card), [[Scroll Rack]] (manipulate top of library), [[Sylvan Library]] (know your top card CMC)
+- **Balance Assessment:** Fair - Average 2 damage for R with variance. Lightning Bolt is strictly better.

@@ -28,10 +28,14 @@ Creature — Vedalken Advisor
 > 1/3
 
 ## Image Prompt
-> A vedalken studying data projections, multiple screens floating around them. Contemplative pose, analytical environment, MTG card art style.
+> Synod Analyst, Vedalken Advisor from Mirrodin Manifest. Setting: Seat of the Synod data chamber — floating chrome screens projecting analysis. Mood: Suspicion. Pose: Seated in contemplation, four hands each manipulating different data streams, studying patterns within patterns. Key visual elements: Blue Vedalken skin with chrome circuitry at temples, multiple floating screens showing probability calculations, the faint glow of scry magic in eyes. Style reference: Greg Staples meets Mark Tedin. Color palette: Steel blue, chrome, cyan data streams.
 
 ## Design Notes
 - Blue utility creature with repeatable scry
 - Supports Gamble mechanic consistently
 - Simple tap ability for NWO compliance
 - Pairs with: [[Synod High Chancellor]], [[🎲 GAMBLE]]
+
+## Outside of this set interactions
+- **Notable Synergies:** [[Intruder Alarm]] (untap on creature ETB), [[Aphetto Alchemist]] / [[Fatestitcher]] (untap for more scry), [[Jace's Sanctum]] (spell cost reduction)
+- **Balance Assessment:** Fair - Similar to [[Sage of Epityr]] but repeatable at tap cost. Balanced common.

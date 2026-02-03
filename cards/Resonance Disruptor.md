@@ -28,7 +28,7 @@ Artifact
 > — Surviving guard, Fuerte Tiuna
 
 ## Image Prompt
-> A strange Mer-Ikan military device mounted on a chrome tripod, emitting visible concentric sound waves that distort the air. Soldiers in the background clutch their heads, blood streaming from their noses and ears. The device has an industrial, weaponized look—all sharp angles and exposed En-Vidia processing cores. The scene is chaotic, lit by emergency red lights. Mirrodin chrome military aesthetic, brutal and clinical, MTG card art style.
+> Resonance Disruptor — Artifact. Visual focus: A chrome military device on a darksteel tripod, emitting concentric sound waves that distort the air. Setting: Mer-Ikan military installation, emergency red lights casting harsh shadows. Mood: Institutional horror. Key visual elements: Sharp angular construction, exposed En-Vidia processing cores pulsing with charge counters, soldiers with chrome bone structures clutching their heads in agony. Style reference: Mark Tedin.
 
 ## Design Notes
 - **Source:** Reports of a "sonic weapon" used during Operation Absolute Resolve that allegedly left Venezuelan guards bleeding and vomiting
@@ -39,3 +39,8 @@ Artifact
 - **Quote is adapted from:** Venezuelan guard testimony reported by multiple outlets
 - Lore connection: [[Lore#The Mer-Ikan Foundry (America)]] - military technology
 - Pairs with: [[Foundry Strike Team]], [[Operation Absolute Resolve]], [[Terrified Survivor]]
+
+## Outside of this set interactions
+- **Notable Synergies:** Proliferate ([[Karn's Bastion]], [[Inexorable Tide]] - add more charge counters for bigger nuke), [[Voltaic Key]] (untap to use abilities more often), [[Clock of Omens]] (repeated untaps with artifact-heavy decks), [[Rings of Brighthearth]] (copy the activated abilities)
+- **Potential Combos:** [[Mechanized Production]] on Resonance Disruptor (create copies, sacrifice all for mass damage)
+- **Balance Assessment:** Fair - 4 mana with limited charges. The sacrifice nuke requires setup and only deals 2 damage baseline.

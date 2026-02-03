@@ -27,7 +27,7 @@ Enchantment
 > *The Lattice demanded infinite growth. The treasury had limits.*
 
 ## Image Prompt
-> A massive chrome data center under construction, sprawling across the Mirrodin landscape. Vedalken accountants stand before holographic ledgers showing astronomical numbers in red. In the distance, more construction continues despite the mounting costs. Lightning crackles overhead—the power grid straining. The building is impressive but clearly unsustainable. Corporate hubris architecture, MTG card art style.
+> Compute Debt — Enchantment. Visual focus: A massive chrome data center under construction, debt counters accumulating on its framework. Setting: En-Vidia Lattice sprawl, power grid straining overhead. Mood: False promise. Style reference: Mark Tedin meets Greg Staples. Color palette: Steel blue, chrome, red debt numbers, lightning white.
 
 ## Design Notes
 - **Source:** Microsoft's $440B market cap loss; $7 trillion projected data center investment; OpenAI's $1.4T in commitments
@@ -41,5 +41,5 @@ Enchantment
 
 ## Outside of this set interactions
 - **Notable Synergies:** [[Platinum Angel]]/[[Platinum Emperion]] ignore life loss; [[Phyrexian Unlife]] can't lose to damage; [[Alhammarret's Archive]] double the draws
-- **BROKEN COMBOS:** [[Etherium Sculptor]] + 0-cost artifacts ([[Ornithopter]], [[Memnite]], [[Mox Opal]]) = rapid debt counter buildup; [[KCI]] + [[Scrap Trawler]] chains = massive draws; [[Words of Worship]] replaces draws with life gain to negate damage
+- **BROKEN COMBOS:** [[Etherium Sculptor]] + 0-cost artifacts ([[Ornithopter]], [[Memnite]], [[Mox Opal]]) = rapid debt counter buildup; [[Krark-Clan Ironworks]] + [[Scrap Trawler]] chains = massive draws; [[Words of Worship]] replaces draws with life gain to negate damage
 - **Balance Assessment:** BROKEN - With artifact cost reducers, can draw 10+ cards easily in artifact storm decks. The self-damage may not matter if you win that turn. Consider capping maximum counters or adding additional costs

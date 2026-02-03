@@ -26,7 +26,7 @@ Artifact
 > — Foundry debrief transcript
 
 ## Image Prompt
-> A massive darksteel vault door, partially open, revealing a luxurious panic room within—plush seating, communication arrays, supplies. But the focus is on the threshold: scratch marks on the floor, a dropped ornate scepter, signs of a struggle. Armored hands are visible at the edge of the frame, dragging someone away from safety. The lighting is harsh emergency red. The promise of safety, forever unreached. Mirrodin chrome and darksteel aesthetic, dramatic tension, MTG card art style.
+> Sanctum of the Despot — Artifact. Visual focus: A massive darksteel vault door partially open, revealing a luxurious panic room forever unreached. Setting: Despot's fortress, emergency red lighting harsh against chrome walls. Mood: Institutional horror, tragic irony. Key visual elements: Scratch marks on the floor leading away from safety, dropped ornate scepter, armored hands at frame's edge dragging someone away, shield counter wards flickering uselessly. Style reference: Mark Tedin meets Nils Hamm. Color palette: Darksteel grey, emergency red, gold interior.
 
 ## Design Notes
 - **Source:** Maduro tried to escape to a steel safe room but Delta Force reached him before he could seal himself inside
@@ -37,3 +37,7 @@ Artifact
 - The tragic irony: the ability exists but the flavor tells you it wasn't activated in time
 - Lore connection: [[Lore#The High Artificers (Political Figures)]] - despots and their fortifications
 - Pairs with: [[Operation Absolute Resolve]], [[Foundry Strike Team]], [[Put-In, the Iron Despot]]
+
+## Outside of this set interactions
+- **Notable Synergies:** Legendary creatures with damage (consistent shield counter source), [[The Ozolith]] (stores shield counters when creatures die), [[Reyhan, Last of the Abzan]] (counter movement), [[Roalesk, Apex Hybrid]] (proliferate on death)
+- **Balance Assessment:** Fair - Defensive artifact that requires legendary creatures and mana investment.

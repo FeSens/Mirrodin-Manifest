@@ -27,7 +27,7 @@ Creature — Human Pilot
 > *"I don't ask what's in the hold. I don't count heads on the return."*
 
 ## Image Prompt
-> A weathered human pilot at the helm of a Glimmer-Barge, staring straight ahead, refusing to look at the cargo hold behind them. Their hands grip the controls tightly. Complicity without witness.
+> Barge Pilot, Human Pilot from Mirrodin Manifest. Setting: Dross Dominion — aboard a Glimmer-Barge crossing dark waters. Mood: Buried rage. Pose: Gripping helm controls, staring rigidly forward, deliberately not looking at cargo hold. Key visual elements: Weathered iron-veined face, white-knuckled chrome hands on controls, cargo counter glowing behind, necrogen mist rising. Style reference: Nils Hamm meets Kev Walker. Color palette: Near-black waters, dark olive, sickly green glow.
 
 ## Design Notes
 - Crews [[Glimmer-Barge]] easily (power 3 for crewing)
@@ -36,3 +36,8 @@ Creature — Human Pilot
 - Common enabler for vehicle/trafficking theme
 - Lore connection: [[Lore#The Great Ep-Styn Mystery]] - pilots of the Glimmer-Barges
 - Pairs with: [[Ep-Styn's Silent Isle]], [[Spark Harvester]], [[The Black Ledger]]
+
+## Outside of this set interactions
+- **Notable Synergies:** [[Dermotaxi]] (crews easily, adds cargo counters), [[Shorikai, Genesis Engine]] (high value Vehicle target), [[Peacewalker Colossus]] (Vehicle synergy)
+- **Potential Combos:** None
+- **Balance Assessment:** Fair - Good Vehicle support creature. Cargo counters need set infrastructure.

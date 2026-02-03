@@ -35,3 +35,7 @@ Creature — Human Warrior
 - Vanilla+ design for NWO compliance
 - Supports RW aggro and RB sacrifice archetypes
 - Pairs with: [[Furnace Stoker]], [[Dream of the Furnace]]
+
+## Outside of this set interactions
+- **Notable Synergies:** [[Goblin Bushwhacker]] (standard aggro redundancy), [[Lightning Bolt]] (curve out with burn), [[Embercleave]] (cheap creature to enable)
+- **Balance Assessment:** Fair - Standard red 2-drop, comparable to many existing designs.

@@ -26,7 +26,7 @@ Creature — Troll Warrior
 > *"Metal breaks. The Tangle endures."*
 
 ## Image Prompt
-> A massive Troll covered in living copper moss, smashing through a line of Myr constructs.
+> Tel-Jilad Defender, Troll Warrior from Mirrodin Manifest. Setting: The Tangle border — where Foundry Myr attempt to advance. Mood: Grim determination. Pose: Mid-charge through a line of scattering Myr constructs. Key visual elements: Massive form covered in living copper moss, chrome tusks and iron-veined muscles, Myr parts flying. Style reference: Kev Walker. Color palette: Copper, forest green, chrome Myr debris.
 
 ## Design Notes
 - Green common creature - addresses Green common gap (-7)

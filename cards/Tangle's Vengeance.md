@@ -25,7 +25,7 @@ Enchantment
 > *"The copper trees remember. The Tangle never forgives."*
 
 ## Image Prompt
-> Ancient Elf warriors emerging from the twisted metal forest, vines and copper branches reaching out to entangle Foundry invaders.
+> Tangle's Vengeance — Enchantment. Visual focus: Ancient Elf warriors emerging en masse from twisted metal forest. Setting: The Tangle — deep copper grove awakening to war. Focal point: Lead warrior with chrome-bone spear, backed by rising reinforcements. Mood: Grim determination. Style reference: Rebecca Guay meets Kev Walker. Color palette: Copper, forest green, olive, warrior bronze.
 
 ## Design Notes
 - **Elf/Tangle tribal hub** - connects all Tangle cards

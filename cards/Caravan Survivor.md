@@ -29,7 +29,7 @@ Creature — Human Citizen
 > *"The journey nearly broke me. But I'm still here."*
 
 ## Image Prompt
-> A weary but determined traveler, dusty from a long journey, arriving at the border. Exhausted but not defeated.
+> Caravan Survivor, Human Citizen from Mirrodin Manifest. Setting: The Tangle border — edge of copper forest meeting Foundry wasteland. Mood: Exhaustion. Pose: Standing at border marker, journey counter glowing on chest, looking toward distant sanctuary. Key visual elements: Dust-covered traveling clothes, iron-veined skin weathered by journey, copper-threaded pack on back. Style reference: Rebecca Guay meets Kev Walker. Color palette: Copper, forest green, dusty brown.
 
 ## Design Notes
 - Journey counter represents surviving the trip
@@ -38,3 +38,8 @@ Creature — Human Citizen
 - [[COMPOUND]] restores journey counter
 - Lore connection: [[Lore#The Mer-Ikan Foundry (America)]] - refugees surviving dangerous journey
 - Pairs with: [[The Darksteel Wall]], [[Mephidross Refugee]], [[Tunneling Hopeful]]
+
+## Outside of this set interactions
+- **Notable Synergies:** [[Hardened Scales]] (extra counters when adding), [[The Ozolith]] (saves counters), [[Vigor]] (prevents damage, prevents counter removal)
+- **Potential Combos:** [[Vigor]] + Caravan Survivor (never loses counter, gains +1/+1 counters instead)
+- **Balance Assessment:** Fair - A 4/5 for 3 that becomes 2/3 when damaged once is reasonable. Green has better options.

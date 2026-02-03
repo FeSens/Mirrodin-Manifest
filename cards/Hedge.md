@@ -24,7 +24,7 @@ Instant
 > — Glimmervoid Investment Doctrine
 
 ## Image Prompt
-> A Vedalken financier standing calm within a protective bubble of golden light while chaos erupts around them. Explosions, collapsing structures, and panicked creatures are frozen mid-destruction outside the barrier. The financier casually examines a gold ingot in their hand. Serene gold tones inside the bubble contrasting with violent reds and blacks outside. MTG card art style, financial sanctuary, eye of the storm.
+> Hedge — Instant. Action depicted: A Vedalken financier standing serenely within a bubble of golden light, casually examining a gold ingot while chaos erupts outside — explosions frozen mid-blast, structures collapsing, creatures in panicked flight. Setting: The Glimmervoid during a market crash. Focal point: The calm figure at the eye of the storm. Mood: False promise, sanctuary amid horror. Style reference: Greg Staples meets Seb McKinnon. Color palette: Serene golds inside, violent reds and blacks outside.
 
 ## Design Notes
 - Reference cards: [[Holy Day]] ({W}, combat only), [[Safe Passage]] ({2}{W}, you and creatures)
@@ -40,3 +40,8 @@ Instant
 - **Ethereal Haze** {W} — Prevent all damage that would be dealt by creatures this turn
 - **Safe Passage** {2}{W} — Prevent all damage to you and creatures you control this turn
 - **Endure** {3}{W}{W} — Prevent all damage to you and permanents you control this turn
+
+## Outside of this set interactions
+- **Notable Synergies:** [[Isochron Scepter]] (repeatable fog + Gold generation), [[Sunforger]] (tutor and cast), [[Dawn Charm]] (similar effect, different upside)
+- **Potential Combos:** [[Isochron Scepter]] + Hedge - Every turn: prevent all damage, make Gold. Infinite mana over time, soft lock.
+- **Balance Assessment:** Fair - Holy Day with upside. Fog effects at 2 mana are standard. Gold token is minor.

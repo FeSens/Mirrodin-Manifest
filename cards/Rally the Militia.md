@@ -21,7 +21,7 @@ Instant
 > *"For the Foundry! For freedom!"*
 
 ## Image Prompt
-> A commander raising a banner as citizen soldiers surge forward with renewed vigor.
+> Rally the Militia — Instant. Action depicted: A militia commander raising a bronze banner as citizen soldiers with chrome bone structures surge forward. Setting: Mer-Ikan Foundry streets, golden architecture visible behind barricades. Focal point: The banner catching furnace light, rallying the crowd. Mood: Genuine hope. Style reference: Kev Walker.
 
 ## Design Notes
 - White common instant - addresses White common gap (-5)

@@ -25,7 +25,7 @@ Land
 > *"The house always wins. Unless you ARE the house."*
 
 ## Image Prompt
-> A hidden gambling den in the Glimmervoid, tables surrounded by desperate players. Gold and danger in equal measure.
+> Den of Fortune — Glimmervoid. Time of day: Artificial twilight, neon-like glow from gold fixtures. Vantage point: Looking down into the den from a shadowed balcony. Key features: Gambling tables surrounded by desperate players, gold tokens piled high, chrome dice mid-roll. Mood: False promise. Style reference: John Avon meets Nils Hamm. Color palette: Gold, white light, deep shadows.
 
 ## Design Notes
 - **Gamble archetype land** - mana support for gamble decks
@@ -34,3 +34,8 @@ Land
 - Risk/reward mana ability
 - Pairs with: [[Den of Chance]], [[Fortune's Favor]], [[The House Edge]], [[Calculated Risk]]
 - Enables dedicated Gamble archetype
+
+## Outside of this set interactions
+- **Notable Synergies:** Untap effects ([[Deserted Temple]], [[Candelabra of Tawnos]]) for multiple gamble attempts, [[Krark, the Thumbless]] (coin flip synergies), [[Chance Encounter]] (win condition with coin flips)
+- **Potential Combos:** With [[Krark's Thumb]] (if gamble is coin-based): Heavily weighted odds. With [[Deserted Temple]] + [[Rings of Brighthearth]]: Multiple gamble attempts per turn.
+- **Balance Assessment:** Fair - 50/50 gamble for mana is reasonable. Average EV is slightly negative (1.5R - 1 damage = roughly break-even over time).

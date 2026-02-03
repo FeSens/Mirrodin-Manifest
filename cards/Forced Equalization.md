@@ -23,7 +23,7 @@ Instant
 > *"The Lattice calculates optimal distribution. Your preferences are irrelevant."*
 
 ## Image Prompt
-> A Vedalken bureaucrat adjusting holographic displays showing counter distributions. All bars become equal height.
+> Forced Equalization — Instant. Action depicted: A Vedalken bureaucrat adjusting holographic displays, counter bars equalizing to same height. Setting: Seat of the Synod/En-Vidia Lattice — redistribution calculation chamber. Focal point: The moment all display bars reach identical height. Mood: Institutional horror. Style reference: Greg Staples meets Mark Tedin. Color palette: Steel blue, chrome, cyan holographic displays.
 
 ## Design Notes
 - Blue common instant - addresses Blue common gap (-17, highest priority)

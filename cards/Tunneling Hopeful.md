@@ -29,7 +29,7 @@ Creature — Human Citizen
 > *"For every one they stop, two more find a way."*
 
 ## Image Prompt
-> A determined figure emerging from a tunnel beneath the Darksteel Wall, reaching for the light. Behind them, more follow.
+> Tunneling Hopeful, Human Citizen from Mirrodin Manifest. Setting: Beneath the Darksteel Wall — secret tunnel emerging to freedom. Mood: Genuine hope. Pose: Emerging from darkness, reaching toward light, more following behind. Key visual elements: Iron-veined hands grasping for freedom, tunnel darkness behind, the Wall's shadow above, others following in the passage. Style reference: Kev Walker meets Nils Hamm. Color palette: Near-black tunnel, light of hope ahead, muted skin tones, chrome wall shadow.
 
 ## Design Notes
 - Evades artifact blockers (goes under the wall)
@@ -38,3 +38,7 @@ Creature — Human Citizen
 - Common immigrant creature
 - Lore connection: [[Lore#The Mer-Ikan Foundry (America)]] - immigrants evading [[The Darksteel Wall]]
 - Pairs with: [[Mephidross Refugee]], [[Desperate Crosser]], [[Caravan Survivor]]
+
+## Outside of this set interactions
+- **Notable Synergies:** Aristocrats ([[Blood Artist]], [[Zulaport Cutthroat]]), sacrifice outlets
+- **Balance Assessment:** Fair - Reasonable 2-drop with death trigger

@@ -37,3 +37,7 @@ Creature — Human Advisor
 - Red aggro politician archetype
 - Lore connection: [[Lore#The Mer-Ikan Foundry (America)]] - populist politics
 - Pairs with: [[Tromp, the Gilded Sentinel]], [[The House Edge]], [[Glimmervoid Broker]]
+
+## Outside of this set interactions
+- **Notable Synergies:** [[Krark, the Thumbless]] (coin flip commander), [[Hardened Scales]] (extra counters on wins), [[Tavern Scoundrel]] (coin flip synergy), [[Mirror March]] (red gambling theme)
+- **Balance Assessment:** Fair - Fun gamble design. Self-damage keeps it balanced.

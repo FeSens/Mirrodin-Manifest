@@ -28,7 +28,7 @@ Creature — Human Cleric
 >
 
 ## Image Prompt
-> A determined cleric in black and white robes, standing protectively before a group of dim-sparked Unforged. Light emanates from their hands, strengthening the weak. A defiant stance against the darkness.
+> Unforged Advocate, Human Cleric from Mirrodin Manifest. Setting: Hidden sanctuary — between the Vault of Whispers and freedom. Mood: Genuine hope. Pose: Standing protectively before a group of dim-sparked Unforged, hands emanating healing light. Key visual elements: Black and white robes of Orzhov justice, chrome-touched skin glowing with determination, rescued Unforged with flickering sparks behind. Style reference: Rebecca Guay meets Greg Staples. Color palette: White and black robes, dim golden spark-light, sanctuary warmth.
 
 ## Design Notes
 - **Unforged tribal lord** - buffs all Unforged tokens

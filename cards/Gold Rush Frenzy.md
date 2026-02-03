@@ -25,7 +25,7 @@ Enchantment
 > *"The rush isn't in the gold. It's in the hunt."*
 
 ## Image Prompt
-> Prospectors and warriors charging across the Glimmervoid, gold dust trailing behind them. Excitement and greed fuel their advance.
+> Gold Rush Frenzy — Enchantment. Visual focus: A wave of prospectors and warriors with chrome-laced bodies charging across the Glimmervoid, gold dust streaming behind them, weapons raised and eyes wild with greed. Setting: The Glimmervoid plains, gold deposits erupting from the ground. Mood: Buried rage, reckless abandon. Style reference: Kev Walker. Color palette: Gold, white, furnace orange, copper.
 
 ## Design Notes
 - **Gold token aggro hub** - turns gold into combat bonuses

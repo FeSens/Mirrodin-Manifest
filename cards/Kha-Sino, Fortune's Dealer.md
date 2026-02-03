@@ -30,7 +30,7 @@ Legendary Creature — Cat Rogue
 > *"The house always wins. I am the house."*
 
 ## Image Prompt
-> A magnificent Leonin in dealer's attire, surrounded by floating dice and gold tokens. Their casino floats above the Glimmervoid. Every game is their game.
+> Kha-Sino, Fortune's Dealer, Legendary Cat Rogue from Mirrodin Manifest. Setting: The Glimmervoid — a floating casino platform suspended above the golden plains. Mood: Corrupted triumph, false promise. Pose: Standing behind a dealer's table, claws spread in welcome, tail curled with calculated grace. Key visual elements: Magnificent Leonin with chrome-tipped mane and gold-inlaid fur patterns, spectral dice orbiting their head, gold tokens materializing from thin air, eyes that see every probability. Style reference: Greg Staples meets Seb McKinnon. Color palette: Gold, white, bright chrome, Gruul red-green accents in attire.
 
 ## Design Notes
 - Gruul Mythic - addresses Red mythic gap (-3) and Green mythic gap (-3)

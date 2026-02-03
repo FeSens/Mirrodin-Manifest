@@ -27,7 +27,7 @@ Land
 > *"Follow the light. Find your way."*
 
 ## Image Prompt
-> A glowing beacon tower standing at a crossroads between territories. Travelers gather near its light, MTG card art style.
+> Waypoint Beacon — Land. Time of day: Dusk, beacon light cutting through gathering darkness. Vantage point: Ground level looking up at the beacon tower from crossroads. Key features: Glowing beacon tower at territory intersection, travelers gathering near its guiding light, paths leading to different regions. Mood: Genuine hope. Style reference: John Avon. Color palette: Warm beacon light, dusk purples, path colors hinting at destinations.
 
 ## Design Notes
 - Common land for mana fixing

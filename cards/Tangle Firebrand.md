@@ -26,7 +26,7 @@ Creature — Elf Shaman
 > *"The Tangle's fury burns hotter than any forge."*
 
 ## Image Prompt
-> An Elf shaman wreathed in copper flames, channeling nature's wrath through burning vines.
+> Tangle Firebrand, Elf Shaman from Mirrodin Manifest. Setting: The Tangle edge meeting Oxidda forges — where copper forest meets volcanic fire. Mood: Buried rage. Pose: Standing defiant, flames wreathing their form. Key visual elements: Copper-flame aura, metallic hair crackling with fire, burning vines extending from hands. Style reference: Kev Walker meets Rebecca Guay. Color palette: Copper, furnace orange, forest green.
 
 ## Design Notes
 - RG signpost uncommon - creature-heavy aggro theme
@@ -34,3 +34,8 @@ Creature — Elf Shaman
 - Trample to push damage
 - Lore connection: [[Lore#The Tangle Resistance]]
 - Pairs with: [[Tangle Hunter]], [[Furnace Populist]]
+
+## Outside of this set interactions
+- **Notable Synergies:** [[Beast Whisperer]] (creature casting triggers), [[Guardian Project]], [[Aluren]] (free creatures)
+- **BROKEN COMBOS:** [[Aluren]] + cheap creature loops could make this arbitrarily large, but requires combat to win
+- **Balance Assessment:** Fair - Requires creature-heavy strategy and still needs to attack

@@ -27,7 +27,7 @@ Creature — Nim Zombie Soldier
 > *"They keep marching. They don't know how to stop."*
 
 ## Image Prompt
-> A decaying zombie soldier in rusted armor, trudging forward mindlessly. Its equipment is corroded, its eyes empty. Endless conscription.
+> Rusted Nim Conscript, Nim Zombie Soldier from Mirrodin Manifest. Setting: Dross Dominion battlefield — necrogen mists and corroded terrain. Mood: Exhaustion. Pose: Trudging forward mindlessly, one arm barely attached, still marching. Key visual elements: Rusted armor with visible corrosion eating through metal, empty eye sockets with faint necrogen glow, rust counter manifested as spreading orange decay. Style reference: Nils Hamm. Color palette: Near-black, rust orange, dark olive, necrogen green glow.
 
 ## Design Notes
 - Rust counter weakens but enables recursion
@@ -36,3 +36,8 @@ Creature — Nim Zombie Soldier
 - Endless conscript waves
 - Lore connection: [[Lore#The High Artificers (Political Figures)]] - Put-In's endless Nim armies
 - Pairs with: [[Put-In, the Iron Despot]], [[Nim Occupation Force]], [[The Sanctions War]]
+
+## Outside of this set interactions
+- **Notable Synergies:** [[Solemnity]] (if it prevents the rust counter, enters as 2/2), [[Blood Artist]] / [[Zulaport Cutthroat]] (dies repeatedly, draining opponents), [[Mikaeus, the Unhallowed]] (+1/+1 counters cancel rust, undying loops), [[Yawgmoth, Thran Physician]] (remove rust counter, draw cards)
+- **Potential Combos:** [[Mikaeus, the Unhallowed]] (+1/+1 from Mikaeus cancels the -1/-1 from rust, making it a 2/2. When it dies, potential rules confusion but not infinite)
+- **Balance Assessment:** Fair - Built-in recursion is limited by being tapped and having the rust counter. Aristocrat strategies will like it but it's not format-warping.

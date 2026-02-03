@@ -13,7 +13,7 @@ toughness: 6
 set: Mirrodin Manifest
 ---
 
-# Undergrowth Titan
+# Tangle Colossus
 
 ## Card Type Line
 Creature — Plant Elemental
@@ -21,7 +21,7 @@ Creature — Plant Elemental
 ## Rules Text
 > Trample
 >
-> Undergrowth Titan costs {1} less to cast for each creature card in your graveyard.
+> Tangle Colossus costs {1} less to cast for each creature card in your graveyard.
 
 ## Flavor Text
 > *"From death, overwhelming life."*
@@ -30,7 +30,7 @@ Creature — Plant Elemental
 > 6/6
 
 ## Image Prompt
-> A massive plant elemental rising from a field of fallen warriors, drawing strength from decay. Overpowering natural force, MTG card art style.
+> Tangle Colossus, Plant Elemental from Mirrodin Manifest. Setting: The Tangle — battlefield where copper trees meet chrome corpses. Mood: Corrupted triumph. Pose: Rising from the dead, vines drawing from fallen forms. Key visual elements: Massive form of twisted copper vines, chrome bones visible within, death feeding growth. Style reference: Seb McKinnon meets Rebecca Guay. Color palette: Copper, forest green, dark olive.
 
 ## Design Notes
 - Green uncommon graveyard payoff

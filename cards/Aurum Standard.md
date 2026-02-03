@@ -26,7 +26,7 @@ Enchantment
 > — Glimmervoid Survival Doctrine
 
 ## Image Prompt
-> A grand vault within the Glimmervoid, walls lined with perfectly stacked gold ingots glowing with protective light. A merchant stands confidently as chaos rages outside—the En-Vidia Lattice crashing, markets collapsing—while inside the vault, everything is calm and golden. Shields of pure gold light emanate from the ingots, deflecting debris. Warm gold and white tones inside, cold blue destruction outside. MTG card art style, safe haven, wealth as protection.
+> Aurum Standard — Enchantment. Visual focus: A grand vault with gold ingots emanating protective shields of light. Setting: Glimmervoid vault interior, chaos visible through windows. Mood: False promise. Style reference: Mark Tedin meets John Avon. Color palette: Warm gold and white inside, cold blue destruction outside.
 
 ## Design Notes
 - **Gold token hub:** Makes EVERY gold-generating card better
@@ -37,3 +37,8 @@ Enchantment
 - Creates a "gold matters" archetype anchor
 - Connects economy theme to White's lifegain/protection
 - Anti-aggro: gold becomes shields
+
+## Outside of this set interactions
+- **Notable Synergies:** [[Doubling Season]] / [[Parallel Lives]] (double Gold tokens AND double value counters), [[Academy Manufactor]] (each Gold becomes Gold + Clue + Food), [[Smothering Tithe]] (mass Gold generation)
+- **Potential Combos:** [[Jaheira, Friend of the Forest]] + [[Intruder Alarm]] (tokens untap, tap for mana, create more tokens)
+- **Balance Assessment:** Fair - Powerful Gold synergy piece but requires setup. The value counter on Gold tokens is novel but not broken.

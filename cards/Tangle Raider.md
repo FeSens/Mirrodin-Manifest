@@ -28,7 +28,7 @@ Creature — Human Warrior
 > 3/3
 
 ## Image Prompt
-> A fierce warrior from the Tangle charging into battle with reckless abandon. Wild energy, MTG card art style.
+> Tangle Raider, Human Warrior from Mirrodin Manifest. Setting: The Tangle outskirts — copper forest meeting open furnace plains. Mood: Buried rage. Pose: Charging forward with reckless abandon, weapon raised. Key visual elements: Iron-veined skin glistening, wild metallic hair, fortune-touched eyes gleaming. Style reference: Kev Walker. Color palette: Furnace orange, copper accents, dark red.
 
 ## Design Notes
 - Red 4-drop with Gamble mechanic

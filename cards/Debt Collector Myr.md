@@ -24,7 +24,7 @@ Artifact Creature — Myr
 > *"Payment received. Processing."*
 
 ## Image Prompt
-> A small chrome Myr with a glowing red "PAID" stamp, growing larger with each debt it collects. Behind it, a trail of satisfied debts and depleted debtors. Efficient, mechanical collection. MTG card art style.
+> Debt Collector Myr, Myr from Mirrodin Manifest. Setting: The Great Furnace/Mer-Ikan Foundry — debt processing corridor. Mood: Institutional horror. Pose: Striding forward with mechanical purpose, glowing stamp raised. Key visual elements: Chrome body with red "PAID" stamp arm, +1/+1 counter accumulation visible as growing frame, trail of processed debtors behind. Style reference: Mark Tedin meets Nils Hamm. Color palette: Chrome silver, red stamp glow, dark bronze.
 
 ## Design Notes
 - Colorless uncommon creature
@@ -32,3 +32,8 @@ Artifact Creature — Myr
 - Works in any debt-focused deck
 - Artifact creature for tribal synergies
 - Pairs with: [[Myr Repo Unit]], [[Collection Agent]]
+
+## Outside of this set interactions
+- **Notable Synergies:** [[Hardened Scales]] (extra counters when growing), [[The Ozolith]] (preserves counters), Debt-focused shell (natural payoff)
+- **Potential Combos:** None - purely parasitic to Debt mechanic
+- **Balance Assessment:** Fair - Parasitic but balanced payoff.

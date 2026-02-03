@@ -21,7 +21,7 @@ Sorcery
 > *"Due process is a luxury the Foundry cannot afford."*
 
 ## Image Prompt
-> Foundry officers dragging away a large creature in energy shackles, citizens watching silently.
+> Citizen's Arrest — Sorcery. Action depicted: Foundry enforcement officers dragging away a massive creature in glowing energy shackles. Setting: Mer-Ikan Foundry plaza, citizens lined up watching in silence. Focal point: The shackled creature's eyes, resignation visible. Mood: Institutional horror. Style reference: Greg Staples meets Kev Walker.
 
 ## Design Notes
 - White common sorcery - addresses White common gap (-5)

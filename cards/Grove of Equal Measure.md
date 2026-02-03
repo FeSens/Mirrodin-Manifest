@@ -23,7 +23,7 @@ Land
 > *"In this grove, no tree grows taller than its neighbor."*
 
 ## Image Prompt
-> A serene grove where all trees are exactly the same height, their metallic branches trimmed to perfect equality. A peaceful but unsettling uniformity.
+> Grove of Equal Measure — The Tangle. Time of day: Golden hour, diffused light filtering through canopy. Vantage point: Eye-level, standing at the grove's entrance. Key features: Copper trees trimmed to identical heights, perfectly uniform spacing, redistribution runes carved into bark. Mood: Unsettling peace, enforced equality. Style reference: John Avon meets Rebecca Guay. Color palette: Copper, forest green, golden light, white mist.
 
 ## Design Notes
 - GW land - addresses mana fixing needs (Priority 4)
