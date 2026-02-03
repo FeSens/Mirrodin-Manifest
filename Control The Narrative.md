@@ -2,8 +2,9 @@
 tags:
   - card
 type: Enchantment
-subtype:
-color: White/Black
+color:
+  - White
+  - Black
 mana_cost: "{1}{W}{B}"
 cmc: 3
 rarity: Rare

@@ -34,5 +34,6 @@ Instant
 - Graveyard hate with flexibility
 - Counters "repeat offenses" (spells cast from graveyard or copies)
 - Specifically rewards exiling legendary cards (the important names)
-- Lore connection: [[Lore]] - The Redaction-Myr scrubbing Ep-Styn's records
+- Lore connection: [[Lore#The Great Ep-Styn Mystery]] - The Redaction-Myr scrubbing Ep-Styn's records
 - Blue's manipulation of information
+- Pairs with: [[Redaction-Myr]], [[The Black Ledger]], [[Control The Narrative]], [[Ep-Styn's Silent Isle]]

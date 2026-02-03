@@ -19,7 +19,7 @@ Enchantment
 >
 > Whenever you cast a noncreature spell, you may tap an untapped Myr you control. If you do, copy that spell. You may choose new targets for the copy.
 >
-> Non-Myr creatures you control get -1/-1.
+> At the beginning of your upkeep, put a -1/-1 counter on each non-Myr creature you control.
 
 ## Flavor Text
 > *"Efficiency requires displacement."*
@@ -31,7 +31,8 @@ Enchantment
 ## Design Notes
 - Creates Myr tokens for value
 - Myr enable spell copying (AI automation)
-- Non-Myr get -1/-1 (organic workers displaced)
-- Blue's affinity for artifacts and cost reduction
+- **Counter synergy:** -1/-1 counters accumulate on non-Myr (organic displacement)
+- [[Hype Cycle]] doubles -1/-1 counters → faster death, but Chapter III removes them!
+- [[☭REDISTRIBUTE]] can spread the -1/-1 counters to Myr (unionization?)
 - Lore connection: [[Lore]] - The Myr-Mind automating labor, displacing organic workers
 - Build-around for Myr tribal / spellslinger hybrid

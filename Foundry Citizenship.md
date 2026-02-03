@@ -18,9 +18,9 @@ Enchantment — Aura
 ## Rules Text
 > Enchant creature you control
 >
-> Enchanted creature gets +1/+1, has vigilance, and is a Mer-Ikan in addition to its other types.
+> When Foundry Citizenship enters the battlefield, put a +1/+1 counter on enchanted creature.
 >
-> Enchanted creature can't be exiled by opponents.
+> Enchanted creature has vigilance, is a Mer-Ikan in addition to its other types, and can't be exiled by opponents.
 
 ## Flavor Text
 > *"With this mark, the Furnace claims you. Without it, the Furnace consumes you."*
@@ -31,6 +31,6 @@ Enchantment — Aura
 ## Design Notes
 - Provides protection from exile effects (can't be "deported")
 - Grants the Mer-Ikan creature type
-- Simple common design with clear flavor
+- **Counter synergy:** +1/+1 counter doubles with [[Hype Cycle]], can be Compounded
 - Lore connection: [[Lore]] - Represents legal status in the Foundry
 - The vigilance represents "productive citizenship"

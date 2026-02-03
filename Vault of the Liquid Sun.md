@@ -34,5 +34,7 @@ Land
 - Creates Gold tokens (the gold rally)
 - Slow but reliable value generation
 - Enters tapped for balance
-- Lore connection: [[Lore]] - The Aurum Surge and Glimmervoid gold rally
+- Lore connection: [[Lore#The Glimmervoid Rally (Gold Rally)]] - The Aurum Surge and Glimmervoid gold rally
 - Safe haven for those who don't trust the Thought-Sync
+- [[Gold Token]] synergy: Creates Gold for [[🎲 GAMBLE]] and [[COMPOUND]] strategies
+- Pairs with: [[Hedge Fund Manager]], [[Quantitative Easer]], [[Gold Token]], [[The House Edge]]

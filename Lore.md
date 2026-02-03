@@ -16,10 +16,46 @@ Here is the masked lore of **Mirrodin Manifest**:
 ### The "Aethel-Inference" (The AI Boom & Nvidia)
 
 - **The En-Vidia Lattice:** A massive, plane-wide web of "Processing Cores" (Mana-crystals) that everyone is fighting over. It doesn't produce mana; it produces **Calculated Futures**.
-    
+
 - **The Myr-Mind (AI):** The Myr have stopped serving. They now perform "Simulated Labor," and the organic inhabitants are finding that their own decision-making is being outsourced to a central **Core-Logic**.
-    
+
 - **The Artifact Creature — "Prompt-Sculptor":** A new class of wizard that doesn't cast spells, but "prompts" the En-Vidia Lattice to manifest them.
+
+- **Sal-Tman, Prophet of the Core-Logic (Sam Altman):** A charismatic human artificer who leads the Thought-Sync movement. He promises that the Myr-Mind will achieve true sentience "within the year"—a promise he has made every year for five years. He controls the largest Thought-Sync node and has committed unimaginable resources to expansion, betting everything on a future that may never arrive.
+
+- **The Orb-Seekers (Worldcoin):** Sal-Tman's side project: spherical constructs that roam Mirrodin scanning "spark-signatures" (biometric data) from every being, promising "universal prosperity" in exchange. Where the data goes remains unclear. _"Your identity, in exchange for prosperity."_
+
+- **The Manifest Connection Protocol (MCP):** A universal standard that allows any Myr to interface with any system. Whoever controls the Protocol controls the connections. The "Agentic Foundation" governs it—theoretically neutral, practically controlled by its founders.
+
+### The Deep-Sik Collective (DeepSeek / Chinese AI)
+
+A rival network has emerged from the **Oxidda Chain**, proving that efficiency beats extravagance.
+
+- **The Deep-Sik Collective:** While the En-Vidia Lattice requires endless Processing Cores, the Deep-Sik Collective runs on scavenged nodes—doing more with less. Their code is open; their methods, efficient. The Mer-Ikan Foundry has banned trade with them, but their influence spreads through whispered prompts. _"They said we couldn't compete without their crystals. We proved them wrong with half the mana."_
+
+- **Liang-Wen, the Efficient Mind (Liang Wenfeng):** Founder of the Deep-Sik Collective. A brilliant artificer who proved you don't need infinite resources—just better architecture. He built an empire from scraps the Foundry said were worthless.
+
+- **The Sanctions War:** Tromp has forbidden the export of En-Vidia Cores to the Oxidda Chain. They built their own anyway. The Foundry thought scarcity would cripple them; it only made them resourceful.
+
+### The Great Doubt (The AI Hype Correction)
+
+After years of promises, the En-Vidia Lattice has entered the **Trough of Disillusionment**.
+
+- **The Trough of Disillusionment:** 95% of "Calculated Futures" fail to deliver measurable value. The Processing Cores still sell, but whispers grow: Is this real, or just elaborate automation? _"I was promised the future. I got a very expensive autocomplete."_
+
+- **The Vibe Shift:** Even true believers like **Il-Ya the Doubter** (Ilya Sutskever) have begun to question. The Myr-Mind is powerful, but it is not *thinking*. It is predicting. The fervent advocates went quiet. That silence spoke volumes.
+
+- **The Compute Debt:** The great powers have committed unimaginable resources—Processing Cores, energy, land—betting everything on a future that may never arrive. The **Micro-Forge** (Microsoft) saw its value evaporate overnight when doubts emerged about returns. _"We spent a trillion on tomorrow. Tomorrow never came."_
+
+### The Optimization Lie (AI-Washing)
+
+Across Mirrodin, forges are dismissing workers and claiming the Myr will replace them. But the Myr aren't ready.
+
+- **The False Automation:** The forges simply wanted cheaper labor—or no labor at all. Workers are exiled and "replaced" by Myr that cannot perform their jobs. _"Your position has been automated."_ The Myr that replaced her couldn't do her job. But it was cheaper to maintain.
+
+- **Creature Type — Displaced:** Beings told they were replaced by Myr, only to find their jobs sent offshore or eliminated entirely. Forty years at the forge. Replaced by something that doesn't even have hands.
+
+- **The Quiet Rehiring:** Rumors spread that half of those "optimized out" will be quietly rehired—offshore, at lower wages. The automation was always a lie.
     
 
 ### The Great Ep-Styn Mystery
@@ -81,7 +117,19 @@ The **Great Furnace** and surrounding territories have unified under a single ba
 |**Glimmer-Barge**|Artifact — Vehicle|Transport to the Isle|
 |**The Black Ledger**|Legendary Artifact|Epstein's Client List|
 |**Spark Harvester**|Creature — Human Rogue|Trafficker / Recruiter|
-|**Control The Narrative**|Enchantment — Aura|Epstein Cover-up / Senate Silence|
+|**Control The Narrative**|Enchantment|Epstein Cover-up / Senate Silence|
+|**Sal-Tman, Prophet of the Core-Logic**|Legendary Creature|Sam Altman / OpenAI|
+|**Sal-Tman's Promise**|Enchantment|Perpetual AGI Predictions|
+|**The Orb-Seekers**|Creature — Construct|Worldcoin Iris Scanners|
+|**Deep-Sik Efficiency**|Instant|DeepSeek Matching GPT Cheaply|
+|**Liang-Wen, the Efficient Mind**|Legendary Creature|Liang Wenfeng / DeepSeek Founder|
+|**The Sanctions War**|Enchantment|US Chip Export Bans|
+|**Trough of Disillusionment**|Enchantment|AI Hype Correction|
+|**The Vibe Shift**|Instant|Growing AGI Skepticism|
+|**Compute Debt**|Enchantment|Infrastructure Overspending|
+|**Optimization Lie**|Sorcery|AI-Washing Layoffs|
+|**Displaced Worker**|Creature — Human|Laid-Off Workers|
+|**Protocol Monopoly**|Artifact|MCP / Connectivity Control|
 
 ---
 

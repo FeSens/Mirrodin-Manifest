@@ -32,5 +32,6 @@ Sorcery
 - First mode: Mass exile for tokens/reanimated/cheated creatures (deportation)
 - Second mode: Mana value restriction (interest cap / anti-leverage)
 - "Choose one or both" gives flexibility
-- Lore connection: [[Lore]] - Tromp's signature policy card
+- Lore connection: [[Lore#The Mer-Ikan Foundry (America)]] - Tromp's signature policy card
 - White's "law and order" taken to authoritarian extreme
+- Pairs with: [[Tromp, the Gilded Sentinel]], [[The Darksteel Wall]], [[Foundry Border Commander]]

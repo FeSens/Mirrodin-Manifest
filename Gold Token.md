@@ -30,6 +30,9 @@ Token Artifact — Gold
   - [[Hype Cycle]] doubles counters → Gold worth 2, then 4, then crashes to 0
   - [[Market Crash]] removes all counters → instant devaluation
   - Counter-adding effects let you "invest" before cashing out
-- Lore connection: [[Lore]] - The Aurum Surge / Glimmervoid Rally
+- Lore connection: [[Lore#The Glimmervoid Rally (Gold Rally)]] - The Aurum Surge / Glimmervoid Rally
+- [[🎲 GAMBLE]] synergy: Gold is often a reward for winning gambles
+- [[COMPOUND]] synergy: Add value counters to increase Gold's worth
 - Represents physical gold as a hedge against the Thought-Sync crash
 - Unlike Treasure tokens, Gold has variable value based on market conditions
+- Pairs with: [[Hedge Fund Manager]], [[Glimmervoid Broker]], [[Quantitative Easer]], [[Free Market Zealot]]

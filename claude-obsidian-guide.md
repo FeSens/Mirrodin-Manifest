@@ -301,12 +301,13 @@ Brief atomic idea here.
 tags:
   - card
 type: [Creature/Sorcery/Instant/Enchantment/Artifact/Land/Planeswalker]
-color: [White/Blue/Black/Red/Green/Colorless/Multicolor]
+subtype: [Subtype if applicable, e.g., "Golem Mer-Ikan" or "Saga"]
+color: [Single color: White/Blue/Black/Red/Green/Colorless OR array for multicolor]
 mana_cost: "{X}{W}{U}{B}{R}{G}"
 cmc: [number]
 rarity: [Common/Uncommon/Rare/Mythic]
-power: [number or *] (creatures only)
-toughness: [number or *] (creatures only)
+power: [number or *] (creatures and vehicles only)
+toughness: [number or *] (creatures and vehicles only)
 set: Mirrodin Manifest
 ---
 
@@ -335,6 +336,17 @@ set: Mirrodin Manifest
 - Balance considerations
 - Lore connections: [[Lore]]
 ```
+
+### Frontmatter Field Notes
+
+- **color**: Use a single string for mono-colored/colorless cards (`color: Blue`). For multicolor cards, use an array:
+  ```yaml
+  color:
+    - White
+    - Black
+  ```
+- **subtype**: Omit this field entirely if the card has no subtype. Do not use empty string.
+- **power/toughness**: Include for creatures AND vehicles. Always in frontmatter, not as a section.
 
 ### Mana Symbols Reference
 - `{W}` White

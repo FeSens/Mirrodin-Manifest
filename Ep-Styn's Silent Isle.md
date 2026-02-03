@@ -20,9 +20,9 @@ Legendary Land
 >
 > {T}: Add {B}.
 >
-> {2}{B}, {T}: Create a 1/1 black Unforged creature token with "This creature can't block."
+> {2}{B}, {T}: Create a 1/1 black Unforged creature token with a spark counter on it and "This creature can't block."
 >
-> {B}{B}, {T}, Sacrifice an Unforged: Target opponent reveals their hand. You choose a nonland card from it. They discard that card.
+> {B}{B}, {T}, Sacrifice an Unforged: Put a secrecy counter on Ep-Styn's Silent Isle. Target opponent reveals their hand. You choose a nonland card from it with mana value less than or equal to the number of secrecy counters on Ep-Styn's Silent Isle. They discard that card.
 
 ## Flavor Text
 > *"The Glimmer-Barges arrived full. They left empty. The Ledger grew long."*
@@ -32,12 +32,10 @@ Legendary Land
 
 ## Design Notes
 - **Lore connection:** [[Lore#The Great Ep-Styn Mystery]] - This is the Private Isle where Ep-Styn trafficked the Unforged
-- Enters untapped for legendary creatures — the High Artificers, Synod officials, and Mer-Ikan elite always had easy access
-- Creates Unforged tokens — the isle was the central hub of the Spark Trade; "can't block" represents their vulnerability and exploitation
-- Sacrifice ability represents the blackmail and leverage gained from what happened on the isle
-- The hand reveal mirrors the Black Ledger — seeing what others are hiding, then using it against them
+- **Counter synergy:** Secrecy counters accumulate, scaling what you can discard
+- [[Hype Cycle]] doubles secrecy counters → access to bigger secrets
+- [[Compound]] adds secrecy, [[Market Crash]] wipes all secrets (cover-up)
+- Unforged tokens now have spark counters for [[Spark Harvester]] synergy
+- Enters untapped for legendary creatures — the elite always had easy access
 - Mythic Rare because it's a central plot location and mechanically powerful
-- **Synergy:** Works with [[Control The Narrative]] (protect your legendaries from the Unforged you create)
-- **Synergy:** The Unforged tokens fuel sacrifice strategies and can be compounded for dark value
-- **Flavor:** The Glimmer-Barges brought victims; the Ledger recorded the clients; the isle kept its silence
 - Pairs thematically with: [[The Black Ledger]], [[Control The Narrative]], [[Unforged Witness]], [[Glimmer-Barge]]
