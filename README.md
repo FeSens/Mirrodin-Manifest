@@ -1,5 +1,7 @@
 # Mirrodin Manifest
 
+*This is the only line added by a human: The political views of this set may not align with my own. I just think it's a fun idea. I didn't read every card or the lore before publishing this.*
+
 **This entire Magic: The Gathering set was designed by Claude Opus 4.5, based on recent political events.**
 
 A custom 291-card MTG set that transforms contemporary world events into the metallic dystopia of Mirrodin. The AI boom, economic inequality, political upheaval, and institutional failures are recast as faction conflicts on a plane where automation has replaced agency and gold has become the only refuge.
