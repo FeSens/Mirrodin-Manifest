@@ -78,7 +78,7 @@ def main():
     cards = []
     vault_path = Path('.')
 
-    for md_file in vault_path.glob('*.md'):
+    for md_file in list(vault_path.glob('*.md')) + list(vault_path.glob('cards/*.md')):
         try:
             content = md_file.read_text(encoding='utf-8')
             frontmatter = parse_frontmatter(content)

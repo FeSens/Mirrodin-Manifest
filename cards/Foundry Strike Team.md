@@ -32,7 +32,7 @@ Creature — Human Soldier
 > 3/2
 
 ## Image Prompt
-> Four elite Mer-Ikan soldiers in sleek, angular chrome-and-white powered armor breaching through a steel door. They move in perfect synchronization, weapons raised. Night vision optics glow green on their helmets. Behind them, a thopter hovers with its bay door open. The scene is tense and professional—no wasted motion. Smoke and debris fill the corridor. Mirrodin military aesthetic, tactical precision, MTG card art style.
+> Foundry Strike Team, Human Soldier from Mirrodin Manifest. Setting: The Great Furnace/Mer-Ikan Foundry — target compound breach. Mood: Grim determination. Pose: Four elite soldiers breaching steel door in perfect synchronization, weapons raised. Key visual elements: Chrome-and-white powered armor, green night vision optics glowing, Thopter hovering behind with bay open, smoke and debris mid-explosion. Style reference: Kev Walker meets Greg Staples. Color palette: White armor, chrome, green optics glow, dark smoke.
 
 ## Design Notes
 - **Source:** Delta Force operators who carried out the Maduro capture

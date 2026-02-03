@@ -28,7 +28,7 @@ Creature — Human Warrior
 > 2/1
 
 ## Image Prompt
-> A swift warrior sprinting through the furnace district, sparks trailing behind. Aggressive and determined, MTG card art style.
+> Furnace Runner, Human Warrior from Mirrodin Manifest. Setting: The Great Furnace/Oxidda — furnace district streets. Mood: Grim determination. Pose: Sprinting full speed, sparks trailing behind, aggressive forward momentum. Key visual elements: Lean iron-veined frame built for speed, furnace sparks in wake, hasty blur effect. Style reference: Kev Walker. Color palette: Furnace orange, copper skin, bronze sparks, dark red street surfaces.
 
 ## Design Notes
 - Red aggressive 2-drop

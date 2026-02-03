@@ -27,7 +27,7 @@ Creature — Human Advisor
 > *"The people want action! The Synod wants studies! I bring fire!"*
 
 ## Image Prompt
-> A fiery human politician in red robes, fist raised, speaking to a crowd of cheering workers. The Great Furnace roars behind them. Passionate, reckless, popular.
+> Furnace Populist, Human Advisor from Mirrodin Manifest. Setting: The Great Furnace/Oxidda — rally platform before worker crowd. Mood: Buried rage. Pose: Fist raised, speaking passionately to cheering workers, flames of the Furnace roaring behind. Key visual elements: Iron-veined face flushed with fervor, red robes billowing, crowd of workers below with raised fists, +1/+1 growth potential visible. Style reference: Kev Walker meets Greg Staples. Color palette: Furnace orange, copper robes, bronze worker crowd, dark red flames.
 
 ## Design Notes
 - [[🎲 GAMBLE]] on every attack (volatile politics)

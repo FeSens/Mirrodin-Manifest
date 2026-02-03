@@ -26,7 +26,7 @@ Creature — Human Rogue
 > *"The Foundry burns brightest when fed its own machines."*
 
 ## Image Prompt
-> A grinning rogue hurling explosive devices into the Great Furnace machinery, chaos erupting behind them.
+> Furnace Saboteur, Human Rogue from Mirrodin Manifest. Setting: The Great Furnace/Dross Dominion border — inside Foundry machinery complex. Mood: Corrupted triumph. Pose: Grinning while hurling explosive device, chaos erupting behind them. Key visual elements: Iron-veined face with manic grin, explosives mid-throw, machinery exploding in background, haste blur at edges. Style reference: Kev Walker meets Nils Hamm. Color palette: Near-black rogue attire, furnace orange explosions, copper machinery debris.
 
 ## Design Notes
 - BR signpost uncommon - aggressive sacrifice/discard theme

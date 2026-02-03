@@ -25,7 +25,7 @@ Artifact Creature — Myr
 > *"Built to serve. Programmed to obey. Designed to never question."*
 
 ## Image Prompt
-> A Myr working at the Great Furnace, molten metal channeling through its core.
+> Foundry Myr, Myr from Mirrodin Manifest. Setting: The Great Furnace/Mer-Ikan Foundry — active foundry floor. Mood: Exhaustion. Pose: Working at furnace, molten metal visibly channeling through chrome core. Key visual elements: Standard Myr form with visible internal mana channels, molten glow from within, foundry equipment in background. Style reference: Mark Tedin. Color palette: Chrome silver, furnace orange glow from core, bronze foundry equipment.
 
 ## Design Notes
 - Colorless common artifact creature - addresses Colorless common gap (-6)

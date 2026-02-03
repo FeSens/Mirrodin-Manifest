@@ -24,7 +24,7 @@ Creature — Human Artificer
 > *"Every scrap has potential. Watch."*
 
 ## Image Prompt
-> A young human feeding metal into a furnace, redirecting the molten spray toward an enemy.
+> Foundry Apprentice, Human Artificer from Mirrodin Manifest. Setting: The Great Furnace/Mer-Ikan Foundry — foundry floor near active furnace. Mood: Buried rage. Pose: Feeding scrap metal into furnace with one hand, redirecting molten spray toward target with the other. Key visual elements: Young iron-veined face with determination, molten metal arcing toward enemy, artifact scrap mid-sacrifice. Style reference: Kev Walker. Color palette: Furnace orange, copper scrap, bronze skin, dark red molten spray.
 
 ## Design Notes
 - Red common creature - addresses Red common gap (-6)

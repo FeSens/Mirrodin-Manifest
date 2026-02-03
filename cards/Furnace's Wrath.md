@@ -23,7 +23,7 @@ Enchantment
 > *"The Great Furnace remembers every slight."*
 
 ## Image Prompt
-> The Great Furnace erupting with molten fury, bolts of liquid metal striking targets across the battlefield. Every burn spell amplified.
+> Furnace's Wrath — Enchantment. Visual focus: The Great Furnace erupting with molten fury, bolts of liquid metal striking targets across the battlefield — every burn spell amplified by the Furnace's rage. Setting: The Great Furnace/Oxidda — battlefield beneath the erupting Furnace. Mood: Buried rage. Style reference: Seb McKinnon meets Kev Walker. Color palette: Furnace orange eruption, copper bolts, bronze battlefield, dark red sky.
 
 ## Design Notes
 - **Burn spell hub** - makes all damage spells better

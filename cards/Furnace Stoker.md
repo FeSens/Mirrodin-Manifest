@@ -24,7 +24,7 @@ Creature — Human Worker
 > *"The Great Furnace doesn't discriminate. Neither do its workers."*
 
 ## Image Prompt
-> A muscular worker shoveling fuel into the Great Furnace, flames erupting in all directions.
+> Furnace Stoker, Human Worker from Mirrodin Manifest. Setting: The Great Furnace/Mer-Ikan Foundry — furnace core feeding station. Mood: Exhaustion. Pose: Muscular frame mid-shovel, flames erupting in all directions from fed furnace. Key visual elements: Iron-veined arms glistening with effort, shovel full of fuel, flames spreading to damage all nearby creatures. Style reference: Kev Walker. Color palette: Furnace orange flames, bronze skin, copper shovel, dark red fuel.
 
 ## Design Notes
 - Red common creature - addresses Red common gap (-6)

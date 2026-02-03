@@ -24,7 +24,7 @@ Artifact — Equipment
 > *"Tools of labor. Tools of liberation."*
 
 ## Image Prompt
-> A crude metal pickaxe with a glowing core, gripped by a determined worker.
+> Worker's Pickaxe — Equipment. Visual focus: A crude but sturdy metal pickaxe with glowing energy core. Setting: The Great Furnace worker district — tool of both labor and liberation. Focal point: The pickaxe held by determined worker's iron-veined hands, core pulsing with potential. Mood: Grim determination. Style reference: Kev Walker meets Mark Tedin. Color palette: Copper pickaxe head, bronze shaft, glowing furnace core.
 
 ## Design Notes
 - Colorless common equipment - addresses Colorless common gap (-6)

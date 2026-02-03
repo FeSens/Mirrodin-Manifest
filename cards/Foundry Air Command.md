@@ -31,7 +31,7 @@ Creature — Human Soldier
 >
 
 ## Image Prompt
-> A commander standing on the bridge of an airship, directing swarms of thopters into battle. The Foundry's air fleet fills the sky.
+> Foundry Air Command, Human Soldier from Mirrodin Manifest. Setting: The Great Furnace/Mer-Ikan Foundry — airship command bridge high above battlefield. Mood: Grim determination. Pose: Standing at helm directing swarms of Thopters with outstretched arm. Key visual elements: Chrome-plated armor with red accents, iron-veined commanding face, Thopter swarms filling sky, vehicles launching below. Style reference: Kev Walker meets Greg Staples. Color palette: Furnace orange, white armor, chrome Thopters, dark red sky.
 
 ## Design Notes
 - **Vehicle/Thopter commander** - makes vehicles better

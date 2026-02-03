@@ -26,7 +26,7 @@ Creature — Elf Druid
 > *"The Tangle favors those who take chances."*
 
 ## Image Prompt
-> A Sylvok druid tending to metallic plants, dice-shaped seeds in their hands. Lucky plants grow taller around them.
+> Fortune's Gardener, Elf Druid from Mirrodin Manifest. Setting: The Tangle — copper grove with fortune-touched plants. Mood: Genuine hope. Pose: Kneeling among metallic plants, dice-shaped seeds in iron-veined hands. Key visual elements: Chrome-boned elf with copper-tinted skin, lucky plants growing tall around them, +1/+1 growth visible on stems. Style reference: Rebecca Guay meets Kev Walker. Color palette: Copper, forest green, olive, gold seed highlights.
 
 ## Design Notes
 - Green uncommon creature - addresses Green uncommon gap (-13, critical!)

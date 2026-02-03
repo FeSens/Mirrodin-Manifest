@@ -28,7 +28,7 @@ Creature — Human Artificer
 > 4/4
 
 ## Image Prompt
-> A burly artificer feeding scrap metal into a makeshift furnace strapped to their back. Fiery and resourceful, MTG card art style.
+> Foundry Scrapper, Human Artificer from Mirrodin Manifest. Setting: The Great Furnace/Mer-Ikan Foundry — scrapyard near furnace. Mood: Grim determination. Pose: Feeding scrap metal into makeshift furnace strapped to back, flames erupting behind. Key visual elements: Burly iron-veined frame, back-mounted furnace glowing, artifact scrap mid-sacrifice. Style reference: Kev Walker. Color palette: Furnace orange, copper scrap, bronze skin, dark red flames.
 
 ## Design Notes
 - Red 5-drop with artifact sacrifice synergy

@@ -35,7 +35,7 @@ Legendary Creature — Leonin Soldier
 > *"While he stands, the resistance stands."*
 
 ## Image Prompt
-> A battle-scarred Leonin in practical armor standing defiantly on a watchtower, surrounded by loyal soldiers. Equipment adorns every surface. The Vault of Whispers burns in the distance. Defiant hope.
+> Zel-Ensk, the Resilient Spark, Legendary Leonin Soldier from Mirrodin Manifest. Setting: Fortified watchtower — last line of defense against aggression. Mood: Genuine hope. Pose: Standing defiantly, resistance counters glowing, equipment-laden and ready. Key visual elements: Battle-scarred chrome-maned Leonin, practical armor adorned with equipment, loyal soldiers rallying behind, Vault of Whispers burning distantly. Style reference: Greg Staples meets Kev Walker. Color palette: White and gold armor, forest green accents, copper equipment, distant fire.
 
 ## Design Notes
 - Zel-Ensk from [[Lore#The High Artificers (Political Figures)]] - Zelensky allegory

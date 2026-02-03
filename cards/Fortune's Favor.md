@@ -23,7 +23,7 @@ Enchantment
 > *"Win or lose, the house always profits."*
 
 ## Image Prompt
-> A grinning Leonin dealer at a casino table, gold tokens piling on one side, flames erupting on the other. Every outcome benefits someone.
+> Fortune's Favor — Enchantment. Visual focus: A grinning Leonin dealer at casino table, gold tokens piling on one side, flames erupting on the other — every outcome benefits the house. Setting: Glimmervoid casino — the heart of gambling. Mood: Corrupted triumph. Style reference: Greg Staples meets Kev Walker. Color palette: Gold tokens, furnace orange flames, chrome table, white bright lights.
 
 ## Design Notes
 - **Gamble payoff hub** - rewards BOTH winning AND losing

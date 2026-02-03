@@ -6,9 +6,11 @@ Generates a Scryfall-style spoilers page from Obsidian markdown card files.
 
 import os
 import re
+import json
 import yaml
 from pathlib import Path
 from typing import Optional, Dict, Any, List
+from difflib import SequenceMatcher
 
 # Color mappings for MTG colors
 COLOR_MAP = {
@@ -175,6 +177,46 @@ class Card:
             return f"{self.card_type} — {self.subtype}"
         return self.card_type
 
+    def get_normalized_text(self) -> str:
+        """Get normalized rules text for similarity comparison."""
+        text = self.rules_text.lower()
+        text = re.sub(r'\s+', ' ', text)
+        return text.strip()
+
+
+def compute_similarity(text1: str, text2: str) -> float:
+    """Compute similarity ratio between two texts."""
+    if not text1 or not text2:
+        return 0.0
+    return SequenceMatcher(None, text1, text2).ratio()
+
+
+def compute_similarity_matrix(cards: List[Card]) -> Dict[str, Dict[str, float]]:
+    """Compute similarity matrix for all cards."""
+    matrix = {}
+
+    # Pre-compute normalized texts
+    texts = {card.name: card.get_normalized_text() for card in cards}
+
+    for card in cards:
+        name = card.name
+        matrix[name] = {}
+        text1 = texts[name]
+
+        for other_card in cards:
+            other_name = other_card.name
+            if name == other_name:
+                matrix[name][other_name] = 1.0
+            else:
+                text2 = texts[other_name]
+                # Only compute meaningful similarity for cards with text
+                if len(text1) > 10 and len(text2) > 10:
+                    matrix[name][other_name] = compute_similarity(text1, text2)
+                else:
+                    matrix[name][other_name] = 0.0
+
+    return matrix
+
 
 def render_mana_cost(mana_cost: str) -> str:
     """Render mana cost as HTML mana symbols."""
@@ -241,7 +283,28 @@ def render_flavor_text(text: str) -> str:
     return text
 
 
-def generate_card_html(card: Card) -> str:
+def get_text_size_class(card: Card) -> str:
+    """Determine CSS class for text sizing based on content length."""
+    # Calculate total text length (rules + flavor)
+    total_len = len(card.rules_text) + len(card.flavor_text)
+
+    # Determine size class based on length thresholds
+    if total_len < 150:
+        return "text-short"
+    elif total_len < 250:
+        return "text-medium"
+    elif total_len < 400:
+        return "text-long"
+    else:
+        return "text-very-long"
+
+
+def escape_name(name: str) -> str:
+    """Escape card name for use as HTML attribute."""
+    return name.replace('"', '&quot;').replace("'", "&#39;")
+
+
+def generate_card_html(card: Card, include_data_name: bool = True) -> str:
     """Generate HTML for a single card."""
     color_data = card.get_color_data()
     rarity_color = RARITY_COLORS.get(card.rarity, '#1a1a1a')
@@ -249,8 +312,13 @@ def generate_card_html(card: Card) -> str:
     # Determine if creature (has P/T)
     is_creature = bool(card.power and card.toughness)
 
+    # Get text size class based on content length
+    text_size_class = get_text_size_class(card)
+
+    data_name = f'data-name="{escape_name(card.name)}"' if include_data_name else ''
+
     html = f'''
-    <div class="card" data-color="{card.color}" data-type="{card.card_type}" data-rarity="{card.rarity}">
+    <div class="card" data-color="{card.color}" data-type="{card.card_type}" data-rarity="{card.rarity}" {data_name}>
         <div class="card-frame" style="background:{color_data['gradient']};border-color:{color_data['border']}">
             <div class="card-header">
                 <span class="card-name">{card.name}</span>
@@ -265,7 +333,7 @@ def generate_card_html(card: Card) -> str:
                 <span class="type-text">{card.get_display_type()}</span>
                 <span class="set-symbol" style="color:{rarity_color}" title="{card.rarity}">✦</span>
             </div>
-            <div class="card-text-box">
+            <div class="card-text-box {text_size_class}">
                 <div class="rules-text">{render_rules_text(card.rules_text)}</div>
                 {f'<div class="flavor-text">{render_flavor_text(card.flavor_text)}</div>' if card.flavor_text else ''}
             </div>
@@ -298,7 +366,13 @@ def generate_html(cards: List[Card]) -> str:
 
     cards.sort(key=sort_key)
 
+    # Generate similarity matrix
+    print("Computing similarity matrix...")
+    similarity_matrix = compute_similarity_matrix(cards)
+    similarity_json = json.dumps(similarity_matrix)
+
     cards_html = '\n'.join(generate_card_html(card) for card in cards)
+    selector_cards_html = '\n'.join(generate_card_html(card) for card in cards)
 
     # Generate filter buttons
     colors_present = sorted(set(c.color for c in cards))
@@ -360,6 +434,46 @@ def generate_html(cards: List[Card]) -> str:
             margin-top: 15px;
             font-size: 1.1em;
             color: #888;
+        }}
+
+        /* Tab Navigation */
+        .tab-nav {{
+            max-width: 1400px;
+            margin: 0 auto 20px;
+            display: flex;
+            gap: 10px;
+            padding: 0 20px;
+        }}
+
+        .tab-btn {{
+            font-family: 'Cinzel', serif;
+            font-size: 1em;
+            padding: 12px 24px;
+            border: 2px solid #444;
+            background: rgba(255,255,255,0.05);
+            color: #ccc;
+            border-radius: 8px 8px 0 0;
+            cursor: pointer;
+            transition: all 0.2s ease;
+        }}
+
+        .tab-btn:hover {{
+            background: rgba(255,255,255,0.15);
+            border-color: #666;
+        }}
+
+        .tab-btn.active {{
+            background: #c9a227;
+            border-color: #c9a227;
+            color: #1a1a2e;
+        }}
+
+        .tab-content {{
+            display: none;
+        }}
+
+        .tab-content.active {{
+            display: block;
         }}
 
         .filters {{
@@ -427,6 +541,136 @@ def generate_html(cards: List[Card]) -> str:
             background: rgba(201, 162, 39, 0.2);
         }}
 
+        /* Similarity Tab */
+        .similarity-container {{
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 20px;
+        }}
+
+        .similarity-selector {{
+            background: rgba(255,255,255,0.05);
+            border-radius: 10px;
+            padding: 15px;
+            margin-bottom: 20px;
+        }}
+
+        .similarity-selector h3 {{
+            font-family: 'Cinzel', serif;
+            color: #c9a227;
+            margin-bottom: 15px;
+            font-size: 1.1em;
+        }}
+
+        .card-scroll {{
+            display: flex;
+            gap: 20px;
+            overflow-x: auto;
+            padding: 15px 5px;
+            scrollbar-width: thin;
+            scrollbar-color: #c9a227 rgba(255,255,255,0.1);
+        }}
+
+        .card-scroll::-webkit-scrollbar {{
+            height: 10px;
+        }}
+
+        .card-scroll::-webkit-scrollbar-track {{
+            background: rgba(255,255,255,0.1);
+            border-radius: 5px;
+        }}
+
+        .card-scroll::-webkit-scrollbar-thumb {{
+            background: #c9a227;
+            border-radius: 5px;
+        }}
+
+        .card-scroll .card {{
+            flex-shrink: 0;
+            width: 280px;
+            cursor: pointer;
+        }}
+
+        .card-scroll .card.selected {{
+            box-shadow: 0 0 0 4px #c9a227, 0 8px 24px rgba(201,162,39,0.5);
+        }}
+
+        .card-scroll .card.selected .card-frame {{
+            box-shadow: 0 0 20px rgba(201,162,39,0.6);
+        }}
+
+        .compare-info {{
+            background: rgba(201,162,39,0.1);
+            border: 1px solid #c9a227;
+            border-radius: 8px;
+            padding: 15px;
+            margin-bottom: 20px;
+            display: none;
+        }}
+
+        .compare-info.active {{
+            display: block;
+        }}
+
+        .compare-info h4 {{
+            font-family: 'Cinzel', serif;
+            color: #c9a227;
+            margin-bottom: 5px;
+        }}
+
+        .compare-info p {{
+            color: #aaa;
+            font-size: 0.9em;
+        }}
+
+        .similarity-results {{
+            display: none;
+        }}
+
+        .similarity-results.active {{
+            display: block;
+        }}
+
+        .similarity-grid {{
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+            gap: 25px;
+        }}
+
+        .similarity-card {{
+            position: relative;
+        }}
+
+        .similarity-badge {{
+            position: absolute;
+            top: -10px;
+            left: -10px;
+            background: #c9a227;
+            color: #1a1a2e;
+            font-family: 'Cinzel', serif;
+            font-weight: 700;
+            font-size: 0.9em;
+            padding: 4px 10px;
+            border-radius: 12px;
+            z-index: 20;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.3);
+        }}
+
+        .similarity-badge.high {{
+            background: #d35f10;
+            color: white;
+        }}
+
+        .similarity-badge.medium {{
+            background: #b8941c;
+            color: #1a1a2e;
+        }}
+
+        .similarity-badge.low {{
+            background: #707883;
+            color: white;
+        }}
+
         .card-grid {{
             max-width: 1400px;
             margin: 0 auto;
@@ -455,6 +699,9 @@ def generate_html(cards: List[Card]) -> str:
             padding: 10px;
             box-shadow: 0 4px 20px rgba(0,0,0,0.4);
             position: relative;
+            height: 480px;
+            display: flex;
+            flex-direction: column;
         }}
 
         .card-header {{
@@ -465,6 +712,7 @@ def generate_html(cards: List[Card]) -> str:
             border-radius: 6px 6px 0 0;
             padding: 8px 10px;
             min-height: 36px;
+            flex-shrink: 0;
         }}
 
         .card-name {{
@@ -510,10 +758,13 @@ def generate_html(cards: List[Card]) -> str:
         .card-art {{
             background: rgba(0,0,0,0.1);
             height: 160px;
+            min-height: 160px;
+            max-height: 160px;
             display: flex;
             align-items: center;
             justify-content: center;
             border: 2px solid rgba(0,0,0,0.2);
+            flex-shrink: 0;
         }}
 
         .art-placeholder {{
@@ -532,6 +783,7 @@ def generate_html(cards: List[Card]) -> str:
             background: rgba(0,0,0,0.15);
             padding: 6px 10px;
             font-size: 0.85em;
+            flex-shrink: 0;
         }}
 
         .type-text {{
@@ -547,10 +799,32 @@ def generate_html(cards: List[Card]) -> str:
             background: #f8f6e8;
             border-radius: 0 0 6px 6px;
             padding: 12px;
-            min-height: 100px;
+            flex: 1;
             color: #1a1a1a;
+            line-height: 1.3;
+            overflow: hidden;
+            min-height: 0;
+        }}
+
+        /* Text size classes - shrink text based on content length */
+        .card-text-box.text-short {{
             font-size: 0.85em;
             line-height: 1.4;
+        }}
+
+        .card-text-box.text-medium {{
+            font-size: 0.75em;
+            line-height: 1.35;
+        }}
+
+        .card-text-box.text-long {{
+            font-size: 0.65em;
+            line-height: 1.3;
+        }}
+
+        .card-text-box.text-very-long {{
+            font-size: 0.55em;
+            line-height: 1.25;
         }}
 
         .rules-text {{
@@ -596,6 +870,13 @@ def generate_html(cards: List[Card]) -> str:
             color: rgba(0,0,0,0.5);
         }}
 
+        .no-selection {{
+            text-align: center;
+            padding: 60px 20px;
+            color: #888;
+            font-size: 1.2em;
+        }}
+
         @media (max-width: 600px) {{
             .header h1 {{
                 font-size: 2em;
@@ -610,6 +891,11 @@ def generate_html(cards: List[Card]) -> str:
                 padding: 6px 12px;
                 font-size: 0.85em;
             }}
+
+            .tab-btn {{
+                padding: 8px 16px;
+                font-size: 0.9em;
+            }}
         }}
     </style>
 </head>
@@ -620,36 +906,98 @@ def generate_html(cards: List[Card]) -> str:
         <p class="card-count">{len(cards)} cards</p>
     </header>
 
-    <div class="filters">
-        <div class="filter-group">
-            <span class="filter-label">Color</span>
-            <div class="filter-buttons">
-                <button class="filter-btn clear" data-filter="color" data-value="all">All</button>
-                {color_buttons}
+    <!-- Tab Navigation -->
+    <div class="tab-nav">
+        <button class="tab-btn active" data-tab="gallery">Gallery</button>
+        <button class="tab-btn" data-tab="similarity">Similarity Compare</button>
+    </div>
+
+    <!-- Gallery Tab -->
+    <div id="gallery-tab" class="tab-content active">
+        <div class="filters">
+            <div class="filter-group">
+                <span class="filter-label">Color</span>
+                <div class="filter-buttons">
+                    <button class="filter-btn clear" data-filter="color" data-value="all">All</button>
+                    {color_buttons}
+                </div>
+            </div>
+            <div class="filter-group">
+                <span class="filter-label">Card Type</span>
+                <div class="filter-buttons">
+                    <button class="filter-btn clear" data-filter="type" data-value="all">All</button>
+                    {type_buttons}
+                </div>
+            </div>
+            <div class="filter-group">
+                <span class="filter-label">Rarity</span>
+                <div class="filter-buttons">
+                    <button class="filter-btn clear" data-filter="rarity" data-value="all">All</button>
+                    {rarity_buttons}
+                </div>
             </div>
         </div>
-        <div class="filter-group">
-            <span class="filter-label">Card Type</span>
-            <div class="filter-buttons">
-                <button class="filter-btn clear" data-filter="type" data-value="all">All</button>
-                {type_buttons}
-            </div>
-        </div>
-        <div class="filter-group">
-            <span class="filter-label">Rarity</span>
-            <div class="filter-buttons">
-                <button class="filter-btn clear" data-filter="rarity" data-value="all">All</button>
-                {rarity_buttons}
-            </div>
+
+        <div class="card-grid" id="gallery-grid">
+            {cards_html}
         </div>
     </div>
 
-    <div class="card-grid">
-        {cards_html}
+    <!-- Similarity Tab -->
+    <div id="similarity-tab" class="tab-content">
+        <div class="similarity-container">
+            <div class="similarity-selector">
+                <h3>Select a card to compare (scroll horizontally)</h3>
+                <div class="card-scroll" id="card-scroll">
+                    {selector_cards_html}
+                </div>
+            </div>
+
+            <div class="compare-info" id="compare-info">
+                <h4>Comparing: <span id="compare-card-name"></span></h4>
+                <p>Cards below are sorted by text similarity (highest first)</p>
+            </div>
+
+            <div class="no-selection" id="no-selection">
+                Click a card above to see similar cards
+            </div>
+
+            <div class="similarity-results" id="similarity-results">
+                <div class="similarity-grid" id="similarity-grid">
+                </div>
+            </div>
+        </div>
     </div>
 
     <script>
-        // Filter functionality
+        // Similarity matrix data
+        const similarityMatrix = {similarity_json};
+
+        // Card HTML templates (for similarity view)
+        const cardTemplates = {{}};
+        document.querySelectorAll('#gallery-grid .card').forEach(card => {{
+            const name = card.dataset.name;
+            if (name) {{
+                cardTemplates[name] = card.outerHTML;
+            }}
+        }});
+
+        // Tab functionality
+        document.querySelectorAll('.tab-btn').forEach(btn => {{
+            btn.addEventListener('click', () => {{
+                const tabId = btn.dataset.tab;
+
+                // Update tab buttons
+                document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+                btn.classList.add('active');
+
+                // Update tab content
+                document.querySelectorAll('.tab-content').forEach(t => t.classList.remove('active'));
+                document.getElementById(tabId + '-tab').classList.add('active');
+            }});
+        }});
+
+        // Gallery filter functionality
         const filters = {{
             color: 'all',
             type: 'all',
@@ -657,7 +1005,7 @@ def generate_html(cards: List[Card]) -> str:
         }};
 
         function applyFilters() {{
-            const cards = document.querySelectorAll('.card');
+            const cards = document.querySelectorAll('#gallery-grid .card');
             cards.forEach(card => {{
                 const colorMatch = filters.color === 'all' ||
                     card.dataset.color === filters.color ||
@@ -686,6 +1034,63 @@ def generate_html(cards: List[Card]) -> str:
                 applyFilters();
             }});
         }});
+
+        // Similarity comparison functionality
+        let selectedCard = null;
+
+        function getSimilarityBadgeClass(similarity) {{
+            if (similarity >= 0.8) return 'high';
+            if (similarity >= 0.5) return 'medium';
+            return 'low';
+        }}
+
+        function showSimilarCards(cardName) {{
+            selectedCard = cardName;
+
+            // Update card selection in scroll
+            document.querySelectorAll('#card-scroll .card').forEach(c => {{
+                c.classList.toggle('selected', c.dataset.name === cardName);
+            }});
+
+            // Show compare info
+            document.getElementById('compare-card-name').textContent = cardName;
+            document.getElementById('compare-info').classList.add('active');
+            document.getElementById('no-selection').style.display = 'none';
+            document.getElementById('similarity-results').classList.add('active');
+
+            // Get similarities and sort
+            const similarities = similarityMatrix[cardName] || {{}};
+            const sortedCards = Object.entries(similarities)
+                .filter(([name, sim]) => name !== cardName && sim > 0)
+                .sort((a, b) => b[1] - a[1]);
+
+            // Build HTML
+            const grid = document.getElementById('similarity-grid');
+            grid.innerHTML = '';
+
+            sortedCards.forEach(([name, similarity]) => {{
+                if (cardTemplates[name]) {{
+                    const wrapper = document.createElement('div');
+                    wrapper.className = 'similarity-card';
+
+                    const badge = document.createElement('div');
+                    badge.className = 'similarity-badge ' + getSimilarityBadgeClass(similarity);
+                    badge.textContent = Math.round(similarity * 100) + '%';
+
+                    wrapper.innerHTML = cardTemplates[name];
+                    wrapper.insertBefore(badge, wrapper.firstChild);
+
+                    grid.appendChild(wrapper);
+                }}
+            }});
+        }}
+
+        // Card scroll click handlers
+        document.querySelectorAll('#card-scroll .card').forEach(card => {{
+            card.addEventListener('click', () => {{
+                showSimilarCards(card.dataset.name);
+            }});
+        }});
     </script>
 </body>
 </html>
@@ -698,8 +1103,8 @@ def main():
     """Main function to generate the spoiler page."""
     script_dir = Path(__file__).parent
 
-    # Find all markdown files
-    md_files = list(script_dir.glob('*.md'))
+    # Find all markdown files (in root and cards/ folder)
+    md_files = list(script_dir.glob('*.md')) + list(script_dir.glob('cards/*.md'))
 
     # Parse cards
     cards = []

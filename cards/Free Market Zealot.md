@@ -27,7 +27,7 @@ Creature — Human Advisor
 > *"Growth is sacred. Redistribution is theft."*
 
 ## Image Prompt
-> An intense human economist gesturing at rising charts, gold coins flowing upward around them. Behind them, workers toil. Pure ideology.
+> Free Market Zealot, Human Advisor from Mirrodin Manifest. Setting: Glimmervoid financial district — trading floor with holographic charts. Mood: Corrupted triumph. Pose: Gesturing intensely at rising charts, gold coins flowing upward around them. Key visual elements: Iron-veined face with zealous conviction, gold coins ascending around figure, workers toiling in background shadows. Style reference: Greg Staples meets Kev Walker. Color palette: Gold coins, white charts, bronze skin, dark worker shadows.
 
 ## Design Notes
 - Rewards [[COMPOUND]] (capital gains)

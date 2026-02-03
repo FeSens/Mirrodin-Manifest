@@ -20,6 +20,9 @@ Sorcery
 ## Flavor Text
 > *"Balance through destruction."*
 
+## Image Prompt
+> Volatile Equalization — Sorcery. Action depicted: Two creatures having counters violently redistributed between them while fire burns both. Setting: Oxidda borderlands — volatile furnace territory. Focal point: Counters tearing free and settling equally as flames singe both targets. Mood: Buried rage. Style reference: Kev Walker. Color palette: Furnace orange, copper, dark red flames.
+
 ## Design Notes
 - Red common sorcery - REDISTRIBUTE with damage
 - [[☭REDISTRIBUTE]] synergy

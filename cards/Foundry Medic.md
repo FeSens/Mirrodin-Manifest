@@ -28,7 +28,7 @@ Creature — Human Cleric
 > 1/3
 
 ## Image Prompt
-> A tired medic in a field hospital, tending to wounded workers. Medical equipment mixed with industrial tools, MTG card art style.
+> Foundry Medic, Human Cleric from Mirrodin Manifest. Setting: The Great Furnace/Mer-Ikan Foundry — industrial field hospital. Mood: Exhaustion. Pose: Kneeling beside wounded worker, medical tools in iron-veined hands. Key visual elements: Tired face with chrome-highlighted medical gear, wounded worker on stretcher, industrial equipment mixed with medical supplies. Style reference: Kev Walker meets Rebecca Guay. Color palette: White medical garb, bronze skin, gold, dark industrial background.
 
 ## Design Notes
 - White utility creature with damage prevention

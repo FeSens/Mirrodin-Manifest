@@ -25,7 +25,7 @@ Creature — Human Soldier Mer-Ikan
 > *"Papers. Now."*
 
 ## Image Prompt
-> A stern soldier at a metal checkpoint gate, hand outstretched demanding documents. A line of anxious creatures waits. Industrial border control.
+> Foundry Checkpoint Officer, Human Soldier Mer-Ikan from Mirrodin Manifest. Setting: The Great Furnace/Mer-Ikan Foundry — industrial checkpoint gate. Mood: Suspicion. Pose: Standing rigid at gate, hand outstretched demanding documents. Key visual elements: White armor with checkpoint insignia, iron-veined stern face, line of anxious creatures waiting behind barricades. Style reference: Kev Walker meets Nils Hamm. Color palette: White armor, bronze gate, gold, dark shadows in waiting line.
 
 ## Design Notes
 - Auto-exiles tokens, reanimated, cheated creatures

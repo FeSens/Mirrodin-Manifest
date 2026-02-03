@@ -26,7 +26,7 @@ Creature — Human Soldier
 > *"For the Foundry! For our future!"*
 
 ## Image Prompt
-> A commanding officer in chrome and red armor leading a charge, sword raised as soldiers rally behind.
+> Foundry Commander, Human Soldier from Mirrodin Manifest. Setting: The Great Furnace/Mer-Ikan Foundry — battlefield at front lines. Mood: Grim determination. Pose: Leading charge with sword raised high, soldiers rallying behind. Key visual elements: Chrome armor with red accents, iron-veined face showing battle fervor, soldiers streaming behind in attack. Style reference: Kev Walker meets Greg Staples. Color palette: Furnace orange, white armor, chrome sword, dark red battlefield smoke.
 
 ## Design Notes
 - RW signpost uncommon - aggressive go-wide theme

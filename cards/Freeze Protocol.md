@@ -21,7 +21,7 @@ Instant
 > *"System resources reallocated. You are no longer a priority."*
 
 ## Image Prompt
-> A creature frozen in blue crystal, unable to move as Myr walk past ignoring it.
+> Freeze Protocol — Instant. Action depicted: A creature frozen mid-motion in blue crystal lattice, Myr walking past completely ignoring it. Setting: Seat of the Synod/En-Vidia Lattice — processing corridor. Focal point: The frozen creature's desperate expression visible through crystal. Mood: Institutional horror. Style reference: Nils Hamm meets Mark Tedin. Color palette: Steel blue crystal, chrome Myr, cyan energy lattice.
 
 ## Design Notes
 - Blue common instant - addresses Blue common gap (-11)

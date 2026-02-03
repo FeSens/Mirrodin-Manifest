@@ -21,7 +21,7 @@ Instant
 > *"The Great Furnace answers all inquiries."*
 
 ## Image Prompt
-> A bolt of molten metal streaking from the Great Furnace toward a target. Pure, efficient destruction.
+> Furnace Bolt — Instant. Action depicted: A bolt of molten metal streaking from the Great Furnace toward a target, leaving a trail of sparks. Setting: The Great Furnace/Mer-Ikan Foundry — open foundry with furnace backdrop. Focal point: The molten bolt mid-flight, target about to be struck. Mood: Buried rage. Style reference: Kev Walker. Color palette: Furnace orange bolt, copper sparks, dark red smoke, bronze target.
 
 ## Design Notes
 - Red common instant - addresses Red common gap (-9)

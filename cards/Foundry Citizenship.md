@@ -26,7 +26,7 @@ Enchantment — Aura
 > *"With this mark, the Furnace claims you. Without it, the Furnace consumes you."*
 
 ## Image Prompt
-> A humanoid creature's arm being branded with a glowing golden seal shaped like the Great Furnace. The seal radiates protective light. In the background, other creatures without the brand are being led away by Reprocessing Agents. Warm gold and white tones contrasting with cold steel environment. MTG card art style, ceremonial yet bureaucratic atmosphere.
+> Foundry Citizenship — Enchantment Aura. Visual focus: A humanoid creature's arm being branded with a glowing golden seal shaped like the Great Furnace, radiating protective light. Setting: The Great Furnace/Mer-Ikan Foundry — citizenship ceremony chamber. Mood: False promise. Style reference: Greg Staples meets Rebecca Guay. Color palette: Gold seal, white protective light, bronze arm, cold steel environment contrast.
 
 ## Design Notes
 - Provides protection from exile effects (can't be "deported")

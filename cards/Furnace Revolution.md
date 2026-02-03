@@ -24,7 +24,7 @@ Sorcery
 > *"The machines rose against their masters, if only for a glorious moment."*
 
 ## Image Prompt
-> Myr and constructs turning against the Foundry overseers, metal hands raised in rebellion, the Great Furnace blazing behind them.
+> Furnace Revolution — Sorcery. Action depicted: Myr and constructs turning against their Foundry overseers, metal hands raised in rebellion as they transform into 4/4 warriors. Setting: The Great Furnace/Mer-Ikan Foundry — moment of uprising on foundry floor. Focal point: The moment of transformation, artifacts becoming creatures with murderous intent. Mood: Buried rage. Style reference: Seb McKinnon meets Kev Walker. Color palette: Furnace orange, chrome rebels, bronze overseers falling, dark red revolution flames.
 
 ## Design Notes
 - Red mythic sorcery - addresses Red mythic gap (-3)

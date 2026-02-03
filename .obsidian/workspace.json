@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "art-guidelines.md",
+                "file": "decks/UB Compound Control.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "art-guidelines"
+              "title": "UB Compound Control"
             }
           }
         ]
@@ -185,7 +185,19 @@
   },
   "active": "da4572b73ffa4fdf",
   "lastOpenFiles": [
+    "docs/index.html",
+    "docs",
+    "duplicate-text.py",
+    "export-to-tts.py",
+    "decks/RG Gamble Aggro.md",
     "Draft Guide.md",
+    "decks/UR Myr Artifacts.md",
+    "decks/WB Debt Aristocrats.md",
+    "decks/WU Redistribute Control.md",
+    "decks/UB Compound Control.md",
+    "decks",
+    "generate-images.py",
+    "art-guidelines.md",
     "cards/Tangle Colossus.md",
     "cards/Tel-Jilad Reclaimer.md",
     "cards/Casino of Chance.md",
@@ -204,23 +216,11 @@
     "cards/Tel-Jilad Arbiter.md",
     "cards/Sylvok Rejection.md",
     "cards/Tangle Equilibrium.md",
-    "cards/The Grand Equalizer.md",
-    "cards/The Equalizer.md",
-    "cards/Archive Corruptor.md",
-    "cards/Tangle Processing Gate.md",
-    "cards/Oxidda Processing Gate.md",
-    "cards/Furnace Processing Gate.md",
-    "cards/Vault Processing Gate.md",
     "Untitled 1",
     "Untitled.base",
     "Untitled",
     "set-health.py",
     "type-breakdown.py",
-    "mana-curve.py",
-    "color-breakdown.py",
-    "set-stats.py",
-    "find-orphans.py",
-    "dashboard.html",
     "Untitled.canvas"
   ]
 }

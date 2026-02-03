@@ -21,7 +21,7 @@ Sorcery
 > *"The Furnace gives. The Furnace takes."*
 
 ## Image Prompt
-> A wave of fire erupting from the Great Furnace, consuming a creature in its path.
+> Foundry Flames — Sorcery. Action depicted: A wave of fire erupting from the Great Furnace, consuming a creature in its destructive path. Setting: The Great Furnace/Mer-Ikan Foundry — furnace eruption zone. Focal point: The moment of flame impact on target creature. Mood: Buried rage. Style reference: Kev Walker. Color palette: Furnace orange, gold flames, bronze victim silhouette, dark red smoke.
 
 ## Design Notes
 - Red common sorcery - addresses Red common gap (-9)

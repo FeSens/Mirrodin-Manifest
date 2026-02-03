@@ -952,15 +952,15 @@ def _generate_card_html(card: Dict) -> str:
     """Generate HTML for a single card in the spoiler grid."""
     import html as html_lib
 
-    name = html_lib.escape(card['name'])
-    card_type = html_lib.escape(card['type'])
-    color = card['color']
-    rarity = card['rarity']
-    cmc = card['cmc']
-    mana_cost = html_lib.escape(card.get('mana_cost', str(cmc)))
-    rules_text = html_lib.escape(card.get('rules_text', ''))
-    power = card.get('power', '')
-    toughness = card.get('toughness', '')
+    name = html_lib.escape(card['name'] or '')
+    card_type = html_lib.escape(card['type'] or '')
+    color = card['color'] or 'Colorless'
+    rarity = card['rarity'] or 'Common'
+    cmc = card['cmc'] or 0
+    mana_cost = html_lib.escape(card.get('mana_cost') or str(cmc))
+    rules_text = html_lib.escape(card.get('rules_text') or '')
+    power = card.get('power') or ''
+    toughness = card.get('toughness') or ''
 
     # Determine base type for filtering
     type_lower = card_type.lower()
@@ -2575,8 +2575,8 @@ def main():
     """Main function to generate the dashboard."""
     script_dir = Path(__file__).parent
 
-    # Find all markdown files
-    md_files = list(script_dir.glob('*.md'))
+    # Find all markdown files (in root and cards/ folder)
+    md_files = list(script_dir.glob('*.md')) + list(script_dir.glob('cards/*.md'))
 
     # Parse cards
     cards = []

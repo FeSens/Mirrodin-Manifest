@@ -32,7 +32,7 @@ Creature — Human Soldier Mer-Ikan
 > *"The numbers speak for themselves. Enforcement works."*
 
 ## Image Prompt
-> A decorated commander standing atop the Darksteel Wall, surveying their deportation statistics with satisfaction. Medals gleam. Pride in cruelty.
+> Foundry Wall Captain, Human Soldier Mer-Ikan from Mirrodin Manifest. Setting: The Great Furnace/Mer-Ikan Foundry — atop the Darksteel Wall overlooking border. Mood: Corrupted triumph. Pose: Standing proud atop wall, surveying deportation statistics with satisfaction. Key visual elements: Chrome-plated armor with medals gleaming, iron-veined face showing pride, wall stretching infinitely behind, processed figures below. Style reference: Greg Staples meets Kev Walker. Color palette: White armor, gold medals, bronze wall, furnace orange horizon.
 
 ## Design Notes
 - Deportation counters track exiles
