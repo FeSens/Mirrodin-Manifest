@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "decks/UB Compound Control.md",
+                "file": "Mirrodin Manifest - Set Bible.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "UB Compound Control"
+              "title": "Mirrodin Manifest - Set Bible"
             }
           }
         ]
@@ -185,18 +185,34 @@
   },
   "active": "da4572b73ffa4fdf",
   "lastOpenFiles": [
-    "docs/index.html",
-    "docs",
-    "duplicate-text.py",
-    "export-to-tts.py",
+    "set-guidelines.md",
+    "images/Bailout_Package.png",
+    "spoiler-app/master-goal.jpg",
+    "spoiler-app/Goal3.jpg",
+    "spoiler-app/Unconfirmed 798362.crdownload",
+    "spoiler-app/Goal2.jpg",
+    "spoiler-app/Unconfirmed 327660.crdownload",
+    "spoiler-app/Goal1.jpg",
+    "spoiler-app/public/reference/goal-mtg.jpg",
+    "spoiler-app/public/reference",
+    "spoiler-app/dist/images 3",
+    "spoiler-app/dist/assets/index-BZLHKye0.js",
+    "spoiler-app/dist/assets/index-Hu8oqKir.css",
+    "spoiler-app/dist/images 2",
+    "spoiler-app/dist/assets 2",
+    "spoiler-app/dist/assets/index-CMdqUrZO.js",
+    "spoiler-app/dist/assets/index-CK2PCCSi.css",
+    "spoiler-app/dist/assets/mplantin-D6SO6wSc.svg",
+    "spoiler-app/dist/assets/mana-CylcniHU.svg",
+    "spoiler-app/dist/assets/keyrune-CUoH2fFH.svg",
+    "spoiler-app/dist/vite.svg",
+    "decks/UB Compound Control.md",
+    "out-of-touch.md",
     "decks/RG Gamble Aggro.md",
     "Draft Guide.md",
     "decks/UR Myr Artifacts.md",
     "decks/WB Debt Aristocrats.md",
     "decks/WU Redistribute Control.md",
-    "decks/UB Compound Control.md",
-    "decks",
-    "generate-images.py",
     "art-guidelines.md",
     "cards/Tangle Colossus.md",
     "cards/Tel-Jilad Reclaimer.md",
@@ -215,12 +231,6 @@
     "cards/Synod Mediator.md",
     "cards/Tel-Jilad Arbiter.md",
     "cards/Sylvok Rejection.md",
-    "cards/Tangle Equilibrium.md",
-    "Untitled 1",
-    "Untitled.base",
-    "Untitled",
-    "set-health.py",
-    "type-breakdown.py",
     "Untitled.canvas"
   ]
 }

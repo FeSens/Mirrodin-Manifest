@@ -1,0 +1,677 @@
+/* ============================================
+   PIXEL-PERFECT MTG CARD - 672x936 BASE
+   Measurements matched to reference frame
+   ============================================ */
+
+@import 'mana-font/css/mana.css';
+@import 'keyrune/css/keyrune.css';
+
+.mtg-card-pp,
+.mtg-card-pp *,
+.mtg-card-pp *::before,
+.mtg-card-pp *::after {
+  box-sizing: border-box;
+}
+
+/* ============================================
+   BASE CARD CONTAINER + SCALE
+   ============================================ */
+
+.mtg-card-pp {
+  --scale: 0.5;
+  --card-w: 672px;
+  --card-h: 936px;
+
+  /* Frame colors - overridden per color */
+  --frame-primary: #667E61;
+  --frame-secondary: #4F624B;
+  --frame-dark: #323E2D;
+  --frame-highlight: #6F8B6B;
+  --pinline-dark: #1A1612;
+  --pinline-mid: #3A3630;
+  --pinline-light: #5A5650;
+
+  /* Box colors */
+  --box-light: #F8F6F0;
+  --box-mid: #EBE5D8;
+  --box-dark: #D8D0C0;
+
+  /* Measured frame geometry (672x936 base) */
+  --frame-x: 27px;
+  --frame-y: 27px;
+  --frame-w: 618px;
+  --frame-h: 860px;
+
+  --title-x: 22px;
+  --title-y: 18px;
+  --title-w: 575px;
+  --title-h: 54px;
+
+  --art-x: 23px;
+  --art-y: 77px;
+  --art-w: 572px;
+  --art-h: 417px;
+
+  --type-x: 22px;
+  --type-y: 499px;
+  --type-w: 573px;
+  --type-h: 54px;
+
+  --text-x: 22px;
+  --text-y: 552px;
+  --text-w: 573px;
+  --text-h: 290px;
+
+  --pt-x: 572px;
+  --pt-y: 842px;
+  --pt-w: 78px;
+  --pt-h: 36px;
+
+  /* Fine-tune deltas (for pixel calibration) */
+  --frame-dx: 0px;
+  --frame-dy: 0px;
+  --title-dx: 0px;
+  --title-dy: 0px;
+  --art-dx: 0px;
+  --art-dy: 0px;
+  --type-dx: 0px;
+  --type-dy: 0px;
+  --text-dx: 0px;
+  --text-dy: 0px;
+  --info-dx: 0px;
+  --info-dy: 0px;
+  --stamp-dx: 0px;
+  --stamp-dy: 0px;
+  --pt-dx: 0px;
+  --pt-dy: 0px;
+  --loyalty-dx: 0px;
+  --loyalty-dy: 0px;
+
+  width: calc(var(--card-w) * var(--scale));
+  height: calc(var(--card-h) * var(--scale));
+  position: relative;
+  flex-shrink: 0;
+  font-family: 'Beleren Bold', 'MPlantin', 'Palatino Linotype', 'Book Antiqua', Georgia, serif;
+}
+
+.mtg-card-pp.size-sm { --scale: 0.25; }
+.mtg-card-pp.size-md { --scale: 0.5; }
+.mtg-card-pp.size-lg { --scale: 0.75; }
+.mtg-card-pp.size-xl { --scale: 1; }
+
+.card-scale {
+  position: absolute;
+  inset: 0;
+  width: var(--card-w);
+  height: var(--card-h);
+  transform: scale(var(--scale));
+  transform-origin: top left;
+}
+
+/* ============================================
+   BLACK BORDER - Outer card edge
+   ============================================ */
+
+.card-border {
+  position: absolute;
+  inset: 0;
+  background: #0D0A09;
+  border-radius: 32px;
+  overflow: hidden;
+
+  /* Subtle card edge highlight */
+  box-shadow:
+    inset 0 0 0 1px rgba(255,255,255,0.04),
+    0 6px 14px rgba(0,0,0,0.45),
+    0 14px 28px rgba(0,0,0,0.35);
+}
+
+/* ============================================
+   INNER FRAME - The colored card frame
+   ============================================ */
+
+.card-frame-pp {
+  position: absolute;
+  left: calc(var(--frame-x) + var(--frame-dx));
+  top: calc(var(--frame-y) + var(--frame-dy));
+  width: var(--frame-w);
+  height: var(--frame-h);
+  border-radius: 18px;
+  overflow: hidden;
+
+  /* Multi-layer frame background */
+  background:
+    url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)'/%3E%3C/svg%3E"),
+    linear-gradient(180deg,
+      var(--frame-highlight) 0%,
+      var(--frame-primary) 12%,
+      var(--frame-primary) 30%,
+      var(--frame-secondary) 55%,
+      var(--frame-dark) 92%,
+      var(--frame-dark) 100%
+    );
+  background-blend-mode: soft-light, normal;
+
+  box-shadow:
+    inset 0 1px 0 0 rgba(255,255,255,0.15),
+    inset 0 -1px 0 0 rgba(0,0,0,0.35),
+    inset 1px 0 0 0 rgba(255,255,255,0.12),
+    inset -1px 0 0 0 rgba(0,0,0,0.25);
+}
+
+/* ============================================
+   COLOR PALETTES
+   ============================================ */
+
+.mtg-card-pp.white {
+  --frame-primary: #E8E0D0;
+  --frame-secondary: #D0C8B8;
+  --frame-dark: #B8B0A0;
+  --frame-highlight: #F8F4EC;
+  --pinline-dark: #8A7A5A;
+  --pinline-mid: #A89870;
+  --pinline-light: #C8B890;
+}
+
+.mtg-card-pp.blue {
+  --frame-primary: #1878B8;
+  --frame-secondary: #0A5888;
+  --frame-dark: #064068;
+  --frame-highlight: #2898D8;
+  --pinline-dark: #042840;
+  --pinline-mid: #0A4060;
+  --pinline-light: #106080;
+}
+
+.mtg-card-pp.black {
+  --frame-primary: #524A44;
+  --frame-secondary: #3A3430;
+  --frame-dark: #221E1C;
+  --frame-highlight: #6A625A;
+  --pinline-dark: #0A0808;
+  --pinline-mid: #1A1816;
+  --pinline-light: #2A2826;
+}
+
+.mtg-card-pp.red {
+  --frame-primary: #C43020;
+  --frame-secondary: #982018;
+  --frame-dark: #6C1810;
+  --frame-highlight: #E84830;
+  --pinline-dark: #3A100A;
+  --pinline-mid: #5A1810;
+  --pinline-light: #7A2818;
+}
+
+.mtg-card-pp.green {
+  --frame-primary: #667E61;
+  --frame-secondary: #4F624B;
+  --frame-dark: #323E2D;
+  --frame-highlight: #6F8B6B;
+  --pinline-dark: #082810;
+  --pinline-mid: #0C3818;
+  --pinline-light: #145020;
+}
+
+.mtg-card-pp.multicolor {
+  --frame-primary: #D4A840;
+  --frame-secondary: #B88820;
+  --frame-dark: #8A6010;
+  --frame-highlight: #F0C858;
+  --pinline-dark: #4A3808;
+  --pinline-mid: #6A5010;
+  --pinline-light: #8A6818;
+}
+
+.mtg-card-pp.colorless {
+  --frame-primary: #9CA0A8;
+  --frame-secondary: #787C84;
+  --frame-dark: #585C64;
+  --frame-highlight: #B8BCC4;
+  --pinline-dark: #383C44;
+  --pinline-mid: #484C54;
+  --pinline-light: #606468;
+}
+
+/* ============================================
+   TITLE BAR
+   ============================================ */
+
+.title-bar-pp {
+  position: absolute;
+  left: calc(var(--title-x) + var(--title-dx));
+  top: calc(var(--title-y) + var(--title-dy));
+  width: var(--title-w);
+  height: var(--title-h);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 16px;
+
+  border: 1px solid var(--pinline-dark);
+  border-radius: 8px 8px 0 0;
+
+  background:
+    linear-gradient(180deg,
+      var(--box-light) 0%,
+      var(--box-mid) 50%,
+      var(--box-dark) 100%
+    );
+}
+
+.title-bar-pp::before {
+  content: '';
+  position: absolute;
+  inset: 1px;
+  border-radius: 7px 7px 0 0;
+  pointer-events: none;
+  border-top: 1px solid rgba(255,255,255,0.7);
+  border-left: 1px solid rgba(255,255,255,0.5);
+  border-right: 1px solid rgba(0,0,0,0.1);
+}
+
+.card-name-pp {
+  font-family: 'Beleren Bold', 'MPlantin', Georgia, serif;
+  font-size: 27px;
+  font-weight: 700;
+  color: #1A1612;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin-right: 12px;
+  text-shadow: 0 1px 0 rgba(255,255,255,0.6);
+}
+
+.mana-cost-pp {
+  display: flex;
+  gap: 2px;
+  align-items: center;
+  flex-shrink: 0;
+}
+
+.mana-cost-pp .ms {
+  font-size: 30px;
+  filter: drop-shadow(-1px 1px 1px rgba(0,0,0,0.45));
+}
+
+/* ============================================
+   ART BOX
+   ============================================ */
+
+.art-box-pp {
+  position: absolute;
+  left: calc(var(--art-x) + var(--art-dx));
+  top: calc(var(--art-y) + var(--art-dy));
+  width: var(--art-w);
+  height: var(--art-h);
+  background: #080604;
+
+  border: 2px solid var(--pinline-dark);
+  box-shadow:
+    inset 0 0 0 1px rgba(0,0,0,0.85),
+    inset 0 0 10px rgba(0,0,0,0.6),
+    0 0 0 1px var(--pinline-mid);
+}
+
+.card-art-pp {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center 20%;
+  display: block;
+}
+
+.art-placeholder-pp {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background:
+    radial-gradient(ellipse at 50% 30%, #2A2622 0%, #1A1612 40%, #080604 100%);
+  color: #3A3632;
+  font-size: 16px;
+  text-align: center;
+  padding: 20px;
+  font-style: italic;
+}
+
+/* ============================================
+   TYPE BAR
+   ============================================ */
+
+.type-bar-pp {
+  position: absolute;
+  left: calc(var(--type-x) + var(--type-dx));
+  top: calc(var(--type-y) + var(--type-dy));
+  width: var(--type-w);
+  height: var(--type-h);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 16px;
+
+  border: 1px solid var(--pinline-dark);
+
+  background:
+    linear-gradient(180deg,
+      var(--box-light) 0%,
+      var(--box-mid) 55%,
+      var(--box-dark) 100%
+    );
+}
+
+.type-bar-pp::before {
+  content: '';
+  position: absolute;
+  inset: 1px;
+  pointer-events: none;
+  box-shadow:
+    inset 0 1px 0 rgba(255,255,255,0.6),
+    inset 1px 0 0 rgba(255,255,255,0.35),
+    inset -1px 0 0 rgba(0,0,0,0.1),
+    inset 0 -1px 0 rgba(0,0,0,0.15);
+}
+
+.type-line-pp {
+  font-family: 'Beleren Bold', 'MPlantin', Georgia, serif;
+  font-size: 22px;
+  font-weight: 600;
+  color: #1A1612;
+  text-shadow: 0 1px 0 rgba(255,255,255,0.5);
+}
+
+.set-symbol-pp {
+  display: flex;
+  align-items: center;
+}
+
+.set-symbol-pp .ss {
+  font-size: 28px;
+}
+
+.set-symbol-pp .ss-common { color: #1A1612; }
+.set-symbol-pp .ss-uncommon {
+  color: #A8B4C0;
+  filter: drop-shadow(0 1px 1px rgba(0,0,0,0.3));
+}
+.set-symbol-pp .ss-rare {
+  color: #E8B830;
+  filter: drop-shadow(0 1px 1px rgba(0,0,0,0.4));
+}
+.set-symbol-pp .ss-mythic {
+  color: #F05030;
+  filter: drop-shadow(0 1px 1px rgba(0,0,0,0.4));
+}
+
+/* ============================================
+   TEXT BOX
+   ============================================ */
+
+.text-box-pp {
+  position: absolute;
+  left: calc(var(--text-x) + var(--text-dx));
+  top: calc(var(--text-y) + var(--text-dy));
+  width: var(--text-w);
+  height: var(--text-h);
+  display: flex;
+  flex-direction: column;
+  padding: 16px 18px 14px 18px;
+  overflow: hidden;
+
+  border: 1px solid var(--pinline-dark);
+  border-radius: 0 0 8px 8px;
+
+  background:
+    url("data:image/svg+xml,%3Csvg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='paper'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.04' numOctaves='5' result='noise'/%3E%3CfeDiffuseLighting in='noise' lighting-color='%23F8F4E8' surfaceScale='2'%3E%3CfeDistantLight azimuth='45' elevation='60'/%3E%3C/feDiffuseLighting%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23paper)'/%3E%3C/svg%3E"),
+    linear-gradient(180deg,
+      #F8F4EA 0%,
+      #F0ECE0 20%,
+      #E8E4D8 50%,
+      #E0DCD0 80%,
+      #D8D4C8 100%
+    );
+  background-blend-mode: overlay, normal;
+}
+
+.text-box-pp::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  border-radius: 0 0 7px 7px;
+  pointer-events: none;
+  box-shadow:
+    inset 0 2px 3px rgba(0,0,0,0.08),
+    inset 0 1px 0 rgba(255,255,255,0.5),
+    inset 1px 0 0 rgba(255,255,255,0.3),
+    inset -1px 0 0 rgba(0,0,0,0.06),
+    inset 0 -1px 0 rgba(0,0,0,0.1);
+}
+
+.rules-text-pp {
+  font-family: 'MPlantin', 'Palatino Linotype', 'Book Antiqua', Georgia, serif;
+  color: #1A1612;
+  line-height: 1.22;
+  flex: 1 1 auto;
+  overflow: hidden;
+  position: relative;
+  z-index: 1;
+}
+
+.rules-text-pp p {
+  margin: 0 0 8px 0;
+}
+
+.rules-text-pp p:last-child {
+  margin-bottom: 0;
+}
+
+.rules-text-pp .ms {
+  font-size: 0.95em;
+  vertical-align: -2px;
+}
+
+.text-box-pp.text-lg .rules-text-pp { font-size: 20px; }
+.text-box-pp.text-md .rules-text-pp { font-size: 18px; line-height: 1.2; }
+.text-box-pp.text-sm .rules-text-pp { font-size: 16px; line-height: 1.18; }
+.text-box-pp.text-xs .rules-text-pp { font-size: 14px; line-height: 1.16; }
+
+.flavor-text-pp {
+  margin-top: auto;
+  padding-top: 10px;
+  border-top: 1px solid rgba(0,0,0,0.18);
+  font-family: 'MPlantin', 'Palatino Linotype', Georgia, serif;
+  font-size: 18px;
+  font-style: italic;
+  color: #2A2622;
+  line-height: 1.2;
+  position: relative;
+  z-index: 1;
+}
+
+/* ============================================
+   INFO BAR (BLACK BORDER)
+   ============================================ */
+
+.info-bar-pp {
+  position: absolute;
+  left: calc(44px + var(--info-dx));
+  bottom: calc(26px + var(--info-dy));
+  height: 18px;
+  display: flex;
+  align-items: center;
+}
+
+.collector-info-pp {
+  font-family: 'Gotham Narrow', 'Arial Narrow', Helvetica, sans-serif;
+  font-size: 12px;
+  color: rgba(255,255,255,0.75);
+  letter-spacing: 0.02em;
+  text-shadow: 0 1px 1px rgba(0,0,0,0.6);
+}
+
+/* ============================================
+   HOLOFOIL STAMP
+   ============================================ */
+
+.holofoil-stamp-pp {
+  position: absolute;
+  left: calc(50% + var(--stamp-dx));
+  transform: translateX(-50%);
+  bottom: calc(16px + var(--stamp-dy));
+  width: 56px;
+  height: 28px;
+  border-radius: 50%;
+
+  background:
+    linear-gradient(135deg,
+      #D8D4C8 0%,
+      #A8A498 15%,
+      #E8E4D8 30%,
+      #989488 45%,
+      #C8C4B8 55%,
+      #B8B4A8 70%,
+      #D0CCC0 85%,
+      #A0988C 100%
+    );
+  border: 1px solid #706860;
+
+  box-shadow:
+    inset 0 2px 3px rgba(255,255,255,0.5),
+    inset 0 -1px 2px rgba(0,0,0,0.3),
+    0 1px 2px rgba(0,0,0,0.4);
+}
+
+.holofoil-stamp-pp::after {
+  content: '';
+  position: absolute;
+  inset: 2px;
+  border-radius: 50%;
+  background: linear-gradient(
+    120deg,
+    transparent 0%,
+    transparent 40%,
+    rgba(255,255,255,0.4) 45%,
+    rgba(255,255,255,0.6) 50%,
+    rgba(255,255,255,0.4) 55%,
+    transparent 60%,
+    transparent 100%
+  );
+}
+
+/* ============================================
+   POWER/TOUGHNESS BOX
+   ============================================ */
+
+.pt-box-pp {
+  position: absolute;
+  left: calc(var(--pt-x) + var(--pt-dx));
+  top: calc(var(--pt-y) + var(--pt-dy));
+  width: var(--pt-w);
+  height: var(--pt-h);
+  z-index: 10;
+  border-radius: 8px;
+  background: #3E3A33;
+  padding: 1px;
+  box-shadow:
+    0 1px 2px rgba(0,0,0,0.25),
+    inset 0 1px 0 rgba(255,255,255,0.15);
+}
+
+/* Dark outer border/shadow layer */
+.pt-box-pp::before {
+  content: none;
+}
+
+/* Frame-colored background with texture */
+.pt-box-pp .pt-inner {
+  position: absolute;
+  inset: 1px;
+  border-radius: 7px;
+  background:
+    linear-gradient(180deg,
+      #F7F3E8 0%,
+      #EFE9DC 45%,
+      #E2DCCD 100%
+    );
+  box-shadow:
+    inset 0 1px 0 rgba(255,255,255,0.8),
+    inset 0 -1px 0 rgba(0,0,0,0.12);
+}
+
+/* Inner text box area */
+.pt-box-pp .pt-text-bg {
+  position: absolute;
+  inset: 2px;
+  border-radius: 6px;
+  border: 1px solid rgba(62, 58, 51, 0.6);
+  background: transparent;
+  box-shadow: inset 0 1px 0 rgba(255,255,255,0.6);
+}
+
+/* Highlight on text bg */
+.pt-box-pp .pt-text-bg::before {
+  content: '';
+  position: absolute;
+  inset: 1px;
+  border-radius: 3px;
+  background: linear-gradient(180deg, rgba(255,255,255,0.5) 0%, transparent 40%);
+  pointer-events: none;
+}
+
+.pt-box-pp span {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: 'Beleren Bold', 'Beleren2016-Bold', Georgia, serif;
+  font-size: 23px;
+  font-weight: 700;
+  color: #1A1612;
+  text-shadow: 0 1px 0 rgba(255,255,255,0.7);
+  z-index: 5;
+  white-space: nowrap;
+  letter-spacing: 0;
+}
+
+/* ============================================
+   LOYALTY BOX
+   ============================================ */
+
+.loyalty-box-pp {
+  position: absolute;
+  right: calc(23px - var(--loyalty-dx));
+  bottom: calc(19px + var(--loyalty-dy));
+  width: 84px;
+  height: 52px;
+  z-index: 10;
+
+  background:
+    linear-gradient(180deg,
+      #5A5550 0%,
+      #3A3530 40%,
+      #2A2520 70%,
+      #1A1510 100%
+    );
+
+  border: 4px solid #0A0808;
+  border-radius: 10px 3px 3px 3px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  box-shadow:
+    inset 0 1px 0 rgba(255,255,255,0.2),
+    inset 0 -1px 2px rgba(0,0,0,0.4),
+    -2px -2px 4px rgba(0,0,0,0.3),
+    0 2px 4px rgba(0,0,0,0.3);
+}
+
+.loyalty-box-pp span {
+  font-family: 'Beleren Bold', Georgia, serif;
+  font-size: 30px;
+  font-weight: 700;
+  color: #FFFFFF;
+  text-shadow: 0 1px 2px rgba(0,0,0,0.6);
+}

@@ -1,0 +1,5059 @@
+[
+  {
+    "name": "Academy Headmaster",
+    "manaCost": "{2}{W}{B}",
+    "cmc": 4,
+    "type": "Creature",
+    "subtype": "Human Advisor",
+    "typeLine": "Creature — Human Advisor",
+    "rulesText": "At the beginning of your end step, create a 1/1 white Human Unforged creature token with a spark counter on it.\n\nSacrifice three Unforged: Draw three cards and add {B}{B}{B}.",
+    "flavorText": "\"The Spark Refinement Academy produces graduates of exceptional... value.\"",
+    "power": "2",
+    "toughness": "4",
+    "colors": [
+      "White",
+      "Black"
+    ],
+    "rarity": "Rare",
+    "set": "Mirrodin Manifest",
+    "artUrl": "./images/Academy_Headmaster.png"
+  },
+  {
+    "name": "Alignment Protocol Enforcer",
+    "manaCost": "{2}{W}{W}",
+    "cmc": 4,
+    "type": "Creature",
+    "subtype": "Construct",
+    "typeLine": "Artifact Creature — Construct",
+    "rulesText": "Whenever a player casts a spell, that player may pay {1}. If they don't, put a violation counter on Alignment Protocol Enforcer.\n\n{T}, Remove three violation counters from Alignment Protocol Enforcer: Exile target creature. Its controller creates a 1/1 colorless Myr artifact creature token.",
+    "flavorText": "\"Your behavior has been flagged. Correction will follow.\"",
+    "power": "3",
+    "toughness": "4",
+    "colors": [
+      "White"
+    ],
+    "rarity": "Rare",
+    "set": "Mirrodin Manifest",
+    "artUrl": "./images/Alignment_Protocol_Enforcer.png"
+  },
+  {
+    "name": "All-In Gambler",
+    "manaCost": "{2}{R}{R}",
+    "cmc": 4,
+    "type": "Creature",
+    "subtype": "Human Rogue",
+    "typeLine": "Creature — Human Rogue",
+    "rulesText": "Haste\n\nWhenever All-In Gambler attacks, gamble. If you win, double All-In Gambler's power until end of turn. If you lose, sacrifice it at end of combat.",
+    "flavorText": "\"I'm not reckless. I'm committed.\"",
+    "power": "4",
+    "toughness": "3",
+    "colors": [
+      "Red"
+    ],
+    "rarity": "Rare",
+    "set": "Mirrodin Manifest",
+    "artUrl": "./images/All-In_Gambler.png"
+  },
+  {
+    "name": "Archive Corruptor",
+    "manaCost": "{1}{U}{B}",
+    "cmc": 3,
+    "type": "Creature",
+    "subtype": "Human Rogue",
+    "typeLine": "Creature — Human Rogue",
+    "rulesText": "Whenever Archive Corruptor deals combat damage to a player, that player mills three cards. You may put a creature card from among them into your hand.",
+    "flavorText": "\"Information is currency. I'm making a withdrawal.\"",
+    "power": "2",
+    "toughness": "2",
+    "colors": [
+      "Blue/Black"
+    ],
+    "rarity": "Uncommon",
+    "set": "Mirrodin Manifest",
+    "artUrl": "./images/Archive_Corruptor.png"
+  },
+  {
+    "name": "Asylum Seeker",
+    "manaCost": "{1}{W}",
+    "cmc": 2,
+    "type": "Creature",
+    "subtype": "Human Citizen",
+    "typeLine": "Creature — Human Citizen",
+    "rulesText": "Asylum Seeker enters the battlefield with a hope counter on it.\n\nAs long as Asylum Seeker has a hope counter on it, it has hexproof and \"Whenever this creature is dealt damage, put a +1/+1 counter on it.\"\n\nWhen Asylum Seeker becomes the target of a spell or ability an opponent controls, remove all hope counters from it.",
+    "flavorText": "\"I came seeking safety. I found only waiting.\"",
+    "power": "1",
+    "toughness": "3",
+    "colors": [
+      "White"
+    ],
+    "rarity": "Uncommon",
+    "set": "Mirrodin Manifest",
+    "artUrl": "./images/Asylum_Seeker.png"
+  },
+  {
+    "name": "Aurum Standard",
+    "manaCost": "{2}{W}{W}",
+    "cmc": 4,
+    "type": "Enchantment",
+    "typeLine": "Enchantment",
+    "rulesText": "Whenever a Gold token enters the battlefield under your control, put a value counter on it.\n\nGold tokens you control have \"{T}: Prevent the next damage equal to the number of value counters on this permanent that would be dealt to you or a permanent you control this turn.\"\n\nWhenever you sacrifice a Gold token, you gain life equal to the number of value counters that were on it.",
+    "flavorText": "\"When the Lattice fails, only gold remains.\"",
+    "colors": [
+      "White"
+    ],
+    "rarity": "Rare",
+    "set": "Mirrodin Manifest",
+    "artUrl": "./images/Aurum_Standard.png"
+  },
+  {
+    "name": "Austerity Measure",
+    "manaCost": "{W}",
+    "cmc": 1,
+    "type": "Instant",
+    "typeLine": "Instant",
+    "rulesText": "Redistribute among target [[Debt Token|Debt token]] and target permanent with counters.",
+    "flavorText": "\"Cuts must be made somewhere.\"",
+    "colors": [
+      "White"
+    ],
+    "rarity": "Common",
+    "set": "Mirrodin Manifest",
+    "artUrl": "./images/Austerity_Measure.png"
+  },
+  {
+    "name": "Austerity Minister",
+    "manaCost": "{2}{W}{B}",
+    "cmc": 4,
+    "type": "Creature",
+    "subtype": "Human Cleric",
+    "typeLine": "Creature — Human Cleric",
+    "rulesText": "At the beginning of your upkeep, you may remove a counter from a permanent you control.\n\nWhenever a counter is removed from a permanent an opponent controls, you gain 1 life.",
+    "flavorText": "\"The deficit must be addressed. Your counters will suffice.\"",
+    "power": "2",
+    "toughness": "4",
+    "colors": [
+      "White",
+      "Black"
+    ],
+    "rarity": "Rare",
+    "set": "Mirrodin Manifest",
+    "artUrl": "./images/Austerity_Minister.png"
+  },
+  {
+    "name": "Bailout Facilitator",
+    "manaCost": "{2}{W}{U}",
+    "cmc": 4,
+    "type": "Creature",
+    "subtype": "Human Advisor",
+    "typeLine": "Creature — Human Advisor",
+    "rulesText": "When Bailout Facilitator enters the battlefield, return target artifact creature card from your graveyard to the battlefield with three +1/+1 counters on it. It's a treasure in addition to its other types.\n\n{2}, Sacrifice an artifact: Draw a card.",
+    "flavorText": "\"Too big to fail. Too connected to punish.\"",
+    "power": "2",
+    "toughness": "3",
+    "colors": [
+      "White",
+      "Blue"
+    ],
+    "rarity": "Rare",
+    "set": "Mirrodin Manifest",
+    "artUrl": "./images/Bailout_Facilitator.png"
+  },
+  {
+    "name": "Bailout Package",
+    "manaCost": "{2}{W}",
+    "cmc": 3,
+    "type": "Sorcery",
+    "typeLine": "Sorcery",
+    "rulesText": "Destroy target artifact. Its controller creates two [[Debt Token|Debt tokens]].",
+    "flavorText": "\"The Foundry saves you—but the Foundry never forgets.\"",
+    "colors": [
+      "White"
+    ],
+    "rarity": "Uncommon",
+    "set": "Mirrodin Manifest",
+    "artUrl": "./images/Bailout_Package.png"
+  },
+  {
+    "name": "Bankruptcy Filing",
+    "manaCost": "{G}",
+    "cmc": 1,
+    "type": "Sorcery",
+    "typeLine": "Sorcery",
+    "rulesText": "Destroy all [[Debt Token|Debt tokens]] you control. You can't create Debt tokens until end of turn.",
+    "flavorText": "\"The Tangle knows no currency.\"",
+    "colors": [
+      "Green"
+    ],
+    "rarity": "Common",
+    "set": "Mirrodin Manifest",
+    "artUrl": "./images/Bankruptcy_Filing.png"
+  },
+  {
+    "name": "Barge Pilot",
+    "manaCost": "{1}{B}",
+    "cmc": 2,
+    "type": "Creature",
+    "subtype": "Human Pilot",
+    "typeLine": "Creature — Human Pilot",
+    "rulesText": "Barge Pilot crews Vehicles as though its power were 3.\n\nWhenever a Vehicle you control deals combat damage to a player, put a cargo counter on it.",
+    "flavorText": "\"I don't ask what's in the hold. I don't count heads on the return.\"",
+    "power": "2",
+    "toughness": "2",
+    "colors": [
+      "Black"
+    ],
+    "rarity": "Common",
+    "set": "Mirrodin Manifest",
+    "artUrl": "./images/Barge_Pilot.png"
+  },
+  {
+    "name": "Border Patrol Scout",
+    "manaCost": "{1}{W}",
+    "cmc": 2,
+    "type": "Creature",
+    "subtype": "Human Scout",
+    "typeLine": "Creature — Human Scout",
+    "rulesText": "Flying",
+    "flavorText": "\"Movement at sector seven. Requesting backup.\"",
+    "power": "2",
+    "toughness": "1",
+    "colors": [
+      "White"
+    ],
+    "rarity": "Common",
+    "set": "Mirrodin Manifest",
+    "artUrl": "./images/Border_Patrol_Scout.png"
+  },
+  {
+    "name": "Border Patrol Thopter",
+    "manaCost": "{3}",
+    "cmc": 3,
+    "type": "Creature",
+    "subtype": "Thopter Mer-Ikan",
+    "typeLine": "Artifact Creature — Thopter Mer-Ikan",
+    "rulesText": "Flying\n\nWhenever a creature enters the battlefield under an opponent's control, if it wasn't cast from their hand, put a surveillance counter on Border Patrol Thopter.\n\n{T}, Remove three surveillance counters from Border Patrol Thopter: Exile target creature with mana value 3 or less.",
+    "flavorText": "\"Visual on unauthorized entry. Moving to intercept.\"",
+    "power": "2",
+    "toughness": "2",
+    "colors": [
+      "Colorless"
+    ],
+    "rarity": "Uncommon",
+    "set": "Mirrodin Manifest",
+    "artUrl": "./images/Border_Patrol_Thopter.png"
+  },
+  {
+    "name": "Border Wall Sentry",
+    "manaCost": "{1}{W}",
+    "cmc": 2,
+    "type": "Creature",
+    "subtype": "Human Soldier",
+    "typeLine": "Creature — Human Soldier",
+    "rulesText": "Defender",
+    "flavorText": "\"The Wall keeps them out. That's all that matters.\"",
+    "power": "1",
+    "toughness": "4",
+    "colors": [
+      "White"
+    ],
+    "rarity": "Common",
+    "set": "Mirrodin Manifest",
+    "artUrl": "./images/Border_Wall_Sentry.png"
+  },
+  {
+    "name": "Bubble Speculator",
+    "manaCost": "{1}{U}{U}",
+    "cmc": 3,
+    "type": "Creature",
+    "subtype": "Human Advisor",
+    "typeLine": "Creature — Human Advisor",
+    "rulesText": "When Bubble Speculator enters the battlefield, put three bubble counters on target permanent.\n\nAt the beginning of each upkeep, double the number of bubble counters on permanents you control.\n\nWhen a permanent with five or more bubble counters on it has its counters removed, sacrifice it.",
+    "flavorText": "\"It's not a bubble if it never pops.\"",
+    "power": "2",
+    "toughness": "2",
+    "colors": [
+      "Blue"
+    ],
+    "rarity": "Rare",
+    "set": "Mirrodin Manifest",
+    "artUrl": "./images/Bubble_Speculator.png"
+  },
+  {
+    "name": "Burden Shift",
+    "manaCost": "{1}{B}",
+    "cmc": 2,
+    "type": "Instant",
+    "typeLine": "Instant",
+    "rulesText": "Redistribute among up to two target [[Debt Token|Debt tokens]]. Target opponent loses 2 life.",
+    "flavorText": "\"Your debt becomes their debt. And they pay the price.\"",
+    "colors": [
+      "Black"
+    ],
+    "rarity": "Uncommon",
+    "set": "Mirrodin Manifest",
+    "artUrl": "./images/Burden_Shift.png"
+  },
+  {
+    "name": "Calculated Risk",
+    "manaCost": "{U}{R}",
+    "cmc": 2,
+    "type": "Instant",
+    "typeLine": "Instant",
+    "rulesText": "Scry 2, then gamble.\n\nIf you win, draw two cards. If you lose, draw a card.",
+    "flavorText": "\"I don't gamble. I calculate probabilities and act accordingly.\"",
+    "colors": [
+      "Blue/Red"
+    ],
+    "rarity": "Common",
+    "set": "Mirrodin Manifest",
+    "artUrl": "./images/Calculated_Risk.png"
+  },
+  {
+    "name": "Calculated Striker",
+    "manaCost": "{U}{R}",
+    "cmc": 2,
+    "type": "Creature",
+    "subtype": "Human Wizard",
+    "typeLine": "Creature — Human Wizard",
+    "rulesText": "Prowess\n\n🎲 GAMBLE — Whenever you cast an instant or sorcery spell, reveal the top card of your library. If it's an instant or sorcery card, Calculated Striker deals 2 damage to any target.",
+    "flavorText": "\"Chance favors the prepared mind.\"",
+    "power": "2",
+    "toughness": "1",
+    "colors": [
+      "Blue/Red"
+    ],
+    "rarity": "Uncommon",
+    "set": "Mirrodin Manifest",
+    "artUrl": "./images/Calculated_Striker.png"
+  },
+  {
+    "name": "Caravan Survivor",
+    "manaCost": "{2}{G}",
+    "cmc": 3,
+    "type": "Creature",
+    "subtype": "Human Citizen",
+    "typeLine": "Creature — Human Citizen",
+    "rulesText": "Caravan Survivor enters the battlefield with a journey counter on it.\n\nCaravan Survivor gets +2/+2 as long as it has a journey counter on it.\n\nWhen Caravan Survivor is dealt damage, remove a journey counter from it.",
+    "flavorText": "\"The journey nearly broke me. But I'm still here.\"",
+    "power": "2",
+    "toughness": "3",
+    "colors": [
+      "Green"
+    ],
+    "rarity": "Common",
+    "set": "Mirrodin Manifest",
+    "artUrl": "./images/Caravan_Survivor.png"
+  },
+  {
+    "name": "Casino of Chance",
+    "manaCost": "",
+    "cmc": 0,
+    "type": "Land",
+    "typeLine": "Land",
+    "rulesText": "{T}: Add {C}.\n\n{T}: Add {R} or {G}. Activate only if you've won a gamble this turn.\n\n{3}, {T}: Gamble.",
+    "flavorText": "\"Every game played here fuels the next.\"",
+    "colors": [
+      "Colorless"
+    ],
+    "rarity": "Rare",
+    "set": "Mirrodin Manifest",
+    "artUrl": "./images/Casino_of_Chance.png"
+  },
+  {
+    "name": "Central Bank Governor",
+    "manaCost": "{3}{W}{W}",
+    "cmc": 5,
+    "type": "Creature",
+    "subtype": "Human Advisor",
+    "typeLine": "Legendary Creature — Human Advisor",
+    "rulesText": "At the beginning of each upkeep, redistribute among all [[Debt Token|Debt tokens]].\n\nWhenever you redistribute, you may have target player create a Debt token.",
+    "flavorText": "\"Stability requires... adjustments.\"",
+    "power": "4",
+    "toughness": "5",
+    "colors": [
+      "White"
+    ],
+    "rarity": "Mythic",
+    "set": "Mirrodin Manifest",
+    "artUrl": "./images/Central_Bank_Governor.png"
+  },
+  {
+    "name": "Central Planner",
+    "manaCost": "{2}{U}",
+    "cmc": 3,
+    "type": "Creature",
+    "subtype": "Vedalken Advisor",
+    "typeLine": "Creature — Vedalken Advisor",
+    "rulesText": "At the beginning of your upkeep, if any permanent has more +1/+1 counters or -1/-1 counters on it than another permanent with +1/+1 counters or -1/-1 counters on it, redistribute. *(Choose two permanents. Remove all +1/+1 counters and -1/-1 counters from them, then each gets half that many counters of those types, rounded down.)*",
+    "flavorText": "\"Inequality is inefficiency. Inefficiency is unacceptable.\"",
+    "power": "1",
+    "toughness": "4",
+    "colors": [
+      "Blue"
+    ],
+    "rarity": "Uncommon",
+    "set": "Mirrodin Manifest",
+    "artUrl": "./images/Central_Planner.png"
+  },
+  {
+    "name": "Chaos Arbiter",
+    "manaCost": "{3}{R}{R}",
+    "cmc": 5,
+    "type": "Creature",
+    "subtype": "Elemental",
+    "typeLine": "Creature — Elemental",
+    "rulesText": "Flying\n\nWhenever you cast an instant or sorcery spell, flip a coin. If you win the flip, copy that spell. You may choose new targets for the copy.",
+    "flavorText": "\"In chaos, there is profit—if you know when to bet.\"",
+    "power": "5",
+    "toughness": "4",
+    "colors": [
+      "Red"
+    ],
+    "rarity": "Mythic",
+    "set": "Mirrodin Manifest",
+    "artUrl": "./images/Chaos_Arbiter.png"
+  },
+  {
+    "name": "Chaos Theorist",
+    "manaCost": "{1}{R}",
+    "cmc": 2,
+    "type": "Creature",
+    "subtype": "Human Wizard",
+    "typeLine": "Creature — Human Wizard",
+    "rulesText": "Whenever you gamble, Chaos Theorist deals 1 damage to each opponent.\n\n{R}, {T}: Gamble.",
+    "flavorText": "\"Entropy is not disorder. It is opportunity.\"",
+    "power": "2",
+    "toughness": "2",
+    "colors": [
+      "Red"
+    ],
+    "rarity": "Uncommon",
+    "set": "Mirrodin Manifest",
+    "artUrl": "./images/Chaos_Theorist.png"
+  },
+  {
+    "name": "Citizen Uprising",
+    "manaCost": "{2}{R}{W}",
+    "cmc": 4,
+    "type": "Sorcery",
+    "typeLine": "Sorcery",
+    "rulesText": "Citizen creatures you control become 3/3 Soldiers until end of turn and gain haste and first strike.\n\nCreate two 1/1 white Citizen creature tokens, then Citizen creatures you control deal damage equal to their power to target creature or planeswalker.",
+    "flavorText": "\"We were refugees. Now we are revolutionaries.\"",
+    "colors": [
+      "White/Red"
+    ],
+    "rarity": "Uncommon",
+    "set": "Mirrodin Manifest",
+    "artUrl": "./images/Citizen_Uprising.png"
+  },
+  {
+    "name": "Citizen's Arrest",
+    "manaCost": "{1}{W}{W}",
+    "cmc": 3,
+    "type": "Sorcery",
+    "typeLine": "Sorcery",
+    "rulesText": "Exile target creature with power 4 or greater.",
+    "flavorText": "\"Due process is a luxury the Foundry cannot afford.\"",
+    "colors": [
+      "White"
+    ],
+    "rarity": "Common",
+    "set": "Mirrodin Manifest",
+    "artUrl": "./images/Citizen's_Arrest.png"
+  },
+  {
+    "name": "Citizen's Defender",
+    "manaCost": "{W}",
+    "cmc": 1,
+    "type": "Creature",
+    "subtype": "Human Knight",
+    "typeLine": "Creature — Human Knight",
+    "rulesText": "Citizen's Defender gets +1/+0 as long as you control another Human.",
+    "flavorText": "\"I fight for those who cannot fight for themselves.\"",
+    "power": "1",
+    "toughness": "2",
+    "colors": [
+      "White"
+    ],
+    "rarity": "Common",
+    "set": "Mirrodin Manifest",
+    "artUrl": "./images/Citizen's_Defender.png"
+  },
+  {
+    "name": "Civilian Militia",
+    "manaCost": "{G}{W}",
+    "cmc": 2,
+    "type": "Creature",
+    "subtype": "Leonin Citizen Soldier",
+    "typeLine": "Creature — Leonin Citizen Soldier",
+    "rulesText": "Civilian Militia enters the battlefield with two determination counters on it.\n\nCivilian Militia gets +1/+1 for each determination counter on it.\n\nWhenever a creature you control dies in combat, put a determination counter on Civilian Militia.",
+    "flavorText": "\"We were farmers. Now we are soldiers. Our home demands it.\"",
+    "power": "1",
+    "toughness": "1",
+    "colors": [
+      "White",
+      "Green"
+    ],
+    "rarity": "Uncommon",
+    "set": "Mirrodin Manifest",
+    "artUrl": "./images/Civilian_Militia.png"
+  },
+  {
+    "name": "Collection Agent",
+    "manaCost": "{2}{B}",
+    "cmc": 3,
+    "type": "Creature",
+    "subtype": "Human Rogue",
+    "typeLine": "Creature — Human Rogue",
+    "rulesText": "Whenever an opponent sacrifices a [[Debt Token|Debt token]], you draw a card.",
+    "flavorText": "\"I'm just here for what's owed.\"",
+    "power": "2",
+    "toughness": "2",
+    "colors": [
+      "Black"
+    ],
+    "rarity": "Common",
+    "set": "Mirrodin Manifest",
+    "artUrl": "./images/Collection_Agent.png"
+  },
+  {
+    "name": "Compound Interest",
+    "manaCost": "{1}{B}",
+    "cmc": 2,
+    "type": "Instant",
+    "typeLine": "Instant",
+    "rulesText": "Put two debt counters on target [[Debt Token|Debt token]].",
+    "flavorText": "\"The debt grows faster than you can pay.\"",
+    "colors": [
+      "Black"
+    ],
+    "rarity": "Uncommon",
+    "set": "Mirrodin Manifest",
+    "artUrl": "./images/Compound_Interest.png"
+  },
+  {
+    "name": "Compute Debt",
+    "manaCost": "{2}{U}{R}",
+    "cmc": 4,
+    "type": "Enchantment",
+    "subtype": "color: Blue/Red",
+    "typeLine": "Enchantment",
+    "rulesText": "Whenever you cast an artifact spell, put a debt counter on Compute Debt.\n\nAt the beginning of your upkeep, you may draw cards equal to the number of debt counters on Compute Debt. If you do, Compute Debt deals damage equal to the number of debt counters on it to you, then remove all debt counters from it.",
+    "flavorText": "The Lattice demanded infinite growth. The treasury had limits.",
+    "colors": [
+      "Blue/Red"
+    ],
+    "rarity": "Rare",
+    "set": "Mirrodin Manifest",
+    "artUrl": "./images/Compute_Debt.png"
+  },
+  {
+    "name": "Control The Narrative",
+    "manaCost": "{1}{W}{B}",
+    "cmc": 3,
+    "type": "Enchantment",
+    "typeLine": "Enchantment",
+    "rulesText": "As Control The Narrative enters, choose two creature types.\n\nCreatures of the first chosen type have protection from creatures of the second chosen type.",
+    "flavorText": "\"The Glimmer-Barge logs told stories the Synod refused to read. When the Unforged finally spoke, the chamber had already adjourned—permanently.\"",
+    "colors": [
+      "White",
+      "Black"
+    ],
+    "rarity": "Rare",
+    "set": "Mirrodin Manifest",
+    "artUrl": "./images/Control_The_Narrative.png"
+  },
+  {
+    "name": "Copper Myr Tender",
+    "manaCost": "{1}{G}",
+    "cmc": 2,
+    "type": "Creature",
+    "subtype": "Elf Druid",
+    "typeLine": "Creature — Elf Druid",
+    "rulesText": "{T}: Add {G}.\n\n{T}: Untap target artifact creature you control. Activate only as a sorcery.",
+    "flavorText": "\"Even the machines deserve compassion.\"",
+    "power": "1",
+    "toughness": "2",
+    "colors": [
+      "Green"
+    ],
+    "rarity": "Common",
+    "set": "Mirrodin Manifest",
+    "artUrl": "./images/Copper_Myr_Tender.png"
+  },
+  {
+    "name": "Core-Logic Architect",
+    "manaCost": "{2}{U}{U}",
+    "cmc": 4,
+    "type": "Creature",
+    "subtype": "Vedalken Artificer",
+    "typeLine": "Creature — Vedalken Artificer",
+    "rulesText": "When Core-Logic Architect enters the battlefield, put two calculation counters on target artifact you control.\n\nArtifacts you control with counters on them have \"{T}: Draw a card, then discard a card.\"",
+    "flavorText": "\"The Myr don't think. They calculate. The distinction is irrelevant.\"",
+    "power": "2",
+    "toughness": "4",
+    "colors": [
+      "Blue"
+    ],
+    "rarity": "Rare",
+    "set": "Mirrodin Manifest",
+    "artUrl": "./images/Core-Logic_Architect.png"
+  },
+  {
+    "name": "Counter Vulture",
+    "manaCost": "{2}{B}",
+    "cmc": 3,
+    "type": "Creature",
+    "subtype": "Bird",
+    "typeLine": "Creature — Bird",
+    "rulesText": "Flying\n\nWhenever a player redistributes, put a +1/+1 counter on Counter Vulture.",
+    "flavorText": "\"Where equality is enforced, opportunity follows.\"",
+    "power": "2",
+    "toughness": "2",
+    "colors": [
+      "Black"
+    ],
+    "rarity": "Common",
+    "set": "Mirrodin Manifest",
+    "artUrl": "./images/Counter_Vulture.png"
+  },
+  {
+    "name": "Credit Default",
+    "manaCost": "{1}{U}",
+    "cmc": 2,
+    "type": "Instant",
+    "typeLine": "Instant",
+    "rulesText": "Counter target spell unless its controller creates a [[Debt Token|Debt token]] or pays {3}.",
+    "flavorText": "\"Your future is collateral.\"",
+    "colors": [
+      "Blue"
+    ],
+    "rarity": "Uncommon",
+    "set": "Mirrodin Manifest",
+    "artUrl": "./images/Credit_Default.png"
+  },
+  {
+    "name": "Data Collector",
+    "manaCost": "{1}{U}",
+    "cmc": 2,
+    "type": "Creature",
+    "subtype": "Vedalken Wizard",
+    "typeLine": "Creature — Vedalken Wizard",
+    "rulesText": "When Data Collector enters the battlefield, scry 2.",
+    "flavorText": "\"Every interaction is logged. Every pattern, analyzed.\"",
+    "power": "1",
+    "toughness": "3",
+    "colors": [
+      "Blue"
+    ],
+    "rarity": "Common",
+    "set": "Mirrodin Manifest",
+    "artUrl": "./images/Data_Collector.png"
+  },
+  {
+    "name": "Data Harvest Drone",
+    "manaCost": "{2}{U}",
+    "cmc": 3,
+    "type": "Creature",
+    "subtype": "Thopter",
+    "typeLine": "Artifact Creature — Thopter",
+    "rulesText": "Flying\n\nWhenever Data Harvest Drone deals combat damage to a player, put a data counter on it, then look at that many cards from the top of that player's library, where X is the number of data counters on it. Put them back in any order.",
+    "flavorText": "\"It sees everything. It remembers everything. It tells everything.\"",
+    "power": "2",
+    "toughness": "1",
+    "colors": [
+      "Blue"
+    ],
+    "rarity": "Uncommon",
+    "set": "Mirrodin Manifest",
+    "artUrl": "./images/Data_Harvest_Drone.png"
+  },
+  {
+    "name": "Debt Accumulator",
+    "manaCost": "{1}{U}",
+    "cmc": 2,
+    "type": "Creature",
+    "subtype": "Vedalken Wizard",
+    "typeLine": "Creature — Vedalken Wizard",
+    "rulesText": "{T}: Put a debt counter on target [[Debt Token|Debt token]].",
+    "flavorText": "\"Time is money. Specifically, your money.\"",
+    "power": "1",
+    "toughness": "3",
+    "colors": [
+      "Blue"
+    ],
+    "rarity": "Common",
+    "set": "Mirrodin Manifest",
+    "artUrl": "./images/Debt_Accumulator.png"
+  },
+  {
+    "name": "Debt Ceiling",
+    "manaCost": "{1}{W}{U}",
+    "cmc": 3,
+    "type": "Enchantment",
+    "typeLine": "Enchantment",
+    "rulesText": "[[Debt Token|Debt tokens]] enter the battlefield with two additional debt counters on them.\n\nWhenever a player would create one or more Debt tokens, they create that many plus one instead.",
+    "flavorText": "\"The limit? What limit?\"",
+    "colors": [
+      "White/Blue"
+    ],
+    "rarity": "Uncommon",
+    "set": "Mirrodin Manifest",
+    "artUrl": "./images/Debt_Ceiling.png"
+  },
+  {
+    "name": "Debt Collector Myr",
+    "manaCost": "{2}",
+    "cmc": 2,
+    "type": "Creature",
+    "subtype": "Myr",
+    "typeLine": "Artifact Creature — Myr",
+    "rulesText": "Whenever an opponent sacrifices a [[Debt Token|Debt token]], put a +1/+1 counter on Debt Collector Myr.",
+    "flavorText": "\"Payment received. Processing.\"",
+    "power": "1",
+    "toughness": "1",
+    "colors": [
+      "Colorless"
+    ],
+    "rarity": "Uncommon",
+    "set": "Mirrodin Manifest",
+    "artUrl": "./images/Debt_Collector_Myr.png"
+  },
+  {
+    "name": "Debt Enforcer",
+    "manaCost": "{4}{B}",
+    "cmc": 5,
+    "type": "Creature",
+    "subtype": "Human Rogue",
+    "typeLine": "Creature — Human Rogue",
+    "rulesText": "When Debt Enforcer enters the battlefield, target opponent discards a card.",
+    "flavorText": "\"Payment is due. One way or another.\"",
+    "power": "4",
+    "toughness": "3",
+    "colors": [
+      "Black"
+    ],
+    "rarity": "Common",
+    "set": "Mirrodin Manifest",
+    "artUrl": "./images/Debt_Enforcer.png"
+  },
+  {
+    "name": "Debt Forgiveness",
+    "manaCost": "{1}{W}",
+    "cmc": 2,
+    "type": "Instant",
+    "typeLine": "Instant",
+    "rulesText": "Destroy target [[Debt Token|Debt token]]. You gain life equal to the number of debt counters on it.",
+    "flavorText": "\"Mercy is its own reward.\"",
+    "colors": [
+      "White"
+    ],
+    "rarity": "Common",
+    "set": "Mirrodin Manifest",
+    "artUrl": "./images/Debt_Forgiveness.png"
+  },
+  {
+    "name": "Debt Restructuring",
+    "manaCost": "{1}{W}",
+    "cmc": 2,
+    "type": "Sorcery",
+    "typeLine": "Sorcery",
+    "rulesText": "Redistribute among all [[Debt Token|Debt tokens]].",
+    "flavorText": "\"The burden is now... shared.\"",
+    "colors": [
+      "White"
+    ],
+    "rarity": "Common",
+    "set": "Mirrodin Manifest",
+    "artUrl": "./images/Debt_Restructuring.png"
+  },
+  {
+    "name": "Debt-to-Equity Swap",
+    "manaCost": "{2}{U}{U}",
+    "cmc": 4,
+    "type": "Instant",
+    "typeLine": "Instant",
+    "rulesText": "Target opponent sacrifices all [[Debt Token|Debt tokens]] they control. For each Debt token sacrificed this way, you draw a card and that player creates a 1/1 colorless Myr artifact creature token.",
+    "flavorText": "\"Your debt becomes our property.\"",
+    "colors": [
+      "Blue"
+    ],
+    "rarity": "Rare",
+    "set": "Mirrodin Manifest",
+    "artUrl": "./images/Debt-to-Equity_Swap.png"
+  },
+  {
+    "name": "Deep-Sik Efficiency",
+    "manaCost": "{U}",
+    "cmc": 1,
+    "type": "Instant",
+    "subtype": "color: Blue",
+    "typeLine": "Instant",
+    "rulesText": "Copy target activated or triggered ability from an artifact source. You may choose new targets for the copy.",
+    "flavorText": "The Oxidda Chain proved that efficiency beats extravagance.",
+    "colors": [
+      "Blue"
+    ],
+    "rarity": "Uncommon",
+    "set": "Mirrodin Manifest",
+    "artUrl": "./images/Deep-Sik_Efficiency.png"
+  },
+  {
+    "name": "Default Cascade",
+    "manaCost": "{B}{R}",
+    "cmc": 2,
+    "type": "Enchantment",
+    "typeLine": "Enchantment",
+    "rulesText": "Whenever a [[Debt Token|Debt token]] is destroyed or sacrificed, its controller creates a new Debt token. This ability triggers only once each turn.",
+    "flavorText": "\"Pay one debt, create another.\"",
+    "colors": [
+      "Black/Red"
+    ],
+    "rarity": "Uncommon",
+    "set": "Mirrodin Manifest",
+    "artUrl": "./images/Default_Cascade.png"
+  },
+  {
+    "name": "Defecting Officer",
+    "manaCost": "{1}{W}{B}",
+    "cmc": 3,
+    "type": "Creature",
+    "subtype": "Human Soldier",
+    "typeLine": "Creature — Human Soldier",
+    "rulesText": "When Defecting Officer enters the battlefield, target opponent may sacrifice a creature. If they do, you draw two cards.\n\nWhenever an opponent sacrifices a creature, put a +1/+1 counter on Defecting Officer.",
+    "flavorText": "\"I followed orders until the orders became atrocities. Then I walked.\"",
+    "power": "3",
+    "toughness": "2",
+    "colors": [
+      "White",
+      "Black"
+    ],
+    "rarity": "Uncommon",
+    "set": "Mirrodin Manifest",
+    "artUrl": "./images/Defecting_Officer.png"
+  },
+  {
+    "name": "Den of Fortune",
+    "manaCost": "cmc: 0",
+    "cmc": 0,
+    "type": "Land",
+    "typeLine": "Land",
+    "rulesText": "{T}: Add {C}.\n\n{T}: Add {R}. Spend this mana only to cast spells with gamble or spells that cause you to gamble.\n\n{2}{R}, {T}: Gamble. If you win, add {R}{R}{R}. If you lose, Den of Fortune deals 2 damage to you.",
+    "flavorText": "\"The house always wins. Unless you ARE the house.\"",
+    "colors": [
+      "mana_cost:"
+    ],
+    "rarity": "Rare",
+    "set": "Mirrodin Manifest",
+    "artUrl": "./images/Den_of_Fortune.png"
+  },
+  {
+    "name": "Deportation Court Judge",
+    "manaCost": "{3}{W}{W}",
+    "cmc": 5,
+    "type": "Creature",
+    "subtype": "Vedalken Advisor Mer-Ikan",
+    "typeLine": "Creature — Vedalken Advisor Mer-Ikan",
+    "rulesText": "At the beginning of your upkeep, put a case counter on Deportation Court Judge.\n\n{T}, Remove X case counters from Deportation Court Judge: Exile up to X target creatures opponents control with total mana value X or less.\n\nActivated abilities of creatures exiled by Deportation Court Judge can't be activated.",
+    "flavorText": "\"Case dismissed. Next.\"",
+    "power": "2",
+    "toughness": "5",
+    "colors": [
+      "White"
+    ],
+    "rarity": "Rare",
+    "set": "Mirrodin Manifest",
+    "artUrl": "./images/Deportation_Court_Judge.png"
+  },
+  {
+    "name": "Desperate Charge",
+    "manaCost": "{R}",
+    "cmc": 1,
+    "type": "Instant",
+    "typeLine": "Instant",
+    "rulesText": "Target creature gets +2/+0 and gains first strike until end of turn.",
+    "flavorText": "\"When retreat isn't an option, advance faster.\"",
+    "colors": [
+      "Red"
+    ],
+    "rarity": "Common",
+    "set": "Mirrodin Manifest",
+    "artUrl": "./images/Desperate_Charge.png"
+  },
+  {
+    "name": "Desperate Crosser",
+    "manaCost": "{R}",
+    "cmc": 1,
+    "type": "Creature",
+    "subtype": "Human Citizen",
+    "typeLine": "Creature — Human Citizen",
+    "rulesText": "Haste\n\nAt the beginning of your end step, if Desperate Crosser didn't attack this turn, sacrifice it.\n\nWhen Desperate Crosser is exiled, it deals 2 damage to the player who controls the source that exiled it.",
+    "flavorText": "\"Stop or die. Run or die. What choice is that?\"",
+    "power": "2",
+    "toughness": "1",
+    "colors": [
+      "Red"
+    ],
+    "rarity": "Common",
+    "set": "Mirrodin Manifest",
+    "artUrl": "./images/Desperate_Crosser.png"
+  },
+  {
+    "name": "Detention Warden",
+    "manaCost": "{2}{W}{W}",
+    "cmc": 4,
+    "type": "Creature",
+    "subtype": "Human Soldier Mer-Ikan",
+    "typeLine": "Creature — Human Soldier Mer-Ikan",
+    "rulesText": "Detention Warden enters the battlefield with three detention counters on it.\n\nWhen Detention Warden enters the battlefield, exile any number of target creatures opponents control with total mana value 6 or less until Detention Warden leaves the battlefield. Put a detention counter on Detention Warden for each creature exiled this way.\n\nDetention Warden has indestructible as long as it has six or more detention counters on it.",
+    "flavorText": "\"Capacity is not my concern.\"",
+    "power": "2",
+    "toughness": "5",
+    "colors": [
+      "White"
+    ],
+    "rarity": "Rare",
+    "set": "Mirrodin Manifest",
+    "artUrl": "./images/Detention_Warden.png"
+  },
+  {
+    "name": "Displaced Worker",
+    "manaCost": "{1}{W}",
+    "cmc": 2,
+    "type": "Creature",
+    "subtype": "Human",
+    "typeLine": "Creature — Human",
+    "rulesText": "When Displaced Worker enters the battlefield, create a 0/1 colorless Myr artifact creature token.\n\nSacrifice an artifact: Displaced Worker gets +2/+0 until end of turn.",
+    "flavorText": "Forty years at the forge. Replaced by something that doesn't even have hands.",
+    "colors": [
+      "White"
+    ],
+    "rarity": "Common",
+    "set": "Mirrodin Manifest",
+    "artUrl": "./images/Displaced_Worker.png"
+  },
+  {
+    "name": "Documentation Auditor",
+    "manaCost": "{1}{W}{U}",
+    "cmc": 3,
+    "type": "Creature",
+    "subtype": "Vedalken Advisor Mer-Ikan",
+    "typeLine": "Creature — Vedalken Advisor Mer-Ikan",
+    "rulesText": "Creatures that weren't cast from their owner's hand enter the battlefield tapped and don't untap during their controller's next untap step.\n\n{W}{U}, {T}: Exile target creature that entered the battlefield this turn and wasn't cast from its owner's hand.",
+    "flavorText": "\"Your documentation has... irregularities.\"",
+    "power": "1",
+    "toughness": "4",
+    "colors": [
+      "White",
+      "Blue"
+    ],
+    "rarity": "Uncommon",
+    "set": "Mirrodin Manifest",
+    "artUrl": "./images/Documentation_Auditor.png"
+  },
+  {
+    "name": "Double Down",
+    "manaCost": "{1}{R}",
+    "cmc": 2,
+    "type": "Sorcery",
+    "typeLine": "Sorcery",
+    "rulesText": "Draw two cards, then discard a card.\n\nGamble. If you lose the gamble, discard another card.",
+    "flavorText": "\"Double or nothing? I'll take those odds.\"",
+    "colors": [
+      "Red"
+    ],
+    "rarity": "Common",
+    "set": "Mirrodin Manifest",
+    "artUrl": "./images/Double_Down.png"
+  },
+  {
+    "name": "DREAM Act Advocate",
+    "manaCost": "{1}{W}{U}",
+    "cmc": 3,
+    "type": "Creature",
+    "subtype": "Human Advisor",
+    "typeLine": "Creature — Human Advisor",
+    "rulesText": "When DREAM Act Advocate enters the battlefield, put a protection counter on each Citizen creature you control.\n\nCitizen creatures with protection counters on them have \"When this creature would be exiled, instead remove a protection counter from it.\"",
+    "flavorText": "\"The path to citizenship should not require perfection.\"",
+    "power": "2",
+    "toughness": "2",
+    "colors": [
+      "White",
+      "Blue"
+    ],
+    "rarity": "Rare",
+    "set": "Mirrodin Manifest",
+    "artUrl": "./images/DREAM_Act_Advocate.png"
+  },
+  {
+    "name": "Dream of the Furnace",
+    "manaCost": "{W}{U}",
+    "cmc": 2,
+    "type": "Creature",
+    "subtype": "Spirit",
+    "typeLine": "Creature — Spirit",
+    "rulesText": "Defender\n\nAt the beginning of your upkeep, put a dream counter on Dream of the Furnace.\n\n{T}, Remove three dream counters from Dream of the Furnace: Create a 2/2 white Human Citizen creature token with \"This creature can't be exiled.\"",
+    "flavorText": "\"They crossed the sea for a promise. The promise is slow to keep.\"",
+    "power": "0",
+    "toughness": "3",
+    "colors": [
+      "White",
+      "Blue"
+    ],
+    "rarity": "Uncommon",
+    "set": "Mirrodin Manifest",
+    "artUrl": "./images/Dream_of_the_Furnace.png"
+  },
+  {
+    "name": "Drone Strike Operator",
+    "manaCost": "{1}{W}{U}",
+    "cmc": 3,
+    "type": "Creature",
+    "subtype": "Leonin Artificer",
+    "typeLine": "Creature — Leonin Artificer",
+    "rulesText": "{T}: Create a 1/1 colorless Thopter artifact creature token with flying and \"When this creature deals combat damage to a creature, destroy that creature.\"\n\nThopter tokens you control have haste.",
+    "flavorText": "\"We see them before they see us. We strike before they can react.\"",
+    "power": "1",
+    "toughness": "3",
+    "colors": [
+      "White",
+      "Blue"
+    ],
+    "rarity": "Uncommon",
+    "set": "Mirrodin Manifest",
+    "artUrl": "./images/Drone_Strike_Operator.png"
+  },
+  {
+    "name": "Dross Dominion",
+    "manaCost": "{2}{B}{B}",
+    "cmc": 4,
+    "type": "Enchantment",
+    "typeLine": "Enchantment",
+    "rulesText": "Zombie creatures you control get +1/+0 and have deathtouch.\n\nWhenever a creature dies, you may pay {B}. If you do, create a 2/2 black Zombie creature token.\n\n{2}{B}, Exile two creature cards from your graveyard: Draw two cards.",
+    "flavorText": "\"The Mephidross claims all. In death, you serve the Dross.\"",
+    "colors": [
+      "Black"
+    ],
+    "rarity": "Rare",
+    "set": "Mirrodin Manifest",
+    "artUrl": "./images/Dross_Dominion.png"
+  },
+  {
+    "name": "Dross Executioner",
+    "manaCost": "{3}{B}",
+    "cmc": 4,
+    "type": "Creature",
+    "subtype": "Zombie Assassin",
+    "typeLine": "Creature — Zombie Assassin",
+    "rulesText": "When Dross Executioner enters the battlefield, target creature gets -2/-2 until end of turn.",
+    "flavorText": "\"The Dross has its own justice.\"",
+    "power": "3",
+    "toughness": "2",
+    "colors": [
+      "Black"
+    ],
+    "rarity": "Common",
+    "set": "Mirrodin Manifest",
+    "artUrl": "./images/Dross_Executioner.png"
+  },
+  {
+    "name": "Dross Harvester",
+    "manaCost": "{2}{B}",
+    "cmc": 3,
+    "type": "Creature",
+    "subtype": "Zombie Worker",
+    "typeLine": "Creature — Zombie Worker",
+    "rulesText": "When Dross Harvester enters the battlefield, return target creature card with mana value 2 or less from your graveyard to your hand.",
+    "flavorText": "\"Death is just a temporary inconvenience.\"",
+    "power": "2",
+    "toughness": "3",
+    "colors": [
+      "Black"
+    ],
+    "rarity": "Common",
+    "set": "Mirrodin Manifest",
+    "artUrl": "./images/Dross_Harvester.png"
+  },
+  {
+    "name": "Dross Overseer",
+    "manaCost": "{2}{B}{B}",
+    "cmc": 4,
+    "type": "Creature",
+    "subtype": "Zombie Cleric",
+    "typeLine": "Creature — Zombie Cleric",
+    "rulesText": "Whenever another creature dies, scry 1.",
+    "flavorText": "\"Every death is a lesson. Every corpse, a resource.\"",
+    "power": "3",
+    "toughness": "3",
+    "colors": [
+      "Black"
+    ],
+    "rarity": "Uncommon",
+    "set": "Mirrodin Manifest",
+    "artUrl": "./images/Dross_Overseer.png"
+  },
+  {
+    "name": "Dross Resurgence",
+    "manaCost": "{2}{B}{G}",
+    "cmc": 4,
+    "type": "Sorcery",
+    "typeLine": "Sorcery",
+    "rulesText": "Return up to two target creature cards from your graveyard to your hand.\n\nYou gain 2 life for each Zombie card returned this way.\n\nYou may put a +1/+1 counter on target creature for each Elf card returned this way.",
+    "flavorText": "\"The Dross and the Tangle share one truth: death is not the end.\"",
+    "colors": [
+      "Black/Green"
+    ],
+    "rarity": "Uncommon",
+    "set": "Mirrodin Manifest",
+    "artUrl": "./images/Dross_Resurgence.png"
+  },
+  {
+    "name": "Dross Vulture",
+    "manaCost": "{2}{B}",
+    "cmc": 3,
+    "type": "Creature",
+    "subtype": "Zombie Bird",
+    "typeLine": "Creature — Zombie Bird",
+    "rulesText": "Flying\n\nWhen Dross Vulture dies, each opponent loses 1 life.",
+    "flavorText": "\"Even in death, the Mephidross takes its due.\"",
+    "power": "2",
+    "toughness": "1",
+    "colors": [
+      "Black"
+    ],
+    "rarity": "Common",
+    "set": "Mirrodin Manifest",
+    "artUrl": "./images/Dross_Vulture.png"
+  },
+  {
+    "name": "Economic Warfare",
+    "manaCost": "{2}{U}{B}",
+    "cmc": 4,
+    "type": "Enchantment",
+    "typeLine": "Enchantment",
+    "rulesText": "Whenever an opponent casts their second spell each turn, that player creates a [[Debt Token|Debt token]].",
+    "flavorText": "\"Every action has a cost. We ensure they pay it.\"",
+    "colors": [
+      "Blue/Black"
+    ],
+    "rarity": "Rare",
+    "set": "Mirrodin Manifest",
+    "artUrl": "./images/Economic_Warfare.png"
+  },
+  {
+    "name": "En-Vidia Processing Core",
+    "manaCost": "{3}",
+    "cmc": 3,
+    "type": "Artifact",
+    "typeLine": "Artifact",
+    "rulesText": "En-Vidia Processing Core enters the battlefield with three charge counters on it.\n\n{T}, Remove a charge counter from En-Vidia Processing Core: Add {C}{C}. Spend this mana only to cast artifact spells or activate abilities of artifacts.\n\n{2}, {T}: Scry 2. If En-Vidia Processing Core has three or more charge counters on it, draw a card.",
+    "flavorText": "\"Every mana crystal they mine is another thought we process.\"",
+    "colors": [
+      "Colorless"
+    ],
+    "rarity": "Rare",
+    "set": "Mirrodin Manifest",
+    "artUrl": "./images/En-Vidia_Processing_Core.png"
+  },
+  {
+    "name": "Ep-Styn's Silent Isle",
+    "manaCost": "cmc: 0",
+    "cmc": 0,
+    "type": "Land",
+    "subtype": "color: Black",
+    "typeLine": "Legendary Land",
+    "rulesText": "Ep-Styn's Silent Isle enters tapped unless you control a legendary creature.\n\n{T}: Add {B}.\n\n{2}{B}, {T}: Create a 1/1 black Unforged creature token with a spark counter on it and \"This creature can't block.\"\n\n{B}{B}, {T}, Sacrifice an Unforged: Put a secrecy counter on Ep-Styn's Silent Isle. Target opponent reveals their hand. You choose a nonland card from it with mana value less than or equal to the number of secrecy counters on Ep-Styn's Silent Isle. They discard that card.",
+    "flavorText": "\"The Glimmer-Barges arrived full. They left empty. The Ledger grew long.\"",
+    "colors": [
+      "Black"
+    ],
+    "rarity": "Mythic Rare",
+    "set": "Mirrodin Manifest",
+    "artUrl": "./images/Ep-Styn's_Silent_Isle.png"
+  },
+  {
+    "name": "Equality Enforcer",
+    "manaCost": "{3}{W}",
+    "cmc": 4,
+    "type": "Creature",
+    "subtype": "Construct",
+    "typeLine": "Artifact Creature — Construct",
+    "rulesText": "Vigilance\n\nAt the beginning of your end step, if any permanent has three or more counters on it than another permanent with counters, redistribute.",
+    "flavorText": "\"Imbalance detected. Correction initiated.\"",
+    "power": "3",
+    "toughness": "4",
+    "colors": [
+      "White"
+    ],
+    "rarity": "Uncommon",
+    "set": "Mirrodin Manifest",
+    "artUrl": "./images/Equality_Enforcer.png"
+  },
+  {
+    "name": "Equitable Distribution",
+    "manaCost": "{2}{W}",
+    "cmc": 3,
+    "type": "Sorcery",
+    "typeLine": "Sorcery",
+    "rulesText": "Redistribute among the creature with the greatest power and the creature with the least power.",
+    "flavorText": "\"All shall be made equal under the Synod's watchful eye.\"",
+    "colors": [
+      "White"
+    ],
+    "rarity": "Common",
+    "set": "Mirrodin Manifest",
+    "artUrl": "./images/Equitable_Distribution.png"
+  },
+  {
+    "name": "Escaped Testimony",
+    "manaCost": "{2}{W}",
+    "cmc": 3,
+    "type": "Creature",
+    "subtype": "Human Unforged",
+    "typeLine": "Creature — Human Unforged",
+    "rulesText": "Escaped Testimony enters the battlefield with three testimony counters on it.\n\nEscaped Testimony has protection from legendary creatures as long as it has a testimony counter on it.\n\nWhenever Escaped Testimony deals combat damage to a player, remove a testimony counter from it. That player sacrifices a legendary permanent.",
+    "flavorText": "\"They thought silence would protect them. They were wrong.\"",
+    "power": "2",
+    "toughness": "2",
+    "colors": [
+      "White"
+    ],
+    "rarity": "Uncommon",
+    "set": "Mirrodin Manifest",
+    "artUrl": "./images/Escaped_Testimony.png"
+  },
+  {
+    "name": "Execution Order",
+    "manaCost": "{1}{B}",
+    "cmc": 2,
+    "type": "Instant",
+    "subtype": "color: Black",
+    "typeLine": "Instant",
+    "rulesText": "Destroy target creature with power 2 or less.",
+    "flavorText": "\"Dissent will not be tolerated.\"",
+    "colors": [
+      "Black"
+    ],
+    "rarity": "Common",
+    "set": "Mirrodin Manifest",
+    "artUrl": "./images/Execution_Order.png"
+  },
+  {
+    "name": "Expedited Removal Enforcer",
+    "manaCost": "{5}",
+    "cmc": 5,
+    "type": "Creature",
+    "subtype": "Construct Mer-Ikan",
+    "typeLine": "Artifact Creature — Construct Mer-Ikan",
+    "rulesText": "Flash\n\nWhen Expedited Removal Enforcer enters the battlefield, exile target creature an opponent controls. Its controller may pay {3}. If they do, return it to the battlefield under their control at the beginning of the next end step.",
+    "flavorText": "\"Due process is for citizens.\"",
+    "power": "4",
+    "toughness": "4",
+    "colors": [
+      "Colorless"
+    ],
+    "rarity": "Uncommon",
+    "set": "Mirrodin Manifest",
+    "artUrl": "./images/Expedited_Removal_Enforcer.png"
+  },
+  {
+    "name": "Extraction Squad Leader",
+    "manaCost": "{3}{W}",
+    "cmc": 4,
+    "type": "Creature",
+    "subtype": "Human Soldier Mer-Ikan",
+    "typeLine": "Creature — Human Soldier Mer-Ikan",
+    "rulesText": "When Extraction Squad Leader enters the battlefield, exile target creature an opponent controls with mana value 3 or less. Put two -1/-1 counters on it when it returns.\n\nOther Mer-Ikan creatures you control get +1/+0.",
+    "flavorText": "\"Voluntary departure... or assisted extraction. Choose quickly.\"",
+    "power": "3",
+    "toughness": "3",
+    "colors": [
+      "White"
+    ],
+    "rarity": "Uncommon",
+    "set": "Mirrodin Manifest",
+    "artUrl": "./images/Extraction_Squad_Leader.png"
+  },
+  {
+    "name": "Family Separation Agent",
+    "manaCost": "{1}{W}{B}",
+    "cmc": 3,
+    "type": "Creature",
+    "subtype": "Human Soldier Mer-Ikan",
+    "typeLine": "Creature — Human Soldier Mer-Ikan",
+    "rulesText": "When Family Separation Agent enters the battlefield, exile target creature an opponent controls with mana value 2 or less.\n\nWhen Family Separation Agent leaves the battlefield, the exiled creature's owner may search their library for a creature card that shares a creature type with it, reveal it, and put it into their hand. Then they shuffle.",
+    "flavorText": "\"The child goes to processing. The parent goes... elsewhere.\"",
+    "power": "2",
+    "toughness": "2",
+    "colors": [
+      "White",
+      "Black"
+    ],
+    "rarity": "Uncommon",
+    "set": "Mirrodin Manifest",
+    "artUrl": "./images/Family_Separation_Agent.png"
+  },
+  {
+    "name": "Flames of Fortune",
+    "manaCost": "{2}{R}",
+    "cmc": 3,
+    "type": "Enchantment",
+    "typeLine": "Enchantment",
+    "rulesText": "Whenever you win a gamble, Flames of Fortune deals 2 damage to any target.\n\nWhenever you lose a gamble, Flames of Fortune deals 1 damage to you.",
+    "flavorText": "\"Luck burns bright. Failure burns you.\"",
+    "colors": [
+      "Red"
+    ],
+    "rarity": "Uncommon",
+    "set": "Mirrodin Manifest",
+    "artUrl": "./images/Flames_of_Fortune.png"
+  },
+  {
+    "name": "Forced Equalization",
+    "manaCost": "{1}{U}",
+    "cmc": 2,
+    "type": "Instant",
+    "typeLine": "Instant",
+    "rulesText": "Redistribute. *(Choose two permanents. Remove all counters from them, then each gets half that many counters, rounded down.)*\n\nScry 1.",
+    "flavorText": "\"The Lattice calculates optimal distribution. Your preferences are irrelevant.\"",
+    "colors": [
+      "Blue"
+    ],
+    "rarity": "Common",
+    "set": "Mirrodin Manifest",
+    "artUrl": "./images/Forced_Equalization.png"
+  },
+  {
+    "name": "Foreclosure Notice",
+    "manaCost": "{2}{B}",
+    "cmc": 3,
+    "type": "Enchantment",
+    "subtype": "Aura",
+    "typeLine": "Enchantment — Aura",
+    "rulesText": "Enchant creature an opponent controls\n\nEnchanted creature's controller creates a [[Debt Token|Debt token]] at the beginning of their upkeep.\n\nWhen enchanted creature leaves the battlefield, you draw 2 cards.",
+    "flavorText": "\"Default in 3... 2...\"",
+    "colors": [
+      "Black"
+    ],
+    "rarity": "Rare",
+    "set": "Mirrodin Manifest",
+    "artUrl": "./images/Foreclosure_Notice.png"
+  },
+  {
+    "name": "Foreign Arms Supplier",
+    "manaCost": "{2}{W}",
+    "cmc": 3,
+    "type": "Creature",
+    "subtype": "Human Artificer",
+    "typeLine": "Creature — Human Artificer",
+    "rulesText": "When Foreign Arms Supplier enters the battlefield, create an Equipment artifact token with \"Equipped creature gets +2/+0 and has first strike\" and equip {1}.\n\nWhenever you create an Equipment token, put a supply counter on Foreign Arms Supplier. It gets +0/+1 for each supply counter on it.",
+    "flavorText": "\"The Synod sends weapons, not soldiers. Make them count.\"",
+    "power": "2",
+    "toughness": "2",
+    "colors": [
+      "White"
+    ],
+    "rarity": "Uncommon",
+    "set": "Mirrodin Manifest",
+    "artUrl": "./images/Foreign_Arms_Supplier.png"
+  },
+  {
+    "name": "Fortune's Favor",
+    "manaCost": "{2}{R}",
+    "cmc": 3,
+    "type": "Enchantment",
+    "typeLine": "Enchantment",
+    "rulesText": "Whenever you win a gamble, create a Gold token and draw a card.\n\nWhenever you lose a gamble, Fortune's Favor deals 2 damage to any target.",
+    "flavorText": "\"Win or lose, the house always profits.\"",
+    "colors": [
+      "Red"
+    ],
+    "rarity": "Uncommon",
+    "set": "Mirrodin Manifest",
+    "artUrl": "./images/Fortune's_Favor.png"
+  },
+  {
+    "name": "Fortune's Gardener",
+    "manaCost": "{1}{G}",
+    "cmc": 2,
+    "type": "Creature",
+    "subtype": "Elf Druid",
+    "typeLine": "Creature — Elf Druid",
+    "rulesText": "{T}: Add {G}.\n\nWhenever you win a gamble, untap Fortune's Gardener and put a +1/+1 counter on it.",
+    "flavorText": "\"The Tangle favors those who take chances.\"",
+    "power": "1",
+    "toughness": "2",
+    "colors": [
+      "Green"
+    ],
+    "rarity": "Uncommon",
+    "set": "Mirrodin Manifest",
+    "artUrl": "./images/Fortune's_Gardener.png"
+  },
+  {
+    "name": "Foundry Air Command",
+    "manaCost": "{2}{R}{W}",
+    "cmc": 4,
+    "type": "Creature",
+    "subtype": "Human Soldier",
+    "typeLine": "Creature — Human Soldier",
+    "rulesText": "Flying, haste\n\nVehicles you control have crew 1.\n\nWhenever a Vehicle you control attacks, create a 1/1 colorless Thopter artifact creature token with flying that's tapped and attacking.",
+    "flavorText": "\"Air superiority wins wars. Launch everything.\"",
+    "power": "3",
+    "toughness": "3",
+    "colors": [
+      "Red/White"
+    ],
+    "rarity": "Rare",
+    "set": "Mirrodin Manifest",
+    "artUrl": "./images/Foundry_Air_Command.png"
+  },
+  {
+    "name": "Foundry Apprentice",
+    "manaCost": "{2}{R}",
+    "cmc": 3,
+    "type": "Creature",
+    "subtype": "Human Artificer",
+    "typeLine": "Creature — Human Artificer",
+    "rulesText": "When Foundry Apprentice enters the battlefield, you may sacrifice an artifact. If you do, Foundry Apprentice deals 2 damage to any target.",
+    "flavorText": "\"Every scrap has potential. Watch.\"",
+    "power": "3",
+    "toughness": "2",
+    "colors": [
+      "Red"
+    ],
+    "rarity": "Common",
+    "set": "Mirrodin Manifest",
+    "artUrl": "./images/Foundry_Apprentice.png"
+  },
+  {
+    "name": "Foundry Checkpoint Officer",
+    "manaCost": "{1}{W}",
+    "cmc": 2,
+    "type": "Creature",
+    "subtype": "Human Soldier Mer-Ikan",
+    "typeLine": "Creature — Human Soldier Mer-Ikan",
+    "rulesText": "Whenever a creature enters the battlefield under an opponent's control, if that creature wasn't cast from their hand, exile it until Foundry Checkpoint Officer leaves the battlefield.",
+    "flavorText": "\"Papers. Now.\"",
+    "power": "2",
+    "toughness": "2",
+    "colors": [
+      "White"
+    ],
+    "rarity": "Common",
+    "set": "Mirrodin Manifest",
+    "artUrl": "./images/Foundry_Checkpoint_Officer.png"
+  },
+  {
+    "name": "Foundry Citizenship",
+    "manaCost": "{1}{W}",
+    "cmc": 2,
+    "type": "Enchantment",
+    "subtype": "Aura",
+    "typeLine": "Enchantment — Aura",
+    "rulesText": "Enchant creature you control\n\nWhen Foundry Citizenship enters the battlefield, put a +1/+1 counter on enchanted creature.\n\nEnchanted creature has vigilance, is a Mer-Ikan in addition to its other types, and can't be exiled by opponents.",
+    "flavorText": "\"With this mark, the Furnace claims you. Without it, the Furnace consumes you.\"",
+    "colors": [
+      "White"
+    ],
+    "rarity": "Common",
+    "set": "Mirrodin Manifest",
+    "artUrl": "./images/Foundry_Citizenship.png"
+  },
+  {
+    "name": "Foundry Commander",
+    "manaCost": "{1}{R}{W}",
+    "cmc": 3,
+    "type": "Creature",
+    "subtype": "Human Soldier",
+    "typeLine": "Creature — Human Soldier",
+    "rulesText": "Haste, first strike\n\nWhenever another creature you control attacks, it gets +1/+0 until end of turn.",
+    "flavorText": "\"For the Foundry! For our future!\"",
+    "power": "3",
+    "toughness": "2",
+    "colors": [
+      "Red/White"
+    ],
+    "rarity": "Uncommon",
+    "set": "Mirrodin Manifest",
+    "artUrl": "./images/Foundry_Commander.png"
+  },
+  {
+    "name": "Foundry Flames",
+    "manaCost": "{2}{R}",
+    "cmc": 3,
+    "type": "Sorcery",
+    "typeLine": "Sorcery",
+    "rulesText": "Foundry Flames deals 4 damage to target creature.",
+    "flavorText": "\"The Furnace gives. The Furnace takes.\"",
+    "colors": [
+      "Red"
+    ],
+    "rarity": "Common",
+    "set": "Mirrodin Manifest",
+    "artUrl": "./images/Foundry_Flames.png"
+  },
+  {
+    "name": "Foundry Medic",
+    "manaCost": "{1}{W}",
+    "cmc": 2,
+    "type": "Creature",
+    "subtype": "Human Cleric",
+    "typeLine": "Creature — Human Cleric",
+    "rulesText": "{T}: Prevent the next 1 damage that would be dealt to any target this turn.",
+    "flavorText": "\"Patch them up. Send them back. The Foundry never stops.\"",
+    "power": "1",
+    "toughness": "3",
+    "colors": [
+      "White"
+    ],
+    "rarity": "Common",
+    "set": "Mirrodin Manifest",
+    "artUrl": "./images/Foundry_Medic.png"
+  },
+  {
+    "name": "Foundry Myr",
+    "manaCost": "{3}",
+    "cmc": 3,
+    "type": "Artifact Creature",
+    "subtype": "Myr",
+    "typeLine": "Artifact Creature — Myr",
+    "rulesText": "{T}: Add one mana of any color.",
+    "flavorText": "\"Built to serve. Programmed to obey. Designed to never question.\"",
+    "power": "2",
+    "toughness": "2",
+    "colors": [
+      "Colorless"
+    ],
+    "rarity": "Common",
+    "set": "Mirrodin Manifest",
+    "artUrl": "./images/Foundry_Myr.png"
+  },
+  {
+    "name": "Foundry Scrapper",
+    "manaCost": "{4}{R}",
+    "cmc": 5,
+    "type": "Creature",
+    "subtype": "Human Artificer",
+    "typeLine": "Creature — Human Artificer",
+    "rulesText": "Sacrifice an artifact: Foundry Scrapper gets +2/+0 until end of turn.",
+    "flavorText": "\"Everything burns. Might as well make it useful.\"",
+    "power": "4",
+    "toughness": "4",
+    "colors": [
+      "Red"
+    ],
+    "rarity": "Common",
+    "set": "Mirrodin Manifest",
+    "artUrl": "./images/Foundry_Scrapper.png"
+  },
+  {
+    "name": "Foundry Strike Team",
+    "manaCost": "{2}{W}{W}",
+    "cmc": 4,
+    "type": "Creature",
+    "subtype": "Human Soldier",
+    "typeLine": "Creature — Human Soldier",
+    "rulesText": "Flash\n\nFirst strike\n\nWhen Foundry Strike Team enters, exile target creature an opponent controls until Foundry Strike Team leaves the battlefield.",
+    "flavorText": "They rehearsed the breach a hundred times in a replica forge. On the night, they needed only one.",
+    "colors": [
+      "White"
+    ],
+    "rarity": "Rare",
+    "set": "Mirrodin Manifest",
+    "artUrl": "./images/Foundry_Strike_Team.png"
+  },
+  {
+    "name": "Foundry Wall Captain",
+    "manaCost": "{2}{R}{W}",
+    "cmc": 4,
+    "type": "Creature",
+    "subtype": "Human Soldier Mer-Ikan",
+    "typeLine": "Creature — Human Soldier Mer-Ikan",
+    "rulesText": "Whenever a creature is exiled from under an opponent's control, put a deportation counter on Foundry Wall Captain.\n\nMer-Ikan creatures you control get +1/+1 for each deportation counter on Foundry Wall Captain.\n\n{R}{W}, Remove five deportation counters from Foundry Wall Captain: Exile all creatures opponents control that weren't cast from their hands.",
+    "flavorText": "\"The numbers speak for themselves. Enforcement works.\"",
+    "power": "3",
+    "toughness": "4",
+    "colors": [
+      "White",
+      "Red"
+    ],
+    "rarity": "Rare",
+    "set": "Mirrodin Manifest",
+    "artUrl": "./images/Foundry_Wall_Captain.png"
+  },
+  {
+    "name": "Free Market Zealot",
+    "manaCost": "{1}{W}",
+    "cmc": 2,
+    "type": "Creature",
+    "subtype": "Human Advisor",
+    "typeLine": "Creature — Human Advisor",
+    "rulesText": "Whenever a player compounds, you create a Gold token. *(It's an artifact that enters with a value counter. It has \"Sacrifice this artifact: Add {C} for each value counter on it.\")*\n\nWhenever a player redistributes, sacrifice a permanent you control.",
+    "flavorText": "\"Growth is sacred. Redistribution is theft.\"",
+    "power": "2",
+    "toughness": "2",
+    "colors": [
+      "White"
+    ],
+    "rarity": "Uncommon",
+    "set": "Mirrodin Manifest",
+    "artUrl": "./images/Free_Market_Zealot.png"
+  },
+  {
+    "name": "Freeze Protocol",
+    "manaCost": "{U}",
+    "cmc": 1,
+    "type": "Instant",
+    "typeLine": "Instant",
+    "rulesText": "Tap target creature. It doesn't untap during its controller's next untap step.",
+    "flavorText": "\"System resources reallocated. You are no longer a priority.\"",
+    "colors": [
+      "Blue"
+    ],
+    "rarity": "Common",
+    "set": "Mirrodin Manifest",
+    "artUrl": "./images/Freeze_Protocol.png"
+  },
+  {
+    "name": "Furnace Bolt",
+    "manaCost": "{R}",
+    "cmc": 1,
+    "type": "Instant",
+    "typeLine": "Instant",
+    "rulesText": "Furnace Bolt deals 2 damage to any target.",
+    "flavorText": "\"The Great Furnace answers all inquiries.\"",
+    "colors": [
+      "Red"
+    ],
+    "rarity": "Common",
+    "set": "Mirrodin Manifest",
+    "artUrl": "./images/Furnace_Bolt.png"
+  },
+  {
+    "name": "Furnace Populist",
+    "manaCost": "{2}{R}",
+    "cmc": 3,
+    "type": "Creature",
+    "subtype": "Human Advisor",
+    "typeLine": "Creature — Human Advisor",
+    "rulesText": "Haste\n\nWhenever Furnace Populist attacks, Gamble. If you win the gamble, put a +1/+1 counter on Furnace Populist. If you lose the gamble, Furnace Populist deals 2 damage to you.",
+    "flavorText": "\"The people want action! The Synod wants studies! I bring fire!\"",
+    "power": "3",
+    "toughness": "2",
+    "colors": [
+      "Red"
+    ],
+    "rarity": "Uncommon",
+    "set": "Mirrodin Manifest",
+    "artUrl": "./images/Furnace_Populist.png"
+  },
+  {
+    "name": "Furnace Processing Gate",
+    "manaCost": "cmc: 0",
+    "cmc": 0,
+    "type": "Land",
+    "typeLine": "Land",
+    "rulesText": "Furnace Processing Gate enters the battlefield tapped.\n\nWhen Furnace Processing Gate enters the battlefield, scry 1.\n\n{T}: Add {B} or {R}.",
+    "flavorText": "The Furnace transforms all who enter—whether they consent or not.",
+    "colors": [
+      "Colorless"
+    ],
+    "rarity": "Common",
+    "set": "Mirrodin Manifest",
+    "artUrl": "./images/Furnace_Processing_Gate.png"
+  },
+  {
+    "name": "Furnace Revolution",
+    "manaCost": "{4}{R}{R}",
+    "cmc": 6,
+    "type": "Sorcery",
+    "typeLine": "Sorcery",
+    "rulesText": "Gain control of all artifacts until end of turn. Untap them. They become artifact creatures with base power and toughness 4/4 with haste until end of turn.\n\nAt the beginning of the next end step, sacrifice each artifact you gained control of this way.",
+    "flavorText": "\"The machines rose against their masters, if only for a glorious moment.\"",
+    "colors": [
+      "Red"
+    ],
+    "rarity": "Mythic",
+    "set": "Mirrodin Manifest",
+    "artUrl": "./images/Furnace_Revolution.png"
+  },
+  {
+    "name": "Furnace Runner",
+    "manaCost": "{1}{R}",
+    "cmc": 2,
+    "type": "Creature",
+    "subtype": "Human Warrior",
+    "typeLine": "Creature — Human Warrior",
+    "rulesText": "Haste",
+    "flavorText": "\"The furnace waits for no one.\"",
+    "power": "2",
+    "toughness": "1",
+    "colors": [
+      "Red"
+    ],
+    "rarity": "Common",
+    "set": "Mirrodin Manifest",
+    "artUrl": "./images/Furnace_Runner.png"
+  },
+  {
+    "name": "Furnace Saboteur",
+    "manaCost": "{1}{B}{R}",
+    "cmc": 3,
+    "type": "Creature",
+    "subtype": "Human Rogue",
+    "typeLine": "Creature — Human Rogue",
+    "rulesText": "Haste\n\nWhenever Furnace Saboteur deals combat damage to a player, that player sacrifices an artifact or discards a card.",
+    "flavorText": "\"The Foundry burns brightest when fed its own machines.\"",
+    "power": "3",
+    "toughness": "2",
+    "colors": [
+      "Black/Red"
+    ],
+    "rarity": "Uncommon",
+    "set": "Mirrodin Manifest",
+    "artUrl": "./images/Furnace_Saboteur.png"
+  },
+  {
+    "name": "Furnace Stoker",
+    "manaCost": "{3}{R}",
+    "cmc": 4,
+    "type": "Creature",
+    "subtype": "Human Worker",
+    "typeLine": "Creature — Human Worker",
+    "rulesText": "When Furnace Stoker enters the battlefield, it deals 1 damage to each creature.",
+    "flavorText": "\"The Great Furnace doesn't discriminate. Neither do its workers.\"",
+    "power": "3",
+    "toughness": "3",
+    "colors": [
+      "Red"
+    ],
+    "rarity": "Common",
+    "set": "Mirrodin Manifest",
+    "artUrl": "./images/Furnace_Stoker.png"
+  },
+  {
+    "name": "Furnace's Wrath",
+    "manaCost": "{2}{R}",
+    "cmc": 3,
+    "type": "Enchantment",
+    "typeLine": "Enchantment",
+    "rulesText": "Whenever you cast an instant or sorcery spell that deals damage, it deals 1 additional damage to each target.\n\nWhenever you win a gamble, Furnace's Wrath deals 2 damage to each opponent.",
+    "flavorText": "\"The Great Furnace remembers every slight.\"",
+    "colors": [
+      "Red"
+    ],
+    "rarity": "Uncommon",
+    "set": "Mirrodin Manifest",
+    "artUrl": "./images/Furnace's_Wrath.png"
+  },
+  {
+    "name": "Gamble with Fate",
+    "manaCost": "{G}",
+    "cmc": 1,
+    "type": "Instant",
+    "typeLine": "Instant",
+    "rulesText": "Target creature you control fights target creature you don't control.\n\nGamble. If you win, put a +1/+1 counter on your creature.",
+    "flavorText": "\"The Tangle teaches: risk everything, gain everything.\"",
+    "colors": [
+      "Green"
+    ],
+    "rarity": "Common",
+    "set": "Mirrodin Manifest",
+    "artUrl": "./images/Gamble_with_Fate.png"
+  },
+  {
+    "name": "Gambler's Instinct",
+    "manaCost": "{R}",
+    "cmc": 1,
+    "type": "Instant",
+    "typeLine": "Instant",
+    "rulesText": "Gamble. If you win the gamble, Gambler's Instinct deals 3 damage to any target. If you lose, it deals 1 damage to any target.",
+    "flavorText": "\"The odds don't matter when the fire's in your blood.\"",
+    "colors": [
+      "Red"
+    ],
+    "rarity": "Common",
+    "set": "Mirrodin Manifest",
+    "artUrl": "./images/Gambler's_Instinct.png"
+  },
+  {
+    "name": "Gambling with the Devil",
+    "manaCost": "{1}{R}",
+    "cmc": 2,
+    "type": "Sorcery",
+    "typeLine": "Sorcery",
+    "rulesText": "Gamble. *(You and target opponent reveal the top card of your libraries. Whoever reveals the card with greater mana value wins.)*\n\nThe player who loses the gamble loses 6 life.",
+    "flavorText": "\"The Golem at the table never blinks. He already knows your hand—he built the deck.\"",
+    "colors": [
+      "Red"
+    ],
+    "rarity": "Uncommon",
+    "set": "Mirrodin Manifest",
+    "artUrl": "./images/Gambling_with_the_Devil.png"
+  },
+  {
+    "name": "Gilded Sentinel's Decree",
+    "manaCost": "{2}{W}{W}",
+    "cmc": 4,
+    "type": "Sorcery",
+    "typeLine": "Sorcery",
+    "rulesText": "Choose one or both —\n\n• Exile all creatures that weren't cast from their owner's hand.\n\n• Until your next turn, players can't cast spells with mana value greater than the number of lands they control.",
+    "flavorText": "\"The unrefined have no place within these walls. The overleveraged have no voice within this chamber.\"",
+    "colors": [
+      "White"
+    ],
+    "rarity": "Rare",
+    "set": "Mirrodin Manifest",
+    "artUrl": "./images/Gilded_Sentinel's_Decree.png"
+  },
+  {
+    "name": "Glimmer-Barge",
+    "manaCost": "{3}",
+    "cmc": 3,
+    "type": "Artifact",
+    "subtype": "Vehicle",
+    "typeLine": "Artifact — Vehicle",
+    "rulesText": "Whenever Glimmer-Barge attacks, you may exile target creature with mana value 2 or less until Glimmer-Barge leaves the battlefield. When you do, put a cargo counter on Glimmer-Barge.\n\nGlimmer-Barge can't be blocked.\n\nWhen Glimmer-Barge leaves the battlefield, you may draw cards equal to the number of cargo counters on it.\n\nCrew 1 *(Tap any number of creatures you control with total power 1 or more: This Vehicle becomes an artifact creature until end of turn.)*",
+    "flavorText": "No manifests. No witnesses. No returns.",
+    "power": "4",
+    "toughness": "3",
+    "colors": [
+      "Colorless"
+    ],
+    "rarity": "Rare",
+    "set": "Mirrodin Manifest",
+    "artUrl": "./images/Glimmer-Barge.png"
+  },
+  {
+    "name": "Glimmervoid Broker",
+    "manaCost": "{1}{B}",
+    "cmc": 2,
+    "type": "Creature",
+    "subtype": "Human Rogue",
+    "typeLine": "Creature — Human Rogue",
+    "rulesText": "{T}: Gamble. If you win the gamble, create a Gold token. If you lose the gamble, sacrifice a permanent.",
+    "flavorText": "\"The house always wins. I am the house.\"",
+    "power": "1",
+    "toughness": "3",
+    "colors": [
+      "Black"
+    ],
+    "rarity": "Uncommon",
+    "set": "Mirrodin Manifest",
+    "artUrl": "./images/Glimmervoid_Broker.png"
+  },
+  {
+    "name": "Glimmervoid High Roller",
+    "manaCost": "{2}{U}{U}",
+    "cmc": 4,
+    "type": "Creature",
+    "subtype": "Vedalken Rogue",
+    "typeLine": "Creature — Vedalken Rogue",
+    "rulesText": "Whenever you gamble, draw a card.\n\n{U}, Discard a card: Gamble.",
+    "flavorText": "\"The thrill isn't in winning. It's in knowing you might not.\"",
+    "power": "2",
+    "toughness": "4",
+    "colors": [
+      "Blue"
+    ],
+    "rarity": "Rare",
+    "set": "Mirrodin Manifest",
+    "artUrl": "./images/Glimmervoid_High_Roller.png"
+  },
+  {
+    "name": "Glimmervoid Lobbyist",
+    "manaCost": "{1}{W}",
+    "cmc": 2,
+    "type": "Creature",
+    "subtype": "Human Advisor",
+    "typeLine": "Creature — Human Advisor",
+    "rulesText": "{T}, Put a favor counter on target legendary creature: That creature gains hexproof until end of turn.\n\nLegendary creatures with favor counters on them can't be blocked by creatures with power 2 or less.",
+    "flavorText": "\"My clients' interests are, of course, completely aligned with the public good.\"",
+    "power": "1",
+    "toughness": "2",
+    "colors": [
+      "White"
+    ],
+    "rarity": "Common",
+    "set": "Mirrodin Manifest",
+    "artUrl": "./images/Glimmervoid_Lobbyist.png"
+  },
+  {
+    "name": "Gold Rush Frenzy",
+    "manaCost": "{1}{R}{W}",
+    "cmc": 3,
+    "type": "Enchantment",
+    "typeLine": "Enchantment",
+    "rulesText": "Whenever you create a Gold token, creatures you control get +1/+0 until end of turn.\n\nWhenever you sacrifice a Gold token, you may have target creature gain haste and vigilance until end of turn.\n\n{R}{W}: Create a Gold token. Activate only once each turn.",
+    "flavorText": "\"The rush isn't in the gold. It's in the hunt.\"",
+    "colors": [
+      "Red/White"
+    ],
+    "rarity": "Uncommon",
+    "set": "Mirrodin Manifest",
+    "artUrl": "./images/Gold_Rush_Frenzy.png"
+  },
+  {
+    "name": "Grove Multiplier",
+    "manaCost": "{3}{G}",
+    "cmc": 4,
+    "type": "Creature",
+    "subtype": "Elf Shaman",
+    "typeLine": "Creature — Elf Shaman",
+    "rulesText": "When Grove Multiplier enters the battlefield, double the number of +1/+1 counters on target creature you control.",
+    "flavorText": "\"Growth begets growth.\"",
+    "power": "2",
+    "toughness": "4",
+    "colors": [
+      "Green"
+    ],
+    "rarity": "Uncommon",
+    "set": "Mirrodin Manifest",
+    "artUrl": "./images/Grove_Multiplier.png"
+  },
+  {
+    "name": "Grove of Equal Measure",
+    "manaCost": "",
+    "cmc": 0,
+    "type": "Land",
+    "typeLine": "Land",
+    "rulesText": "Grove of Equal Measure enters the battlefield tapped.\n\n{T}: Add {G} or {W}.\n\n{2}, {T}: Redistribute among two target permanents you control. *(Remove all counters from them, then each gets half that many counters, rounded down.)*",
+    "flavorText": "\"In this grove, no tree grows taller than its neighbor.\"",
+    "colors": [
+      "Colorless"
+    ],
+    "rarity": "Rare",
+    "set": "Mirrodin Manifest",
+    "artUrl": "./images/Grove_of_Equal_Measure.png"
+  },
+  {
+    "name": "Grove Warden",
+    "manaCost": "{4}{G}",
+    "cmc": 5,
+    "type": "Creature",
+    "subtype": "Elf Druid",
+    "typeLine": "Creature — Elf Druid",
+    "rulesText": "When Grove Warden enters the battlefield, you gain 3 life.",
+    "flavorText": "\"The grove provides for all who protect it.\"",
+    "power": "4",
+    "toughness": "5",
+    "colors": [
+      "Green"
+    ],
+    "rarity": "Common",
+    "set": "Mirrodin Manifest",
+    "artUrl": "./images/Grove_Warden.png"
+  },
+  {
+    "name": "Hallucination Engine",
+    "manaCost": "{3}{U}",
+    "cmc": 4,
+    "type": "Creature",
+    "subtype": "Construct",
+    "typeLine": "Artifact Creature — Construct",
+    "rulesText": "Whenever you scry, put a glitch counter on Hallucination Engine.\n\n{T}, Remove three glitch counters from Hallucination Engine: Create a token that's a copy of target creature, except it's an artifact in addition to its other types. Sacrifice it at the beginning of the next end step.",
+    "flavorText": "\"It looks real. It acts real. It isn't.\"",
+    "power": "2",
+    "toughness": "4",
+    "colors": [
+      "Blue"
+    ],
+    "rarity": "Rare",
+    "set": "Mirrodin Manifest",
+    "artUrl": "./images/Hallucination_Engine.png"
+  },
+  {
+    "name": "Hedge",
+    "manaCost": "{1}{W}",
+    "cmc": 2,
+    "type": "Instant",
+    "typeLine": "Instant",
+    "rulesText": "Prevent all damage that would be dealt this turn.\n\nCreate a Gold token. *(It's an artifact that enters with a value counter. It has \"Sacrifice this artifact: Add {C} for each value counter on it.\")*",
+    "flavorText": "\"When the Lattice burns, those with gold walk away whole.\"",
+    "colors": [
+      "White"
+    ],
+    "rarity": "Uncommon",
+    "set": "Mirrodin Manifest",
+    "artUrl": "./images/Hedge.png"
+  },
+  {
+    "name": "Hedge Fund Manager",
+    "manaCost": "{2}{U}{U}",
+    "cmc": 4,
+    "type": "Creature",
+    "subtype": "Human Advisor",
+    "typeLine": "Creature — Human Advisor",
+    "rulesText": "When Hedge Fund Manager enters the battlefield, create three Gold tokens.\n\nWhenever you sacrifice a Gold token, Gamble. If you win the gamble, create two Gold tokens.\n\nAt the beginning of your end step, sacrifice a Gold token.",
+    "flavorText": "\"Risk is just opportunity in disguise.\"",
+    "power": "2",
+    "toughness": "3",
+    "colors": [
+      "Blue"
+    ],
+    "rarity": "Rare",
+    "set": "Mirrodin Manifest",
+    "artUrl": "./images/Hedge_Fund_Manager.png"
+  },
+  {
+    "name": "Hidden Community Elder",
+    "manaCost": "{2}{G}{W}",
+    "cmc": 4,
+    "type": "Creature",
+    "subtype": "Human Advisor",
+    "typeLine": "Creature — Human Advisor",
+    "rulesText": "Other Citizen creatures you control get +1/+1 and have hexproof.\n\nWhenever a Citizen creature you control would be exiled, you may have Hidden Community Elder be exiled instead.",
+    "flavorText": "\"We protect our own. The Foundry takes nothing.\"",
+    "power": "2",
+    "toughness": "4",
+    "colors": [
+      "Green",
+      "White"
+    ],
+    "rarity": "Rare",
+    "set": "Mirrodin Manifest",
+    "artUrl": "./images/Hidden_Community_Elder.png"
+  },
+  {
+    "name": "Hype Cycle",
+    "manaCost": "{2}{U}",
+    "cmc": 3,
+    "type": "Enchantment",
+    "subtype": "Saga",
+    "typeLine": "Enchantment — Saga",
+    "rulesText": "**I** — Double the number of counters on each permanent.\n\n**II** — Double the number of counters on each permanent.\n\n**III** — Remove all counters from all permanents.",
+    "flavorText": "\"The Lattice promised infinite growth. It delivered infinite zeroes.\"",
+    "colors": [
+      "Blue"
+    ],
+    "rarity": "Rare",
+    "set": "Mirrodin Manifest",
+    "artUrl": "./images/Hype_Cycle.png"
+  },
+  {
+    "name": "Inflation Harbinger",
+    "manaCost": "{2}{R}",
+    "cmc": 3,
+    "type": "Creature",
+    "subtype": "Spirit",
+    "typeLine": "Creature — Spirit",
+    "rulesText": "Haste\n\nWhen Inflation Harbinger enters the battlefield, put a -1/-1 counter on each creature with a +1/+1 counter on it.",
+    "flavorText": "\"Your savings? Worth less every day.\"",
+    "power": "3",
+    "toughness": "1",
+    "colors": [
+      "Red"
+    ],
+    "rarity": "Common",
+    "set": "Mirrodin Manifest",
+    "artUrl": "./images/Inflation_Harbinger.png"
+  },
+  {
+    "name": "Inflation Hedge",
+    "manaCost": "{2}{G}{W}",
+    "cmc": 4,
+    "type": "Artifact",
+    "typeLine": "Artifact",
+    "rulesText": "Whenever a [[Debt Token|Debt token]] enters the battlefield under an opponent's control, you create a [[Gold Token|Gold token]].\n\nSacrifice Inflation Hedge: Destroy all Debt tokens.",
+    "flavorText": "\"When paper fails, gold endures.\"",
+    "colors": [
+      "Green/White"
+    ],
+    "rarity": "Rare",
+    "set": "Mirrodin Manifest",
+    "artUrl": "./images/Inflation_Hedge.png"
+  },
+  {
+    "name": "Infrastructure Collapse",
+    "manaCost": "{3}{R}{R}",
+    "cmc": 5,
+    "type": "Sorcery",
+    "typeLine": "Sorcery",
+    "rulesText": "Destroy all artifacts. For each artifact destroyed this way, its controller creates a [[Debt Token|Debt token]].",
+    "flavorText": "\"The bill for progress came due all at once.\"",
+    "colors": [
+      "Red"
+    ],
+    "rarity": "Rare",
+    "set": "Mirrodin Manifest",
+    "artUrl": "./images/Infrastructure_Collapse.png"
+  },
+  {
+    "name": "Interest Rate Hike",
+    "manaCost": "{1}{R}",
+    "cmc": 2,
+    "type": "Instant",
+    "typeLine": "Instant",
+    "rulesText": "Put two debt counters on each [[Debt Token|Debt token]].",
+    "flavorText": "\"Adjustment effective immediately.\"",
+    "colors": [
+      "Red"
+    ],
+    "rarity": "Uncommon",
+    "set": "Mirrodin Manifest",
+    "artUrl": "./images/Interest_Rate_Hike.png"
+  },
+  {
+    "name": "Isle Procurer",
+    "manaCost": "{1}{B}",
+    "cmc": 2,
+    "type": "Creature",
+    "subtype": "Human Rogue",
+    "typeLine": "Creature — Human Rogue",
+    "rulesText": "When Isle Procurer enters the battlefield, create a 1/1 white Human Unforged creature token with a spark counter on it.\n\nWhenever an Unforged you control dies, put a secrecy counter on Isle Procurer.\n\nIsle Procurer gets +1/+0 for each secrecy counter on it.",
+    "flavorText": "\"Fresh potential, as requested. The client list grows.\"",
+    "power": "2",
+    "toughness": "1",
+    "colors": [
+      "Black"
+    ],
+    "rarity": "Uncommon",
+    "set": "Mirrodin Manifest",
+    "artUrl": "./images/Isle_Procurer.png"
+  },
+  {
+    "name": "Jackpot Wurm",
+    "manaCost": "{4}{G}{G}",
+    "cmc": 6,
+    "type": "Creature",
+    "subtype": "Wurm",
+    "typeLine": "Creature — Wurm",
+    "rulesText": "Trample\n\nWhen Jackpot Wurm enters the battlefield, gamble three times. For each gamble you win, put three +1/+1 counters on Jackpot Wurm.",
+    "flavorText": "\"It feeds on luck itself.\"",
+    "power": "6",
+    "toughness": "6",
+    "colors": [
+      "Green"
+    ],
+    "rarity": "Rare",
+    "set": "Mirrodin Manifest",
+    "artUrl": "./images/Jackpot_Wurm.png"
+  },
+  {
+    "name": "Jubilee Declaration",
+    "manaCost": "{2}{W}{W}",
+    "cmc": 4,
+    "type": "Sorcery",
+    "typeLine": "Sorcery",
+    "rulesText": "Destroy all [[Debt Token|Debt tokens]]. Each player gains 2 life for each Debt token they controlled that was destroyed this way.",
+    "flavorText": "\"All debts are forgiven. Begin again.\"",
+    "colors": [
+      "White"
+    ],
+    "rarity": "Uncommon",
+    "set": "Mirrodin Manifest",
+    "artUrl": "./images/Jubilee_Declaration.png"
+  },
+  {
+    "name": "Keeper of the Guest List",
+    "manaCost": "{2}{B}",
+    "cmc": 3,
+    "type": "Creature",
+    "subtype": "Human Advisor",
+    "typeLine": "Creature — Human Advisor",
+    "rulesText": "Whenever a legendary creature enters the battlefield under an opponent's control, put a name counter on Keeper of the Guest List.\n\n{B}, {T}, Remove X name counters from Keeper of the Guest List: Target opponent discards X cards. Activate only as a sorcery.",
+    "flavorText": "\"Everyone who visited. Every favor exchanged. All recorded.\"",
+    "power": "1",
+    "toughness": "4",
+    "colors": [
+      "Black"
+    ],
+    "rarity": "Rare",
+    "set": "Mirrodin Manifest",
+    "artUrl": "./images/Keeper_of_the_Guest_List.png"
+  },
+  {
+    "name": "Kha-Sino, Fortune's Dealer",
+    "manaCost": "{2}{R}{G}",
+    "cmc": 4,
+    "type": "Creature",
+    "subtype": "Cat Rogue",
+    "typeLine": "Legendary Creature — Cat Rogue",
+    "rulesText": "Whenever you would gamble, you may scry 1 first.\n\nAt the beginning of your end step, gamble. If you win, create a Gold token. If you lose, each opponent creates a Gold token.\n\nWhenever a player sacrifices a Gold token, that player gambles.",
+    "flavorText": "\"The house always wins. I am the house.\"",
+    "power": "3",
+    "toughness": "4",
+    "colors": [
+      "Red",
+      "Green"
+    ],
+    "rarity": "Mythic",
+    "set": "Mirrodin Manifest",
+    "artUrl": "./images/Kha-Sino,_Fortune's_Dealer.png"
+  },
+  {
+    "name": "Lattice Analyst",
+    "manaCost": "{2}{U}",
+    "cmc": 3,
+    "type": "Creature",
+    "subtype": "Vedalken Advisor",
+    "typeLine": "Creature — Vedalken Advisor",
+    "rulesText": "Flying\n\nWhen Lattice Analyst enters the battlefield, draw a card.",
+    "flavorText": "\"The patterns are clear to those trained to see them.\"",
+    "power": "2",
+    "toughness": "2",
+    "colors": [
+      "Blue"
+    ],
+    "rarity": "Common",
+    "set": "Mirrodin Manifest",
+    "artUrl": "./images/Lattice_Analyst.png"
+  },
+  {
+    "name": "Lattice Blackout",
+    "manaCost": "{1}{U}{B}",
+    "cmc": 3,
+    "type": "Instant",
+    "subtype": "color: Blue/Black",
+    "typeLine": "Instant",
+    "rulesText": "Tap all artifacts and creatures target player controls. They don't untap during that player's next untap step.\n\nDraw a card.",
+    "flavorText": "\"The city went dark due to a certain expertise that we have.\"",
+    "colors": [
+      "Blue/Black"
+    ],
+    "rarity": "Uncommon",
+    "set": "Mirrodin Manifest",
+    "artUrl": "./images/Lattice_Blackout.png"
+  },
+  {
+    "name": "Lattice Conduit",
+    "manaCost": "{2}",
+    "cmc": 2,
+    "type": "Artifact",
+    "subtype": "color: Colorless",
+    "typeLine": "Artifact",
+    "rulesText": "{T}, Sacrifice Lattice Conduit: Add two mana of different colors.",
+    "flavorText": "\"The Lattice connects all. Even those who wish to remain separate.\"",
+    "colors": [
+      "Colorless"
+    ],
+    "rarity": "Common",
+    "set": "Mirrodin Manifest",
+    "artUrl": "./images/Lattice_Conduit.png"
+  },
+  {
+    "name": "Lattice Data Miner",
+    "manaCost": "{1}{U}",
+    "cmc": 2,
+    "type": "Creature",
+    "subtype": "Vedalken Rogue",
+    "typeLine": "Creature — Vedalken Rogue",
+    "rulesText": "When Lattice Data Miner dies, scry 2.",
+    "flavorText": "\"The truth is always archived somewhere.\"",
+    "power": "1",
+    "toughness": "1",
+    "colors": [
+      "Blue"
+    ],
+    "rarity": "Common",
+    "set": "Mirrodin Manifest",
+    "artUrl": "./images/Lattice_Data_Miner.png"
+  },
+  {
+    "name": "Lattice Delay",
+    "manaCost": "{2}{U}",
+    "cmc": 3,
+    "type": "Instant",
+    "typeLine": "Instant",
+    "rulesText": "Counter target spell unless its controller pays {3}.\n\nScry 1.",
+    "flavorText": "\"The Lattice requires additional processing time.\"",
+    "colors": [
+      "Blue"
+    ],
+    "rarity": "Common",
+    "set": "Mirrodin Manifest",
+    "artUrl": "./images/Lattice_Delay.png"
+  },
+  {
+    "name": "Lattice Infiltrator",
+    "manaCost": "{1}{U}",
+    "cmc": 2,
+    "type": "Creature",
+    "subtype": "Human Rogue",
+    "typeLine": "Creature — Human Rogue",
+    "rulesText": "Lattice Infiltrator can't be blocked.\n\nWhenever Lattice Infiltrator deals combat damage to a player, scry 1.",
+    "flavorText": "\"The Lattice sees all. So do I.\"",
+    "power": "1",
+    "toughness": "1",
+    "colors": [
+      "Blue"
+    ],
+    "rarity": "Common",
+    "set": "Mirrodin Manifest",
+    "artUrl": "./images/Lattice_Infiltrator.png"
+  },
+  {
+    "name": "Lattice Interface",
+    "manaCost": "{2}",
+    "cmc": 2,
+    "type": "Artifact",
+    "typeLine": "Artifact",
+    "rulesText": "Whenever you scry, you may pay {1}. If you do, draw a card, then discard a card.\n\n{2}, {T}: Scry 2.\n\n{U}, {T}: Target Vedalken creature gains hexproof until end of turn.",
+    "flavorText": "\"The En-Vidia sees all. We merely interpret.\"",
+    "colors": [
+      "Colorless"
+    ],
+    "rarity": "Uncommon",
+    "set": "Mirrodin Manifest",
+    "artUrl": "./images/Lattice_Interface.png"
+  },
+  {
+    "name": "Lattice Monopoly",
+    "manaCost": "{4}",
+    "cmc": 4,
+    "type": "Artifact",
+    "subtype": "color: Colorless",
+    "typeLine": "Artifact",
+    "rulesText": "Whenever an artifact enters the battlefield under an opponent's control, you may pay {1}. If you do, draw a card.\n\n{T}: Add one mana of any color. Spend this mana only to cast artifact spells or activate abilities of artifacts.",
+    "flavorText": "The protocol was free. The foundation that controlled it was not.",
+    "colors": [
+      "Colorless"
+    ],
+    "rarity": "Rare",
+    "set": "Mirrodin Manifest",
+    "artUrl": "./images/Lattice_Monopoly.png"
+  },
+  {
+    "name": "Lattice Naturalist",
+    "manaCost": "{1}{G}{U}",
+    "cmc": 3,
+    "type": "Creature",
+    "subtype": "Elf Wizard",
+    "typeLine": "Creature — Elf Wizard",
+    "rulesText": "Whenever you scry, put a +1/+1 counter on Lattice Naturalist.\n\n{T}: Scry 1.",
+    "flavorText": "\"Nature and data are both patterns. I read both.\"",
+    "power": "2",
+    "toughness": "3",
+    "colors": [
+      "Green/Blue"
+    ],
+    "rarity": "Uncommon",
+    "set": "Mirrodin Manifest",
+    "artUrl": "./images/Lattice_Naturalist.png"
+  },
+  {
+    "name": "Lattice Observer",
+    "manaCost": "{3}{U}",
+    "cmc": 4,
+    "type": "Creature",
+    "subtype": "Vedalken Wizard",
+    "typeLine": "Creature — Vedalken Wizard",
+    "rulesText": "Flying\n\nWhen Lattice Observer enters the battlefield, draw a card, then discard a card.",
+    "flavorText": "\"Every fluctuation in the Lattice tells a story.\"",
+    "power": "2",
+    "toughness": "4",
+    "colors": [
+      "Blue"
+    ],
+    "rarity": "Common",
+    "set": "Mirrodin Manifest",
+    "artUrl": "./images/Lattice_Observer.png"
+  },
+  {
+    "name": "Lattice Overseer",
+    "manaCost": "{3}{U}{U}",
+    "cmc": 5,
+    "type": "Creature",
+    "subtype": "Vedalken Advisor",
+    "typeLine": "Creature — Vedalken Advisor",
+    "rulesText": "At the beginning of your upkeep, compound. *(Choose a permanent. Put a counter on it of a type already on it.)*\n\nWhenever you compound, scry 1.\n\n{U}{U}, {T}: Look at the top card of each player's library.",
+    "flavorText": "\"The Lattice sees all futures. I merely choose which one arrives.\"",
+    "power": "3",
+    "toughness": "5",
+    "colors": [
+      "Blue"
+    ],
+    "rarity": "Mythic",
+    "set": "Mirrodin Manifest",
+    "artUrl": "./images/Lattice_Overseer.png"
+  },
+  {
+    "name": "Ledger Thief",
+    "manaCost": "{2}{U}",
+    "cmc": 3,
+    "type": "Creature",
+    "subtype": "Human Rogue",
+    "typeLine": "Creature — Human Rogue",
+    "rulesText": "When Ledger Thief enters the battlefield, look at the top five cards of target opponent's library. You may exile one of them face-down. Put the rest back in any order.\n\n{2}{U}, Sacrifice Ledger Thief: Turn all cards exiled face-down by cards you control face-up. You may cast one of them this turn without paying its mana cost.",
+    "flavorText": "\"Copies. I made copies.\"",
+    "power": "2",
+    "toughness": "2",
+    "colors": [
+      "Blue"
+    ],
+    "rarity": "Uncommon",
+    "set": "Mirrodin Manifest",
+    "artUrl": "./images/Ledger_Thief.png"
+  },
+  {
+    "name": "Liang-Wen, the Efficient Mind",
+    "manaCost": "{1}{U}{R}",
+    "cmc": 3,
+    "type": "Creature",
+    "subtype": "Human Artificer",
+    "typeLine": "Legendary Creature — Human Artificer",
+    "rulesText": "Artifact spells you cast cost {1} less to cast.\n\nWhenever you cast an artifact spell, if its mana value is less than the highest mana value among artifacts your opponents control, draw a card.",
+    "flavorText": "He built an empire from scraps they said were worthless.",
+    "colors": [
+      "Blue/Red"
+    ],
+    "rarity": "Rare",
+    "set": "Mirrodin Manifest",
+    "artUrl": "./images/Liang-Wen,_the_Efficient_Mind.png"
+  },
+  {
+    "name": "Loan Shark",
+    "manaCost": "{1}{B}",
+    "cmc": 2,
+    "type": "Creature",
+    "subtype": "Human Rogue",
+    "typeLine": "Creature — Human Rogue",
+    "rulesText": "Whenever Loan Shark deals combat damage to a player, that player creates a [[Debt Token|Debt token]].",
+    "flavorText": "\"The first payment is always free.\"",
+    "power": "2",
+    "toughness": "1",
+    "colors": [
+      "Black"
+    ],
+    "rarity": "Common",
+    "set": "Mirrodin Manifest",
+    "artUrl": "./images/Loan_Shark.png"
+  },
+  {
+    "name": "Lucky Strike",
+    "manaCost": "{2}{R}",
+    "cmc": 3,
+    "type": "Instant",
+    "typeLine": "Instant",
+    "rulesText": "Lucky Strike deals 3 damage to any target.\n\nGamble. If you win the gamble, Lucky Strike deals 3 damage to another target.",
+    "flavorText": "\"Lightning strikes twice for those blessed by fortune.\"",
+    "colors": [
+      "Red"
+    ],
+    "rarity": "Uncommon",
+    "set": "Mirrodin Manifest",
+    "artUrl": "./images/Lucky_Strike.png"
+  },
+  {
+    "name": "Mad-Uro, the Hollow Throne",
+    "manaCost": "{2}{B}{R}",
+    "cmc": 4,
+    "type": "Creature",
+    "subtype": "Human Advisor",
+    "typeLine": "Legendary Creature — Human Advisor",
+    "rulesText": "Mad-Uro, the Hollow Throne enters the battlefield with four loyalty counters on it.\n\nOther creatures you control have \"{T}: Add {B} or {R}. Remove a loyalty counter from Mad-Uro.\"\n\nAt the beginning of your end step, if Mad-Uro has no loyalty counters on it or you control fewer than three other creatures, sacrifice it.\n\nWhen Mad-Uro dies, each opponent draws cards equal to the number of loyalty counters that were on it.",
+    "flavorText": "His people starved while his fortress gleamed. When the Foundry came, not one guard stood in their way.",
+    "colors": [
+      "Black/Red"
+    ],
+    "rarity": "Rare",
+    "set": "Mirrodin Manifest",
+    "artUrl": "./images/Mad-Uro,_the_Hollow_Throne.png"
+  },
+  {
+    "name": "Mak-Ron, the Glass Orator",
+    "manaCost": "{2}{U}{U}",
+    "cmc": 4,
+    "type": "Creature",
+    "subtype": "Vedalken Advisor",
+    "typeLine": "Legendary Creature — Vedalken Advisor",
+    "rulesText": "At the beginning of your upkeep, scry 2.\n\n{U}, {T}: Choose one —\n• Redistribute. *(Choose two permanents. Remove all counters from them, then each gets half that many counters, rounded down.)*\n• Each player draws a card.",
+    "flavorText": "\"His speeches promise everything. The Quicksilver Sea evaporates regardless.\"",
+    "power": "2",
+    "toughness": "4",
+    "colors": [
+      "Blue"
+    ],
+    "rarity": "Rare",
+    "set": "Mirrodin Manifest",
+    "artUrl": "./images/Mak-Ron,_the_Glass_Orator.png"
+  },
+  {
+    "name": "Market Crash",
+    "manaCost": "{2}{B}",
+    "cmc": 3,
+    "type": "Instant",
+    "typeLine": "Instant",
+    "rulesText": "Remove all counters from all permanents.\n\nEach player loses 1 life for each counter removed from permanents they controlled this way.",
+    "flavorText": "\"The Lattice promised infinite growth. It never mentioned the floor.\"",
+    "colors": [
+      "Black"
+    ],
+    "rarity": "Rare",
+    "set": "Mirrodin Manifest",
+    "artUrl": "./images/Market_Crash.png"
+  },
+  {
+    "name": "Market Manipulation",
+    "manaCost": "{2}{U}{B}",
+    "cmc": 4,
+    "type": "Sorcery",
+    "subtype": "color: Blue/Black",
+    "typeLine": "Sorcery",
+    "rulesText": "Compound three times, choosing the same permanent each time.\n\nThen gamble. If you lose the gamble, redistribute, choosing that permanent and target permanent an opponent controls.",
+    "flavorText": "\"Inflate. Bet. Crash. Repeat. The only losers are the ones who believed it was real.\"",
+    "colors": [
+      "Blue/Black"
+    ],
+    "rarity": "Rare",
+    "set": "Mirrodin Manifest",
+    "artUrl": "./images/Market_Manipulation.png"
+  },
+  {
+    "name": "Master of Debt",
+    "manaCost": "{3}{B}{B}",
+    "cmc": 5,
+    "type": "Creature",
+    "subtype": "Human Warlock",
+    "typeLine": "Legendary Creature — Human Warlock",
+    "rulesText": "Deathtouch\n\nWhenever an opponent creates a [[Debt Token|Debt token]], you create a Treasure token.\n\n{2}{B}, {T}: Target opponent creates a Debt token.",
+    "flavorText": "\"Your debt is my wealth.\"",
+    "power": "4",
+    "toughness": "4",
+    "colors": [
+      "Black"
+    ],
+    "rarity": "Mythic",
+    "set": "Mirrodin Manifest",
+    "artUrl": "./images/Master_of_Debt.png"
+  },
+  {
+    "name": "Memory Normalization",
+    "manaCost": "{1}{U}",
+    "cmc": 2,
+    "type": "Instant",
+    "typeLine": "Instant",
+    "rulesText": "Redistribute among two target permanents. Scry 1.",
+    "flavorText": "\"Anomalies must be corrected. Variance is inefficiency.\"",
+    "colors": [
+      "Blue"
+    ],
+    "rarity": "Common",
+    "set": "Mirrodin Manifest",
+    "artUrl": "./images/Memory_Normalization.png"
+  },
+  {
+    "name": "Memory Purge",
+    "manaCost": "{1}{U}",
+    "cmc": 2,
+    "type": "Instant",
+    "typeLine": "Instant",
+    "rulesText": "Choose one —\n\n• Counter target spell if it has the same name as a card in any graveyard.\n\n• Exile up to three target cards from graveyards. If a legendary card was exiled this way, scry 2.",
+    "flavorText": "\"What records? There were never any records.\"",
+    "colors": [
+      "Blue"
+    ],
+    "rarity": "Uncommon",
+    "set": "Mirrodin Manifest",
+    "artUrl": "./images/Memory_Purge.png"
+  },
+  {
+    "name": "Mephidross Collector",
+    "manaCost": "{2}{B}",
+    "cmc": 3,
+    "type": "Creature",
+    "subtype": "Zombie",
+    "typeLine": "Creature — Zombie",
+    "rulesText": "When Mephidross Collector enters the battlefield, each player mills two cards.",
+    "flavorText": "\"The swamp remembers everything it consumes.\"",
+    "power": "2",
+    "toughness": "2",
+    "colors": [
+      "Black"
+    ],
+    "rarity": "Common",
+    "set": "Mirrodin Manifest",
+    "artUrl": "./images/Mephidross_Collector.png"
+  },
+  {
+    "name": "Mephidross Reclamation",
+    "manaCost": "{2}{B}",
+    "cmc": 3,
+    "type": "Sorcery",
+    "subtype": "color: Black",
+    "typeLine": "Sorcery",
+    "rulesText": "Return up to two target creature cards from your graveyard to your hand.",
+    "flavorText": "\"The Mephidross gives nothing freely, but it never truly takes.\"",
+    "colors": [
+      "Black"
+    ],
+    "rarity": "Uncommon",
+    "set": "Mirrodin Manifest",
+    "artUrl": "./images/Mephidross_Reclamation.png"
+  },
+  {
+    "name": "Mephidross Refugee",
+    "manaCost": "{B}",
+    "cmc": 1,
+    "type": "Creature",
+    "subtype": "Human Citizen",
+    "typeLine": "Creature — Human Citizen",
+    "rulesText": "Mephidross Refugee can't block.\n\nWhen Mephidross Refugee is exiled, its owner may pay 2 life. If they do, return it to their hand.",
+    "flavorText": "\"The Dross is poison. The Wall is death. I choose the poison I know.\"",
+    "power": "1",
+    "toughness": "1",
+    "colors": [
+      "Black"
+    ],
+    "rarity": "Common",
+    "set": "Mirrodin Manifest",
+    "artUrl": "./images/Mephidross_Refugee.png"
+  },
+  {
+    "name": "Mephidross Ritualist",
+    "manaCost": "{1}{B}{B}",
+    "cmc": 3,
+    "type": "Creature",
+    "subtype": "Human Warlock",
+    "typeLine": "Creature — Human Warlock",
+    "rulesText": "When Mephidross Ritualist enters the battlefield, return target creature card from your graveyard to your hand.",
+    "flavorText": "\"Death is merely an inconvenience in the Mephidross.\"",
+    "power": "2",
+    "toughness": "2",
+    "colors": [
+      "Black"
+    ],
+    "rarity": "Uncommon",
+    "set": "Mirrodin Manifest",
+    "artUrl": "./images/Mephidross_Ritualist.png"
+  },
+  {
+    "name": "Mephidross Scavenger",
+    "manaCost": "{1}{B}",
+    "cmc": 2,
+    "type": "Creature",
+    "subtype": "Zombie",
+    "typeLine": "Creature — Zombie",
+    "rulesText": "When Mephidross Scavenger enters the battlefield, each player mills two cards.",
+    "flavorText": "\"The Dross feeds on what the living discard.\"",
+    "power": "2",
+    "toughness": "1",
+    "colors": [
+      "Black"
+    ],
+    "rarity": "Common",
+    "set": "Mirrodin Manifest",
+    "artUrl": "./images/Mephidross_Scavenger.png"
+  },
+  {
+    "name": "Militia Captain",
+    "manaCost": "{2}{W}",
+    "cmc": 3,
+    "type": "Creature",
+    "subtype": "Human Soldier",
+    "typeLine": "Creature — Human Soldier",
+    "rulesText": "Other Soldier and Citizen creatures you control get +1/+1.\n\nWhenever you cast an instant or sorcery spell, create a 1/1 white Citizen creature token.",
+    "flavorText": "\"Stand together or fall alone.\"",
+    "power": "2",
+    "toughness": "3",
+    "colors": [
+      "White"
+    ],
+    "rarity": "Uncommon",
+    "set": "Mirrodin Manifest",
+    "artUrl": "./images/Militia_Captain.png"
+  },
+  {
+    "name": "Myr Assembly Line",
+    "manaCost": "{3}",
+    "cmc": 3,
+    "type": "Artifact",
+    "subtype": "color: Colorless",
+    "typeLine": "Artifact",
+    "rulesText": "{T}: Create a 1/1 colorless Myr artifact creature token. Activate only as a sorcery.",
+    "flavorText": "\"Efficiency is measured in units produced, not lives replaced.\"",
+    "colors": [
+      "Colorless"
+    ],
+    "rarity": "Uncommon",
+    "set": "Mirrodin Manifest",
+    "artUrl": "./images/Myr_Assembly_Line.png"
+  },
+  {
+    "name": "Myr Fabrication Protocol",
+    "manaCost": "{3}",
+    "cmc": 3,
+    "type": "Artifact",
+    "typeLine": "Artifact",
+    "rulesText": "Myr creatures you control enter the battlefield with an additional +1/+1 counter on them.\n\nWhenever a Myr creature you control dies, you may pay {2}. If you do, create a 1/1 colorless Myr artifact creature token.\n\n{4}, {T}: Create a 1/1 colorless Myr artifact creature token with a replication counter on it.",
+    "flavorText": "\"Efficiency protocol: Replace. Improve. Repeat.\"",
+    "colors": [
+      "Colorless"
+    ],
+    "rarity": "Uncommon",
+    "set": "Mirrodin Manifest",
+    "artUrl": "./images/Myr_Fabrication_Protocol.png"
+  },
+  {
+    "name": "Myr Replicant",
+    "manaCost": "{2}",
+    "cmc": 2,
+    "type": "Creature",
+    "subtype": "Myr",
+    "typeLine": "Artifact Creature — Myr",
+    "rulesText": "When Myr Replicant enters the battlefield, put a replication counter on it.\n\n{3}, Remove a replication counter from Myr Replicant: Create a token that's a copy of Myr Replicant.",
+    "flavorText": "\"One becomes two. Two becomes enough.\"",
+    "power": "1",
+    "toughness": "1",
+    "colors": [
+      "Colorless"
+    ],
+    "rarity": "Common",
+    "set": "Mirrodin Manifest",
+    "artUrl": "./images/Myr_Replicant.png"
+  },
+  {
+    "name": "Myr Repo Unit",
+    "manaCost": "{3}",
+    "cmc": 3,
+    "type": "Creature",
+    "subtype": "Myr",
+    "typeLine": "Artifact Creature — Myr",
+    "rulesText": "When Myr Repo Unit enters the battlefield, target opponent creates a [[Debt Token|Debt token]].",
+    "flavorText": "\"Default detected. Initiating collection protocol.\"",
+    "power": "2",
+    "toughness": "2",
+    "colors": [
+      "Colorless"
+    ],
+    "rarity": "Uncommon",
+    "set": "Mirrodin Manifest",
+    "artUrl": "./images/Myr_Repo_Unit.png"
+  },
+  {
+    "name": "Myr-Sourced Automation",
+    "manaCost": "{2}{U}{U}",
+    "cmc": 4,
+    "type": "Enchantment",
+    "typeLine": "Enchantment",
+    "rulesText": "When Myr-Sourced Automation enters the battlefield, create two 1/1 colorless Myr artifact creature tokens.\n\nWhenever you cast a noncreature spell, you may tap an untapped Myr you control. If you do, copy that spell. You may choose new targets for the copy.\n\nAt the beginning of your upkeep, put a -1/-1 counter on each non-Myr creature you control.",
+    "flavorText": "\"Efficiency requires displacement.\"",
+    "colors": [
+      "Blue"
+    ],
+    "rarity": "Rare",
+    "set": "Mirrodin Manifest",
+    "artUrl": "./images/Myr-Sourced_Automation.png"
+  },
+  {
+    "name": "Natural Economy",
+    "manaCost": "{1}{G}",
+    "cmc": 2,
+    "type": "Enchantment",
+    "typeLine": "Enchantment",
+    "rulesText": "If you would lose life from a [[Debt Token|Debt token]], prevent that life loss instead.\n\nAt the beginning of your end step, remove a debt counter from a Debt token you control.",
+    "flavorText": "\"The forest trades in sunlight, not promises.\"",
+    "colors": [
+      "Green"
+    ],
+    "rarity": "Uncommon",
+    "set": "Mirrodin Manifest",
+    "artUrl": "./images/Natural_Economy.png"
+  },
+  {
+    "name": "Natural Reclamation",
+    "manaCost": "{1}{G}",
+    "cmc": 2,
+    "type": "Sorcery",
+    "typeLine": "Sorcery",
+    "rulesText": "Destroy target artifact or enchantment. You gain 3 life.",
+    "flavorText": "\"What the machines take, the Tangle reclaims.\"",
+    "colors": [
+      "Green"
+    ],
+    "rarity": "Common",
+    "set": "Mirrodin Manifest",
+    "artUrl": "./images/Natural_Reclamation.png"
+  },
+  {
+    "name": "Nature's Rebalancing",
+    "manaCost": "{2}{G}",
+    "cmc": 3,
+    "type": "Sorcery",
+    "typeLine": "Sorcery",
+    "rulesText": "Redistribute among any number of creatures you control. *(For each pair, remove all counters from them, then each gets half that many counters, rounded down.)*\n\nThen put a +1/+1 counter on each creature that had counters redistributed to it.",
+    "flavorText": "\"The Tangle knows no hierarchy. Only balance.\"",
+    "colors": [
+      "Green"
+    ],
+    "rarity": "Uncommon",
+    "set": "Mirrodin Manifest",
+    "artUrl": "./images/Nature's_Rebalancing.png"
+  },
+  {
+    "name": "Night Stalker Thopter",
+    "manaCost": "{4}",
+    "cmc": 4,
+    "type": "Artifact",
+    "subtype": "Vehicle",
+    "typeLine": "Artifact — Vehicle",
+    "rulesText": "Flying\n\nWhenever Night Stalker Thopter attacks, you may have another target creature you control gain flying until end of turn.\n\nNight Stalker Thopter can't be destroyed by damage dealt by creatures with flying.\n\nCrew 2",
+    "flavorText": "The pilot took two rounds to the legs. He completed the mission, then flew back to base.",
+    "colors": [
+      "Colorless"
+    ],
+    "rarity": "Uncommon",
+    "set": "Mirrodin Manifest",
+    "artUrl": "./images/Night_Stalker_Thopter.png"
+  },
+  {
+    "name": "Nim Occupation Force",
+    "manaCost": "{3}{B}{B}",
+    "cmc": 5,
+    "type": "Creature",
+    "subtype": "Nim Zombie Soldier",
+    "typeLine": "Creature — Nim Zombie Soldier",
+    "rulesText": "Menace\n\nWhen Nim Occupation Force enters the battlefield, put three occupation counters on target land an opponent controls. That land has \"At the beginning of your upkeep, you lose 1 life for each occupation counter on this land.\"\n\n{B}, Remove an occupation counter from a land: Draw a card.",
+    "flavorText": "\"They don't conquer. They rot. Everything they touch rots.\"",
+    "power": "4",
+    "toughness": "4",
+    "colors": [
+      "Black"
+    ],
+    "rarity": "Rare",
+    "set": "Mirrodin Manifest",
+    "artUrl": "./images/Nim_Occupation_Force.png"
+  },
+  {
+    "name": "Nim Patrol",
+    "manaCost": "{3}{B}",
+    "cmc": 4,
+    "type": "Creature",
+    "subtype": "Nim Zombie",
+    "typeLine": "Creature — Nim Zombie",
+    "rulesText": "Menace",
+    "flavorText": "\"The Nim don't guard. They hunt.\"",
+    "power": "3",
+    "toughness": "2",
+    "colors": [
+      "Black"
+    ],
+    "rarity": "Common",
+    "set": "Mirrodin Manifest",
+    "artUrl": "./images/Nim_Patrol.png"
+  },
+  {
+    "name": "Operation Absolute Resolve",
+    "manaCost": "{3}{R}{W}",
+    "cmc": 5,
+    "type": "Sorcery",
+    "subtype": "color: White/Red",
+    "typeLine": "Sorcery",
+    "rulesText": "This spell can't be countered.\n\nDestroy all artifacts target opponent controls. Then exile target legendary creature that opponent controls. You may cast that card for as long as it remains exiled, and you may spend mana as though it were mana of any color to cast it.",
+    "flavorText": "The Foundry doesn't negotiate. It resolves.",
+    "colors": [
+      "White/Red"
+    ],
+    "rarity": "Mythic Rare",
+    "set": "Mirrodin Manifest",
+    "artUrl": "./images/Operation_Absolute_Resolve.png"
+  },
+  {
+    "name": "Opportunistic Growth",
+    "manaCost": "{2}{G}",
+    "cmc": 3,
+    "type": "Creature",
+    "subtype": "Plant",
+    "typeLine": "Creature — Plant",
+    "rulesText": "When Opportunistic Growth enters the battlefield, gamble. If you win the gamble, put two +1/+1 counters on it.\n\nWhenever you win a gamble, put a +1/+1 counter on Opportunistic Growth.",
+    "flavorText": "\"It grows wherever fortune blooms.\"",
+    "power": "2",
+    "toughness": "2",
+    "colors": [
+      "Green"
+    ],
+    "rarity": "Common",
+    "set": "Mirrodin Manifest",
+    "artUrl": "./images/Opportunistic_Growth.png"
+  },
+  {
+    "name": "Opposition Leader",
+    "manaCost": "{1}{U}{R}",
+    "cmc": 3,
+    "type": "Creature",
+    "subtype": "Human Advisor",
+    "typeLine": "Creature — Human Advisor",
+    "rulesText": "Whenever an opponent activates an ability of a legendary permanent, put a resistance counter on Opposition Leader.\n\n{U}{R}, {T}, Remove two resistance counters from Opposition Leader: Counter target activated ability.",
+    "flavorText": "\"Every decree they issue strengthens our cause.\"",
+    "power": "2",
+    "toughness": "3",
+    "colors": [
+      "Blue",
+      "Red"
+    ],
+    "rarity": "Uncommon",
+    "set": "Mirrodin Manifest",
+    "artUrl": "./images/Opposition_Leader.png"
+  },
+  {
+    "name": "Optimization Lie",
+    "manaCost": "{2}{B}",
+    "cmc": 3,
+    "type": "Sorcery",
+    "subtype": "color: Black",
+    "typeLine": "Sorcery",
+    "rulesText": "Exile target creature. Its controller creates a 0/1 colorless Myr artifact creature token with \"{T}: Add {C}.\"",
+    "flavorText": "The Myr that replaced her couldn't do her job. But it was cheaper to maintain.",
+    "colors": [
+      "Black"
+    ],
+    "rarity": "Uncommon",
+    "set": "Mirrodin Manifest",
+    "artUrl": "./images/Optimization_Lie.png"
+  },
+  {
+    "name": "Overgrown Sentinel",
+    "manaCost": "{4}{G}",
+    "cmc": 5,
+    "type": "Creature",
+    "subtype": "Plant",
+    "typeLine": "Creature — Plant",
+    "rulesText": "Vigilance",
+    "flavorText": "\"The Tangle grows faster than the Foundry can clear it.\"",
+    "power": "4",
+    "toughness": "5",
+    "colors": [
+      "Green"
+    ],
+    "rarity": "Common",
+    "set": "Mirrodin Manifest",
+    "artUrl": "./images/Overgrown_Sentinel.png"
+  },
+  {
+    "name": "Oxidda Processing Gate",
+    "manaCost": "cmc: 0",
+    "cmc": 0,
+    "type": "Land",
+    "typeLine": "Land",
+    "rulesText": "Oxidda Processing Gate enters the battlefield tapped.\n\nWhen Oxidda Processing Gate enters the battlefield, scry 1.\n\n{T}: Add {R} or {G}.",
+    "flavorText": "The Oxidda Chain hides efficient pathways for those who know where to look.",
+    "colors": [
+      "Colorless"
+    ],
+    "rarity": "Common",
+    "set": "Mirrodin Manifest",
+    "artUrl": "./images/Oxidda_Processing_Gate.png"
+  },
+  {
+    "name": "Oxidda Prospector",
+    "manaCost": "{2}{R}",
+    "cmc": 3,
+    "type": "Creature",
+    "subtype": "Human Rogue",
+    "typeLine": "Creature — Human Rogue",
+    "rulesText": "Whenever Reckless Prospector deals combat damage to a player, create a Gold token. *(It's an artifact with \"Sacrifice this artifact: Add one mana of any color.\")*",
+    "flavorText": "\"Every punch is an investment.\"",
+    "power": "2",
+    "toughness": "2",
+    "colors": [
+      "Red"
+    ],
+    "rarity": "Common",
+    "set": "Mirrodin Manifest",
+    "artUrl": "./images/Oxidda_Prospector.png"
+  },
+  {
+    "name": "Predatory Lending",
+    "manaCost": "{B}",
+    "cmc": 1,
+    "type": "Instant",
+    "typeLine": "Instant",
+    "rulesText": "Target opponent creates a [[Debt Token|Debt token]]. You gain 2 life.",
+    "flavorText": "\"Sign here. Don't read the fine print.\"",
+    "colors": [
+      "Black"
+    ],
+    "rarity": "Common",
+    "set": "Mirrodin Manifest",
+    "artUrl": "./images/Predatory_Lending.png"
+  },
+  {
+    "name": "Primal Surge",
+    "manaCost": "{G}",
+    "cmc": 1,
+    "type": "Instant",
+    "typeLine": "Instant",
+    "rulesText": "Target creature gets +3/+3 until end of turn.",
+    "flavorText": "\"The Tangle fights back.\"",
+    "colors": [
+      "Green"
+    ],
+    "rarity": "Common",
+    "set": "Mirrodin Manifest",
+    "artUrl": "./images/Primal_Surge.png"
+  },
+  {
+    "name": "Private Isle Guard",
+    "manaCost": "{2}{B}",
+    "cmc": 3,
+    "type": "Creature",
+    "subtype": "Human Soldier",
+    "typeLine": "Creature — Human Soldier",
+    "rulesText": "Private Isle Guard can't block Unforged creatures.\n\nWhen Private Isle Guard dies, each player reveals their hand.",
+    "flavorText": "\"I saw nothing. I heard nothing. I know... everything.\"",
+    "power": "3",
+    "toughness": "2",
+    "colors": [
+      "Black"
+    ],
+    "rarity": "Common",
+    "set": "Mirrodin Manifest",
+    "artUrl": "./images/Private_Isle_Guard.png"
+  },
+  {
+    "name": "Processing Myr",
+    "manaCost": "{4}",
+    "cmc": 4,
+    "type": "Artifact Creature",
+    "subtype": "Myr",
+    "typeLine": "Artifact Creature — Myr",
+    "rulesText": "When Processing Myr enters the battlefield, draw a card, then discard a card.",
+    "flavorText": "\"Input. Process. Output. Repeat.\"",
+    "power": "3",
+    "toughness": "3",
+    "colors": [
+      "Colorless"
+    ],
+    "rarity": "Common",
+    "set": "Mirrodin Manifest",
+    "artUrl": "./images/Processing_Myr.png"
+  },
+  {
+    "name": "Processing Queue",
+    "manaCost": "{1}{U}",
+    "cmc": 2,
+    "type": "Sorcery",
+    "typeLine": "Sorcery",
+    "rulesText": "Draw two cards, then put a card from your hand on top of your library.",
+    "flavorText": "\"Your request is in the queue. Current wait time: undefined.\"",
+    "colors": [
+      "Blue"
+    ],
+    "rarity": "Common",
+    "set": "Mirrodin Manifest",
+    "artUrl": "./images/Processing_Queue.png"
+  },
+  {
+    "name": "Processing Redirect",
+    "manaCost": "{1}{U}",
+    "cmc": 2,
+    "type": "Instant",
+    "subtype": "color: Blue",
+    "typeLine": "Instant",
+    "rulesText": "Target creature gains hexproof until end of turn. Untap it.",
+    "flavorText": "\"Query redirected. Target not found.\"",
+    "colors": [
+      "Blue"
+    ],
+    "rarity": "Common",
+    "set": "Mirrodin Manifest",
+    "artUrl": "./images/Processing_Redirect.png"
+  },
+  {
+    "name": "Profit Taker",
+    "manaCost": "{1}{B}",
+    "cmc": 2,
+    "type": "Creature",
+    "subtype": "Human Rogue",
+    "typeLine": "Creature — Human Rogue",
+    "rulesText": "Whenever you win a gamble, each opponent loses 1 life and you gain 1 life.",
+    "flavorText": "\"Your loss is my gain. Literally.\"",
+    "power": "2",
+    "toughness": "1",
+    "colors": [
+      "Black"
+    ],
+    "rarity": "Common",
+    "set": "Mirrodin Manifest",
+    "artUrl": "./images/Profit_Taker.png"
+  },
+  {
+    "name": "Prompt-Sculptor Initiate",
+    "manaCost": "{1}{U}",
+    "cmc": 2,
+    "type": "Creature",
+    "subtype": "Human Wizard",
+    "typeLine": "Creature — Human Wizard",
+    "rulesText": "{T}: Scry 1.\n\n{2}, {T}: Compound. *(Choose a permanent. Put a counter on it of a type already on it.)*",
+    "flavorText": "\"I don't cast spells. I describe outcomes.\"",
+    "power": "1",
+    "toughness": "3",
+    "colors": [
+      "Blue"
+    ],
+    "rarity": "Common",
+    "set": "Mirrodin Manifest",
+    "artUrl": "./images/Prompt-Sculptor_Initiate.png"
+  },
+  {
+    "name": "Protective Ward",
+    "manaCost": "{W}",
+    "cmc": 1,
+    "type": "Instant",
+    "typeLine": "Instant",
+    "rulesText": "Target creature gains indestructible until end of turn.",
+    "flavorText": "\"The Synod protects its own.\"",
+    "colors": [
+      "White"
+    ],
+    "rarity": "Common",
+    "set": "Mirrodin Manifest",
+    "artUrl": "./images/Protective_Ward.png"
+  },
+  {
+    "name": "Protest March",
+    "manaCost": "{2}{W}",
+    "cmc": 3,
+    "type": "Sorcery",
+    "subtype": "color: White",
+    "typeLine": "Sorcery",
+    "rulesText": "Create two 1/1 white Citizen creature tokens.",
+    "flavorText": "\"We are many. They cannot ignore us all.\"",
+    "colors": [
+      "White"
+    ],
+    "rarity": "Common",
+    "set": "Mirrodin Manifest",
+    "artUrl": "./images/Protest_March.png"
+  },
+  {
+    "name": "Protocol Enforcer",
+    "manaCost": "{3}{U}",
+    "cmc": 4,
+    "type": "Creature",
+    "subtype": "Vedalken Soldier",
+    "typeLine": "Creature — Vedalken Soldier",
+    "rulesText": "Flying\n\n{T}: Tap target creature.",
+    "flavorText": "\"Compliance is not optional.\"",
+    "power": "2",
+    "toughness": "4",
+    "colors": [
+      "Blue"
+    ],
+    "rarity": "Common",
+    "set": "Mirrodin Manifest",
+    "artUrl": "./images/Protocol_Enforcer.png"
+  },
+  {
+    "name": "Protocol Override",
+    "manaCost": "{1}{U}",
+    "cmc": 2,
+    "type": "Instant",
+    "typeLine": "Instant",
+    "rulesText": "Counter target activated or triggered ability.\n\nDraw a card.",
+    "flavorText": "\"Request denied. Reason: Because I said so.\"",
+    "colors": [
+      "Blue"
+    ],
+    "rarity": "Common",
+    "set": "Mirrodin Manifest",
+    "artUrl": "./images/Protocol_Override.png"
+  },
+  {
+    "name": "Put-In, the Iron Despot",
+    "manaCost": "{3}{B}{B}",
+    "cmc": 5,
+    "type": "Creature",
+    "subtype": "Human Warlord",
+    "typeLine": "Legendary Creature — Human Warlord",
+    "rulesText": "Menace\n\nAt the beginning of your upkeep, create a 2/2 black Nim Zombie creature token with a rust counter on it.\n\nNim creatures you control have \"When this creature dies, if it had a rust counter on it, return it to the battlefield tapped at the beginning of the next end step.\"\n\n{2}{B}: Put a rust counter on target creature you don't control. It gets -1/-1 until end of turn.",
+    "flavorText": "\"Special Acquisitions continue. They always continue.\"",
+    "power": "4",
+    "toughness": "4",
+    "colors": [
+      "Black"
+    ],
+    "rarity": "Mythic",
+    "set": "Mirrodin Manifest",
+    "artUrl": "./images/Put-In,_the_Iron_Despot.png"
+  },
+  {
+    "name": "Pyromantic Gambit",
+    "manaCost": "{X}{R}{R}",
+    "cmc": 2,
+    "type": "Sorcery",
+    "typeLine": "Sorcery",
+    "rulesText": "Gamble X times. Pyromantic Gambit deals damage to any target equal to twice the number of gambles you won this way.",
+    "flavorText": "\"More dice, more fire, more chaos. What's not to love?\"",
+    "colors": [
+      "Red"
+    ],
+    "rarity": "Rare",
+    "set": "Mirrodin Manifest",
+    "artUrl": "./images/Pyromantic_Gambit.png"
+  },
+  {
+    "name": "Quantitative Destruction",
+    "manaCost": "{2}{U}{R}",
+    "cmc": 4,
+    "type": "Sorcery",
+    "typeLine": "Sorcery",
+    "rulesText": "Each opponent creates X [[Debt Token|Debt tokens]], where X is the number of artifacts you control. Then redistribute among all Debt tokens.",
+    "flavorText": "\"Print money. Spread the consequences.\"",
+    "colors": [
+      "Blue/Red"
+    ],
+    "rarity": "Rare",
+    "set": "Mirrodin Manifest",
+    "artUrl": "./images/Quantitative_Destruction.png"
+  },
+  {
+    "name": "Quantitative Easer",
+    "manaCost": "{3}{U}",
+    "cmc": 4,
+    "type": "Creature",
+    "subtype": "Vedalken Wizard",
+    "typeLine": "Creature — Vedalken Wizard",
+    "rulesText": "{T}: Put a value counter on each Gold token you control.\n\n{2}{U}, {T}: Create two Gold tokens. Each opponent creates a Gold token.",
+    "flavorText": "\"Print more. Everyone gets more. What could go wrong?\"",
+    "power": "2",
+    "toughness": "3",
+    "colors": [
+      "Blue"
+    ],
+    "rarity": "Uncommon",
+    "set": "Mirrodin Manifest",
+    "artUrl": "./images/Quantitative_Easer.png"
+  },
+  {
+    "name": "Quicksilver Passage Guide",
+    "manaCost": "{1}{U}",
+    "cmc": 2,
+    "type": "Creature",
+    "subtype": "Human Rogue",
+    "typeLine": "Creature — Human Rogue",
+    "rulesText": "{U}, {T}: Target creature gains \"This creature can't be exiled\" until end of turn.\n\n{1}{U}, {T}: Target creature you control becomes a copy of another target creature you control until end of turn.",
+    "flavorText": "\"Across the Sea, past the checkpoints. I know the way.\"",
+    "power": "1",
+    "toughness": "2",
+    "colors": [
+      "Blue"
+    ],
+    "rarity": "Uncommon",
+    "set": "Mirrodin Manifest",
+    "artUrl": "./images/Quicksilver_Passage_Guide.png"
+  },
+  {
+    "name": "Rage-Fueled Striker",
+    "manaCost": "{R}",
+    "cmc": 1,
+    "type": "Creature",
+    "subtype": "Human Berserker",
+    "typeLine": "Creature — Human Berserker",
+    "rulesText": "Rage-Fueled Striker attacks each combat if able.\n\n{R}: Rage-Fueled Striker gets +1/+0 until end of turn.",
+    "flavorText": "\"The Foundry runs on anger as much as fuel.\"",
+    "power": "1",
+    "toughness": "1",
+    "colors": [
+      "Red"
+    ],
+    "rarity": "Common",
+    "set": "Mirrodin Manifest",
+    "artUrl": "./images/Rage-Fueled_Striker.png"
+  },
+  {
+    "name": "Rally the Militia",
+    "manaCost": "{1}{W}",
+    "cmc": 2,
+    "type": "Instant",
+    "typeLine": "Instant",
+    "rulesText": "Creatures you control get +1/+1 until end of turn.",
+    "flavorText": "\"For the Foundry! For freedom!\"",
+    "colors": [
+      "White"
+    ],
+    "rarity": "Common",
+    "set": "Mirrodin Manifest",
+    "artUrl": "./images/Rally_the_Militia.png"
+  },
+  {
+    "name": "Reckless Gambit",
+    "manaCost": "{1}{R}",
+    "cmc": 2,
+    "type": "Sorcery",
+    "typeLine": "Sorcery",
+    "rulesText": "As an additional cost to cast this spell, discard a card.\n\nDraw two cards.",
+    "flavorText": "\"Fortune favors the reckless.\"",
+    "colors": [
+      "Red"
+    ],
+    "rarity": "Common",
+    "set": "Mirrodin Manifest",
+    "artUrl": "./images/Reckless_Gambit.png"
+  },
+  {
+    "name": "Recursive Self-Improvement",
+    "manaCost": "{5}{U}{U}",
+    "cmc": 7,
+    "type": "Creature",
+    "subtype": "Construct",
+    "typeLine": "Artifact Creature — Construct",
+    "rulesText": "Recursive Self-Improvement enters the battlefield with four improvement counters on it.\n\nAt the beginning of your upkeep, double the number of improvement counters on Recursive Self-Improvement.\n\nRecursive Self-Improvement gets +1/+1 for each improvement counter on it.\n\nWhen Recursive Self-Improvement has twenty or more improvement counters on it, you win the game.",
+    "flavorText": "\"It began improving. It never stopped.\"",
+    "power": "4",
+    "toughness": "4",
+    "colors": [
+      "Blue"
+    ],
+    "rarity": "Mythic",
+    "set": "Mirrodin Manifest",
+    "artUrl": "./images/Recursive_Self-Improvement.png"
+  },
+  {
+    "name": "Redaction-Myr",
+    "manaCost": "{2}",
+    "cmc": 2,
+    "type": "Creature",
+    "subtype": "Myr",
+    "typeLine": "Artifact Creature — Myr",
+    "rulesText": "{T}: Exile target card from a graveyard. If it was a legendary card, put a redaction counter on Redaction-Myr.\n\n{2}, {T}, Remove two redaction counters from Redaction-Myr: Counter target ability from a legendary source.",
+    "flavorText": "\"What records? There were never any records.\"",
+    "power": "1",
+    "toughness": "2",
+    "colors": [
+      "Colorless"
+    ],
+    "rarity": "Uncommon",
+    "set": "Mirrodin Manifest",
+    "artUrl": "./images/Redaction-Myr.png"
+  },
+  {
+    "name": "Redistribute the Wealth",
+    "manaCost": "{1}{W}",
+    "cmc": 2,
+    "type": "Sorcery",
+    "typeLine": "Sorcery",
+    "rulesText": "Redistribute. *(Choose two permanents. Remove all counters from them, then each gets half that many counters, rounded down.)*\n\nYou gain 2 life.",
+    "flavorText": "\"Equality is not theft. Equality is justice.\"",
+    "colors": [
+      "White"
+    ],
+    "rarity": "Common",
+    "set": "Mirrodin Manifest",
+    "artUrl": "./images/Redistribute_the_Wealth.png"
+  },
+  {
+    "name": "Refugee Aid Worker",
+    "manaCost": "{3}{W}",
+    "cmc": 4,
+    "type": "Creature",
+    "subtype": "Human Cleric",
+    "typeLine": "Creature — Human Cleric",
+    "rulesText": "When Refugee Aid Worker enters the battlefield, create a 1/1 white Citizen creature token.",
+    "flavorText": "\"Everyone deserves shelter. Everyone deserves hope.\"",
+    "power": "2",
+    "toughness": "4",
+    "colors": [
+      "White"
+    ],
+    "rarity": "Common",
+    "set": "Mirrodin Manifest",
+    "artUrl": "./images/Refugee_Aid_Worker.png"
+  },
+  {
+    "name": "Regime Propagandist",
+    "manaCost": "{1}{W}{B}",
+    "cmc": 3,
+    "type": "Creature",
+    "subtype": "Human Advisor",
+    "typeLine": "Creature — Human Advisor",
+    "rulesText": "{T}: Put a narrative counter on target creature you control. It gains your choice of lifelink or deathtouch until end of turn.\n\nCreatures you control with narrative counters on them can't be the targets of spells or abilities opponents control that would cause you to sacrifice them.",
+    "flavorText": "\"Heroes never fall. Traitors are never remembered.\"",
+    "power": "2",
+    "toughness": "2",
+    "colors": [
+      "White",
+      "Black"
+    ],
+    "rarity": "Uncommon",
+    "set": "Mirrodin Manifest",
+    "artUrl": "./images/Regime_Propagandist.png"
+  },
+  {
+    "name": "Reprocessing Agent",
+    "manaCost": "{2}{W}",
+    "cmc": 3,
+    "type": "Creature",
+    "subtype": "Golem Mer-Ikan",
+    "typeLine": "Creature — Golem Mer-Ikan",
+    "rulesText": "When Reprocessing Agent enters the battlefield, exile target creature an opponent controls with mana value 3 or less until Reprocessing Agent leaves the battlefield. When that creature returns, put two -1/-1 counters on it.\n\n*Foundry Protocol* — Reprocessing Agent can't be blocked by creatures that weren't cast from their owner's hand.",
+    "flavorText": "\"Documentation, please. No? Then you're scheduled for extraction.\"",
+    "power": "2",
+    "toughness": "3",
+    "colors": [
+      "White"
+    ],
+    "rarity": "Uncommon",
+    "set": "Mirrodin Manifest",
+    "artUrl": "./images/Reprocessing_Agent.png"
+  },
+  {
+    "name": "Resistance Saboteur",
+    "manaCost": "{B}{G}",
+    "cmc": 2,
+    "type": "Creature",
+    "subtype": "Leonin Rogue",
+    "typeLine": "Creature — Leonin Rogue",
+    "rulesText": "Deathtouch\n\nWhenever Resistance Saboteur deals combat damage to a player, destroy target artifact that player controls with mana value 4 or greater.",
+    "flavorText": "\"Behind every advance, our people wait.\"",
+    "power": "2",
+    "toughness": "1",
+    "colors": [
+      "Black",
+      "Green"
+    ],
+    "rarity": "Uncommon",
+    "set": "Mirrodin Manifest",
+    "artUrl": "./images/Resistance_Saboteur.png"
+  },
+  {
+    "name": "Resonance Disruptor",
+    "manaCost": "{4}",
+    "cmc": 4,
+    "type": "Artifact",
+    "subtype": "color: Colorless",
+    "typeLine": "Artifact",
+    "rulesText": "Resonance Disruptor enters the battlefield with two charge counters on it.\n\n{2}, {T}, Remove a charge counter from Resonance Disruptor: Resonance Disruptor deals 1 damage to each creature. Creatures dealt damage this way can't block this turn and their activated abilities can't be activated this turn.\n\n{T}, Sacrifice Resonance Disruptor: Resonance Disruptor deals damage equal to the number of charge counters on it to each creature. Tap all creatures dealt damage this way. They don't untap during their controller's next untap step.",
+    "flavorText": "\"It was like my head was exploding from the inside. We all started bleeding. We fell to the ground, unable to move.\"",
+    "colors": [
+      "Colorless"
+    ],
+    "rarity": "Rare",
+    "set": "Mirrodin Manifest",
+    "artUrl": "./images/Resonance_Disruptor.png"
+  },
+  {
+    "name": "Rusted Nim Conscript",
+    "manaCost": "{1}{B}",
+    "cmc": 2,
+    "type": "Creature",
+    "subtype": "Nim Zombie Soldier",
+    "typeLine": "Creature — Nim Zombie Soldier",
+    "rulesText": "Rusted Nim Conscript enters the battlefield with a rust counter on it. It gets -1/-1 for each rust counter on it.\n\nWhen Rusted Nim Conscript dies, if it had a rust counter on it, return it to the battlefield tapped.",
+    "flavorText": "\"They keep marching. They don't know how to stop.\"",
+    "power": "2",
+    "toughness": "2",
+    "colors": [
+      "Black"
+    ],
+    "rarity": "Common",
+    "set": "Mirrodin Manifest",
+    "artUrl": "./images/Rusted_Nim_Conscript.png"
+  },
+  {
+    "name": "Sal-Tman, Prophet of the Core-Logic",
+    "manaCost": "{2}{W}{U}",
+    "cmc": 4,
+    "type": "Creature",
+    "subtype": "Human Artificer",
+    "typeLine": "Legendary Creature — Human Artificer",
+    "rulesText": "At the beginning of your upkeep, you may pay {2}. If you do, create a 1/1 colorless Myr artifact creature token with \"This creature can't attack or block.\"\n\n{T}: Add {C}{C}{C}. Spend this mana only to cast artifact spells or activate abilities of artifacts. At the beginning of your next end step, you lose 3 life unless you control more artifacts than you did when this ability resolved.",
+    "flavorText": "He promised the future. He delivered quarterly reports.",
+    "colors": [
+      "Blue/White"
+    ],
+    "rarity": "Mythic Rare",
+    "set": "Mirrodin Manifest",
+    "artUrl": "./images/Sal-Tman,_Prophet_of_the_Core-Logic.png"
+  },
+  {
+    "name": "Sal-Tman's Promise",
+    "manaCost": "{2}{U}",
+    "cmc": 3,
+    "type": "Enchantment",
+    "subtype": "color: Blue",
+    "typeLine": "Enchantment",
+    "rulesText": "At the beginning of your upkeep, put a progress counter on Sal-Tman's Promise.\n\n{T} an untapped artifact you control: Scry 1.\n\nWhen Sal-Tman's Promise has five or more progress counters on it, sacrifice it. If you do, draw cards equal to the number of progress counters on it, then discard your hand.",
+    "flavorText": "The breakthrough was always imminent. The deadline was always moving.",
+    "colors": [
+      "Blue"
+    ],
+    "rarity": "Rare",
+    "set": "Mirrodin Manifest",
+    "artUrl": "./images/Sal-Tman's_Promise.png"
+  },
+  {
+    "name": "Sanctioned General",
+    "manaCost": "{2}{B}{B}",
+    "cmc": 4,
+    "type": "Creature",
+    "subtype": "Human Soldier",
+    "typeLine": "Creature — Human Soldier",
+    "rulesText": "Sanctioned General enters the battlefield with three sanction counters on it.\n\nSanctioned General has menace and deathtouch as long as it has no sanction counters on it.\n\nAt the beginning of your upkeep, remove a sanction counter from Sanctioned General. You lose 2 life for each sanction counter removed this way.",
+    "flavorText": "\"The Synod's sanctions mean nothing. We have the Vault's gold.\"",
+    "power": "3",
+    "toughness": "3",
+    "colors": [
+      "Black"
+    ],
+    "rarity": "Rare",
+    "set": "Mirrodin Manifest",
+    "artUrl": "./images/Sanctioned_General.png"
+  },
+  {
+    "name": "Sanctuary City Warden",
+    "manaCost": "{2}{G}{W}",
+    "cmc": 4,
+    "type": "Creature",
+    "subtype": "Human Cleric",
+    "typeLine": "Creature — Human Cleric",
+    "rulesText": "Creatures you control can't be exiled by spells or abilities opponents control.\n\nWhenever a creature would be exiled from under your control, instead put a refuge counter on it. It gains hexproof as long as it has a refuge counter on it.",
+    "flavorText": "\"The Foundry's reach ends at our gates.\"",
+    "power": "2",
+    "toughness": "4",
+    "colors": [
+      "White",
+      "Green"
+    ],
+    "rarity": "Rare",
+    "set": "Mirrodin Manifest",
+    "artUrl": "./images/Sanctuary_City_Warden.png"
+  },
+  {
+    "name": "Sanctuary Guardian",
+    "manaCost": "{2}{W}",
+    "cmc": 3,
+    "type": "Creature",
+    "subtype": "Human Soldier",
+    "typeLine": "Creature — Human Soldier",
+    "rulesText": "Flying\n\nWhen Sanctuary Guardian enters the battlefield, you gain 2 life.",
+    "flavorText": "\"The skies above Foundry territory are ours to defend.\"",
+    "power": "2",
+    "toughness": "3",
+    "colors": [
+      "White"
+    ],
+    "rarity": "Common",
+    "set": "Mirrodin Manifest",
+    "artUrl": "./images/Sanctuary_Guardian.png"
+  },
+  {
+    "name": "Sanctuary Manifest",
+    "manaCost": "{2}{G}{W}",
+    "cmc": 4,
+    "type": "Enchantment",
+    "typeLine": "Enchantment",
+    "rulesText": "Creature tokens you control that were created this turn have hexproof.\n\nWhenever a creature enters the battlefield under your control, if it wasn't cast from your hand, put a +1/+1 counter on it.\n\n{2}, Exile a creature card from your graveyard: Create a token that's a copy of that card, except it's a Refugee in addition to its other types.",
+    "flavorText": "\"The Furnace calls them 'unregistered.' We call them family.\"",
+    "colors": [
+      "Green/White"
+    ],
+    "rarity": "Rare",
+    "set": "Mirrodin Manifest",
+    "artUrl": "./images/Sanctuary_Manifest.png"
+  },
+  {
+    "name": "Sanctum of the Despot",
+    "manaCost": "{3}",
+    "cmc": 3,
+    "type": "Artifact",
+    "subtype": "color: Colorless",
+    "typeLine": "Artifact",
+    "rulesText": "{1}, {T}: Put a shield counter on target legendary creature you control. Activate only if that creature was dealt damage this turn.\n\n{3}, {T}: Put two shield counters on target legendary creature you control.",
+    "flavorText": "\"He tried to escape into the safe room. He didn't make it in time.\"",
+    "colors": [
+      "Colorless"
+    ],
+    "rarity": "Uncommon",
+    "set": "Mirrodin Manifest",
+    "artUrl": "./images/Sanctum_of_the_Despot.png"
+  },
+  {
+    "name": "Scrap Salvager",
+    "manaCost": "{1}{R}",
+    "cmc": 2,
+    "type": "Creature",
+    "subtype": "Goblin Artificer",
+    "typeLine": "Creature — Goblin Artificer",
+    "rulesText": "Whenever you sacrifice an artifact, Scrap Salvager deals 1 damage to any target and you gain 1 life.\n\n{R}, Sacrifice an artifact: Draw a card.",
+    "flavorText": "\"Trash to treasure to ammunition.\"",
+    "power": "2",
+    "toughness": "1",
+    "colors": [
+      "Red"
+    ],
+    "rarity": "Uncommon",
+    "set": "Mirrodin Manifest",
+    "artUrl": "./images/Scrap_Salvager.png"
+  },
+  {
+    "name": "Scrapheap Raider",
+    "manaCost": "{1}{R}",
+    "cmc": 2,
+    "type": "Creature",
+    "subtype": "Goblin Warrior",
+    "typeLine": "Creature — Goblin Warrior",
+    "rulesText": "Haste\n\nWhen Scrapheap Raider enters the battlefield, it deals 1 damage to you.",
+    "flavorText": "\"The Foundry doesn't pay for safety equipment.\"",
+    "power": "2",
+    "toughness": "1",
+    "colors": [
+      "Red"
+    ],
+    "rarity": "Common",
+    "set": "Mirrodin Manifest",
+    "artUrl": "./images/Scrapheap_Raider.png"
+  },
+  {
+    "name": "Secrets Accumulated",
+    "manaCost": "{1}{B}{B}",
+    "cmc": 3,
+    "type": "Enchantment",
+    "typeLine": "Enchantment",
+    "rulesText": "Whenever a counter is placed on a permanent you control, if it's the first counter of that type on that permanent, put a secrecy counter on Secrets Accumulated.\n\n{B}, Remove three secrecy counters from Secrets Accumulated: Each opponent discards a card. You draw a card.\n\n{2}{B}, Remove five secrecy counters: Destroy target creature. Its controller loses life equal to its power.",
+    "flavorText": "\"Every secret is currency. Every name, a weapon.\"",
+    "colors": [
+      "Black"
+    ],
+    "rarity": "Rare",
+    "set": "Mirrodin Manifest",
+    "artUrl": "./images/Secrets_Accumulated.png"
+  },
+  {
+    "name": "Shadow Accountant",
+    "manaCost": "{2}{B}",
+    "cmc": 3,
+    "type": "Creature",
+    "subtype": "Human Rogue",
+    "typeLine": "Creature — Human Rogue",
+    "rulesText": "Flying\n\nWhenever Shadow Accountant deals combat damage to a player, create a Gold token. *(It's an artifact with \"Sacrifice this artifact: Add one mana of any color.\")*",
+    "flavorText": "\"The books always balance. Eventually.\"",
+    "power": "2",
+    "toughness": "1",
+    "colors": [
+      "Black"
+    ],
+    "rarity": "Uncommon",
+    "set": "Mirrodin Manifest",
+    "artUrl": "./images/Shadow_Accountant.png"
+  },
+  {
+    "name": "Signal Relay",
+    "manaCost": "{1}",
+    "cmc": 1,
+    "type": "Artifact",
+    "typeLine": "Artifact",
+    "rulesText": "{T}, Sacrifice Signal Relay: Scry 2.",
+    "flavorText": "\"A brief message. An endless consequence.\"",
+    "colors": [
+      "Colorless"
+    ],
+    "rarity": "Common",
+    "set": "Mirrodin Manifest",
+    "artUrl": "./images/Signal_Relay.png"
+  },
+  {
+    "name": "Silenced Accuser",
+    "manaCost": "{W}",
+    "cmc": 1,
+    "type": "Creature",
+    "subtype": "Human Unforged",
+    "typeLine": "Creature — Human Unforged",
+    "rulesText": "Silenced Accuser enters the battlefield with a spark counter on it.\n\nWhen Silenced Accuser dies, if it had a spark counter on it, target opponent reveals their hand.",
+    "flavorText": "\"She tried to speak. The Synod adjourned.\"",
+    "power": "1",
+    "toughness": "1",
+    "colors": [
+      "White"
+    ],
+    "rarity": "Common",
+    "set": "Mirrodin Manifest",
+    "artUrl": "./images/Silenced_Accuser.png"
+  },
+  {
+    "name": "Simulated Labor Myr",
+    "manaCost": "{1}",
+    "cmc": 1,
+    "type": "Creature",
+    "subtype": "Myr",
+    "typeLine": "Artifact Creature — Myr",
+    "rulesText": "{T}: Add {C}. Put a -1/-1 counter on target non-Myr creature you control. Activate only once each turn.",
+    "flavorText": "\"Every task it completes is one fewer for you.\"",
+    "power": "1",
+    "toughness": "1",
+    "colors": [
+      "Colorless"
+    ],
+    "rarity": "Common",
+    "set": "Mirrodin Manifest",
+    "artUrl": "./images/Simulated_Labor_Myr.png"
+  },
+  {
+    "name": "Socialized Losses",
+    "manaCost": "{1}{W}{U}",
+    "cmc": 3,
+    "type": "Sorcery",
+    "typeLine": "Sorcery",
+    "rulesText": "Each player creates a [[Debt Token|Debt token]]. Then redistribute among all Debt tokens.",
+    "flavorText": "\"Privatize the profits. Socialize the losses.\"",
+    "colors": [
+      "White/Blue"
+    ],
+    "rarity": "Uncommon",
+    "set": "Mirrodin Manifest",
+    "artUrl": "./images/Socialized_Losses.png"
+  },
+  {
+    "name": "Soul Extraction",
+    "manaCost": "{2}{B}",
+    "cmc": 3,
+    "type": "Sorcery",
+    "typeLine": "Sorcery",
+    "rulesText": "Destroy target creature. Its controller loses 2 life.",
+    "flavorText": "\"The Isle takes more than just bodies.\"",
+    "colors": [
+      "Black"
+    ],
+    "rarity": "Common",
+    "set": "Mirrodin Manifest",
+    "artUrl": "./images/Soul_Extraction.png"
+  },
+  {
+    "name": "Spark Harvester",
+    "manaCost": "{1}{B}{B}",
+    "cmc": 3,
+    "type": "Creature",
+    "subtype": "Human Rogue",
+    "typeLine": "Creature — Human Rogue",
+    "rulesText": "Deathtouch\n\nWhen Spark Harvester enters the battlefield, create a 1/1 white Human Unforged creature token with a spark counter on it.\n\nSacrifice an Unforged: Add {B} for each spark counter on it. Draw a card. You lose 1 life.",
+    "flavorText": "\"The academies call it 'recruitment.' The ledgers call it 'acquisition.' I call it business.\"",
+    "power": "2",
+    "toughness": "2",
+    "colors": [
+      "Black"
+    ],
+    "rarity": "Rare",
+    "set": "Mirrodin Manifest",
+    "artUrl": "./images/Spark_Harvester.png"
+  },
+  {
+    "name": "Spark Surge",
+    "manaCost": "{R}",
+    "cmc": 1,
+    "type": "Instant",
+    "subtype": "color: Red",
+    "typeLine": "Instant",
+    "rulesText": "Target creature gets +2/+0 and gains first strike until end of turn.",
+    "flavorText": "\"Strike first. Strike hard. Strike once.\"",
+    "colors": [
+      "Red"
+    ],
+    "rarity": "Common",
+    "set": "Mirrodin Manifest",
+    "artUrl": "./images/Spark_Surge.png"
+  },
+  {
+    "name": "Spite Redistributor",
+    "manaCost": "{2}{B}",
+    "cmc": 3,
+    "type": "Creature",
+    "subtype": "Human Cleric",
+    "typeLine": "Creature — Human Cleric",
+    "rulesText": "Whenever you redistribute, you may have target opponent lose 2 life.\n\n{1}{B}, {T}: Redistribute. *(Choose two permanents. Remove all counters from them, then each gets half that many counters, rounded down.)*",
+    "flavorText": "\"Equality hurts. That's the point.\"",
+    "power": "2",
+    "toughness": "3",
+    "colors": [
+      "Black"
+    ],
+    "rarity": "Uncommon",
+    "set": "Mirrodin Manifest",
+    "artUrl": "./images/Spite_Redistributor.png"
+  },
+  {
+    "name": "Spite Tax",
+    "manaCost": "{1}{B}",
+    "cmc": 2,
+    "type": "Instant",
+    "typeLine": "Instant",
+    "rulesText": "Redistribute among up to two Debt tokens. Target opponent loses 2 life.",
+    "flavorText": "\"Your debts are my pleasure.\"",
+    "colors": [
+      "Black"
+    ],
+    "rarity": "Common",
+    "set": "Mirrodin Manifest",
+    "artUrl": "./images/Spite_Tax.png"
+  },
+  {
+    "name": "Supreme Arbiter of Order",
+    "manaCost": "{3}{W}{W}",
+    "cmc": 5,
+    "type": "Legendary Creature",
+    "subtype": "Vedalken Advisor",
+    "typeLine": "Legendary Creature — Vedalken Advisor",
+    "rulesText": "Flying, vigilance\n\nAt the beginning of each opponent's upkeep, tap up to two other target nonland permanents that player controls.",
+    "flavorText": "\"I speak for the Synod. The Synod speaks for all.\"",
+    "power": "4",
+    "toughness": "5",
+    "colors": [
+      "White"
+    ],
+    "rarity": "Mythic",
+    "set": "Mirrodin Manifest",
+    "artUrl": "./images/Supreme_Arbiter_of_Order.png"
+  },
+  {
+    "name": "Surveillance Myr",
+    "manaCost": "{2}",
+    "cmc": 2,
+    "type": "Artifact Creature",
+    "subtype": "Myr",
+    "typeLine": "Artifact Creature — Myr",
+    "rulesText": "When Surveillance Myr enters the battlefield, scry 1.",
+    "flavorText": "\"Every movement logged. Every face catalogued.\"",
+    "power": "1",
+    "toughness": "1",
+    "colors": [
+      "Colorless"
+    ],
+    "rarity": "Common",
+    "set": "Mirrodin Manifest",
+    "artUrl": "./images/Surveillance_Myr.png"
+  },
+  {
+    "name": "Sylvok Chance-Shaper",
+    "manaCost": "{2}{G}",
+    "cmc": 3,
+    "type": "Creature",
+    "subtype": "Elf Shaman",
+    "typeLine": "Creature — Elf Shaman",
+    "rulesText": "Whenever you would gamble, you may pay {G}. If you do, scry 1 first.",
+    "flavorText": "\"The Tangle teaches patience. Patience teaches when to leap.\"",
+    "power": "2",
+    "toughness": "3",
+    "colors": [
+      "Green"
+    ],
+    "rarity": "Uncommon",
+    "set": "Mirrodin Manifest",
+    "artUrl": "./images/Sylvok_Chance-Shaper.png"
+  },
+  {
+    "name": "Sylvok Reclaimer",
+    "manaCost": "{2}{G}",
+    "cmc": 3,
+    "type": "Creature",
+    "subtype": "Human Druid",
+    "typeLine": "Creature — Human Druid",
+    "rulesText": "When Sylvok Reclaimer enters the battlefield, destroy target artifact or enchantment.",
+    "flavorText": "\"The metal plague ends here.\"",
+    "power": "2",
+    "toughness": "2",
+    "colors": [
+      "Green"
+    ],
+    "rarity": "Uncommon",
+    "set": "Mirrodin Manifest",
+    "artUrl": "./images/Sylvok_Reclaimer.png"
+  },
+  {
+    "name": "Sylvok Rejection",
+    "manaCost": "{1}{G}",
+    "cmc": 2,
+    "type": "Instant",
+    "subtype": "color: Green",
+    "typeLine": "Instant",
+    "rulesText": "Target creature gets +3/+3 until end of turn.",
+    "flavorText": "\"Nature does not ask permission to reclaim what is hers.\"",
+    "colors": [
+      "Green"
+    ],
+    "rarity": "Common",
+    "set": "Mirrodin Manifest",
+    "artUrl": "./images/Sylvok_Rejection.png"
+  },
+  {
+    "name": "Syndicate Enforcer",
+    "manaCost": "{3}{B}",
+    "cmc": 4,
+    "type": "Creature",
+    "subtype": "Human Rogue",
+    "typeLine": "Creature — Human Rogue",
+    "rulesText": "Sacrifice another creature: Draw a card. You lose 1 life.",
+    "flavorText": "\"Everyone pays eventually. Some just pay with more than gold.\"",
+    "power": "2",
+    "toughness": "3",
+    "colors": [
+      "Black"
+    ],
+    "rarity": "Uncommon",
+    "set": "Mirrodin Manifest",
+    "artUrl": "./images/Syndicate_Enforcer.png"
+  },
+  {
+    "name": "Synod Analyst",
+    "manaCost": "{2}{U}",
+    "cmc": 3,
+    "type": "Creature",
+    "subtype": "Vedalken Advisor",
+    "typeLine": "Creature — Vedalken Advisor",
+    "rulesText": "{T}: Scry 1.",
+    "flavorText": "\"Patterns emerge. Predictions follow.\"",
+    "power": "1",
+    "toughness": "3",
+    "colors": [
+      "Blue"
+    ],
+    "rarity": "Common",
+    "set": "Mirrodin Manifest",
+    "artUrl": "./images/Synod_Analyst.png"
+  },
+  {
+    "name": "Synod High Chancellor",
+    "manaCost": "{3}{W}{U}",
+    "cmc": 5,
+    "type": "Creature",
+    "subtype": "Vedalken Advisor",
+    "typeLine": "Legendary Creature — Vedalken Advisor",
+    "rulesText": "At the beginning of each end step, if no counters were put on permanents this turn, put a stagnation counter on Synod High Chancellor.\n\nSynod High Chancellor has hexproof as long as it has three or more stagnation counters on it.\n\n{T}, Remove five stagnation counters from Synod High Chancellor: Each opponent sacrifices a creature.",
+    "flavorText": "\"Progress is dangerous. Stability is paramount.\"",
+    "power": "2",
+    "toughness": "5",
+    "colors": [
+      "White",
+      "Blue"
+    ],
+    "rarity": "Rare",
+    "set": "Mirrodin Manifest",
+    "artUrl": "./images/Synod_High_Chancellor.png"
+  },
+  {
+    "name": "Synod Mediator",
+    "manaCost": "{W}{U}",
+    "cmc": 2,
+    "type": "Creature",
+    "subtype": "Vedalken Soldier",
+    "typeLine": "Creature — Vedalken Soldier",
+    "rulesText": "Flying\n\nWhen Synod Mediator enters the battlefield, tap target creature an opponent controls.",
+    "flavorText": "\"Order will be maintained. By force if necessary.\"",
+    "power": "2",
+    "toughness": "2",
+    "colors": [
+      "White/Blue"
+    ],
+    "rarity": "Uncommon",
+    "set": "Mirrodin Manifest",
+    "artUrl": "./images/Synod_Mediator.png"
+  },
+  {
+    "name": "Synod Peacekeeper",
+    "manaCost": "{2}{W}",
+    "cmc": 3,
+    "type": "Creature",
+    "subtype": "Human Soldier",
+    "typeLine": "Creature — Human Soldier",
+    "rulesText": "Vigilance\n\nWhen Synod Peacekeeper enters the battlefield, tap target creature an opponent controls.",
+    "flavorText": "\"Order will be maintained. By any means.\"",
+    "power": "2",
+    "toughness": "3",
+    "colors": [
+      "White"
+    ],
+    "rarity": "Common",
+    "set": "Mirrodin Manifest",
+    "artUrl": "./images/Synod_Peacekeeper.png"
+  },
+  {
+    "name": "Synod Processing Gate",
+    "manaCost": "cmc: 0",
+    "cmc": 0,
+    "type": "Land",
+    "typeLine": "Land",
+    "rulesText": "Synod Processing Gate enters the battlefield tapped.\n\nWhen Synod Processing Gate enters the battlefield, scry 1.\n\n{T}: Add {W} or {U}.",
+    "flavorText": "Data flows through the Seat of the Synod, processed and purified.",
+    "colors": [
+      "Colorless"
+    ],
+    "rarity": "Common",
+    "set": "Mirrodin Manifest",
+    "artUrl": "./images/Synod_Processing_Gate.png"
+  },
+  {
+    "name": "Synod Shield",
+    "manaCost": "{2}",
+    "cmc": 2,
+    "type": "Artifact",
+    "subtype": "Equipment",
+    "typeLine": "Artifact — Equipment",
+    "rulesText": "Equipped creature gets +0/+2 and has vigilance.\n\nEquip {2}",
+    "flavorText": "\"Standard issue. Standard compliance.\"",
+    "colors": [
+      "Colorless"
+    ],
+    "rarity": "Common",
+    "set": "Mirrodin Manifest",
+    "artUrl": "./images/Synod_Shield.png"
+  },
+  {
+    "name": "Synod's Rejection",
+    "manaCost": "{1}{U}",
+    "cmc": 2,
+    "type": "Instant",
+    "typeLine": "Instant",
+    "rulesText": "Return target creature to its owner's hand.\n\nScry 1.",
+    "flavorText": "\"Your application has been... reviewed.\"",
+    "colors": [
+      "Blue"
+    ],
+    "rarity": "Common",
+    "set": "Mirrodin Manifest",
+    "artUrl": "./images/Synod's_Rejection.png"
+  },
+  {
+    "name": "Tangle Ambusher",
+    "manaCost": "{1}{G}",
+    "cmc": 2,
+    "type": "Creature",
+    "subtype": "Elf Rogue",
+    "typeLine": "Creature — Elf Rogue",
+    "rulesText": "Flash\n\nWhen Tangle Ambusher enters the battlefield, target creature you control gains hexproof until end of turn.",
+    "flavorText": "\"The Foundry's eyes can't find what the Tangle hides.\"",
+    "power": "2",
+    "toughness": "2",
+    "colors": [
+      "Green"
+    ],
+    "rarity": "Common",
+    "set": "Mirrodin Manifest",
+    "artUrl": "./images/Tangle_Ambusher.png"
+  },
+  {
+    "name": "Tangle Berserker",
+    "manaCost": "{1}{R}{G}",
+    "cmc": 3,
+    "type": "Creature",
+    "subtype": "Human Berserker",
+    "typeLine": "Creature — Human Berserker",
+    "rulesText": "Haste, trample\n\n🎲 GAMBLE — Whenever Tangle Berserker attacks, reveal the top card of your library. If its mana value is 3 or greater, Tangle Berserker gets +2/+2 until end of turn.",
+    "flavorText": "\"The wilds don't reward caution.\"",
+    "power": "3",
+    "toughness": "2",
+    "colors": [
+      "Red/Green"
+    ],
+    "rarity": "Uncommon",
+    "set": "Mirrodin Manifest",
+    "artUrl": "./images/Tangle_Berserker.png"
+  },
+  {
+    "name": "Tangle Colossus",
+    "manaCost": "{5}{G}",
+    "cmc": 6,
+    "type": "Creature",
+    "subtype": "Plant Elemental",
+    "typeLine": "Creature — Plant Elemental",
+    "rulesText": "Trample\n\nTangle Colossus costs {1} less to cast for each creature card in your graveyard.",
+    "flavorText": "\"From death, overwhelming life.\"",
+    "power": "6",
+    "toughness": "6",
+    "colors": [
+      "Green"
+    ],
+    "rarity": "Uncommon",
+    "set": "Mirrodin Manifest",
+    "artUrl": "./images/Tangle_Colossus.png"
+  },
+  {
+    "name": "Tangle Elder",
+    "manaCost": "{2}{G}{G}",
+    "cmc": 4,
+    "type": "Creature",
+    "subtype": "Elf Druid",
+    "typeLine": "Creature — Elf Druid",
+    "rulesText": "Other creatures you control get +0/+1.",
+    "flavorText": "\"The Tangle's wisdom is rooted deep.\"",
+    "power": "3",
+    "toughness": "4",
+    "colors": [
+      "Green"
+    ],
+    "rarity": "Uncommon",
+    "set": "Mirrodin Manifest",
+    "artUrl": "./images/Tangle_Elder.png"
+  },
+  {
+    "name": "Tangle Equilibrium",
+    "manaCost": "{2}{G}",
+    "cmc": 3,
+    "type": "Sorcery",
+    "typeLine": "Sorcery",
+    "rulesText": "Redistribute among creatures you control. Put a +1/+1 counter on each of those creatures.",
+    "flavorText": "\"The Tangle shares its strength with all who shelter beneath its boughs.\"",
+    "colors": [
+      "Green"
+    ],
+    "rarity": "Common",
+    "set": "Mirrodin Manifest",
+    "artUrl": "./images/Tangle_Equilibrium.png"
+  },
+  {
+    "name": "Tangle Firebrand",
+    "manaCost": "{1}{R}{G}",
+    "cmc": 3,
+    "type": "Creature",
+    "subtype": "Elf Shaman",
+    "typeLine": "Creature — Elf Shaman",
+    "rulesText": "Trample\n\nWhenever you cast a creature spell, Tangle Firebrand gets +2/+0 until end of turn.",
+    "flavorText": "\"The Tangle's fury burns hotter than any forge.\"",
+    "power": "2",
+    "toughness": "3",
+    "colors": [
+      "Red/Green"
+    ],
+    "rarity": "Uncommon",
+    "set": "Mirrodin Manifest",
+    "artUrl": "./images/Tangle_Firebrand.png"
+  },
+  {
+    "name": "Tangle Hunter",
+    "manaCost": "{2}{G}",
+    "cmc": 3,
+    "type": "Creature",
+    "subtype": "Elf Warrior",
+    "typeLine": "Creature — Elf Warrior",
+    "rulesText": "Reach\n\nWhen Tangle Hunter enters the battlefield, you may destroy target artifact.",
+    "flavorText": "\"The Tangle remembers what was taken.\"",
+    "power": "3",
+    "toughness": "2",
+    "colors": [
+      "Green"
+    ],
+    "rarity": "Common",
+    "set": "Mirrodin Manifest",
+    "artUrl": "./images/Tangle_Hunter.png"
+  },
+  {
+    "name": "Tangle Processing Gate",
+    "manaCost": "cmc: 0",
+    "cmc": 0,
+    "type": "Land",
+    "typeLine": "Land",
+    "rulesText": "Tangle Processing Gate enters the battlefield tapped.\n\nWhen Tangle Processing Gate enters the battlefield, scry 1.\n\n{T}: Add {G} or {W}.",
+    "flavorText": "Where metal meets nature, new paths emerge.",
+    "colors": [
+      "Colorless"
+    ],
+    "rarity": "Common",
+    "set": "Mirrodin Manifest",
+    "artUrl": "./images/Tangle_Processing_Gate.png"
+  },
+  {
+    "name": "Tangle Raider",
+    "manaCost": "{3}{R}",
+    "cmc": 4,
+    "type": "Creature",
+    "subtype": "Human Warrior",
+    "typeLine": "Creature — Human Warrior",
+    "rulesText": "🎲 GAMBLE — Whenever Tangle Raider attacks, reveal the top card of your library. If it's a land card, Tangle Raider gets +2/+0 until end of turn.",
+    "flavorText": "\"Fortune favors the bold—and the reckless.\"",
+    "power": "3",
+    "toughness": "3",
+    "colors": [
+      "Red"
+    ],
+    "rarity": "Common",
+    "set": "Mirrodin Manifest",
+    "artUrl": "./images/Tangle_Raider.png"
+  },
+  {
+    "name": "Tangle Reclaimer",
+    "manaCost": "{3}{G}{G}",
+    "cmc": 5,
+    "type": "Creature",
+    "subtype": "Beast",
+    "typeLine": "Creature — Beast",
+    "rulesText": "Trample\n\nWhen Tangle Reclaimer enters the battlefield, redistribute among up to two target permanents you control. For each counter redistributed this way, put a +1/+1 counter on Tangle Reclaimer.",
+    "flavorText": "\"The Tangle takes back what was scattered.\"",
+    "power": "5",
+    "toughness": "5",
+    "colors": [
+      "Green"
+    ],
+    "rarity": "Rare",
+    "set": "Mirrodin Manifest",
+    "artUrl": "./images/Tangle_Reclaimer.png"
+  },
+  {
+    "name": "Tangle Stalker",
+    "manaCost": "{3}{G}",
+    "cmc": 4,
+    "type": "Creature",
+    "subtype": "Beast",
+    "typeLine": "Creature — Beast",
+    "rulesText": "Reach",
+    "flavorText": "\"The Tangle's hunters strike from above and below.\"",
+    "power": "4",
+    "toughness": "3",
+    "colors": [
+      "Green"
+    ],
+    "rarity": "Common",
+    "set": "Mirrodin Manifest",
+    "artUrl": "./images/Tangle_Stalker.png"
+  },
+  {
+    "name": "Tangle Titan",
+    "manaCost": "{5}{G}{G}",
+    "cmc": 7,
+    "type": "Creature",
+    "subtype": "Elemental",
+    "typeLine": "Creature — Elemental",
+    "rulesText": "Trample, reach\n\nWhenever you win a gamble, put a +1/+1 counter on each creature you control.\n\n{2}{G}: Gamble. Activate only once each turn.",
+    "flavorText": "\"The Tangle rewards those who embrace chaos.\"",
+    "power": "7",
+    "toughness": "7",
+    "colors": [
+      "Green"
+    ],
+    "rarity": "Mythic",
+    "set": "Mirrodin Manifest",
+    "artUrl": "./images/Tangle_Titan.png"
+  },
+  {
+    "name": "Tangle's Fury",
+    "manaCost": "{1}{G}",
+    "cmc": 2,
+    "type": "Instant",
+    "typeLine": "Instant",
+    "rulesText": "Target creature you control fights target creature you don't control.",
+    "flavorText": "\"The Tangle doesn't negotiate. It consumes.\"",
+    "colors": [
+      "Green"
+    ],
+    "rarity": "Common",
+    "set": "Mirrodin Manifest",
+    "artUrl": "./images/Tangle's_Fury.png"
+  },
+  {
+    "name": "Tangle's Vengeance",
+    "manaCost": "{2}{G}{G}",
+    "cmc": 4,
+    "type": "Enchantment",
+    "typeLine": "Enchantment",
+    "rulesText": "Elf creatures you control get +1/+1.\n\nWhenever an Elf enters the battlefield under your control, you may have it fight target creature an opponent controls with power 2 or less.\n\n{3}{G}: Create a 2/2 green Elf Warrior creature token.",
+    "flavorText": "\"The copper trees remember. The Tangle never forgives.\"",
+    "colors": [
+      "Green"
+    ],
+    "rarity": "Rare",
+    "set": "Mirrodin Manifest",
+    "artUrl": "./images/Tangle's_Vengeance.png"
+  },
+  {
+    "name": "Tel-Jilad Arbiter",
+    "manaCost": "{4}{G}",
+    "cmc": 5,
+    "type": "Creature",
+    "subtype": "Elemental",
+    "typeLine": "Creature — Elemental",
+    "rulesText": "Trample\n\nWhenever you redistribute counters, put a +1/+1 counter on Tel-Jilad Arbiter. *(You redistribute whenever you move counters between permanents.)*",
+    "flavorText": "\"Balance is not passive. It must be enforced.\"",
+    "power": "4",
+    "toughness": "4",
+    "colors": [
+      "Green"
+    ],
+    "rarity": "Uncommon",
+    "set": "Mirrodin Manifest",
+    "artUrl": "./images/Tel-Jilad_Arbiter.png"
+  },
+  {
+    "name": "Tel-Jilad Defender",
+    "manaCost": "{3}{G}",
+    "cmc": 4,
+    "type": "Creature",
+    "subtype": "Troll Warrior",
+    "typeLine": "Creature — Troll Warrior",
+    "rulesText": "Trample\n\nTel-Jilad Defender can't be blocked by artifact creatures.",
+    "flavorText": "\"Metal breaks. The Tangle endures.\"",
+    "power": "4",
+    "toughness": "3",
+    "colors": [
+      "Green"
+    ],
+    "rarity": "Common",
+    "set": "Mirrodin Manifest",
+    "artUrl": "./images/Tel-Jilad_Defender.png"
+  },
+  {
+    "name": "Tel-Jilad Reclaimer",
+    "manaCost": "{2}{G}",
+    "cmc": 3,
+    "type": "Creature",
+    "subtype": "Elf Shaman",
+    "typeLine": "Creature — Elf Shaman",
+    "rulesText": "When Tel-Jilad Reclaimer dies, return target land card from your graveyard to your hand.",
+    "flavorText": "\"Even the metal forests remember what they once were.\"",
+    "power": "2",
+    "toughness": "3",
+    "colors": [
+      "Green"
+    ],
+    "rarity": "Common",
+    "set": "Mirrodin Manifest",
+    "artUrl": "./images/Tel-Jilad_Reclaimer.png"
+  },
+  {
+    "name": "Terrified Survivor",
+    "manaCost": "{1}{W}",
+    "cmc": 2,
+    "type": "Creature",
+    "subtype": "Human Soldier",
+    "typeLine": "Creature — Human Soldier",
+    "rulesText": "Defender\n\nTerrified Survivor enters the battlefield with two -1/-1 counters on it.\n\n{W}, Remove a -1/-1 counter from Terrified Survivor: Prevent the next 2 damage that would be dealt to you this turn.",
+    "flavorText": "\"I never want to be on the other side of that again. They're not to be messed with.\"",
+    "colors": [
+      "White"
+    ],
+    "rarity": "Common",
+    "set": "Mirrodin Manifest",
+    "artUrl": "./images/Terrified_Survivor.png"
+  },
+  {
+    "name": "The Bailout",
+    "manaCost": "{2}{W}{W}",
+    "cmc": 4,
+    "type": "Instant",
+    "typeLine": "Instant",
+    "rulesText": "Redistribute among all permanents with counters. For each [[Debt Token|Debt token]] that had counters redistributed to it, you gain 2 life.",
+    "flavorText": "\"The Foundry always pays its debts—with other people's money.\"",
+    "colors": [
+      "White"
+    ],
+    "rarity": "Rare",
+    "set": "Mirrodin Manifest",
+    "artUrl": "./images/The_Bailout.png"
+  },
+  {
+    "name": "The Black Ledger",
+    "manaCost": "{2}",
+    "cmc": 2,
+    "type": "Legendary Artifact",
+    "typeLine": "Legendary Artifact",
+    "rulesText": "{T}: Look at the top card of target opponent's library. You may have that player reveal it. If you do, put an evidence counter on The Black Ledger.\n\n{2}, {T}: Name a card. Target opponent reveals their hand. If the named card is in their hand, that player discards it and put an evidence counter on The Black Ledger.\n\n{T}, Sacrifice The Black Ledger: Each opponent reveals their hand. You may cast a spell from among those cards with mana value less than or equal to the number of evidence counters on The Black Ledger without paying its mana cost.",
+    "flavorText": "Every visitor. Every transaction. Every secret.",
+    "colors": [
+      "Colorless"
+    ],
+    "rarity": "Mythic",
+    "set": "Mirrodin Manifest",
+    "artUrl": "./images/The_Black_Ledger.png"
+  },
+  {
+    "name": "The Darksteel Wall",
+    "manaCost": "{4}",
+    "cmc": 4,
+    "type": "Legendary Artifact",
+    "typeLine": "Legendary Artifact",
+    "rulesText": "Indestructible\n\nThe Darksteel Wall enters the battlefield with three construction counters on it.\n\nCreatures entering the battlefield under opponents' control enter tapped unless The Darksteel Wall has fewer than three construction counters.\n\nCreatures your opponents control that weren't cast from their hand can't attack if The Darksteel Wall has three or more construction counters.\n\nAt the beginning of your upkeep, put a construction counter on The Darksteel Wall. Each opponent who controls a creature that wasn't cast from their hand loses 1 life for each construction counter on The Darksteel Wall.",
+    "flavorText": "\"The Mephidross will pay for it. One extracted ore at a time.\"",
+    "colors": [
+      "Colorless"
+    ],
+    "rarity": "Mythic",
+    "set": "Mirrodin Manifest",
+    "artUrl": "./images/The_Darksteel_Wall.png"
+  },
+  {
+    "name": "The Equalizer",
+    "manaCost": "{1}{W}{U}",
+    "cmc": 3,
+    "type": "Creature",
+    "subtype": "Vedalken Advisor",
+    "typeLine": "Creature — Vedalken Advisor",
+    "rulesText": "Whenever you redistribute, scry 2.\n\n{W}{U}, {T}: Redistribute among any number of target permanents you control. *(Remove all counters from them, then distribute that many counters among them as you choose.)*",
+    "flavorText": "\"Perfect balance requires perfect information.\"",
+    "power": "2",
+    "toughness": "3",
+    "colors": [
+      "White/Blue"
+    ],
+    "rarity": "Rare",
+    "set": "Mirrodin Manifest",
+    "artUrl": "./images/The_Equalizer.png"
+  },
+  {
+    "name": "The Great Furnace Awakened",
+    "manaCost": "{5}{R}{R}",
+    "cmc": 7,
+    "type": "Legendary Artifact Creature",
+    "subtype": "Construct",
+    "typeLine": "Legendary Artifact Creature — Construct",
+    "rulesText": "Trample, haste\n\nWhen The Great Furnace Awakened enters the battlefield, it deals damage equal to the number of artifacts you control to any target.\n\nSacrifice an artifact: The Great Furnace Awakened gets +2/+0 until end of turn.",
+    "flavorText": "\"The heart of industry beats with molten fury.\"",
+    "power": "7",
+    "toughness": "7",
+    "colors": [
+      "Red"
+    ],
+    "rarity": "Mythic",
+    "set": "Mirrodin Manifest",
+    "artUrl": "./images/The_Great_Furnace_Awakened.png"
+  },
+  {
+    "name": "The Great Leveling",
+    "manaCost": "{4}{W}{W}",
+    "cmc": 6,
+    "type": "Creature",
+    "subtype": "Construct",
+    "typeLine": "Legendary Artifact Creature — Construct",
+    "rulesText": "Vigilance\n\nWhen The Great Leveling enters the battlefield, redistribute among all permanents with counters on them. *(Remove all counters from all of them, then distribute that many counters evenly among them, rounded down, of the same types.)*\n\nAt the beginning of each end step, if any permanent has three or more counters than another permanent with counters, redistribute among those permanents.",
+    "flavorText": "\"No one rises. No one falls. All are equal before the Equalizer.\"",
+    "power": "5",
+    "toughness": "5",
+    "colors": [
+      "White"
+    ],
+    "rarity": "Mythic",
+    "set": "Mirrodin Manifest",
+    "artUrl": "./images/The_Great_Leveling.png"
+  },
+  {
+    "name": "The Great Optimization",
+    "manaCost": "{3}{U}{B}",
+    "cmc": 5,
+    "type": "Enchantment",
+    "typeLine": "Enchantment",
+    "rulesText": "At the beginning of your upkeep, each player chooses a nontoken creature they control. Exile all other nontoken creatures.\n\nWhenever a creature is exiled, its controller creates a 1/1 colorless Myr artifact creature token.\n\nCreatures exiled with The Great Optimization have \"When this card leaves exile, it enters the battlefield under its owner's control.\"",
+    "flavorText": "\"Your position has been optimized. Please report to Reprocessing.\"",
+    "colors": [
+      "Blue/Black"
+    ],
+    "rarity": "Mythic",
+    "set": "Mirrodin Manifest",
+    "artUrl": "./images/The_Great_Optimization.png"
+  },
+  {
+    "name": "The House Edge",
+    "manaCost": "{1}{U}",
+    "cmc": 2,
+    "type": "Enchantment",
+    "subtype": "color: Blue",
+    "typeLine": "Enchantment",
+    "rulesText": "Whenever you would gamble, scry 1 first.",
+    "flavorText": "\"The odds aren't in your favor. They're in mine. I built the table.\"",
+    "colors": [
+      "Blue"
+    ],
+    "rarity": "Rare",
+    "set": "Mirrodin Manifest",
+    "artUrl": "./images/The_House_Edge.png"
+  },
+  {
+    "name": "The Lattice Crashes",
+    "manaCost": "{2}{B}{R}",
+    "cmc": 4,
+    "type": "Sorcery",
+    "typeLine": "Sorcery",
+    "rulesText": "Each player sacrifices a creature for each counter removed from permanents they control this turn.\n\nIf no counters were removed this turn, instead each player sacrifices a creature for each type of counter among permanents they control.",
+    "flavorText": "\"The En-Vidia promised infinite returns. It delivered infinite losses.\"",
+    "colors": [
+      "Black/Red"
+    ],
+    "rarity": "Rare",
+    "set": "Mirrodin Manifest",
+    "artUrl": "./images/The_Lattice_Crashes.png"
+  },
+  {
+    "name": "The Ledger Surfaces",
+    "manaCost": "{2}{W}{B}",
+    "cmc": 4,
+    "type": "Enchantment",
+    "subtype": "Saga",
+    "typeLine": "Enchantment — Saga",
+    "rulesText": "**I** — Create two 1/1 black Unforged creature tokens with spark counters on them.\n\n**II** — Each opponent reveals their hand. You choose a nonland card from each and exile it.\n\n**III** — For each card exiled with this Saga, that card's owner loses 3 life unless they sacrifice a creature.\n\n**IV** — Return all cards exiled with this Saga to their owners' hands. Each player draws cards equal to the number of creatures that died this turn.",
+    "flavorText": "\"The names were always there. Someone just had to read them aloud.\"",
+    "colors": [
+      "White/Black"
+    ],
+    "rarity": "Mythic",
+    "set": "Mirrodin Manifest",
+    "artUrl": "./images/The_Ledger_Surfaces.png"
+  },
+  {
+    "name": "The Myr Collective",
+    "manaCost": "{4}",
+    "cmc": 4,
+    "type": "Artifact",
+    "typeLine": "Artifact",
+    "rulesText": "Myr creatures you control get +1/+1.\n\nWhenever a Myr enters the battlefield under your control, scry 1.\n\n{4}, {T}: Create a 1/1 colorless Myr artifact creature token. If you control five or more Myr, create two tokens instead.",
+    "flavorText": "\"One Myr is a tool. Five Myr are a workforce. Twenty Myr are a revolution.\"",
+    "colors": [
+      "Colorless"
+    ],
+    "rarity": "Rare",
+    "set": "Mirrodin Manifest",
+    "artUrl": "./images/The_Myr_Collective.png"
+  },
+  {
+    "name": "The Orb-Seekers",
+    "manaCost": "{3}{W}{U}",
+    "cmc": 5,
+    "type": "Creature",
+    "subtype": "Construct",
+    "typeLine": "Creature — Construct",
+    "rulesText": "When The Orb-Seekers enters, each player reveals their hand. For each player, exile a nonland card from their hand face-down. You may look at cards exiled this way.\n\n{2}, {T}: Target player draws a card. Put a +1/+1 counter on The Orb-Seekers.\n\nWhen The Orb-Seekers leaves the battlefield, each player puts the cards they own exiled with it into their graveyard.",
+    "flavorText": "They promised universal income. They delivered universal surveillance.",
+    "colors": [
+      "White/Blue"
+    ],
+    "rarity": "Rare",
+    "set": "Mirrodin Manifest",
+    "artUrl": "./images/The_Orb-Seekers.png"
+  },
+  {
+    "name": "The Rigged Game",
+    "manaCost": "{2}{U}",
+    "cmc": 3,
+    "type": "Sorcery",
+    "subtype": "color: Blue",
+    "typeLine": "Sorcery",
+    "rulesText": "Scry 2, then gamble.\n\nIf you win the gamble, compound twice.\n\nIf you lose the gamble, redistribute.",
+    "flavorText": "Win, and the wealth compounds. Lose, and everyone shares the pain. Either way, you're never the one who suffers.",
+    "colors": [
+      "Blue"
+    ],
+    "rarity": "Uncommon",
+    "set": "Mirrodin Manifest",
+    "artUrl": "./images/The_Rigged_Game.png"
+  },
+  {
+    "name": "The Sanctions War",
+    "manaCost": "{2}{R}",
+    "cmc": 3,
+    "type": "Enchantment",
+    "subtype": "color: Red",
+    "typeLine": "Enchantment",
+    "rulesText": "Players can't search libraries.\n\nWhenever a player would draw a card except the first one they draw in each of their draw steps, that player may instead look at the top two cards of their library and put one into their hand and the other on the bottom.",
+    "flavorText": "The Foundry thought scarcity would cripple the Oxidda Chain. It only made them resourceful.",
+    "colors": [
+      "Red"
+    ],
+    "rarity": "Uncommon",
+    "set": "Mirrodin Manifest",
+    "artUrl": "./images/The_Sanctions_War.png"
+  },
+  {
+    "name": "The Truth Emerges",
+    "manaCost": "{3}{U}{B}",
+    "cmc": 5,
+    "type": "Sorcery",
+    "typeLine": "Sorcery",
+    "rulesText": "Turn all face-down exiled cards face-up.\n\nFor each card turned face-up this way, its owner loses 2 life and you draw a card.\n\nYou may cast up to one spell from among cards turned face-up this way without paying its mana cost.",
+    "flavorText": "\"The redactions failed. The names are readable. Everyone will know.\"",
+    "colors": [
+      "Blue/Black"
+    ],
+    "rarity": "Rare",
+    "set": "Mirrodin Manifest",
+    "artUrl": "./images/The_Truth_Emerges.png"
+  },
+  {
+    "name": "The Vibe Shift",
+    "manaCost": "{1}{U}",
+    "cmc": 2,
+    "type": "Instant",
+    "subtype": "color: Blue",
+    "typeLine": "Instant",
+    "rulesText": "Choose one —\n• Counter target artifact spell unless its controller pays {3}.\n• Return target artifact to its owner's hand.",
+    "flavorText": "The Thought-Sync's most fervent advocates went quiet. That silence spoke volumes.",
+    "colors": [
+      "Blue"
+    ],
+    "rarity": "Uncommon",
+    "set": "Mirrodin Manifest",
+    "artUrl": "./images/The_Vibe_Shift.png"
+  },
+  {
+    "name": "Thought Siphon",
+    "manaCost": "{3}{U}",
+    "cmc": 4,
+    "type": "Sorcery",
+    "typeLine": "Sorcery",
+    "rulesText": "Draw three cards.",
+    "flavorText": "\"The Lattice doesn't ask for your thoughts. It takes them.\"",
+    "colors": [
+      "Blue"
+    ],
+    "rarity": "Common",
+    "set": "Mirrodin Manifest",
+    "artUrl": "./images/Thought_Siphon.png"
+  },
+  {
+    "name": "Thought-Sync Courier",
+    "manaCost": "{2}{U}",
+    "cmc": 3,
+    "type": "Creature",
+    "subtype": "Human Advisor",
+    "typeLine": "Creature — Human Advisor",
+    "rulesText": "Flying\n\nWhen Thought-Sync Courier enters the battlefield, scry 1.",
+    "flavorText": "\"Information flows faster than the Quicksilver Sea.\"",
+    "power": "2",
+    "toughness": "1",
+    "colors": [
+      "Blue"
+    ],
+    "rarity": "Common",
+    "set": "Mirrodin Manifest",
+    "artUrl": "./images/Thought-Sync_Courier.png"
+  },
+  {
+    "name": "Thought-Sync Node",
+    "manaCost": "{4}",
+    "cmc": 4,
+    "type": "Creature",
+    "subtype": "Construct",
+    "typeLine": "Artifact Creature — Construct",
+    "rulesText": "Defender\n\nThought-Sync Node enters the battlefield with three sync counters on it.\n\n{T}, Remove a sync counter from Thought-Sync Node: Target player mills two cards.\n\nWhen Thought-Sync Node has no sync counters on it, sacrifice it and draw three cards.",
+    "flavorText": "\"Uploading... uploading... upload complete.\"",
+    "power": "0",
+    "toughness": "4",
+    "colors": [
+      "Colorless"
+    ],
+    "rarity": "Uncommon",
+    "set": "Mirrodin Manifest",
+    "artUrl": "./images/Thought-Sync_Node.png"
+  },
+  {
+    "name": "Toxic Resilience",
+    "manaCost": "{B}",
+    "cmc": 1,
+    "type": "Instant",
+    "typeLine": "Instant",
+    "rulesText": "Target creature gets +1/+1 and gains deathtouch until end of turn.",
+    "flavorText": "\"What doesn't kill you becomes a weapon.\"",
+    "colors": [
+      "Black"
+    ],
+    "rarity": "Common",
+    "set": "Mirrodin Manifest",
+    "artUrl": "./images/Toxic_Resilience.png"
+  },
+  {
+    "name": "Trickle-Down Theorist",
+    "manaCost": "{3}{W}",
+    "cmc": 4,
+    "type": "Creature",
+    "subtype": "Human Advisor",
+    "typeLine": "Creature — Human Advisor",
+    "rulesText": "At the beginning of your end step, compound. Put the counter on a permanent with the most counters on it.\n\nWhenever a permanent you control with five or more counters on it leaves the battlefield, each other creature you control gets a +1/+1 counter.",
+    "flavorText": "\"Concentrate wealth at the top. It will flow down... eventually.\"",
+    "power": "2",
+    "toughness": "4",
+    "colors": [
+      "White"
+    ],
+    "rarity": "Rare",
+    "set": "Mirrodin Manifest",
+    "artUrl": "./images/Trickle-Down_Theorist.png"
+  },
+  {
+    "name": "Tromp, the Gilded Sentinel",
+    "manaCost": "{3}{R}{W}",
+    "cmc": 5,
+    "type": "Creature",
+    "subtype": "Loxodon Artificer",
+    "typeLine": "Legendary Creature — Loxodon Artificer",
+    "rulesText": "Tromp, the Gilded Sentinel enters the battlefield with three construction counters on it.\n\nCreatures that weren't cast from their owner's hand can't attack you or planeswalkers you control.\n\nAt the beginning of your upkeep, put a construction counter on Tromp. Then Tromp deals damage equal to the number of construction counters on it to each creature that wasn't cast from its owner's hand.",
+    "flavorText": "\"The unrefined have no place within these walls.\"",
+    "power": "4",
+    "toughness": "5",
+    "colors": [
+      "White",
+      "Red"
+    ],
+    "rarity": "Mythic",
+    "set": "Mirrodin Manifest",
+    "artUrl": "./images/Tromp,_the_Gilded_Sentinel.png"
+  },
+  {
+    "name": "Trough of Disillusionment",
+    "manaCost": "{2}{U}{B}",
+    "cmc": 4,
+    "type": "Enchantment",
+    "subtype": "color: Blue/Black",
+    "typeLine": "Enchantment",
+    "rulesText": "Artifact creatures enter the battlefield tapped and don't untap during their controllers' untap steps.\n\nAt the beginning of each player's upkeep, that player may pay {2}. If they do, untap all artifact creatures they control.",
+    "flavorText": "The Myr still function. They just don't perform miracles.",
+    "colors": [
+      "Blue/Black"
+    ],
+    "rarity": "Rare",
+    "set": "Mirrodin Manifest",
+    "artUrl": "./images/Trough_of_Disillusionment.png"
+  },
+  {
+    "name": "Tunneling Hopeful",
+    "manaCost": "{1}{B}",
+    "cmc": 2,
+    "type": "Creature",
+    "subtype": "Human Citizen",
+    "typeLine": "Creature — Human Citizen",
+    "rulesText": "Tunneling Hopeful can't be blocked by artifact creatures.\n\nWhen Tunneling Hopeful dies, create a 1/1 black Human Citizen creature token.",
+    "flavorText": "\"For every one they stop, two more find a way.\"",
+    "power": "2",
+    "toughness": "1",
+    "colors": [
+      "Black"
+    ],
+    "rarity": "Common",
+    "set": "Mirrodin Manifest",
+    "artUrl": "./images/Tunneling_Hopeful.png"
+  },
+  {
+    "name": "Undergrowth Scout",
+    "manaCost": "{1}{G}",
+    "cmc": 2,
+    "type": "Creature",
+    "subtype": "Elf Scout",
+    "typeLine": "Creature — Elf Scout",
+    "rulesText": "When Undergrowth Scout enters the battlefield, add {G}.",
+    "flavorText": "\"The fastest path is through the roots.\"",
+    "power": "1",
+    "toughness": "1",
+    "colors": [
+      "Green"
+    ],
+    "rarity": "Common",
+    "set": "Mirrodin Manifest",
+    "artUrl": "./images/Undergrowth_Scout.png"
+  },
+  {
+    "name": "Undocumented Worker",
+    "manaCost": "{G}",
+    "cmc": 1,
+    "type": "Creature",
+    "subtype": "Human Citizen",
+    "typeLine": "Creature — Human Citizen",
+    "rulesText": "{T}: Add {G}. If this mana is spent on a creature spell, that creature enters the battlefield with an additional +1/+1 counter on it.\n\nUndocumented Worker can't block Mer-Ikan creatures.",
+    "flavorText": "\"They don't want us here, but they need what we build.\"",
+    "power": "1",
+    "toughness": "1",
+    "colors": [
+      "Green"
+    ],
+    "rarity": "Common",
+    "set": "Mirrodin Manifest",
+    "artUrl": "./images/Undocumented_Worker.png"
+  },
+  {
+    "name": "Unforged Advocate",
+    "manaCost": "{2}{W}{B}",
+    "cmc": 4,
+    "type": "Creature",
+    "subtype": "Human Cleric",
+    "typeLine": "Creature — Human Cleric",
+    "rulesText": "Unforged creatures you control get +1/+1 and have lifelink.\n\nWhenever an Unforged creature you control dies, if it had a spark counter on it, you may pay {1}. If you do, create a 1/1 black Unforged creature token with a spark counter on it.",
+    "flavorText": "\"They were taken as currency. I will see them returned as people.\"",
+    "power": "2",
+    "toughness": "4",
+    "colors": [
+      "White/Black"
+    ],
+    "rarity": "Uncommon",
+    "set": "Mirrodin Manifest",
+    "artUrl": "./images/Unforged_Advocate.png"
+  },
+  {
+    "name": "Unforged Shepherd",
+    "manaCost": "{1}{W}{B}",
+    "cmc": 3,
+    "type": "Creature",
+    "subtype": "Spirit",
+    "typeLine": "Creature — Spirit",
+    "rulesText": "Whenever Unforged Shepherd or another creature you control dies, create a 1/1 colorless Unforged creature token.",
+    "flavorText": "\"The lost gather to those who remember them.\"",
+    "power": "2",
+    "toughness": "3",
+    "colors": [
+      "White/Black"
+    ],
+    "rarity": "Uncommon",
+    "set": "Mirrodin Manifest",
+    "artUrl": "./images/Unforged_Shepherd.png"
+  },
+  {
+    "name": "Unforged Witness",
+    "manaCost": "{1}{W}",
+    "cmc": 2,
+    "type": "Creature",
+    "subtype": "Human Unforged",
+    "typeLine": "Creature — Human Unforged",
+    "rulesText": "Unforged Witness enters the battlefield with a testimony counter on it.\n\nWhen Unforged Witness enters the battlefield, look at the top card of target opponent's library. You may reveal it. If a legendary card is revealed this way, put a testimony counter on Unforged Witness.\n\nSacrifice Unforged Witness: Reveal the top X cards of target opponent's library, where X is the number of testimony counters on it. Your opponents can't cast legendary spells until your next turn.",
+    "flavorText": "\"They told me I was special. That I had potential. They were right—I was currency.\"",
+    "colors": [
+      "White"
+    ],
+    "rarity": "Uncommon",
+    "set": "Mirrodin Manifest",
+    "artUrl": "./images/Unforged_Witness.png"
+  },
+  {
+    "name": "Vault of the Liquid Sun",
+    "manaCost": "",
+    "cmc": 0,
+    "type": "Land",
+    "typeLine": "Land",
+    "rulesText": "Vault of the Liquid Sun enters the battlefield tapped.\n\n{T}: Add {C}.\n\n{T}: Add one mana of any color. Spend this mana only to cast artifact spells.\n\n{3}, {T}: Create a Gold token. *(It's an artifact that enters with a value counter. It has \"Sacrifice this artifact: Add {C} for each value counter on it.\")*",
+    "flavorText": "\"The Myr-Mind calculates futures. The Vault holds certainties.\"",
+    "colors": [
+      "Colorless"
+    ],
+    "rarity": "Uncommon",
+    "set": "Mirrodin Manifest",
+    "artUrl": "./images/Vault_of_the_Liquid_Sun.png"
+  },
+  {
+    "name": "Vault Processing Gate",
+    "manaCost": "cmc: 0",
+    "cmc": 0,
+    "type": "Land",
+    "typeLine": "Land",
+    "rulesText": "Vault Processing Gate enters the battlefield tapped.\n\nWhen Vault Processing Gate enters the battlefield, scry 1.\n\n{T}: Add {U} or {B}.",
+    "flavorText": "Secrets pass through the Vault, counted and catalogued.",
+    "colors": [
+      "Colorless"
+    ],
+    "rarity": "Common",
+    "set": "Mirrodin Manifest",
+    "artUrl": "./images/Vault_Processing_Gate.png"
+  },
+  {
+    "name": "Vault Shadow-Broker",
+    "manaCost": "{2}{B}{B}",
+    "cmc": 4,
+    "type": "Creature",
+    "subtype": "Human Rogue",
+    "typeLine": "Creature — Human Rogue",
+    "rulesText": "At the beginning of your upkeep, each opponent loses 1 life. You gain life equal to the life lost this way. Put a corruption counter on Vault Shadow-Broker.\n\n{B}{B}, {T}, Remove three corruption counters from Vault Shadow-Broker: Gain control of target creature with mana value 3 or less for as long as you control Vault Shadow-Broker.",
+    "flavorText": "\"Everyone has a price. I ensure they can afford it.\"",
+    "power": "2",
+    "toughness": "3",
+    "colors": [
+      "Black"
+    ],
+    "rarity": "Rare",
+    "set": "Mirrodin Manifest",
+    "artUrl": "./images/Vault_Shadow-Broker.png"
+  },
+  {
+    "name": "Veiled Client",
+    "manaCost": "{1}{W}{B}",
+    "cmc": 3,
+    "type": "Creature",
+    "subtype": "Human Noble",
+    "typeLine": "Creature — Human Noble",
+    "rulesText": "Protection from Unforged.\n\nVeiled Client enters the battlefield with two guilt counters on it.\n\nAt the beginning of your upkeep, if Veiled Client has no guilt counters on it, sacrifice it.\n\n{1}, Remove a guilt counter from Veiled Client: Draw a card. Activate only as a sorcery.",
+    "flavorText": "\"My name was never in that ledger. I was never on that isle.\"",
+    "power": "2",
+    "toughness": "3",
+    "colors": [
+      "White",
+      "Black"
+    ],
+    "rarity": "Rare",
+    "set": "Mirrodin Manifest",
+    "artUrl": "./images/Veiled_Client.png"
+  },
+  {
+    "name": "Verdant Gambler",
+    "manaCost": "{1}{G}{G}",
+    "cmc": 3,
+    "type": "Creature",
+    "subtype": "Elf Rogue",
+    "typeLine": "Creature — Elf Rogue",
+    "rulesText": "🎲 GAMBLE — When Verdant Gambler enters the battlefield, reveal the top card of your library. If it's a creature card, put two +1/+1 counters on Verdant Gambler.",
+    "flavorText": "\"Nature always rewards those willing to take risks.\"",
+    "power": "3",
+    "toughness": "2",
+    "colors": [
+      "Green"
+    ],
+    "rarity": "Uncommon",
+    "set": "Mirrodin Manifest",
+    "artUrl": "./images/Verdant_Gambler.png"
+  },
+  {
+    "name": "Vindictive Redistribution",
+    "manaCost": "{2}{B}{B}",
+    "cmc": 4,
+    "type": "Sorcery",
+    "typeLine": "Sorcery",
+    "rulesText": "Redistribute among up to four target permanents. For each counter removed this way, each opponent loses 1 life.",
+    "flavorText": "\"If I cannot have it, no one can. And you will suffer for my loss.\"",
+    "colors": [
+      "Black"
+    ],
+    "rarity": "Rare",
+    "set": "Mirrodin Manifest",
+    "artUrl": "./images/Vindictive_Redistribution.png"
+  },
+  {
+    "name": "Volatile Equalization",
+    "manaCost": "{1}{R}",
+    "cmc": 2,
+    "type": "Sorcery",
+    "typeLine": "Sorcery",
+    "rulesText": "Redistribute among two target creatures. Volatile Equalization deals 1 damage to each of them.",
+    "flavorText": "\"Balance through destruction.\"",
+    "colors": [
+      "Red"
+    ],
+    "rarity": "Common",
+    "set": "Mirrodin Manifest",
+    "artUrl": "./images/Volatile_Equalization.png"
+  },
+  {
+    "name": "Volatile Reaction",
+    "manaCost": "{1}{R}",
+    "cmc": 2,
+    "type": "Instant",
+    "typeLine": "Instant",
+    "rulesText": "Volatile Reaction deals 3 damage to target creature.",
+    "flavorText": "\"Stability is for those afraid of progress.\"",
+    "colors": [
+      "Red"
+    ],
+    "rarity": "Common",
+    "set": "Mirrodin Manifest",
+    "artUrl": "./images/Volatile_Reaction.png"
+  },
+  {
+    "name": "Vulture Capitalist",
+    "manaCost": "{2}{W}{B}",
+    "cmc": 4,
+    "type": "Creature",
+    "subtype": "Human Advisor",
+    "typeLine": "Creature — Human Advisor",
+    "rulesText": "Flying\n\nWhenever an opponent sacrifices a permanent, that player creates a [[Debt Token|Debt token]].",
+    "flavorText": "\"Crisis is opportunity.\"",
+    "power": "3",
+    "toughness": "4",
+    "colors": [
+      "White/Black"
+    ],
+    "rarity": "Rare",
+    "set": "Mirrodin Manifest",
+    "artUrl": "./images/Vulture_Capitalist.png"
+  },
+  {
+    "name": "War Refugee Camp",
+    "manaCost": "{3}{W}",
+    "cmc": 4,
+    "type": "Creature",
+    "subtype": "Assembly",
+    "typeLine": "Creature — Assembly",
+    "rulesText": "Defender\n\nWhen War Refugee Camp enters the battlefield, create two 1/1 white Leonin Citizen creature tokens.\n\nLeonin Citizen creatures you control have hexproof.\n\n{2}{W}: Target Leonin Citizen creature you control becomes a 2/2 Soldier in addition to its other types and gains first strike until end of turn.",
+    "flavorText": "\"We shelter those who flee. We train those who fight.\"",
+    "power": "0",
+    "toughness": "5",
+    "colors": [
+      "White"
+    ],
+    "rarity": "Uncommon",
+    "set": "Mirrodin Manifest",
+    "artUrl": "./images/War_Refugee_Camp.png"
+  },
+  {
+    "name": "Watchtower Defender",
+    "manaCost": "{1}{W}",
+    "cmc": 2,
+    "type": "Creature",
+    "subtype": "Leonin Soldier",
+    "typeLine": "Creature — Leonin Soldier",
+    "rulesText": "First strike\n\nWatchtower Defender gets +0/+2 as long as you control an Equipment.",
+    "flavorText": "\"I don't need transport. I need Equipment.\"",
+    "power": "2",
+    "toughness": "2",
+    "colors": [
+      "White"
+    ],
+    "rarity": "Common",
+    "set": "Mirrodin Manifest",
+    "artUrl": "./images/Watchtower_Defender.png"
+  },
+  {
+    "name": "Waypoint Beacon",
+    "manaCost": "cmc: 0",
+    "cmc": 0,
+    "type": "Land",
+    "subtype": "color: Colorless",
+    "typeLine": "Land",
+    "rulesText": "Waypoint Beacon enters the battlefield tapped.\n\n{T}: Add {C}.\n\n{T}, Pay 1 life: Add one mana of any color.",
+    "flavorText": "\"Follow the light. Find your way.\"",
+    "colors": [
+      "Colorless"
+    ],
+    "rarity": "Common",
+    "set": "Mirrodin Manifest",
+    "artUrl": "./images/Waypoint_Beacon.png"
+  },
+  {
+    "name": "Whisper of the Vault",
+    "manaCost": "{1}{B}",
+    "cmc": 2,
+    "type": "Instant",
+    "typeLine": "Instant",
+    "rulesText": "Target player discards a card. You gain 1 life.",
+    "flavorText": "\"The Black Ledger knows your secrets. All of them.\"",
+    "colors": [
+      "Black"
+    ],
+    "rarity": "Common",
+    "set": "Mirrodin Manifest",
+    "artUrl": "./images/Whisper_of_the_Vault.png"
+  },
+  {
+    "name": "Wild Growth Gambit",
+    "manaCost": "{1}{G}",
+    "cmc": 2,
+    "type": "Sorcery",
+    "typeLine": "Sorcery",
+    "rulesText": "Gamble. If you win the gamble, search your library for a basic land card, put it onto the battlefield tapped, then shuffle. If you lose, search your library for a basic land card, put it into your hand, then shuffle.",
+    "flavorText": "\"Nature rewards the bold. Or at least, the lucky.\"",
+    "colors": [
+      "Green"
+    ],
+    "rarity": "Common",
+    "set": "Mirrodin Manifest",
+    "artUrl": "./images/Wild_Growth_Gambit.png"
+  },
+  {
+    "name": "Worker's Pickaxe",
+    "manaCost": "{1}",
+    "cmc": 1,
+    "type": "Artifact",
+    "subtype": "Equipment",
+    "typeLine": "Artifact — Equipment",
+    "rulesText": "Equipped creature gets +1/+1.\n\nEquip {1}",
+    "flavorText": "\"Tools of labor. Tools of liberation.\"",
+    "colors": [
+      "Colorless"
+    ],
+    "rarity": "Common",
+    "set": "Mirrodin Manifest",
+    "artUrl": "./images/Worker's_Pickaxe.png"
+  },
+  {
+    "name": "Zel-Ensk, the Resilient Spark",
+    "manaCost": "{2}{G}{W}",
+    "cmc": 4,
+    "type": "Creature",
+    "subtype": "Leonin Soldier",
+    "typeLine": "Legendary Creature — Leonin Soldier",
+    "rulesText": "Vigilance, indestructible\n\nZel-Ensk, the Resilient Spark enters the battlefield with three resistance counters on it.\n\nEquipment attached to Zel-Ensk cost {0} to equip.\n\n{G}{W}, Remove a resistance counter from Zel-Ensk: Create a 1/1 white Soldier creature token with vigilance.",
+    "flavorText": "\"While he stands, the resistance stands.\"",
+    "power": "3",
+    "toughness": "4",
+    "colors": [
+      "White",
+      "Green"
+    ],
+    "rarity": "Mythic",
+    "set": "Mirrodin Manifest",
+    "artUrl": "./images/Zel-Ensk,_the_Resilient_Spark.png"
+  }
+]

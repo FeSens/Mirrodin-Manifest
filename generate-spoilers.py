@@ -319,27 +319,26 @@ def generate_card_html(card: Card, include_data_name: bool = True) -> str:
 
     html = f'''
     <div class="card" data-color="{card.color}" data-type="{card.card_type}" data-rarity="{card.rarity}" {data_name}>
-        <div class="card-frame" style="background:{color_data['gradient']};border-color:{color_data['border']}">
-            <div class="card-header">
-                <span class="card-name">{card.name}</span>
-                {render_mana_cost(card.mana_cost)}
-            </div>
-            <div class="card-art">
-                <div class="art-placeholder">
-                    <span class="art-icon">🎨</span>
+        <div class="card-frame">
+            <div class="card-inner">
+                <div class="card-header">
+                    <span class="card-name">{card.name}</span>
+                    {render_mana_cost(card.mana_cost)}
                 </div>
-            </div>
-            <div class="card-type-line">
-                <span class="type-text">{card.get_display_type()}</span>
-                <span class="set-symbol" style="color:{rarity_color}" title="{card.rarity}">✦</span>
-            </div>
-            <div class="card-text-box {text_size_class}">
-                <div class="rules-text">{render_rules_text(card.rules_text)}</div>
-                {f'<div class="flavor-text">{render_flavor_text(card.flavor_text)}</div>' if card.flavor_text else ''}
-            </div>
-            {f'<div class="card-pt"><span>{card.power}/{card.toughness}</span></div>' if is_creature else ''}
-            <div class="card-footer">
-                <span class="card-set">{card.set_name}</span>
+                <div class="card-art">
+                    <div class="art-placeholder">
+                        <span class="art-icon">🎨</span>
+                    </div>
+                </div>
+                <div class="card-type-line">
+                    <span class="type-text">{card.get_display_type()}</span>
+                    <span class="set-symbol" title="{card.rarity}">✦</span>
+                </div>
+                <div class="card-text-box {text_size_class}">
+                    <div class="rules-text">{render_rules_text(card.rules_text)}</div>
+                    {f'<div class="flavor-text">{render_flavor_text(card.flavor_text)}</div>' if card.flavor_text else ''}
+                </div>
+                {f'<div class="card-pt">{card.power}/{card.toughness}</div>' if is_creature else ''}
             </div>
         </div>
     </div>
@@ -348,10 +347,20 @@ def generate_card_html(card: Card, include_data_name: bool = True) -> str:
     return html
 
 
+def compute_similarity_scores(similarity_matrix: Dict[str, Dict[str, float]]) -> Dict[str, float]:
+    """Compute similarity score for each card (max similarity to any other card)."""
+    scores = {}
+    for card_name, similarities in similarity_matrix.items():
+        # Get max similarity to any other card
+        other_sims = [sim for name, sim in similarities.items() if name != card_name]
+        scores[card_name] = max(other_sims) if other_sims else 0.0
+    return scores
+
+
 def generate_html(cards: List[Card]) -> str:
     """Generate the complete HTML spoiler page."""
 
-    # Sort cards by color, then by name
+    # Sort cards by color, then by name for gallery
     color_order = ['White', 'Blue', 'Black', 'Red', 'Green', 'Multicolor', 'Colorless', 'Land']
 
     def sort_key(card):
@@ -371,8 +380,15 @@ def generate_html(cards: List[Card]) -> str:
     similarity_matrix = compute_similarity_matrix(cards)
     similarity_json = json.dumps(similarity_matrix)
 
+    # Compute similarity scores and sort cards for similarity selector
+    print("Sorting cards by similarity score...")
+    similarity_scores = compute_similarity_scores(similarity_matrix)
+
+    # Sort cards by similarity score (highest first) for the selector
+    cards_by_similarity = sorted(cards, key=lambda c: similarity_scores.get(c.name, 0), reverse=True)
+
     cards_html = '\n'.join(generate_card_html(card) for card in cards)
-    selector_cards_html = '\n'.join(generate_card_html(card) for card in cards)
+    selector_cards_html = '\n'.join(generate_card_html(card) for card in cards_by_similarity)
 
     # Generate filter buttons
     colors_present = sorted(set(c.color for c in cards))
@@ -587,7 +603,8 @@ def generate_html(cards: List[Card]) -> str:
 
         .card-scroll .card {{
             flex-shrink: 0;
-            width: 280px;
+            width: 250px;
+            height: 349px;
             cursor: pointer;
         }}
 
@@ -672,20 +689,23 @@ def generate_html(cards: List[Card]) -> str:
         }}
 
         .card-grid {{
-            max-width: 1400px;
+            max-width: 1600px;
             margin: 0 auto;
             display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
-            gap: 25px;
+            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+            gap: 20px;
             padding: 20px;
         }}
 
+        /* MTG Card - Pixel Perfect */
         .card {{
             transition: transform 0.3s ease, box-shadow 0.3s ease;
+            width: 250px;
+            height: 349px; /* 63:88 MTG ratio */
         }}
 
         .card:hover {{
-            transform: translateY(-8px) scale(1.02);
+            transform: translateY(-5px) scale(1.03);
             z-index: 10;
         }}
 
@@ -694,181 +714,220 @@ def generate_html(cards: List[Card]) -> str:
         }}
 
         .card-frame {{
+            width: 100%;
+            height: 100%;
             border-radius: 12px;
-            border: 4px solid;
-            padding: 10px;
-            box-shadow: 0 4px 20px rgba(0,0,0,0.4);
+            border: 8px solid #171314;
+            padding: 6px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.5), inset 0 0 0 1px rgba(255,255,255,0.1);
             position: relative;
-            height: 480px;
             display: flex;
             flex-direction: column;
+            background: #171314;
+        }}
+
+        .card-inner {{
+            flex: 1;
+            border-radius: 6px;
+            padding: 5px;
+            display: flex;
+            flex-direction: column;
+            position: relative;
         }}
 
         .card-header {{
             display: flex;
             justify-content: space-between;
             align-items: center;
-            background: rgba(0,0,0,0.15);
-            border-radius: 6px 6px 0 0;
-            padding: 8px 10px;
-            min-height: 36px;
-            flex-shrink: 0;
+            background: linear-gradient(180deg, rgba(255,255,255,0.4) 0%, rgba(255,255,255,0.1) 50%, rgba(0,0,0,0.1) 100%);
+            border-radius: 4px 4px 0 0;
+            padding: 5px 8px;
+            min-height: 26px;
+            border: 1px solid rgba(0,0,0,0.3);
+            border-bottom: none;
+            box-shadow: inset 0 1px 0 rgba(255,255,255,0.5);
         }}
 
         .card-name {{
             font-family: 'Cinzel', serif;
-            font-weight: 600;
-            font-size: 0.95em;
+            font-weight: 700;
+            font-size: 0.8em;
             color: #1a1a1a;
             flex: 1;
             white-space: nowrap;
             overflow: hidden;
             text-overflow: ellipsis;
+            text-shadow: 0 1px 0 rgba(255,255,255,0.5);
         }}
 
         .mana-cost {{
             display: flex;
-            gap: 2px;
+            gap: 1px;
             flex-shrink: 0;
-            margin-left: 8px;
+            margin-left: 4px;
         }}
 
         .mana-symbol {{
             display: inline-flex;
             align-items: center;
             justify-content: center;
-            width: 20px;
-            height: 20px;
+            width: 16px;
+            height: 16px;
             border-radius: 50%;
-            border: 1px solid;
-            font-family: 'Cinzel', serif;
-            font-size: 0.75em;
-            font-weight: 700;
+            border: 1px solid rgba(0,0,0,0.5);
+            font-family: 'Arial Black', sans-serif;
+            font-size: 0.6em;
+            font-weight: 900;
             color: #1a1a1a;
+            box-shadow: 0 1px 2px rgba(0,0,0,0.3), inset 0 1px 0 rgba(255,255,255,0.4);
+            text-shadow: 0 1px 0 rgba(255,255,255,0.3);
         }}
 
         .mana-symbol.inline {{
-            width: 16px;
-            height: 16px;
-            font-size: 0.65em;
+            width: 13px;
+            height: 13px;
+            font-size: 0.5em;
             vertical-align: middle;
             margin: 0 1px;
         }}
 
         .card-art {{
-            background: rgba(0,0,0,0.1);
-            height: 160px;
-            min-height: 160px;
-            max-height: 160px;
+            background: #1a1a1a;
+            height: 130px;
             display: flex;
             align-items: center;
             justify-content: center;
-            border: 2px solid rgba(0,0,0,0.2);
-            flex-shrink: 0;
+            border: 2px solid #171314;
+            margin: 0 -1px;
+            box-shadow: inset 0 0 10px rgba(0,0,0,0.5);
         }}
 
         .art-placeholder {{
             text-align: center;
-            color: rgba(0,0,0,0.3);
+            color: rgba(255,255,255,0.2);
         }}
 
         .art-icon {{
-            font-size: 3em;
+            font-size: 2.5em;
         }}
 
         .card-type-line {{
             display: flex;
             justify-content: space-between;
             align-items: center;
-            background: rgba(0,0,0,0.15);
-            padding: 6px 10px;
-            font-size: 0.85em;
-            flex-shrink: 0;
+            background: linear-gradient(180deg, rgba(255,255,255,0.3) 0%, rgba(255,255,255,0.1) 50%, rgba(0,0,0,0.1) 100%);
+            padding: 4px 8px;
+            font-size: 0.7em;
+            border: 1px solid rgba(0,0,0,0.3);
+            border-top: none;
+            min-height: 22px;
+            box-shadow: inset 0 1px 0 rgba(255,255,255,0.3);
         }}
 
         .type-text {{
             color: #1a1a1a;
-            font-weight: 500;
+            font-weight: 600;
+            text-shadow: 0 1px 0 rgba(255,255,255,0.5);
         }}
 
         .set-symbol {{
-            font-size: 1.2em;
+            font-size: 1em;
         }}
 
         .card-text-box {{
-            background: #f8f6e8;
-            border-radius: 0 0 6px 6px;
-            padding: 12px;
+            background: linear-gradient(180deg, #f5f0e1 0%, #e8e0cc 100%);
+            border-radius: 0 0 4px 4px;
+            padding: 8px;
             flex: 1;
             color: #1a1a1a;
-            line-height: 1.3;
+            line-height: 1.25;
             overflow: hidden;
             min-height: 0;
+            border: 1px solid rgba(0,0,0,0.2);
+            border-top: none;
+            box-shadow: inset 0 2px 4px rgba(0,0,0,0.1);
         }}
 
         /* Text size classes - shrink text based on content length */
         .card-text-box.text-short {{
-            font-size: 0.85em;
-            line-height: 1.4;
-        }}
-
-        .card-text-box.text-medium {{
-            font-size: 0.75em;
-            line-height: 1.35;
-        }}
-
-        .card-text-box.text-long {{
-            font-size: 0.65em;
+            font-size: 0.7em;
             line-height: 1.3;
         }}
 
-        .card-text-box.text-very-long {{
-            font-size: 0.55em;
+        .card-text-box.text-medium {{
+            font-size: 0.62em;
             line-height: 1.25;
         }}
 
+        .card-text-box.text-long {{
+            font-size: 0.55em;
+            line-height: 1.2;
+        }}
+
+        .card-text-box.text-very-long {{
+            font-size: 0.48em;
+            line-height: 1.15;
+        }}
+
         .rules-text {{
-            margin-bottom: 10px;
+            margin-bottom: 6px;
         }}
 
         .rules-text em.reminder {{
             font-size: 0.9em;
-            color: #555;
+            color: #666;
         }}
 
         .rules-text strong {{
-            font-weight: 600;
+            font-weight: 700;
         }}
 
         .flavor-text {{
             font-style: italic;
-            color: #555;
-            border-top: 1px solid #ddd;
-            padding-top: 10px;
-            margin-top: 10px;
+            color: #444;
+            border-top: 1px solid #ccc;
+            padding-top: 6px;
+            margin-top: 6px;
+            font-size: 0.95em;
         }}
 
         .card-pt {{
             position: absolute;
-            bottom: 18px;
-            right: 18px;
-            background: linear-gradient(135deg, #d4c9a8 0%, #8b7355 100%);
-            border: 2px solid #5a4a3a;
-            border-radius: 6px;
-            padding: 4px 10px;
-            font-family: 'Cinzel', serif;
-            font-weight: 700;
-            font-size: 1.1em;
+            bottom: 8px;
+            right: 8px;
+            background: linear-gradient(135deg, #e8dcc8 0%, #c4b59a 50%, #9a8a70 100%);
+            border: 2px solid #171314;
+            border-radius: 8px 0 8px 0;
+            padding: 2px 8px;
+            font-family: 'Arial Black', sans-serif;
+            font-weight: 900;
+            font-size: 0.9em;
             color: #1a1a1a;
-            box-shadow: 0 2px 4px rgba(0,0,0,0.3);
+            box-shadow: 0 2px 4px rgba(0,0,0,0.4), inset 0 1px 0 rgba(255,255,255,0.5);
+            text-shadow: 0 1px 0 rgba(255,255,255,0.5);
+            min-width: 35px;
+            text-align: center;
         }}
 
         .card-footer {{
-            text-align: center;
-            padding: 6px;
-            font-size: 0.7em;
-            color: rgba(0,0,0,0.5);
+            display: none;
         }}
+
+        /* Color-specific inner frame backgrounds */
+        .card[data-color="White"] .card-inner {{ background: linear-gradient(135deg, #f9f6e8 0%, #e8dfc8 50%, #d8cfb0 100%); }}
+        .card[data-color="Blue"] .card-inner {{ background: linear-gradient(135deg, #b8d4e8 0%, #7eb3d8 50%, #4a93c8 100%); }}
+        .card[data-color="Black"] .card-inner {{ background: linear-gradient(135deg, #9a9498 0%, #6a6468 50%, #4a4448 100%); }}
+        .card[data-color="Red"] .card-inner {{ background: linear-gradient(135deg, #e8a088 0%, #d87058 50%, #c84028 100%); }}
+        .card[data-color="Green"] .card-inner {{ background: linear-gradient(135deg, #98d8a8 0%, #58b878 50%, #28984a 100%); }}
+        .card[data-color="Multicolor"] .card-inner {{ background: linear-gradient(135deg, #e8d888 0%, #d8b858 50%, #c89828 100%); }}
+        .card[data-color="Colorless"] .card-inner {{ background: linear-gradient(135deg, #d8d4d0 0%, #b8b4b0 50%, #989490 100%); }}
+        .card[data-type="Land"] .card-inner {{ background: linear-gradient(135deg, #d4c8a8 0%, #b8a888 50%, #988868 100%); }}
+
+        /* Rarity gem colors */
+        .card[data-rarity="Common"] .set-symbol {{ color: #1a1a1a; text-shadow: none; }}
+        .card[data-rarity="Uncommon"] .set-symbol {{ color: #a8b8c8; text-shadow: 0 0 3px #fff; }}
+        .card[data-rarity="Rare"] .set-symbol {{ color: #d4a020; text-shadow: 0 0 4px #fff700; }}
+        .card[data-rarity="Mythic"] .set-symbol {{ color: #e85820; text-shadow: 0 0 5px #ff4400; }}
 
         .no-selection {{
             text-align: center;

@@ -1,32 +1,18 @@
 #!/usr/bin/env python3
 """
 MTG Card Image Generator
-Generates card art images using AI image generation APIs.
-Uses the image_prompt field from card YAML frontmatter.
-
-Supports multiple backends:
-- Google Imagen (Vertex AI) - DEFAULT
-- Replicate (Flux, SDXL, etc.)
-- OpenAI DALL-E
-- Stability AI
+Generates card art images using OpenRouter with Gemini image generation.
+Uses async/concurrent requests for faster generation.
 
 Usage:
     python generate-images.py [options]
 
 Options:
-    --backend google|replicate|openai|stability  (default: google)
-    --model MODEL_NAME                           (default: imagen-3.0-generate-002)
-    --limit N                                    Only generate N images
-    --card "Card Name"                           Generate image for specific card
-    --force                                      Regenerate even if image exists
-    --dry-run                                    Show what would be generated without doing it
-
-Google Imagen Setup:
-    1. Install: pip install google-cloud-aiplatform
-    2. Set project: export GOOGLE_CLOUD_PROJECT=your-project-id
-    3. Authenticate: gcloud auth application-default login
-
-    Or use API key: export GOOGLE_API_KEY=your_api_key
+    --limit N                     Only generate N images
+    --card "Card Name"            Generate image for specific card
+    --force                       Regenerate even if image exists
+    --dry-run                     Show what would be generated without doing it
+    --workers N                   Number of concurrent workers (default: 3)
 """
 
 import os
@@ -35,23 +21,39 @@ import re
 import json
 import time
 import argparse
-import requests
+import asyncio
+import aiohttp
 import base64
 from pathlib import Path
-from typing import Optional, Dict, Any
+from typing import Optional, Dict, Any, List
+from dataclasses import dataclass
+from datetime import datetime
 import yaml
 
 # Configuration
 IMAGES_DIR = "images"
 CARDS_DIR = "cards"
-DEFAULT_BACKEND = "google"
-DEFAULT_MODEL = "imagen-3.0-generate-002"  # Google Imagen 3 (latest)
+PROGRESS_FILE = ".image_gen_progress.json"
+CACHE_DIR = ".image_cache"
 
-# API endpoints
-GOOGLE_IMAGEN_API_URL = "https://generativelanguage.googleapis.com/v1beta/models/{model}:generateImages"
-REPLICATE_API_URL = "https://api.replicate.com/v1/predictions"
-OPENAI_API_URL = "https://api.openai.com/v1/images/generations"
-STABILITY_API_URL = "https://api.stability.ai/v1/generation/stable-diffusion-xl-1024-v1-0/text-to-image"
+# OpenRouter Configuration
+OPENROUTER_API_KEY = "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"
+OPENROUTER_MODEL = "google/gemini-3-pro-image-preview"  # DO NOT CHANGE THIS
+OPENROUTER_API_URL = "https://openrouter.ai/api/v1/chat/completions"
+
+# Retry configuration
+MAX_RETRIES = 3
+RETRY_DELAY_BASE = 5  # seconds
+REQUEST_TIMEOUT = 180  # seconds
+
+
+@dataclass
+class GenerationResult:
+    card_name: str
+    success: bool
+    image_path: Optional[Path] = None
+    error: Optional[str] = None
+    retries: int = 0
 
 
 def parse_frontmatter(content: str) -> Dict[str, Any]:
@@ -67,6 +69,24 @@ def parse_frontmatter(content: str) -> Dict[str, Any]:
         return {}
 
 
+def extract_image_prompt_from_content(content: str) -> str:
+    """Extract image prompt from markdown content (## Image Prompt section)."""
+    match = re.search(r'##\s+Image Prompt\s*\n(.*?)(?=\n##|\Z)', content, re.DOTALL | re.IGNORECASE)
+    if not match:
+        return ""
+
+    section = match.group(1).strip()
+
+    lines = []
+    for line in section.split('\n'):
+        if line.startswith('>'):
+            lines.append(line[1:].strip())
+        elif line.strip() and not lines:
+            lines.append(line.strip())
+
+    return '\n'.join(lines).strip()
+
+
 def is_card(frontmatter: Dict) -> bool:
     """Check if frontmatter represents a card."""
     tags = frontmatter.get('tags', [])
@@ -75,14 +95,16 @@ def is_card(frontmatter: Dict) -> bool:
     return False
 
 
-def get_card_name(md_file: Path, frontmatter: Dict) -> str:
-    """Get the card name from frontmatter or filename."""
-    return frontmatter.get('card_name', md_file.stem)
+def get_card_name_from_content(content: str) -> str:
+    """Get card name from H1 header."""
+    match = re.search(r'^#\s+(.+)$', content, re.MULTILINE)
+    if match:
+        return match.group(1).strip()
+    return ""
 
 
 def sanitize_filename(name: str) -> str:
     """Sanitize a string for use as a filename."""
-    # Remove or replace invalid characters
     name = re.sub(r'[<>:"/\\|?*]', '', name)
     name = re.sub(r'\s+', '_', name)
     return name
@@ -100,352 +122,277 @@ def image_exists(card_name: str) -> bool:
 
 
 def enhance_prompt(base_prompt: str) -> str:
-    """Enhance the image prompt with MTG-specific styling."""
-    style_suffix = (
-        " Digital painting, Magic: The Gathering card art style, "
-        "highly detailed, dramatic lighting, fantasy illustration, "
-        "professional trading card game artwork, 4k, masterpiece quality."
+    """Enhance the image prompt with Mirrodin Manifest art guidelines."""
+    return (
+        f"ARTWORK ONLY - NO card frame, NO text, NO borders, NO title, NO mana symbols, NO card elements whatsoever. "
+        f"Generate ONLY the illustration art as a standalone fantasy painting. "
+        f"{base_prompt} "
+        f"Setting: Mirrodin Manifest - a metallic plane of corporate dystopia where chrome reflects nothing and gold weighs everything. "
+        f"All organic creatures have metal components: chrome bone plating, metallic hair strands, iron-veined skin. "
+        f"Style: Painterly fantasy illustration in the style of Magic: The Gathering artists like Kev Walker, Seb McKinnon, Greg Staples. "
+        f"Mood: Oppressive mundanity, gilded decay, surveillance architecture. Characters should feel tired, not heroic. "
+        f"NOT generic sci-fi or cyberpunk - this is fantasy with metallic elements. "
+        f"Output: Pure illustration art only, 4:3 aspect ratio."
     )
-    return base_prompt + style_suffix
 
 
-class ImageGenerator:
-    """Base class for image generation backends."""
-
-    def __init__(self, api_key: str, model: str):
-        self.api_key = api_key
-        self.model = model
-
-    def generate(self, prompt: str, card_name: str) -> Optional[bytes]:
-        raise NotImplementedError
+def save_image_immediately(image_data: bytes, card_name: str) -> Path:
+    """Save image data to disk immediately."""
+    image_path = get_image_path(card_name)
+    image_path.parent.mkdir(exist_ok=True)
+    image_path.write_bytes(image_data)
+    return image_path
 
 
-class GoogleImagenGenerator(ImageGenerator):
-    """Generate images using Google Imagen API (Vertex AI / Generative AI)."""
+def get_cache_path(card_name: str) -> Path:
+    """Get the cache file path for a card's API response."""
+    safe_name = sanitize_filename(card_name)
+    return Path(CACHE_DIR) / f"{safe_name}.json"
 
-    def generate(self, prompt: str, card_name: str) -> Optional[bytes]:
-        # Try Generative AI API first (simpler setup)
-        url = GOOGLE_IMAGEN_API_URL.format(model=self.model)
 
-        headers = {
-            "Content-Type": "application/json",
-        }
+def save_response_cache(card_name: str, response: dict):
+    """Save raw API response to cache."""
+    cache_path = get_cache_path(card_name)
+    cache_path.parent.mkdir(exist_ok=True)
+    cache_path.write_text(json.dumps(response, indent=2))
 
-        # Add API key to URL
-        url_with_key = f"{url}?key={self.api_key}"
 
-        payload = {
-            "instances": [
-                {
-                    "prompt": prompt
-                }
-            ],
-            "parameters": {
-                "sampleCount": 1,
-                "aspectRatio": "3:4",  # Card art aspect ratio
-                "personGeneration": "allow_adult",
-                "safetySetting": "block_few"
-            }
-        }
-
+def load_response_cache(card_name: str) -> Optional[dict]:
+    """Load cached API response if it exists."""
+    cache_path = get_cache_path(card_name)
+    if cache_path.exists():
         try:
-            response = requests.post(
-                url_with_key,
-                headers=headers,
-                json=payload,
-                timeout=120
-            )
+            return json.loads(cache_path.read_text())
+        except:
+            pass
+    return None
 
-            if response.status_code == 200:
-                result = response.json()
-                # Extract base64 image data
-                predictions = result.get("predictions", [])
-                if predictions:
-                    image_b64 = predictions[0].get("bytesBase64Encoded")
-                    if image_b64:
-                        return base64.b64decode(image_b64)
+
+def extract_image_from_response(result: dict, debug: bool = False) -> Optional[bytes]:
+    """Extract image bytes from API response."""
+    if debug:
+        print(f"    DEBUG: Response keys: {list(result.keys())}")
+
+    choices = result.get("choices", [])
+    if not choices:
+        if debug:
+            print(f"    DEBUG: No choices in response")
+        return None
+
+    choice = choices[0]
+    message = choice.get("message", {})
+
+    # Check for images field first (OpenRouter/Gemini format)
+    images = message.get("images", [])
+    if images:
+        if debug:
+            print(f"    DEBUG: Found {len(images)} images in 'images' field")
+        # Images are typically base64 encoded
+        for idx, img in enumerate(images):
+            if debug:
+                print(f"    DEBUG: Image {idx} type: {type(img)}")
+                if isinstance(img, str):
+                    print(f"    DEBUG: Image {idx} starts with: {img[:100]}...")
+                elif isinstance(img, dict):
+                    print(f"    DEBUG: Image {idx} keys: {list(img.keys())}")
+            if isinstance(img, str):
+                # Direct base64 string
+                if img.startswith("data:image"):
+                    base64_data = img.split(",", 1)[1] if "," in img else ""
+                    if base64_data:
+                        return base64.b64decode(base64_data)
+                else:
+                    # Assume it's raw base64
+                    try:
+                        return base64.b64decode(img)
+                    except:
+                        pass
+            elif isinstance(img, dict):
+                # Could be {image_url: "data:..."}, {url: "data:..."} or {data: "..."}
+                # Check image_url field first (OpenRouter format)
+                image_url = img.get("image_url", "")
+                if image_url:
+                    if debug:
+                        print(f"    DEBUG: image_url starts with: {str(image_url)[:100]}...")
+                    if isinstance(image_url, str) and image_url.startswith("data:image"):
+                        base64_data = image_url.split(",", 1)[1] if "," in image_url else ""
+                        if base64_data:
+                            return base64.b64decode(base64_data)
+                    elif isinstance(image_url, dict):
+                        # Nested format: {image_url: {url: "data:..."}}
+                        nested_url = image_url.get("url", "")
+                        if nested_url.startswith("data:image"):
+                            base64_data = nested_url.split(",", 1)[1] if "," in nested_url else ""
+                            if base64_data:
+                                return base64.b64decode(base64_data)
+
+                url = img.get("url", "")
+                if url.startswith("data:image"):
+                    base64_data = url.split(",", 1)[1] if "," in url else ""
+                    if base64_data:
+                        return base64.b64decode(base64_data)
+                data = img.get("data", "")
+                if data:
+                    try:
+                        return base64.b64decode(data)
+                    except:
+                        pass
+
+    content = message.get("content", "")
+
+    # Check if content is a list (multimodal response)
+    if isinstance(content, list):
+        for item in content:
+            if isinstance(item, dict):
+                # Check for image_url type
+                if item.get("type") == "image_url":
+                    image_data = item.get("image_url", {})
+                    url = image_data.get("url", "")
+                    if url.startswith("data:image"):
+                        base64_data = url.split(",", 1)[1] if "," in url else ""
+                        if base64_data:
+                            return base64.b64decode(base64_data)
+                # Check for inline_data
+                elif "inline_data" in item:
+                    inline = item["inline_data"]
+                    if "data" in inline:
+                        return base64.b64decode(inline["data"])
+    # Check if content contains base64 image data directly
+    elif isinstance(content, str):
+        if content.startswith("data:image"):
+            base64_data = content.split(",", 1)[1] if "," in content else ""
+            if base64_data:
+                return base64.b64decode(base64_data)
+        # Try to find base64 image in response
+        match = re.search(r'data:image/[^;]+;base64,([A-Za-z0-9+/=]+)', content)
+        if match:
+            return base64.b64decode(match.group(1))
+
+    return None
+
+
+async def generate_image_async(
+    session: aiohttp.ClientSession,
+    prompt: str,
+    card_name: str,
+    semaphore: asyncio.Semaphore,
+    use_cache: bool = True
+) -> GenerationResult:
+    """Generate image using OpenRouter with retries and immediate save."""
+
+    # Check cache first
+    if use_cache:
+        cached = load_response_cache(card_name)
+        if cached:
+            print(f"  [{card_name}] Found cached response")
+            image_data = extract_image_from_response(cached, debug=False)
+            if image_data:
+                image_path = save_image_immediately(image_data, card_name)
+                print(f"  ✓ [{card_name}] Saved from cache: {image_path}")
+                return GenerationResult(
+                    card_name=card_name,
+                    success=True,
+                    image_path=image_path,
+                    retries=0
+                )
             else:
-                # Try alternative Vertex AI endpoint
-                return self._generate_vertex_ai(prompt, card_name)
+                print(f"  [{card_name}] Cache exists but no valid image, re-fetching...")
 
-        except requests.RequestException as e:
-            print(f"  ✗ API error: {e}")
-            # Try Vertex AI as fallback
-            return self._generate_vertex_ai(prompt, card_name)
-
-        return None
-
-    def _generate_vertex_ai(self, prompt: str, card_name: str) -> Optional[bytes]:
-        """Fallback to Vertex AI SDK if available."""
-        try:
-            from google.cloud import aiplatform
-            from vertexai.preview.vision_models import ImageGenerationModel
-
-            project_id = os.environ.get("GOOGLE_CLOUD_PROJECT")
-            if not project_id:
-                print("  ✗ Set GOOGLE_CLOUD_PROJECT for Vertex AI")
-                return None
-
-            aiplatform.init(project=project_id, location="us-central1")
-
-            model = ImageGenerationModel.from_pretrained(self.model)
-            images = model.generate_images(
-                prompt=prompt,
-                number_of_images=1,
-                aspect_ratio="3:4",
-            )
-
-            if images:
-                # Save to temp and read bytes
-                import tempfile
-                with tempfile.NamedTemporaryFile(suffix=".png", delete=False) as f:
-                    images[0].save(f.name)
-                    return Path(f.name).read_bytes()
-
-        except ImportError:
-            print("  ✗ Install google-cloud-aiplatform for Vertex AI support")
-        except Exception as e:
-            print(f"  ✗ Vertex AI error: {e}")
-
-        return None
-
-
-class ReplicateGenerator(ImageGenerator):
-    """Generate images using Replicate API."""
-
-    def generate(self, prompt: str, card_name: str) -> Optional[bytes]:
-        headers = {
-            "Authorization": f"Token {self.api_key}",
-            "Content-Type": "application/json"
-        }
-
-        # Determine input format based on model
-        if "flux" in self.model.lower():
-            input_data = {
-                "prompt": prompt,
-                "num_outputs": 1,
-                "aspect_ratio": "3:4",  # Card art aspect ratio
-                "output_format": "png",
-                "output_quality": 90
-            }
-        else:
-            # SDXL or other models
-            input_data = {
-                "prompt": prompt,
-                "width": 768,
-                "height": 1024,
-                "num_outputs": 1
-            }
-
-        payload = {
-            "version": self._get_model_version(),
-            "input": input_data
-        }
-
-        try:
-            # Start prediction
-            response = requests.post(
-                REPLICATE_API_URL,
-                headers=headers,
-                json=payload,
-                timeout=30
-            )
-            response.raise_for_status()
-            prediction = response.json()
-
-            # Poll for completion
-            prediction_url = prediction.get("urls", {}).get("get")
-            if not prediction_url:
-                print(f"  ✗ No prediction URL returned")
-                return None
-
-            # Wait for result
-            for _ in range(120):  # Max 2 minutes
-                time.sleep(1)
-                result = requests.get(prediction_url, headers=headers, timeout=30)
-                result.raise_for_status()
-                status = result.json()
-
-                if status["status"] == "succeeded":
-                    output = status.get("output")
-                    if output:
-                        image_url = output[0] if isinstance(output, list) else output
-                        img_response = requests.get(image_url, timeout=60)
-                        img_response.raise_for_status()
-                        return img_response.content
-                    break
-                elif status["status"] == "failed":
-                    error = status.get("error", "Unknown error")
-                    print(f"  ✗ Generation failed: {error}")
-                    return None
-
-            print(f"  ✗ Timeout waiting for image")
-            return None
-
-        except requests.RequestException as e:
-            print(f"  ✗ API error: {e}")
-            return None
-
-    def _get_model_version(self) -> str:
-        """Get the model version hash for Replicate."""
-        # Common model versions (these may need updating)
-        versions = {
-            "black-forest-labs/flux-schnell": "bf53bdb93d739c9c915091f7f5e75b842d4dac08955574496f4e4165a2792c5e",
-            "black-forest-labs/flux-dev": "5a43e12c20f0f83a1a0c4e5e5e7b0a42b5c5e5e5e5e5e5e5e5e5e5e5e5e5e5e5",
-            "stability-ai/sdxl": "39ed52f2a78e934b3ba6e2a89f5b1c712de7dfea535525255b1aa35c5565e08b"
-        }
-        return versions.get(self.model, self.model)
-
-
-class OpenAIGenerator(ImageGenerator):
-    """Generate images using OpenAI DALL-E API."""
-
-    def generate(self, prompt: str, card_name: str) -> Optional[bytes]:
-        headers = {
-            "Authorization": f"Bearer {self.api_key}",
-            "Content-Type": "application/json"
-        }
-
-        payload = {
-            "model": self.model or "dall-e-3",
-            "prompt": prompt,
-            "n": 1,
-            "size": "1024x1024",
-            "quality": "hd",
-            "response_format": "url"
-        }
-
-        try:
-            response = requests.post(
-                OPENAI_API_URL,
-                headers=headers,
-                json=payload,
-                timeout=120
-            )
-            response.raise_for_status()
-            result = response.json()
-
-            image_url = result["data"][0]["url"]
-            img_response = requests.get(image_url, timeout=60)
-            img_response.raise_for_status()
-            return img_response.content
-
-        except requests.RequestException as e:
-            print(f"  ✗ API error: {e}")
-            return None
-
-
-class StabilityGenerator(ImageGenerator):
-    """Generate images using Stability AI API."""
-
-    def generate(self, prompt: str, card_name: str) -> Optional[bytes]:
-        headers = {
-            "Authorization": f"Bearer {self.api_key}",
-            "Content-Type": "application/json",
-            "Accept": "application/json"
-        }
-
-        payload = {
-            "text_prompts": [{"text": prompt, "weight": 1}],
-            "cfg_scale": 7,
-            "height": 1024,
-            "width": 768,
-            "samples": 1,
-            "steps": 30
-        }
-
-        try:
-            response = requests.post(
-                STABILITY_API_URL,
-                headers=headers,
-                json=payload,
-                timeout=120
-            )
-            response.raise_for_status()
-            result = response.json()
-
-            image_data = result["artifacts"][0]["base64"]
-            return base64.b64decode(image_data)
-
-        except requests.RequestException as e:
-            print(f"  ✗ API error: {e}")
-            return None
-
-
-def get_generator(backend: str, model: str) -> ImageGenerator:
-    """Get the appropriate image generator based on backend."""
-    api_key_vars = {
-        "google": "GOOGLE_API_KEY",
-        "replicate": "REPLICATE_API_TOKEN",
-        "openai": "OPENAI_API_KEY",
-        "stability": "STABILITY_API_KEY"
+    headers = {
+        "Authorization": f"Bearer {OPENROUTER_API_KEY}",
+        "Content-Type": "application/json",
+        "HTTP-Referer": "https://github.com/mtg-card-generator",
+        "X-Title": "MTG Card Image Generator"
     }
 
-    key_var = api_key_vars.get(backend)
-    if not key_var:
-        raise ValueError(f"Unknown backend: {backend}")
+    payload = {
+        "model": OPENROUTER_MODEL,
+        "messages": [
+            {
+                "role": "user",
+                "content": [
+                    {
+                        "type": "text",
+                        "text": f"Create an image: {prompt}"
+                    }
+                ]
+            }
+        ],
+        "response_format": {"type": "image"}
+    }
 
-    api_key = os.environ.get(key_var)
-    if not api_key:
-        raise ValueError(
-            f"Missing API key. Set {key_var} environment variable.\n"
-            f"Example: export {key_var}=your_api_key_here"
+    async with semaphore:
+        for attempt in range(MAX_RETRIES):
+            try:
+                print(f"  [{card_name}] Attempt {attempt + 1}/{MAX_RETRIES}...")
+
+                async with session.post(
+                    OPENROUTER_API_URL,
+                    headers=headers,
+                    json=payload,
+                    timeout=aiohttp.ClientTimeout(total=REQUEST_TIMEOUT)
+                ) as response:
+
+                    if response.status == 200:
+                        result = await response.json()
+
+                        # Save raw response to cache immediately
+                        save_response_cache(card_name, result)
+                        print(f"  [{card_name}] Response cached")
+
+                        image_data = extract_image_from_response(result, debug=False)
+
+                        if image_data:
+                            # SAVE IMMEDIATELY
+                            image_path = save_image_immediately(image_data, card_name)
+                            print(f"  ✓ [{card_name}] Saved: {image_path}")
+                            return GenerationResult(
+                                card_name=card_name,
+                                success=True,
+                                image_path=image_path,
+                                retries=attempt
+                            )
+                        else:
+                            error_msg = "No image in response"
+                            print(f"  ✗ [{card_name}] {error_msg}")
+
+                    elif response.status == 429:
+                        # Rate limited - wait and retry
+                        retry_after = int(response.headers.get('Retry-After', RETRY_DELAY_BASE * (attempt + 1)))
+                        print(f"  ⏳ [{card_name}] Rate limited, waiting {retry_after}s...")
+                        await asyncio.sleep(retry_after)
+                        continue
+
+                    else:
+                        error_text = await response.text()
+                        error_msg = f"API error {response.status}: {error_text[:200]}"
+                        print(f"  ✗ [{card_name}] {error_msg}")
+
+            except asyncio.TimeoutError:
+                error_msg = f"Timeout after {REQUEST_TIMEOUT}s"
+                print(f"  ✗ [{card_name}] {error_msg}")
+            except aiohttp.ClientError as e:
+                error_msg = f"Request error: {e}"
+                print(f"  ✗ [{card_name}] {error_msg}")
+            except Exception as e:
+                error_msg = f"Unexpected error: {e}"
+                print(f"  ✗ [{card_name}] {error_msg}")
+
+            # Wait before retry with exponential backoff
+            if attempt < MAX_RETRIES - 1:
+                delay = RETRY_DELAY_BASE * (2 ** attempt)
+                print(f"  ⏳ [{card_name}] Retrying in {delay}s...")
+                await asyncio.sleep(delay)
+
+        return GenerationResult(
+            card_name=card_name,
+            success=False,
+            error=error_msg,
+            retries=MAX_RETRIES
         )
 
-    generators = {
-        "google": GoogleImagenGenerator,
-        "replicate": ReplicateGenerator,
-        "openai": OpenAIGenerator,
-        "stability": StabilityGenerator
-    }
 
-    # Set default model based on backend
-    if not model or model == DEFAULT_MODEL:
-        default_models = {
-            "google": "imagen-3.0-generate-002",
-            "replicate": "black-forest-labs/flux-schnell",
-            "openai": "dall-e-3",
-            "stability": "stable-diffusion-xl-1024-v1-0"
-        }
-        model = default_models.get(backend, model)
-
-    return generators[backend](api_key, model)
-
-
-def update_card_with_image(md_file: Path, image_path: Path) -> bool:
-    """Update card file to include image link."""
-    try:
-        content = md_file.read_text(encoding='utf-8')
-
-        # Check if image link already exists
-        if 'card_image:' in content or '## Card Image' in content:
-            return True
-
-        # Add image link to frontmatter
-        relative_path = f"../{image_path}"
-
-        if content.startswith('---'):
-            # Find end of frontmatter
-            end_idx = content.index('---', 3)
-            frontmatter = content[3:end_idx]
-            rest = content[end_idx:]
-
-            # Add card_image field
-            new_frontmatter = frontmatter.rstrip() + f"\ncard_image: \"{relative_path}\"\n"
-            new_content = "---" + new_frontmatter + rest
-        else:
-            # No frontmatter, add image section
-            new_content = content + f"\n\n## Card Image\n![[{image_path.name}]]\n"
-
-        md_file.write_text(new_content, encoding='utf-8')
-        return True
-
-    except Exception as e:
-        print(f"  ✗ Failed to update card file: {e}")
-        return False
-
-
-def load_cards(specific_card: Optional[str] = None) -> list:
+def load_cards(specific_card: Optional[str] = None) -> List[Dict]:
     """Load all cards or a specific card."""
     cards = []
     vault_path = Path('.')
@@ -458,8 +405,13 @@ def load_cards(specific_card: Optional[str] = None) -> list:
             if not is_card(frontmatter):
                 continue
 
-            card_name = get_card_name(md_file, frontmatter)
-            image_prompt = frontmatter.get('image_prompt', '')
+            card_name = get_card_name_from_content(content)
+            if not card_name:
+                card_name = md_file.stem
+
+            image_prompt = extract_image_prompt_from_content(content)
+            if not image_prompt:
+                image_prompt = frontmatter.get('image_prompt', '')
 
             if specific_card and card_name.lower() != specific_card.lower():
                 continue
@@ -471,40 +423,74 @@ def load_cards(specific_card: Optional[str] = None) -> list:
                 'frontmatter': frontmatter
             })
 
-        except Exception:
+        except Exception as e:
+            print(f"Error loading {md_file}: {e}")
             continue
 
     return sorted(cards, key=lambda x: x['name'])
 
 
+def load_progress() -> Dict:
+    """Load progress from previous runs."""
+    progress_path = Path(PROGRESS_FILE)
+    if progress_path.exists():
+        try:
+            return json.loads(progress_path.read_text())
+        except:
+            pass
+    return {"completed": [], "failed": []}
+
+
+def save_progress(progress: Dict):
+    """Save progress to file."""
+    Path(PROGRESS_FILE).write_text(json.dumps(progress, indent=2))
+
+
+async def generate_batch(cards: List[Dict], max_workers: int) -> List[GenerationResult]:
+    """Generate images for a batch of cards concurrently."""
+    semaphore = asyncio.Semaphore(max_workers)
+
+    connector = aiohttp.TCPConnector(limit=max_workers, force_close=True)
+    async with aiohttp.ClientSession(connector=connector) as session:
+        tasks = []
+        for card in cards:
+            prompt = enhance_prompt(card['prompt'])
+            task = generate_image_async(session, prompt, card['name'], semaphore)
+            tasks.append(task)
+
+        results = await asyncio.gather(*tasks, return_exceptions=True)
+
+        # Convert exceptions to failed results
+        processed_results = []
+        for i, result in enumerate(results):
+            if isinstance(result, Exception):
+                processed_results.append(GenerationResult(
+                    card_name=cards[i]['name'],
+                    success=False,
+                    error=str(result)
+                ))
+            else:
+                processed_results.append(result)
+
+        return processed_results
+
+
 def main():
-    parser = argparse.ArgumentParser(description='Generate MTG card art images')
-    parser.add_argument('--backend', choices=['google', 'replicate', 'openai', 'stability'],
-                        default=DEFAULT_BACKEND, help='Image generation backend (default: google)')
-    parser.add_argument('--model', default=None, help='Model to use (default: imagen-3.0-generate-002 for Google)')
+    parser = argparse.ArgumentParser(description='Generate MTG card art images using OpenRouter')
     parser.add_argument('--limit', type=int, help='Limit number of images to generate')
     parser.add_argument('--card', help='Generate image for specific card')
     parser.add_argument('--force', action='store_true', help='Regenerate existing images')
     parser.add_argument('--dry-run', action='store_true', help='Show what would be done')
-    parser.add_argument('--no-link', action='store_true', help='Do not update card files with image links')
+    parser.add_argument('--workers', type=int, default=3, help='Number of concurrent workers (default: 3)')
     args = parser.parse_args()
-
-    # Set default model based on backend if not specified
-    model = args.model
-    if not model:
-        default_models = {
-            "google": "imagen-3.0-generate-002",
-            "replicate": "black-forest-labs/flux-schnell",
-            "openai": "dall-e-3",
-            "stability": "stable-diffusion-xl-1024-v1-0"
-        }
-        model = default_models.get(args.backend, DEFAULT_MODEL)
 
     print("=" * 60)
     print("MTG CARD IMAGE GENERATOR")
     print("=" * 60)
-    print(f"Backend: {args.backend}")
-    print(f"Model: {model}")
+    print(f"Backend: OpenRouter (async)")
+    print(f"Model: {OPENROUTER_MODEL}")
+    print(f"Workers: {args.workers}")
+    print(f"Started: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
     print()
 
     # Create images directory
@@ -516,16 +502,12 @@ def main():
     cards = load_cards(args.card)
     print(f"Found {len(cards)} cards")
 
-    if args.limit:
-        cards = cards[:args.limit]
-        print(f"Limited to {len(cards)} cards")
-
     # Filter cards without prompts
     cards_with_prompts = [c for c in cards if c['prompt']]
     cards_without_prompts = [c for c in cards if not c['prompt']]
 
     if cards_without_prompts:
-        print(f"\n⚠ {len(cards_without_prompts)} cards have no image_prompt:")
+        print(f"\n⚠ {len(cards_without_prompts)} cards have no image prompt:")
         for c in cards_without_prompts[:5]:
             print(f"  - {c['name']}")
         if len(cards_without_prompts) > 5:
@@ -533,72 +515,56 @@ def main():
 
     print(f"\n{len(cards_with_prompts)} cards have image prompts")
 
-    if args.dry_run:
-        print("\n[DRY RUN] Would generate images for:")
-        for card in cards_with_prompts:
-            exists = "✓ exists" if image_exists(card['name']) else "○ new"
-            print(f"  {exists} {card['name']}")
+    # Filter out existing images (unless --force)
+    if not args.force:
+        cards_to_generate = [c for c in cards_with_prompts if not image_exists(c['name'])]
+        skipped = len(cards_with_prompts) - len(cards_to_generate)
+        if skipped > 0:
+            print(f"⏭ Skipping {skipped} cards with existing images")
+    else:
+        cards_to_generate = cards_with_prompts
+
+    # Apply limit
+    if args.limit:
+        cards_to_generate = cards_to_generate[:args.limit]
+        print(f"Limited to {len(cards_to_generate)} cards")
+
+    if not cards_to_generate:
+        print("\n✓ No images to generate!")
         return
 
-    # Initialize generator
-    try:
-        generator = get_generator(args.backend, model)
-    except ValueError as e:
-        print(f"\n✗ Error: {e}")
-        sys.exit(1)
+    if args.dry_run:
+        print(f"\n[DRY RUN] Would generate {len(cards_to_generate)} images:")
+        for card in cards_to_generate:
+            print(f"  ○ {card['name']}")
+            print(f"    Prompt: {card['prompt'][:60]}...")
+        return
 
     # Generate images
-    generated = 0
-    skipped = 0
-    failed = 0
-
-    print("\nGenerating images...")
+    print(f"\nGenerating {len(cards_to_generate)} images...")
     print("-" * 60)
 
-    for i, card in enumerate(cards_with_prompts, 1):
-        card_name = card['name']
-        image_path = get_image_path(card_name)
+    start_time = time.time()
+    results = asyncio.run(generate_batch(cards_to_generate, args.workers))
 
-        print(f"\n[{i}/{len(cards_with_prompts)}] {card_name}")
-
-        # Check if image exists
-        if image_exists(card_name) and not args.force:
-            print(f"  ⏭ Image exists, skipping (use --force to regenerate)")
-            skipped += 1
-            continue
-
-        # Enhance and generate
-        prompt = enhance_prompt(card['prompt'])
-        print(f"  Prompt: {card['prompt'][:80]}...")
-        print(f"  Generating with {args.backend}...")
-
-        image_data = generator.generate(prompt, card_name)
-
-        if image_data:
-            # Save image
-            image_path.parent.mkdir(exist_ok=True)
-            image_path.write_bytes(image_data)
-            print(f"  ✓ Saved: {image_path}")
-
-            # Update card file
-            if not args.no_link:
-                if update_card_with_image(card['file'], image_path):
-                    print(f"  ✓ Updated card file with image link")
-
-            generated += 1
-        else:
-            failed += 1
-
-        # Rate limiting
-        time.sleep(1)
+    # Calculate stats
+    elapsed = time.time() - start_time
+    successful = [r for r in results if r.success]
+    failed = [r for r in results if not r.success]
 
     # Summary
     print("\n" + "=" * 60)
     print("SUMMARY")
     print("=" * 60)
-    print(f"Generated: {generated}")
-    print(f"Skipped: {skipped}")
-    print(f"Failed: {failed}")
+    print(f"Generated: {len(successful)}")
+    print(f"Failed: {len(failed)}")
+    print(f"Time: {elapsed:.1f}s ({elapsed/len(cards_to_generate):.1f}s per image)")
+
+    if failed:
+        print(f"\nFailed cards:")
+        for r in failed:
+            print(f"  ✗ {r.card_name}: {r.error}")
+
     print(f"\nImages saved to: {images_dir.absolute()}")
 
 
