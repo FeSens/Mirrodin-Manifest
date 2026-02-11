@@ -19,9 +19,9 @@ set: Mirrodin Manifest
 Artifact Creature — Myr
 
 ## Rules Text
-> {T}: Exile target card from a graveyard. If it was a legendary card, put a redaction counter on Redaction-Myr.
+> {T}: Exile target card from a graveyard. Put a redaction counter on Redaction-Myr.
 >
-> {2}, {T}, Remove two redaction counters from Redaction-Myr: Counter target ability from a legendary source.
+> {2}, {T}, Remove two redaction counters from Redaction-Myr: Counter target activated or triggered ability.
 
 ## Flavor Text
 > *"What records? There were never any records."*

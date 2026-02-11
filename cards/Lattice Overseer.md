@@ -19,11 +19,9 @@ set: Mirrodin Manifest
 Creature — Vedalken Advisor
 
 ## Rules Text
-> At the beginning of your upkeep, compound. *(Choose a permanent. Put a counter on it of a type already on it.)*
+> At the beginning of your upkeep, compound. *(Choose a permanent you control. Put a counter on it of a type already on it.)*
 >
 > Whenever you compound, scry 1.
->
-> {U}{U}, {T}: Look at the top card of each player's library.
 
 ## Flavor Text
 > *"The Lattice sees all futures. I merely choose which one arrives."*

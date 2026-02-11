@@ -15,9 +15,9 @@ set: Mirrodin Manifest
 Enchantment
 
 ## Rules Text
-> If you would lose life from a [[Debt Token|Debt token]], prevent that life loss instead.
+> If a Debt token you control would cause you to lose life, you gain that much life instead.
 >
-> At the beginning of your end step, remove a debt counter from a Debt token you control.
+> At the beginning of your end step, remove a debt counter from a Debt you control.
 
 ## Flavor Text
 > *"The forest trades in sunlight, not promises."*

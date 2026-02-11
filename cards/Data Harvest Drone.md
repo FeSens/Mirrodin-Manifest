@@ -7,7 +7,7 @@ subtype: Thopter
 color: Blue
 mana_cost: "{2}{U}"
 cmc: 3
-rarity: Uncommon
+rarity: Rare
 power: 2
 toughness: 1
 set: Mirrodin Manifest
@@ -21,7 +21,7 @@ Artifact Creature — Thopter
 ## Rules Text
 > Flying
 >
-> Whenever Data Harvest Drone deals combat damage to a player, put a data counter on it, then look at that many cards from the top of that player's library, where X is the number of data counters on it. Put them back in any order.
+> Whenever Data Harvest Drone deals combat damage to a player, put a data counter on it, then look at the top X cards of that player's library, where X is the number of data counters on it. Put those cards back in any order.
 
 ## Flavor Text
 > *"It sees everything. It remembers everything. It tells everything."*

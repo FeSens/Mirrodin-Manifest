@@ -1,7 +1,6 @@
 ---
 tags:
   - card
-  - broken-needs-review
 type: Creature
 subtype: Vedalken Advisor
 color: Blue
@@ -19,7 +18,7 @@ set: Mirrodin Manifest
 Creature — Vedalken Advisor
 
 ## Rules Text
-> At the beginning of your upkeep, if any permanent has more +1/+1 counters or -1/-1 counters on it than another permanent with +1/+1 counters or -1/-1 counters on it, redistribute. *(Choose two permanents. Remove all +1/+1 counters and -1/-1 counters from them, then each gets half that many counters of those types, rounded down.)*
+> At the beginning of your upkeep, you may redistribute among two creatures with +1/+1 counters on them. *(To redistribute, choose two permanents. Remove all counters from them, then each gets half that many counters, rounded down.)*
 
 ## Flavor Text
 > *"Inequality is inefficiency. Inefficiency is unacceptable."*
@@ -39,21 +38,18 @@ Creature — Vedalken Advisor
 ## Cross-Format Interactions
 | External Card | Interaction |
 |---------------|-------------|
-| **Planeswalkers** | Forces redistribution of loyalty counters - can protect low-loyalty walkers or weaken high-loyalty ones |
 | **Solemnity** | With no counters on permanents, Central Planner never triggers |
-| **Vorinclex, Monstrous Raider** | Vorinclex doubles your counters, triggers Central Planner constantly |
-| **Doubling Season** | Creates massive counter inequality, triggers redistribution every upkeep |
-| **Atraxa, Praetors' Voice** | Proliferate creates inequality → forced redistribution |
-| **Hardened Scales / Winding Constrictor** | Asymmetric counter growth triggers redistribution |
-| **Sagas** | Redistributes lore counters - can accelerate or delay chapter progression! |
+| **Vorinclex, Monstrous Raider** | Vorinclex doubles your counters, Central Planner can equalize |
+| **Doubling Season** | Creates massive counter inequality, good redistribution target |
+| **Hardened Scales / Winding Constrictor** | Asymmetric counter growth, Central Planner equalizes |
 | **Poison Counters** | Does NOT affect poison (counters on players, not permanents) |
 
 **Format Assessment:**
-- **Commander**: Powerful political tool - prevents any single threat from accumulating counters
-- **Modern/Legacy**: Shuts down Hardened Scales, Heliod combo, Walking Ballista strategies
-- **Cube**: Strong counter-hoser that creates interesting decisions
+- **Commander**: Useful political tool for creature-based counter strategies
+- **Modern/Legacy**: Soft counter to Hardened Scales strategies
+- **Cube**: Fair counter-hoser that creates interesting decisions
 
 ## Outside of this set interactions
 - **Notable Synergies:** [[Solemnity]] (no counters exist, never triggers), Anti-synergy with +1/+1 counter strategies
-- **Potential Combos:** Can disrupt opponents' Planeswalkers by forcing loyalty redistribution, Saga manipulation (forces chapter counter equalization)
-- **Balance Assessment:** POTENTIALLY BROKEN - This card automatically equalizes ALL counter types every upkeep. Devastating against: Planeswalkers (loyalty gets redistributed), Sagas (chapter counters get messed up), +1/+1 counter strategies (completely neutered). The effect is too broad and happens automatically. This is a 3-mana stax piece that shuts down entire archetypes. Consider "target opponent's permanent" or limiting to specific counter types.
+- **Potential Combos:** None - now limited to creatures with +1/+1 counters
+- **Balance Assessment:** FIXED - Now limited to creatures with +1/+1 counters and made optional ("you may"). No longer breaks planeswalkers or sagas. Fair 3-mana uncommon with counter manipulation.

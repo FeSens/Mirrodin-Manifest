@@ -16,9 +16,9 @@ set: Mirrodin Manifest
 Sorcery
 
 ## Rules Text
-> Gain control of all artifacts until end of turn. Untap them. They become artifact creatures with base power and toughness 4/4 with haste until end of turn.
+> Gain control of all artifacts you don't control until end of turn. Untap them. They become 4/4 artifact creatures with haste until end of turn.
 >
-> At the beginning of the next end step, sacrifice each artifact you gained control of this way.
+> At the beginning of the next end step, sacrifice each of those artifacts.
 
 ## Flavor Text
 > *"The machines rose against their masters, if only for a glorious moment."*

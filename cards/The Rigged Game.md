@@ -18,9 +18,9 @@ Sorcery
 ## Rules Text
 > Scry 2, then gamble.
 >
-> If you win the gamble, compound twice.
+> If you win the gamble, compound twice. *(Choose a permanent with a counter on it and add a counter of that type to it, twice.)*
 >
-> If you lose the gamble, redistribute.
+> If you lose the gamble, redistribute. *(Choose two permanents with counters. Remove all counters from them, then each gets half that many counters, rounded down.)*
 
 ## Flavor Text
 > *Win, and the wealth compounds. Lose, and everyone shares the pain. Either way, you're never the one who suffers.*

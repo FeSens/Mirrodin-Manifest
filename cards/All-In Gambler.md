@@ -20,7 +20,7 @@ Creature — Human Rogue
 ## Rules Text
 > Haste
 >
-> Whenever All-In Gambler attacks, gamble. If you win, double All-In Gambler's power until end of turn. If you lose, sacrifice it at end of combat.
+> Whenever All-In Gambler attacks, gamble. If you win, double All-In Gambler's power until end of turn. If you lose, sacrifice it at the end of combat.
 
 ## Flavor Text
 > *"I'm not reckless. I'm committed."*

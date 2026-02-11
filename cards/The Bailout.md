@@ -15,7 +15,9 @@ set: Mirrodin Manifest
 Instant
 
 ## Rules Text
-> Redistribute among all permanents with counters. For each [[Debt Token|Debt token]] that had counters redistributed to it, you gain 2 life.
+> Choose any number of permanents you control with counters on them. Remove all counters from them, then distribute that many counters among those permanents as you choose.
+>
+> You gain 2 life for each permanent that had counters put on it this way.
 
 ## Flavor Text
 > *"The Foundry always pays its debts—with other people's money."*

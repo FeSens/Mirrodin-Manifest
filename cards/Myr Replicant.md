@@ -1,7 +1,6 @@
 ---
 tags:
   - card
-  - broken-needs-review
 type: Creature
 subtype: Myr
 color: Colorless
@@ -19,7 +18,7 @@ set: Mirrodin Manifest
 Artifact Creature — Myr
 
 ## Rules Text
-> When Myr Replicant enters the battlefield, put a replication counter on it.
+> Myr Replicant enters the battlefield with a replication counter on it if it isn't a token.
 >
 > {3}, Remove a replication counter from Myr Replicant: Create a token that's a copy of Myr Replicant.
 
@@ -37,5 +36,5 @@ Artifact Creature — Myr
 
 ## Outside of this set interactions
 - **Notable Synergies:** [[Myr Galvanizer]] untaps all Myr; [[Clock of Omens]] tap Myr to untap artifacts; Proliferate effects add replication counters
-- **BROKEN COMBOS:** [[Doubling Season]] = INFINITE - Each copy enters with 2 counters due to Doubling Season. Pay {3}, remove 1 counter, create a copy with 2 counters. Repeat infinitely for unlimited Myr tokens; [[Panharmonicon]] each token enters with 2 counters (ETB doubled)
-- **Balance Assessment:** BROKEN with Doubling Season. Creates infinite Myr because each copy enters with 2 counters. Consider adding "nontoken" to ETB or "Tokens created this way don't trigger this ability"
+- **Notable Combos:** [[Doubling Season]] doubles counters on non-token original and creates 2 tokens per activation; [[Panharmonicon]] doubles ETB counters on non-token original
+- **Balance Assessment:** Fixed - Added "if it isn't a token" clause to prevent infinite loops with Doubling Season. Tokens no longer enter with counters, preventing exponential growth.

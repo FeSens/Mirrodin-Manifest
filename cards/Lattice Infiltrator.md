@@ -1,6 +1,7 @@
 ---
 tags:
   - card
+  - unvetted
 type: Creature
 subtype: Human Rogue
 color: Blue

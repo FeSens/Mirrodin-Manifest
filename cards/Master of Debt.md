@@ -21,9 +21,9 @@ Legendary Creature — Human Warlock
 ## Rules Text
 > Deathtouch
 >
-> Whenever an opponent creates a [[Debt Token|Debt token]], you create a Treasure token.
+> Whenever an opponent creates a Debt token, you create a Treasure token.
 >
-> {2}{B}, {T}: Target opponent creates a Debt token.
+> {2}{B}, {T}: Target opponent creates a Debt token. *(It's an artifact that enters with two debt counters and "At the beginning of your upkeep, you lose 1 life, then remove a debt counter from this. When the last debt counter is removed, sacrifice it.")*
 
 ## Flavor Text
 > *"Your debt is my wealth."*

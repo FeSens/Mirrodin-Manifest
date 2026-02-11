@@ -20,7 +20,7 @@ Sorcery
 >
 > • Exile all creatures that weren't cast from their owner's hand.
 >
-> • Until your next turn, players can't cast spells with mana value greater than the number of lands they control.
+> • Until your next turn, each player can't cast noncreature spells with mana value 4 or greater.
 
 ## Flavor Text
 > *"The unrefined have no place within these walls. The overleveraged have no voice within this chamber."*

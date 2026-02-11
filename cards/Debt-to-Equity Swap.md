@@ -15,7 +15,7 @@ set: Mirrodin Manifest
 Instant
 
 ## Rules Text
-> Target opponent sacrifices all [[Debt Token|Debt tokens]] they control. For each Debt token sacrificed this way, you draw a card and that player creates a 1/1 colorless Myr artifact creature token.
+> Target opponent sacrifices each Debt they control. For each Debt sacrificed this way, you draw a card and that player creates a 1/1 colorless Myr artifact creature token.
 
 ## Flavor Text
 > *"Your debt becomes our property."*

@@ -15,7 +15,7 @@ set: Mirrodin Manifest
 Enchantment
 
 ## Rules Text
-> Whenever an opponent casts their second spell each turn, that player creates a [[Debt Token|Debt token]].
+> Whenever an opponent casts their second spell each turn, that player creates a Debt token. *(It's an artifact that enters with two debt counters and "At the beginning of your upkeep, you lose 1 life, then remove a debt counter from this. When the last debt counter is removed, sacrifice it.")*
 
 ## Flavor Text
 > *"Every action has a cost. We ensure they pay it."*

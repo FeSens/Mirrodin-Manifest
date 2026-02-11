@@ -19,17 +19,14 @@ Artifact — Vehicle
 ## Rules Text
 > Flying
 >
-> Whenever Night Stalker Thopter attacks, you may have another target creature you control gain flying until end of turn.
->
-> Night Stalker Thopter can't be destroyed by damage dealt by creatures with flying.
+> Whenever Night Stalker Thopter attacks, another target creature you control gains flying until end of turn.
 >
 > Crew 2
+>
+> 4/3
 
 ## Flavor Text
 > *The pilot took two rounds to the legs. He completed the mission, then flew back to base.*
-
-## Power/Toughness
-> 4/3
 
 ## Image Prompt
 > Night Stalker Thopter — Artifact Vehicle. Visual focus: A sleek, angular matte-black military thopter with battle scars and one smoking engine, cutting through darkness. Setting: Night sky over a burning chrome city, searchlights sweeping below. Mood: Grim determination, relentless mission. Style reference: Mark Tedin meets Stephan Martiniere. Color palette: Matte black, furnace orange glow from below, chrome highlights, military grays.

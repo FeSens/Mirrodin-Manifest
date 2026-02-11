@@ -1,7 +1,7 @@
 ---
 tags:
   - card
-  - broken-needs-review
+  - vetted
 type: Creature
 subtype: Human Cleric
 color:
@@ -21,11 +21,9 @@ set: Mirrodin Manifest
 Creature — Human Cleric
 
 ## Rules Text
-> Creatures you control can't be exiled by spells or abilities opponents control.
+> If a creature you control would be exiled by a spell or ability an opponent controls, instead put a refuge counter on it. It gains hexproof as long as it has a refuge counter on it.
 >
-> Whenever a creature would be exiled from under your control, instead put a refuge counter on it. It gains hexproof as long as it has a refuge counter on it.
->
-> *"Not from this city. Not on my watch."*
+> {G}{W}, {T}: Remove all refuge counters from creatures you control. You gain 2 life for each counter removed this way.
 
 ## Flavor Text
 > *"The Foundry's reach ends at our gates."*
@@ -43,5 +41,5 @@ Creature — Human Cleric
 
 ## Outside of this set interactions
 - **Notable Synergies:** [[Avacyn, Angel of Hope]] + this = creatures can't be destroyed OR exiled; [[Shalai, Voice of Plenty]] stacks hexproof; [[Privileged Position]] double protection
-- **BROKEN COMBOS:** Blanket "can't be exiled" shuts down [[Path to Exile]], [[Swords to Plowshares]], [[Terminus]], [[Teferi's Protection]] effects; [[Indestructible creatures]] become nearly unkillable
-- **Balance Assessment:** BROKEN - "Can't be exiled" is extremely rare in MTG for good reason. This shuts down most white/blue premium removal at only 4 mana. Consider "once per turn" or "you may pay {2} to prevent exile"
+- **Notable Combos:** Replacement effect protects from [[Path to Exile]], [[Swords to Plowshares]] once, then hexproof protects further. The activated ability lets you reset for counter synergies.
+- **Balance Assessment:** FIXED - Now a replacement effect that grants hexproof, providing meaningful but not absolute protection. Activated ability provides counter interaction.

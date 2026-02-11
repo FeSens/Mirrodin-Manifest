@@ -15,7 +15,7 @@ set: Mirrodin Manifest
 Instant
 
 ## Rules Text
-> Target opponent creates a [[Debt Token|Debt token]]. You gain 2 life.
+> Target opponent creates a Debt token. You gain 2 life. *(A Debt token is an artifact that enters with two debt counters and "At the beginning of your upkeep, you lose 1 life, then remove a debt counter from this. When the last debt counter is removed, sacrifice it.")*
 
 ## Flavor Text
 > *"Sign here. Don't read the fine print."*

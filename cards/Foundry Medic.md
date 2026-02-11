@@ -19,7 +19,7 @@ set: Mirrodin Manifest
 Creature — Human Cleric
 
 ## Rules Text
-> {T}: Prevent the next 1 damage that would be dealt to any target this turn.
+> {T}: Prevent the next 2 damage that would be dealt to target creature this turn.
 
 ## Flavor Text
 > *"Patch them up. Send them back. The Foundry never stops."*

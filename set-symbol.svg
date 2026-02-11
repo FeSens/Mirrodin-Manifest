@@ -1,0 +1,128 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <defs>
+    <!-- Gold gradient for the coin face -->
+    <radialGradient id="coinGold" cx="45%" cy="40%" r="50%">
+      <stop offset="0%" stop-color="#FFE066"/>
+      <stop offset="40%" stop-color="#FFD700"/>
+      <stop offset="75%" stop-color="#DAA520"/>
+      <stop offset="100%" stop-color="#B8860B"/>
+    </radialGradient>
+
+    <!-- Darker gold for the coin rim -->
+    <radialGradient id="rimGold" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#DAA520"/>
+      <stop offset="100%" stop-color="#8B6914"/>
+    </radialGradient>
+
+    <!-- Dark interior for the crack (rust/void) -->
+    <linearGradient id="crackFill" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#4A1A0A"/>
+      <stop offset="50%" stop-color="#8B0000"/>
+      <stop offset="100%" stop-color="#2C0A00"/>
+    </linearGradient>
+
+    <!-- Subtle inner shadow -->
+    <filter id="innerShadow">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="2" result="blur"/>
+      <feOffset dx="0" dy="1" result="offsetBlur"/>
+      <feComposite in="SourceGraphic" in2="offsetBlur" operator="over"/>
+    </filter>
+
+    <!-- Clip path for the coin -->
+    <clipPath id="coinClip">
+      <circle cx="100" cy="100" r="82"/>
+    </clipPath>
+  </defs>
+
+  <!-- Outer coin rim -->
+  <circle cx="100" cy="100" r="90" fill="url(#rimGold)" stroke="#6B4E13" stroke-width="2"/>
+
+  <!-- Coin rim detail — raised edge -->
+  <circle cx="100" cy="100" r="86" fill="none" stroke="#B8860B" stroke-width="1.5" opacity="0.6"/>
+
+  <!-- Inner coin face -->
+  <circle cx="100" cy="100" r="82" fill="url(#coinGold)" stroke="#9A7B2E" stroke-width="0.5"/>
+
+  <!-- Coin face details — concentric ring (like a real coin) -->
+  <circle cx="100" cy="100" r="72" fill="none" stroke="#B8860B" stroke-width="1" opacity="0.5"/>
+
+  <!-- The five suns of Mirrodin — five small dots arranged in a pentagon around the center -->
+  <!-- These represent the five suns/mana sources, now faded and cracked -->
+  <g opacity="0.6">
+    <!-- White sun (top) -->
+    <circle cx="100" cy="42" r="4" fill="#FFF8DC" stroke="#DAA520" stroke-width="0.8"/>
+    <!-- Blue sun (upper right) -->
+    <circle cx="155" cy="72" r="4" fill="#B0C4DE" stroke="#DAA520" stroke-width="0.8"/>
+    <!-- Black sun (lower right) -->
+    <circle cx="134" cy="130" r="4" fill="#2F4F4F" stroke="#DAA520" stroke-width="0.8"/>
+    <!-- Red sun (lower left) -->
+    <circle cx="66" cy="130" r="4" fill="#CD7F32" stroke="#DAA520" stroke-width="0.8"/>
+    <!-- Green sun (upper left) -->
+    <circle cx="45" cy="72" r="4" fill="#6B8E23" stroke="#DAA520" stroke-width="0.8"/>
+  </g>
+
+  <!-- Central emblem — stylized Mirrodin hexplate / abstract M shape -->
+  <g opacity="0.45" fill="none" stroke="#8B6914" stroke-width="1.5" stroke-linecap="round">
+    <!-- Hexagonal frame (echoing Mirrodin's hexplate motif) -->
+    <polygon points="100,58 132,76 132,112 100,130 68,112 68,76" fill="none" stroke="#8B6914" stroke-width="1.5"/>
+    <!-- Inner structure lines -->
+    <line x1="100" y1="58" x2="100" y2="130"/>
+    <line x1="68" y1="76" x2="132" y2="112"/>
+    <line x1="132" y1="76" x2="68" y2="112"/>
+  </g>
+
+  <!-- THE CRACK — the defining feature -->
+  <!-- Main fracture line running diagonally through the coin -->
+  <g clip-path="url(#coinClip)">
+    <!-- Crack shadow / depth (wider, darker) -->
+    <path d="M 62,16 L 68,38 L 64,52 L 72,68 L 66,78 L 74,88 L 70,100
+             L 78,112 L 72,122 L 80,136 L 74,150 L 82,166 L 76,184"
+          fill="none" stroke="#2C0A00" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" opacity="0.6"/>
+
+    <!-- Crack body -->
+    <path d="M 62,16 L 68,38 L 64,52 L 72,68 L 66,78 L 74,88 L 70,100
+             L 78,112 L 72,122 L 80,136 L 74,150 L 82,166 L 76,184"
+          fill="none" stroke="url(#crackFill)" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+
+    <!-- Crack highlight edges -->
+    <path d="M 60,16 L 66,38 L 62,52 L 70,68 L 64,78 L 72,88 L 68,100
+             L 76,112 L 70,122 L 78,136 L 72,150 L 80,166 L 74,184"
+          fill="none" stroke="#FFE066" stroke-width="0.5" opacity="0.4" stroke-linecap="round"/>
+
+    <!-- Branch fractures -->
+    <path d="M 72,68 L 58,62 L 50,58"
+          fill="none" stroke="#4A1A0A" stroke-width="2.5" stroke-linecap="round" opacity="0.7"/>
+    <path d="M 70,100 L 84,96 L 92,92"
+          fill="none" stroke="#4A1A0A" stroke-width="2" stroke-linecap="round" opacity="0.6"/>
+    <path d="M 72,122 L 60,128 L 52,134"
+          fill="none" stroke="#4A1A0A" stroke-width="2" stroke-linecap="round" opacity="0.5"/>
+    <path d="M 80,136 L 92,142 L 98,148"
+          fill="none" stroke="#4A1A0A" stroke-width="1.5" stroke-linecap="round" opacity="0.5"/>
+
+    <!-- Micro-fractures for texture -->
+    <path d="M 66,78 L 56,82" fill="none" stroke="#4A1A0A" stroke-width="1" opacity="0.4"/>
+    <path d="M 74,88 L 82,84" fill="none" stroke="#4A1A0A" stroke-width="1" opacity="0.4"/>
+    <path d="M 78,112 L 86,108" fill="none" stroke="#4A1A0A" stroke-width="1" opacity="0.3"/>
+  </g>
+
+  <!-- Rust spots along the crack (the decay beneath the gold) -->
+  <g clip-path="url(#coinClip)" opacity="0.35">
+    <circle cx="68" cy="55" r="6" fill="#8B4513"/>
+    <circle cx="73" cy="85" r="5" fill="#A0522D"/>
+    <circle cx="71" cy="108" r="7" fill="#8B4513"/>
+    <circle cx="77" cy="140" r="5" fill="#A0522D"/>
+    <circle cx="55" cy="64" r="3" fill="#6B3410"/>
+    <circle cx="88" cy="94" r="3" fill="#6B3410"/>
+  </g>
+
+  <!-- Subtle rim corrosion -->
+  <g opacity="0.2">
+    <circle cx="36" cy="58" r="4" fill="#6B3410"/>
+    <circle cx="158" cy="128" r="3" fill="#6B3410"/>
+    <circle cx="120" cy="170" r="4" fill="#6B3410"/>
+    <circle cx="48" cy="148" r="3" fill="#6B3410"/>
+  </g>
+
+  <!-- Final outer stroke for crispness -->
+  <circle cx="100" cy="100" r="90" fill="none" stroke="#6B4E13" stroke-width="1.5"/>
+</svg>

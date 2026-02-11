@@ -21,7 +21,9 @@ Creature — Elemental
 ## Rules Text
 > Trample
 >
-> Whenever you redistribute counters, put a +1/+1 counter on Tel-Jilad Arbiter. *(You redistribute whenever you move counters between permanents.)*
+> Whenever one or more permanents are redistributed, put a +1/+1 counter on Tel-Jilad Arbiter.
+>
+> *(To redistribute, choose two permanents. Remove all counters from them, then each gets half that many counters, rounded down.)*
 
 ## Flavor Text
 > *"Balance is not passive. It must be enforced."*

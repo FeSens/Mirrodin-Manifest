@@ -23,7 +23,7 @@ Creature — Human Soldier
 >
 > Sanctioned General has menace and deathtouch as long as it has no sanction counters on it.
 >
-> At the beginning of your upkeep, remove a sanction counter from Sanctioned General. You lose 2 life for each sanction counter removed this way.
+> At the beginning of your upkeep, remove a sanction counter from Sanctioned General and you lose 2 life.
 
 ## Flavor Text
 > *"The Synod's sanctions mean nothing. We have the Vault's gold."*

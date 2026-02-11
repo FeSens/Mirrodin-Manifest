@@ -24,9 +24,6 @@ Creature — Nim Zombie
 ## Flavor Text
 > *"The Nim don't guard. They hunt."*
 
-## Power/Toughness
-> 3/2
-
 ## Image Prompt
 > Nim Patrol, Nim Zombie from Mirrodin Manifest. Setting: Dross Dominion — the fog-shrouded borders of Mephidross territory. Mood: Suspicion, relentless pursuit. Pose: Three Nim zombies moving in predatory unison, heads swiveling to scan for intruders. Key visual elements: Corroded chrome skeletons visible through decaying flesh, necrogen-green eyes piercing the mist, rusted weapons clutched in skeletal hands. Style reference: Nils Hamm meets Kev Walker. Color palette: Near-black, dark olive, necrogen glow, rust browns.
 

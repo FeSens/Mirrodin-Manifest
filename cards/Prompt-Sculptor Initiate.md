@@ -19,9 +19,7 @@ set: Mirrodin Manifest
 Creature — Human Wizard
 
 ## Rules Text
-> {T}: Scry 1.
->
-> {2}, {T}: Compound. *(Choose a permanent. Put a counter on it of a type already on it.)*
+> {T}: Scry 1. If you control an artifact, you may compound instead. *(To compound, choose a permanent with a counter on it. Put another counter of a type already on it.)*
 
 ## Flavor Text
 > *"I don't cast spells. I describe outcomes."*

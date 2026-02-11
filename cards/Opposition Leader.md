@@ -21,7 +21,7 @@ set: Mirrodin Manifest
 Creature — Human Advisor
 
 ## Rules Text
-> Whenever an opponent activates an ability of a legendary permanent, put a resistance counter on Opposition Leader.
+> Whenever an opponent activates an ability of a nonland permanent, put a resistance counter on Opposition Leader.
 >
 > {U}{R}, {T}, Remove two resistance counters from Opposition Leader: Counter target activated ability.
 

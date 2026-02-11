@@ -1,6 +1,7 @@
 ---
 tags:
   - card
+  - unvetted
 type: Instant
 color: Blue
 mana_cost: "{2}{U}"

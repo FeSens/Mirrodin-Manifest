@@ -19,8 +19,6 @@ set: Mirrodin Manifest
 Creature — Human Soldier
 
 ## Rules Text
-> Private Isle Guard can't block Unforged creatures.
->
 > When Private Isle Guard dies, each player reveals their hand.
 
 ## Flavor Text

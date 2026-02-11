@@ -17,9 +17,9 @@ Enchantment
 ## Rules Text
 > Whenever a Gold token enters the battlefield under your control, put a value counter on it.
 >
-> Gold tokens you control have "{T}: Prevent the next damage equal to the number of value counters on this permanent that would be dealt to you or a permanent you control this turn."
+> Whenever you sacrifice a Gold token, you gain life equal to the number of value counters on it as it last existed on the battlefield.
 >
-> Whenever you sacrifice a Gold token, you gain life equal to the number of value counters that were on it.
+> {1}, {T}: Compound target Gold token you control. *(Put a counter on it of a type already on it.)*
 
 ## Flavor Text
 > *"When the Lattice fails, only gold remains."*

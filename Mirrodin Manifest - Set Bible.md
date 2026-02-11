@@ -169,10 +169,10 @@ This creates genuine gameplay politics and deckbuilding decisions.
 ### Debt Token
 
 **Type:** Token Artifact — Debt
-**Rules:** Enters with a debt counter. At the beginning of your upkeep, lose life equal to debt counters on it, then sacrifice it.
+**Rules:** Enters with two debt counters. At the beginning of your upkeep, you lose 1 life, then remove a debt counter. When the last debt counter is removed, sacrifice it.
 
 **Synergies:**
-- COMPOUND adds debt counters = more damage
+- COMPOUND adds debt counters = extends duration
 - REDISTRIBUTE moves debt between tokens
 - Sacrifice outlets (Ashnod's Altar) can avoid damage
 - Artifact synergies count Debt = leveraging debt for gain
@@ -337,7 +337,7 @@ This creates genuine gameplay politics and deckbuilding decisions.
 |--------------|-------------|------------------|
 | **+1/+1** | Creature growth | Standard, COMPOUND target |
 | **-1/-1** | Trauma, weakness | REDISTRIBUTE can spread |
-| **Debt** | On Debt tokens | Life loss scaling |
+| **Debt** | On Debt tokens | Duration tracking (1 life/turn) |
 | **Value** | On Gold tokens | Mana value scaling |
 | **Secrecy** | Information accumulation | Ep-Styn cards |
 | **Construction** | Building projects | Darksteel Wall |

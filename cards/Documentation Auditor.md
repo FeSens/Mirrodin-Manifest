@@ -21,9 +21,9 @@ set: Mirrodin Manifest
 Creature — Vedalken Advisor Mer-Ikan
 
 ## Rules Text
-> Creatures that weren't cast from their owner's hand enter the battlefield tapped and don't untap during their controller's next untap step.
+> Creatures that weren't cast from their owner's hand enter the battlefield tapped.
 >
-> {W}{U}, {T}: Exile target creature that entered the battlefield this turn and wasn't cast from its owner's hand.
+> {W}{U}, {T}: Exile target tapped creature an opponent controls.
 
 ## Flavor Text
 > *"Your documentation has... irregularities."*

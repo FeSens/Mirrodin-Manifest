@@ -18,9 +18,7 @@ Enchantment
 ## Rules Text
 > Zombie creatures you control get +1/+0 and have deathtouch.
 >
-> Whenever a creature dies, you may pay {B}. If you do, create a 2/2 black Zombie creature token.
->
-> {2}{B}, Exile two creature cards from your graveyard: Draw two cards.
+> Whenever a nontoken creature dies, you may pay {B}. If you do, create a 2/2 black Zombie creature token.
 
 ## Flavor Text
 > *"The Mephidross claims all. In death, you serve the Dross."*

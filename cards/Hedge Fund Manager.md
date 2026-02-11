@@ -19,11 +19,9 @@ set: Mirrodin Manifest
 Creature — Human Advisor
 
 ## Rules Text
-> When Hedge Fund Manager enters the battlefield, create three Gold tokens.
+> When Hedge Fund Manager enters the battlefield, create two Gold tokens.
 >
-> Whenever you sacrifice a Gold token, Gamble. If you win the gamble, create two Gold tokens.
->
-> At the beginning of your end step, sacrifice a Gold token.
+> {T}, Sacrifice a Gold token: Gamble. If you win the gamble, create two Gold tokens. If you lose, you lose 2 life. *(To gamble, you and target opponent reveal the top card of your libraries. Whoever reveals the card with greater mana value wins.)*
 
 ## Flavor Text
 > *"Risk is just opportunity in disguise."*

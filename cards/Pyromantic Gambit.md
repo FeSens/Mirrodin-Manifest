@@ -15,7 +15,7 @@ set: Mirrodin Manifest
 Sorcery
 
 ## Rules Text
-> Gamble X times. Pyromantic Gambit deals damage to any target equal to twice the number of gambles you won this way.
+> Choose target opponent. Gamble X times against that player. Pyromantic Gambit deals damage to any target equal to twice the number of gambles you won this way.
 
 ## Flavor Text
 > *"More dice, more fire, more chaos. What's not to love?"*

@@ -15,7 +15,7 @@ set: Mirrodin Manifest
 Instant
 
 ## Rules Text
-> Counter target spell unless its controller creates a [[Debt Token|Debt token]] or pays {3}.
+> Counter target spell unless its controller creates a Debt token or pays {3}. *(A Debt token is an artifact that enters with two debt counters and "At the beginning of your upkeep, you lose 1 life, then remove a debt counter from this. When the last debt counter is removed, sacrifice it.")*
 
 ## Flavor Text
 > *"Your future is collateral."*

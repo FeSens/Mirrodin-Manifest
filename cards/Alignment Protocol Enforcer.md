@@ -2,7 +2,7 @@
 tags:
   - card
   - unvetted
-type: Creature
+type: Artifact Creature
 subtype: Construct
 color: White
 mana_cost: "{2}{W}{W}"

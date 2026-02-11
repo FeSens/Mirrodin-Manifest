@@ -21,16 +21,12 @@ set: Mirrodin Manifest
 Legendary Creature — Loxodon Artificer
 
 ## Rules Text
-> Tromp, the Gilded Sentinel enters the battlefield with three construction counters on it.
->
 > Creatures that weren't cast from their owner's hand can't attack you or planeswalkers you control.
 >
-> At the beginning of your upkeep, put a construction counter on Tromp. Then Tromp deals damage equal to the number of construction counters on it to each creature that wasn't cast from its owner's hand.
->
-> *"Make the Core Solid Again."*
+> At the beginning of your upkeep, Tromp, the Gilded Sentinel deals 2 damage to each creature that wasn't cast from its owner's hand.
 
 ## Flavor Text
-> *"The unrefined have no place within these walls."*
+> *"Make the Core Solid Again."*
 
 ## Image Prompt
 > Tromp, the Gilded Sentinel, Legendary Loxodon Artificer from Mirrodin Manifest. Setting: The Darksteel Wall — atop his signature construction project. Mood: Corrupted triumph. Pose: Standing grandly atop the wall, gesturing to his achievement. Key visual elements: Massive gilded armor, trunk adorned with gold rings, self-satisfied gleam in eyes, Great Furnace blazing behind, wall under construction beneath. Style reference: Greg Staples meets Kev Walker. Color palette: Gold, bronze, furnace orange, dark red, chrome construction.
@@ -44,5 +40,4 @@ Legendary Creature — Loxodon Artificer
 
 ## Outside of this set interactions
 - **Notable Synergies:** Proliferate effects accelerate counter growth; [[Propaganda]]/[[Ghostly Prison]] combined with "can't attack" clause creates soft lock
-- **BROKEN COMBOS:** [[Doubling Season]]/[[Vorinclex, Monstrous Raider]] enters with 6 counters, deals 6 damage immediately, doubles each turn; [[Paradox Haze]] double upkeep = double counter growth and double damage
-- **Balance Assessment:** POTENTIALLY BROKEN - Exponential scaling damage completely shuts down token and reanimator strategies. With counter doublers, deals 6→14→30 damage per turn. Consider capping damage or adding "nontoken" restriction
+- **Balance Assessment:** FIXED - Damage is now flat 2 instead of scaling with construction counters. Still hoses tokens/reanimation but doesn't spiral out of control.

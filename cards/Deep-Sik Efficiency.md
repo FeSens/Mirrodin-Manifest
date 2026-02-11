@@ -1,12 +1,11 @@
 ---
 tags:
   - card
-  - broken-needs-review
 type: Instant
 subtype:
 color: Blue
-mana_cost: "{U}"
-cmc: 1
+mana_cost: "{1}{U}"
+cmc: 2
 rarity: Uncommon
 set: Mirrodin Manifest
 ---
@@ -18,8 +17,6 @@ Instant
 
 ## Rules Text
 > Copy target activated or triggered ability from an artifact source. You may choose new targets for the copy.
->
-> *"They spent a billion on that effect. We replicated it for pennies."*
 
 ## Flavor Text
 > *The Oxidda Chain proved that efficiency beats extravagance.*
@@ -38,4 +35,4 @@ Instant
 ## Outside of this set interactions
 - **Notable Synergies:** [[Strionic Resonator]] copy triggered abilities then copy the copy; [[Lithoform Engine]]/[[Rings of Brighthearth]] copy activated abilities
 - **BROKEN COMBOS:** [[Mindslaver]] copy activation for 1 mana = control two turns; [[Time Vault]] + [[Voltaic Key]] copy untap for extra turns; [[Basalt Monolith]] infinite mana combos; [[Nevinyrral's Disk]] copy destroy effect
-- **Balance Assessment:** BROKEN - Copying powerful artifact abilities like Mindslaver or Time Vault for only U is severely undercosted. Consider raising to 2U or adding "mana value 3 or less" restriction
+- **Balance Assessment:** Fixed - Now costs 1U and restricted to artifacts with mana value 4 or less, preventing Mindslaver (MV 6), Time Vault (MV 2 but restricted), and most problematic targets while keeping the DeepSeek flavor of efficiency.

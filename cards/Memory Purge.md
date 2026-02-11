@@ -20,8 +20,6 @@ Instant
 > • Counter target spell if it has the same name as a card in any graveyard.
 >
 > • Exile up to three target cards from graveyards. If a legendary card was exiled this way, scry 2.
->
-> *The Redaction-Myr never rest.*
 
 ## Flavor Text
 > *"What records? There were never any records."*

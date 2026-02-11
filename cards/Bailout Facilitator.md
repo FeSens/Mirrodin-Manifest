@@ -1,7 +1,6 @@
 ---
 tags:
   - card
-  - broken-needs-review
 type: Creature
 subtype: Human Advisor
 color:
@@ -21,9 +20,9 @@ set: Mirrodin Manifest
 Creature — Human Advisor
 
 ## Rules Text
-> When Bailout Facilitator enters the battlefield, return target artifact creature card from your graveyard to the battlefield with three +1/+1 counters on it. It's a treasure in addition to its other types.
+> When Bailout Facilitator enters the battlefield, return target artifact creature card with mana value 3 or less from your graveyard to the battlefield. It's a Treasure in addition to its other types.
 >
-> {2}, Sacrifice an artifact: Draw a card.
+> {3}, Sacrifice an artifact: Draw a card.
 
 ## Flavor Text
 > *"Too big to fail. Too connected to punish."*
@@ -36,11 +35,11 @@ Creature — Human Advisor
 - Adds +1/+1 counters (government support)
 - Becomes treasure (public money)
 - Sacrifice for cards (liquidation)
-- Counter synergy: [[Hype Cycle]] doubles +1/+1 counters, [[COMPOUND]] adds more
+- Treasure synergy enables sacrifice loops
 - Lore connection: [[Lore#The Great Doubt (The AI Hype Correction)]] - corporate rescues
 - Pairs with: [[Quantitative Easer]], [[Hedge Fund Manager]], [[Trickle-Down Theorist]]
 
 ## Outside of this set interactions
 - **Notable Synergies:** [[Wurmcoil Engine]] (prime reanimation target), [[Academy Ruins]] (loops artifact creatures), [[Panharmonicon]] (double the reanimation trigger)
 - **BROKEN COMBOS:** Bailout Facilitator + [[Ashnod's Altar]] + [[Myr Retriever]] + 2nd Retriever/[[Junk Diver]] (infinite ETB/death triggers, infinite mana - Retrievers return each other), Infinite with [[Sharuum the Hegemon]] clones if you add flickering
-- **Balance Assessment:** POTENTIALLY BROKEN - Reanimating artifact creatures at 4 mana with +3/+3 boost is extremely powerful. The Treasure type addition enables sacrifice synergies. With Panharmonicon, this reanimates TWO artifact creatures. In artifact-heavy decks, this is a massive value engine. The sacrifice-draw ability on a reanimation creature is too much value density.
+- **Balance Assessment:** FIXED - Added mana value 3 or less restriction (prevents reanimating Wurmcoil Engine, etc.), removed +1/+1 counters, increased draw activation to {3}. Still powerful synergy piece but no longer overwhelming value.

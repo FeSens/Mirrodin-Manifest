@@ -20,7 +20,7 @@ Creature — Bird
 ## Rules Text
 > Flying
 >
-> Whenever a player redistributes, put a +1/+1 counter on Counter Vulture.
+> Whenever one or more counters are redistributed, put a +1/+1 counter on Counter Vulture.
 
 ## Flavor Text
 > *"Where equality is enforced, opportunity follows."*

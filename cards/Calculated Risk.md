@@ -15,9 +15,9 @@ set: Mirrodin Manifest
 Instant
 
 ## Rules Text
-> Scry 2, then gamble.
+> Scry 2, then gamble. *(You and target opponent reveal the top card of your libraries. Whoever reveals the card with greater mana value wins.)*
 >
-> If you win, draw two cards. If you lose, draw a card.
+> If you win the gamble, draw two cards. If you lose the gamble, draw a card.
 
 ## Flavor Text
 > *"I don't gamble. I calculate probabilities and act accordingly."*

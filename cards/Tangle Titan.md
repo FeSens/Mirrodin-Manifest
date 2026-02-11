@@ -22,7 +22,7 @@ Creature — Elemental
 >
 > Whenever you win a gamble, put a +1/+1 counter on each creature you control.
 >
-> {2}{G}: Gamble. Activate only once each turn.
+> {2}{G}: Gamble. Activate only once each turn. *(To gamble, you and target opponent reveal the top card of your libraries. Whoever reveals the card with greater mana value wins.)*
 
 ## Flavor Text
 > *"The Tangle rewards those who embrace chaos."*

@@ -19,9 +19,7 @@ Enchantment
 ## Rules Text
 > Whenever you cast an artifact spell, put a debt counter on Compute Debt.
 >
-> At the beginning of your upkeep, you may draw cards equal to the number of debt counters on Compute Debt. If you do, Compute Debt deals damage equal to the number of debt counters on it to you, then remove all debt counters from it.
->
-> *"Spend now. Profit... eventually."*
+> At the beginning of your upkeep, you may remove all debt counters from Compute Debt. If you do, draw X cards and Compute Debt deals X damage to you, where X is the number of counters removed this way. Then if X was 4 or greater, sacrifice Compute Debt.
 
 ## Flavor Text
 > *The Lattice demanded infinite growth. The treasury had limits.*

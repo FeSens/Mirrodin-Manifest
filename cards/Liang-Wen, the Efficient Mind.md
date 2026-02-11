@@ -1,7 +1,6 @@
 ---
 tags:
   - card
-  - broken-needs-review
 type: Creature
 subtype: Human Artificer
 color: Blue/Red
@@ -19,9 +18,7 @@ Legendary Creature — Human Artificer
 ## Rules Text
 > Artifact spells you cast cost {1} less to cast.
 >
-> Whenever you cast an artifact spell, if its mana value is less than the highest mana value among artifacts your opponents control, draw a card.
->
-> *"Constraints breed innovation. Sanctions bred me."*
+> Once each turn, whenever you cast an artifact spell with mana value 3 or less, draw a card.
 
 ## Power/Toughness
 > 2/3
@@ -44,4 +41,4 @@ Legendary Creature — Human Artificer
 ## Outside of this set interactions
 - **Notable Synergies:** [[Etherium Sculptor]]/[[Foundry Inspector]] stack cost reductions; [[Vedalken Archmage]] draw + Liang-Wen draw = 2 cards per artifact; [[Jhoira, Weatherlight Captain]] historic triggers
 - **BROKEN COMBOS:** [[Mox Opal]] + [[Mox Amber]] + 0-cost artifacts = free artifacts that draw cards; [[Sensei's Divining Top]] + cost reducers = free Top, draw, put on library, repeat for infinite draws; [[Paradoxical Outcome]] chains
-- **Balance Assessment:** BROKEN - If artifacts cost 0 and opponents have MV 1+ permanents, draws cards for every artifact cast. Can chain through deck rapidly. Consider adding "once per turn" or higher cost
+- **Balance Assessment:** FIXED - Added "Once each turn" restriction to prevent infinite draw loops with zero-cost artifacts. Now provides strong value without enabling combo kills.

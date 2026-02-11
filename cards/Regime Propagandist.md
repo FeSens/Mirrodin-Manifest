@@ -21,9 +21,9 @@ set: Mirrodin Manifest
 Creature — Human Advisor
 
 ## Rules Text
-> {T}: Put a narrative counter on target creature you control. It gains your choice of lifelink or deathtouch until end of turn.
+> {T}: Put a narrative counter on target creature you control. It gains lifelink until end of turn.
 >
-> Creatures you control with narrative counters on them can't be the targets of spells or abilities opponents control that would cause you to sacrifice them.
+> Creatures you control with narrative counters on them can't be sacrificed.
 
 ## Flavor Text
 > *"Heroes never fall. Traitors are never remembered."*

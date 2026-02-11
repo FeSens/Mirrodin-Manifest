@@ -11,17 +11,30 @@
             "id": "da4572b73ffa4fdf",
             "type": "leaf",
             "state": {
+              "type": "image",
+              "state": {
+                "file": "set-symbol.svg"
+              },
+              "icon": "lucide-image",
+              "title": "set-symbol"
+            }
+          },
+          {
+            "id": "93a066f38c28a377",
+            "type": "leaf",
+            "state": {
               "type": "markdown",
               "state": {
-                "file": "Mirrodin Manifest - Set Bible.md",
+                "file": "art-guidelines.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Mirrodin Manifest - Set Bible"
+              "title": "art-guidelines"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -53,7 +66,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "Tangle Titan",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -74,7 +87,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -183,8 +197,14 @@
       "bases:Create new base": false
     }
   },
-  "active": "da4572b73ffa4fdf",
+  "active": "93a066f38c28a377",
   "lastOpenFiles": [
+    "Mirrodin Manifest - Set Bible.md",
+    "cards/Tangle Titan.md",
+    "cards/Chaos Theorist.md",
+    "spoiler-app/public/reference/gallant.jpg",
+    "spoiler-app/public/reference/Goal MTG look and feel.jpg",
+    "cards/Tangle's Might.md",
     "set-guidelines.md",
     "images/Bailout_Package.png",
     "spoiler-app/master-goal.jpg",
@@ -204,8 +224,6 @@
     "spoiler-app/dist/assets/index-CK2PCCSi.css",
     "spoiler-app/dist/assets/mplantin-D6SO6wSc.svg",
     "spoiler-app/dist/assets/mana-CylcniHU.svg",
-    "spoiler-app/dist/assets/keyrune-CUoH2fFH.svg",
-    "spoiler-app/dist/vite.svg",
     "decks/UB Compound Control.md",
     "out-of-touch.md",
     "decks/RG Gamble Aggro.md",
@@ -227,10 +245,6 @@
     "cards/Dross Resurgence.md",
     "cards/Mephidross Reclamation.md",
     "cards/Foundry Wall Captain.md",
-    "cards/The Great Leveling.md",
-    "cards/Synod Mediator.md",
-    "cards/Tel-Jilad Arbiter.md",
-    "cards/Sylvok Rejection.md",
     "Untitled.canvas"
   ]
 }

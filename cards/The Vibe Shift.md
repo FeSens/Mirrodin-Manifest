@@ -20,8 +20,6 @@ Instant
 > Choose one —
 > • Counter target artifact spell unless its controller pays {3}.
 > • Return target artifact to its owner's hand.
->
-> *"Even the believers are starting to doubt."*
 
 ## Flavor Text
 > *The Thought-Sync's most fervent advocates went quiet. That silence spoke volumes.*

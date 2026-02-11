@@ -1,7 +1,6 @@
 ---
 tags:
   - card
-  - broken-needs-review
 type: Legendary Artifact
 color: Colorless
 mana_cost: "{4}"
@@ -18,13 +17,7 @@ Legendary Artifact
 ## Rules Text
 > Indestructible
 >
-> The Darksteel Wall enters the battlefield with three construction counters on it.
->
-> Creatures entering the battlefield under opponents' control enter tapped unless The Darksteel Wall has fewer than three construction counters.
->
-> Creatures your opponents control that weren't cast from their hand can't attack if The Darksteel Wall has three or more construction counters.
->
-> At the beginning of your upkeep, put a construction counter on The Darksteel Wall. Each opponent who controls a creature that wasn't cast from their hand loses 1 life for each construction counter on The Darksteel Wall.
+> Creatures your opponents control that weren't cast can't attack.
 
 ## Flavor Text
 > *"The Mephidross will pay for it. One extracted ore at a time."*
@@ -37,6 +30,6 @@ Legendary Artifact
 - Indestructible fits darksteel flavor and the "unbreakable wall" narrative
 - **Counter synergy:** Construction counters grow each turn, [[Hype Cycle]] doubles them
 - [[Compound]] accelerates construction, [[Market Crash]] tears it down
-- Life drain scales with construction progress
+- Life drain is flat 2 (was scaling — simplified for fun)
 - Lore connection: [[Lore]] - Tromp's signature project, always under construction
 - Mythic rare power level for a build-around

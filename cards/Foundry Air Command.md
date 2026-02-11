@@ -24,11 +24,9 @@ Creature — Human Soldier
 > Vehicles you control have crew 1.
 >
 > Whenever a Vehicle you control attacks, create a 1/1 colorless Thopter artifact creature token with flying that's tapped and attacking.
->
-> *"Air superiority wins wars. Launch everything."*
 
 ## Flavor Text
->
+> *"Air superiority wins wars. Launch everything."*
 
 ## Image Prompt
 > Foundry Air Command, Human Soldier from Mirrodin Manifest. Setting: The Great Furnace/Mer-Ikan Foundry — airship command bridge high above battlefield. Mood: Grim determination. Pose: Standing at helm directing swarms of Thopters with outstretched arm. Key visual elements: Chrome-plated armor with red accents, iron-veined commanding face, Thopter swarms filling sky, vehicles launching below. Style reference: Kev Walker meets Greg Staples. Color palette: Furnace orange, white armor, chrome Thopters, dark red sky.

@@ -19,9 +19,9 @@ set: Mirrodin Manifest
 Creature — Human Advisor
 
 ## Rules Text
-> {T}, Put a favor counter on target legendary creature: That creature gains hexproof until end of turn.
+> {T}: Put a favor counter on target creature. That creature gains hexproof until end of turn.
 >
-> Legendary creatures with favor counters on them can't be blocked by creatures with power 2 or less.
+> Creatures you control with favor counters on them can't be blocked except by two or more creatures.
 
 ## Flavor Text
 > *"My clients' interests are, of course, completely aligned with the public good."*

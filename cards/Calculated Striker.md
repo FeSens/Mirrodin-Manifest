@@ -21,7 +21,7 @@ Creature — Human Wizard
 ## Rules Text
 > Prowess
 >
-> 🎲 GAMBLE — Whenever you cast an instant or sorcery spell, reveal the top card of your library. If it's an instant or sorcery card, Calculated Striker deals 2 damage to any target.
+> Whenever you cast an instant or sorcery spell, gamble. If you win the gamble, Calculated Striker deals 2 damage to any target.
 
 ## Flavor Text
 > *"Chance favors the prepared mind."*

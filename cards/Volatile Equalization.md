@@ -15,7 +15,7 @@ set: Mirrodin Manifest
 Sorcery
 
 ## Rules Text
-> Redistribute among two target creatures. Volatile Equalization deals 1 damage to each of them.
+> Redistribute two target creatures. *(Remove all counters from them, then each gets half that many counters, rounded down.)* Volatile Equalization deals 1 damage to each of them.
 
 ## Flavor Text
 > *"Balance through destruction."*

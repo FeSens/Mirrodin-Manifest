@@ -20,7 +20,7 @@ Artifact Creature — Construct
 ## Rules Text
 > Vigilance
 >
-> At the beginning of your end step, if any permanent has three or more counters on it than another permanent with counters, redistribute.
+> At the beginning of your end step, you may redistribute. *(Choose two permanents. Remove all counters from them, then each gets half that many counters, rounded down.)*
 
 ## Flavor Text
 > *"Imbalance detected. Correction initiated."*

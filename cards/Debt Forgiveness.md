@@ -15,7 +15,7 @@ set: Mirrodin Manifest
 Instant
 
 ## Rules Text
-> Destroy target [[Debt Token|Debt token]]. You gain life equal to the number of debt counters on it.
+> Destroy target Debt token. You gain life equal to the number of debt counters on it as it last existed on the battlefield.
 
 ## Flavor Text
 > *"Mercy is its own reward."*

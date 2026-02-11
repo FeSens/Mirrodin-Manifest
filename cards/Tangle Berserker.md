@@ -4,7 +4,9 @@ tags:
   - unvetted
 type: Creature
 subtype: Human Berserker
-color: Red/Green
+color:
+  - Red
+  - Green
 mana_cost: "{1}{R}{G}"
 cmc: 3
 rarity: Uncommon
@@ -21,7 +23,7 @@ Creature — Human Berserker
 ## Rules Text
 > Haste, trample
 >
-> 🎲 GAMBLE — Whenever Tangle Berserker attacks, reveal the top card of your library. If its mana value is 3 or greater, Tangle Berserker gets +2/+2 until end of turn.
+> Whenever Tangle Berserker attacks, gamble. If you win, Tangle Berserker gets +2/+2 until end of turn. If you lose, Tangle Berserker deals 2 damage to you. *(To gamble, you and target opponent reveal the top card of your libraries. Whoever reveals the card with greater mana value wins.)*
 
 ## Flavor Text
 > *"The wilds don't reward caution."*

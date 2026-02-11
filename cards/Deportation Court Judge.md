@@ -21,9 +21,7 @@ Creature — Vedalken Advisor Mer-Ikan
 ## Rules Text
 > At the beginning of your upkeep, put a case counter on Deportation Court Judge.
 >
-> {T}, Remove X case counters from Deportation Court Judge: Exile up to X target creatures opponents control with total mana value X or less.
->
-> Activated abilities of creatures exiled by Deportation Court Judge can't be activated.
+> {T}, Remove three case counters from Deportation Court Judge: Exile target creature an opponent controls with mana value 3 or less.
 
 ## Flavor Text
 > *"Case dismissed. Next."*

@@ -3,7 +3,9 @@ tags:
   - card
 type: Creature
 subtype: Human Cleric
-color: White/Black
+color:
+  - White
+  - Black
 mana_cost: "{2}{W}{B}"
 cmc: 4
 rarity: Uncommon
@@ -20,12 +22,10 @@ Creature — Human Cleric
 ## Rules Text
 > Unforged creatures you control get +1/+1 and have lifelink.
 >
-> Whenever an Unforged creature you control dies, if it had a spark counter on it, you may pay {1}. If you do, create a 1/1 black Unforged creature token with a spark counter on it.
->
-> *"They were taken as currency. I will see them returned as people."*
+> Whenever an Unforged creature you control dies, you may pay {1}. If you do, create a 1/1 colorless Unforged creature token.
 
 ## Flavor Text
->
+> *"They were taken as currency. I will see them returned as people."*
 
 ## Image Prompt
 > Unforged Advocate, Human Cleric from Mirrodin Manifest. Setting: Hidden sanctuary — between the Vault of Whispers and freedom. Mood: Genuine hope. Pose: Standing protectively before a group of dim-sparked Unforged, hands emanating healing light. Key visual elements: Black and white robes of Orzhov justice, chrome-touched skin glowing with determination, rescued Unforged with flickering sparks behind. Style reference: Rebecca Guay meets Greg Staples. Color palette: White and black robes, dim golden spark-light, sanctuary warmth.

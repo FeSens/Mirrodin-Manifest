@@ -21,7 +21,7 @@ Creature — Human Citizen
 ## Rules Text
 > Mephidross Refugee can't block.
 >
-> When Mephidross Refugee is exiled, its owner may pay 2 life. If they do, return it to their hand.
+> When Mephidross Refugee is put into exile from the battlefield, you may pay 2 life. If you do, return it to your hand.
 
 ## Flavor Text
 > *"The Dross is poison. The Wall is death. I choose the poison I know."*

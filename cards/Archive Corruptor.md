@@ -4,7 +4,9 @@ tags:
   - unvetted
 type: Creature
 subtype: Human Rogue
-color: Blue/Black
+color:
+  - Blue
+  - Black
 mana_cost: "{1}{U}{B}"
 cmc: 3
 rarity: Uncommon
@@ -23,9 +25,6 @@ Creature — Human Rogue
 
 ## Flavor Text
 > *"Information is currency. I'm making a withdrawal."*
-
-## Power/Toughness
-> 2/2
 
 ## Image Prompt
 > Archive Corruptor, Human Rogue from Mirrodin Manifest. Setting: En-Vidia Lattice — deep within the data archives, chrome storage towers surrounding. Mood: Suspicion. Pose: Crouched at a data terminal, one hand extracting glowing information, other corrupting records. Key visual elements: Dark hood with chrome threading, iron-veined hands manipulating data streams, stolen creature silhouettes visible in extracted light. Style reference: Nils Hamm meets Greg Staples. Color palette: Steel blue, chrome, cyan data streams, shadows.

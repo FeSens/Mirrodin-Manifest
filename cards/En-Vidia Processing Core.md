@@ -19,7 +19,7 @@ Artifact
 >
 > {T}, Remove a charge counter from En-Vidia Processing Core: Add {C}{C}. Spend this mana only to cast artifact spells or activate abilities of artifacts.
 >
-> {2}, {T}: Scry 2. If En-Vidia Processing Core has three or more charge counters on it, draw a card.
+> {2}, {T}: Scry 2.
 
 ## Flavor Text
 > *"Every mana crystal they mine is another thought we process."*

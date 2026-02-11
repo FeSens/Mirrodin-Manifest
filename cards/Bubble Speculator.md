@@ -1,7 +1,6 @@
 ---
 tags:
   - card
-  - broken-needs-review
 type: Creature
 subtype: Human Advisor
 color: Blue
@@ -19,11 +18,11 @@ set: Mirrodin Manifest
 Creature — Human Advisor
 
 ## Rules Text
-> When Bubble Speculator enters the battlefield, put three bubble counters on target permanent.
+> When Bubble Speculator enters the battlefield, put a bubble counter on target permanent.
 >
-> At the beginning of each upkeep, double the number of bubble counters on permanents you control.
+> At the beginning of your upkeep, double the number of bubble counters on each permanent.
 >
-> When a permanent with five or more bubble counters on it has its counters removed, sacrifice it.
+> Whenever bubble counters are removed from a permanent, if it had five or more bubble counters on it, sacrifice that permanent.
 
 ## Flavor Text
 > *"It's not a bubble if it never pops."*
@@ -42,5 +41,5 @@ Creature — Human Advisor
 
 ## Outside of this set interactions
 - **Notable Synergies:** [[Clockspinning]] add/remove counters selectively; [[The Ozolith]] stores counters; [[Solemnity]] prevents bubble growth
-- **BROKEN COMBOS:** Can target OPPONENT'S permanents with bubble counters, then [[Vampire Hexmage]]/[[Aether Snap]] removes counters = force sacrifice of any permanent; 2-card combo to destroy any permanent
-- **Balance Assessment:** BROKEN - The ability to target opponent's permanents then force sacrifice via counter removal is too powerful. Consider "target permanent you control" restriction
+- **Potential Combos:** [[Vampire Hexmage]]/[[Aether Snap]] removes counters from your own bubble permanents for controlled sacrifice timing
+- **Balance Assessment:** Fair - Now restricted to your own permanents. Creates interesting tension with your own counter manipulation.

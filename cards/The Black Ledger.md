@@ -15,11 +15,9 @@ set: Mirrodin Manifest
 Legendary Artifact
 
 ## Rules Text
-> {T}: Look at the top card of target opponent's library. You may have that player reveal it. If you do, put an evidence counter on The Black Ledger.
+> {T}: Look at the top card of target opponent's library. You may put an evidence counter on The Black Ledger.
 >
-> {2}, {T}: Name a card. Target opponent reveals their hand. If the named card is in their hand, that player discards it and put an evidence counter on The Black Ledger.
->
-> {T}, Sacrifice The Black Ledger: Each opponent reveals their hand. You may cast a spell from among those cards with mana value less than or equal to the number of evidence counters on The Black Ledger without paying its mana cost.
+> {2}, {T}, Sacrifice The Black Ledger: Each opponent reveals their hand. You may cast a nonland card from among those cards with mana value less than or equal to the number of evidence counters on The Black Ledger without paying its mana cost.
 
 ## Flavor Text
 > *Every visitor. Every transaction. Every secret.*

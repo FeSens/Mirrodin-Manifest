@@ -19,7 +19,7 @@ set: Mirrodin Manifest
 Creature — Human Rogue
 
 ## Rules Text
-> Whenever Reckless Prospector deals combat damage to a player, create a Gold token. *(It's an artifact with "Sacrifice this artifact: Add one mana of any color.")*
+> Whenever Oxidda Prospector deals combat damage to a player, create a Gold token. *(A Gold token is an artifact with a value counter on it and "Sacrifice this artifact: Add {C} for each value counter on it.")*
 
 ## Flavor Text
 > *"Every punch is an investment."*

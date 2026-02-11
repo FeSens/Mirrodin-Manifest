@@ -17,8 +17,6 @@ Enchantment
 ## Rules Text
 > Whenever you create a Gold token, creatures you control get +1/+0 until end of turn.
 >
-> Whenever you sacrifice a Gold token, you may have target creature gain haste and vigilance until end of turn.
->
 > {R}{W}: Create a Gold token. Activate only once each turn.
 
 ## Flavor Text

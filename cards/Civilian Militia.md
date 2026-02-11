@@ -21,11 +21,9 @@ set: Mirrodin Manifest
 Creature — Leonin Citizen Soldier
 
 ## Rules Text
-> Civilian Militia enters the battlefield with two determination counters on it.
+> Civilian Militia enters the battlefield with two +1/+1 counters on it.
 >
-> Civilian Militia gets +1/+1 for each determination counter on it.
->
-> Whenever a creature you control dies in combat, put a determination counter on Civilian Militia.
+> Whenever a creature you control dies in combat, put a +1/+1 counter on Civilian Militia.
 
 ## Flavor Text
 > *"We were farmers. Now we are soldiers. Our home demands it."*

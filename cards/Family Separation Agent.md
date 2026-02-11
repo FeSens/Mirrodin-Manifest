@@ -21,9 +21,7 @@ set: Mirrodin Manifest
 Creature — Human Soldier Mer-Ikan
 
 ## Rules Text
-> When Family Separation Agent enters the battlefield, exile target creature an opponent controls with mana value 2 or less.
->
-> When Family Separation Agent leaves the battlefield, the exiled creature's owner may search their library for a creature card that shares a creature type with it, reveal it, and put it into their hand. Then they shuffle.
+> When Family Separation Agent enters the battlefield, exile target creature an opponent controls with mana value 2 or less until Family Separation Agent leaves the battlefield.
 
 ## Flavor Text
 > *"The child goes to processing. The parent goes... elsewhere."*

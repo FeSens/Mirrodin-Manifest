@@ -15,7 +15,9 @@ set: Mirrodin Manifest
 Instant
 
 ## Rules Text
-> Redistribute among up to two target [[Debt Token|Debt tokens]]. Target opponent loses 2 life.
+> Redistribute among two target Debt tokens. *(Remove all counters from them, then each gets half that many counters, rounded down.)*
+>
+> Target opponent loses 2 life.
 
 ## Flavor Text
 > *"Your debt becomes their debt. And they pay the price."*

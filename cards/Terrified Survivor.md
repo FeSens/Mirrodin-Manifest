@@ -1,13 +1,14 @@
 ---
 tags:
   - card
-  - broken-needs-review
 type: Creature
 subtype: Human Soldier
 color: White
 mana_cost: "{1}{W}"
 cmc: 2
 rarity: Common
+power: 3
+toughness: 5
 set: Mirrodin Manifest
 ---
 
@@ -21,7 +22,7 @@ Creature — Human Soldier
 >
 > Terrified Survivor enters the battlefield with two -1/-1 counters on it.
 >
-> {W}, Remove a -1/-1 counter from Terrified Survivor: Prevent the next 2 damage that would be dealt to you this turn.
+> {W}: Remove a -1/-1 counter from Terrified Survivor.
 
 ## Flavor Text
 > *"I never want to be on the other side of that again. They're not to be messed with."*

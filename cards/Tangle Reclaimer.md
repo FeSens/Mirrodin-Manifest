@@ -20,7 +20,9 @@ Creature — Beast
 ## Rules Text
 > Trample
 >
-> When Tangle Reclaimer enters the battlefield, redistribute among up to two target permanents you control. For each counter redistributed this way, put a +1/+1 counter on Tangle Reclaimer.
+> When Tangle Reclaimer enters the battlefield, choose two target permanents you control. Redistribute them. Then put two +1/+1 counters on Tangle Reclaimer.
+>
+> *(To redistribute, remove all counters from them, then each gets half that many counters, rounded down.)*
 
 ## Flavor Text
 > *"The Tangle takes back what was scattered."*

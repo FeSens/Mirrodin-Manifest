@@ -15,7 +15,9 @@ set: Mirrodin Manifest
 Sorcery
 
 ## Rules Text
-> Redistribute among creatures you control. Put a +1/+1 counter on each of those creatures.
+> Choose two target creatures you control. Redistribute them, then put a +1/+1 counter on each of them.
+>
+> *(To redistribute, remove all counters from them, then each gets half that many counters, rounded down.)*
 
 ## Flavor Text
 > *"The Tangle shares its strength with all who shelter beneath its boughs."*

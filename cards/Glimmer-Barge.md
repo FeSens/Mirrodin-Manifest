@@ -18,13 +18,13 @@ set: Mirrodin Manifest
 Artifact — Vehicle
 
 ## Rules Text
-> Whenever Glimmer-Barge attacks, you may exile target creature with mana value 2 or less until Glimmer-Barge leaves the battlefield. When you do, put a cargo counter on Glimmer-Barge.
->
 > Glimmer-Barge can't be blocked.
 >
-> When Glimmer-Barge leaves the battlefield, you may draw cards equal to the number of cargo counters on it.
+> Whenever Glimmer-Barge deals combat damage to a player, exile up to one target creature that player controls until Glimmer-Barge leaves the battlefield. Put a cargo counter on Glimmer-Barge.
 >
-> Crew 1 *(Tap any number of creatures you control with total power 1 or more: This Vehicle becomes an artifact creature until end of turn.)*
+> When Glimmer-Barge leaves the battlefield, draw cards equal to the number of cargo counters on it.
+>
+> Crew 1
 
 ## Flavor Text
 > *No manifests. No witnesses. No returns.*

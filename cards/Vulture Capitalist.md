@@ -3,7 +3,9 @@ tags:
   - card
 type: Creature
 subtype: Human Advisor
-color: White/Black
+color:
+  - White
+  - Black
 mana_cost: "{2}{W}{B}"
 cmc: 4
 rarity: Rare
@@ -20,7 +22,7 @@ Creature — Human Advisor
 ## Rules Text
 > Flying
 >
-> Whenever an opponent sacrifices a permanent, that player creates a [[Debt Token|Debt token]].
+> Whenever an opponent sacrifices a permanent, that player creates a Debt token. *(It's an artifact that enters with two debt counters and "At the beginning of your upkeep, you lose 1 life, then remove a debt counter from this. When the last debt counter is removed, sacrifice it.")*
 
 ## Flavor Text
 > *"Crisis is opportunity."*

@@ -18,9 +18,7 @@ set: Mirrodin Manifest
 Creature — Human Rogue
 
 ## Rules Text
-> Whenever Loan Shark deals combat damage to a player, that player creates a [[Debt Token|Debt token]].
->
-> *(Debt tokens enter with a debt counter. At your upkeep, lose life equal to its debt counters, then sacrifice it.)*
+> Whenever Loan Shark deals combat damage to a player, that player creates a Debt token. *(It's an artifact that enters with two debt counters and "At the beginning of your upkeep, you lose 1 life, then remove a debt counter from this. When the last debt counter is removed, sacrifice it.")*
 
 ## Flavor Text
 > *"The first payment is always free."*

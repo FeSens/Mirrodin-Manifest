@@ -21,9 +21,7 @@ Legendary Creature — Human Advisor
 >
 > Other creatures you control have "{T}: Add {B} or {R}. Remove a loyalty counter from Mad-Uro."
 >
-> At the beginning of your end step, if Mad-Uro has no loyalty counters on it or you control fewer than three other creatures, sacrifice it.
->
-> When Mad-Uro dies, each opponent draws cards equal to the number of loyalty counters that were on it.
+> At the beginning of your end step, if Mad-Uro has no loyalty counters on it, sacrifice it.
 
 ## Flavor Text
 > *His people starved while his fortress gleamed. When the Foundry came, not one guard stood in their way.*

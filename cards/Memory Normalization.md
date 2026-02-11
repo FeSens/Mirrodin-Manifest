@@ -15,7 +15,9 @@ set: Mirrodin Manifest
 Instant
 
 ## Rules Text
-> Redistribute among two target permanents. Scry 1.
+> Redistribute between two target permanents. *(To redistribute, remove all counters from both, then put half that many counters, rounded down, on each of them of the types removed this way.)*
+>
+> Scry 1.
 
 ## Flavor Text
 > *"Anomalies must be corrected. Variance is inefficiency."*

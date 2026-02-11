@@ -1,6 +1,7 @@
 ---
 tags:
   - card
+  - unvetted
 type: Artifact
 color: Colorless
 mana_cost: "{2}"
@@ -18,8 +19,6 @@ Artifact
 > Whenever you scry, you may pay {1}. If you do, draw a card, then discard a card.
 >
 > {2}, {T}: Scry 2.
->
-> {U}, {T}: Target Vedalken creature gains hexproof until end of turn.
 
 ## Flavor Text
 > *"The En-Vidia sees all. We merely interpret."*

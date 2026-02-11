@@ -20,7 +20,7 @@ Creature — Wurm
 ## Rules Text
 > Trample
 >
-> When Jackpot Wurm enters the battlefield, gamble three times. For each gamble you win, put three +1/+1 counters on Jackpot Wurm.
+> When Jackpot Wurm enters the battlefield, gamble three times. For each of those gambles you win, put three +1/+1 counters on Jackpot Wurm. *(To gamble, you and target opponent reveal the top card of your libraries. Whoever reveals the card with greater mana value wins.)*
 
 ## Flavor Text
 > *"It feeds on luck itself."*

@@ -1,7 +1,6 @@
 ---
 tags:
   - card
-  - broken-needs-review
 type: Instant
 color: Black
 mana_cost: "{2}{B}"
@@ -16,7 +15,7 @@ set: Mirrodin Manifest
 Instant
 
 ## Rules Text
-> Remove all counters from all permanents.
+> Remove all counters from all nonland permanents.
 >
 > Each player loses 1 life for each counter removed from permanents they controlled this way.
 
@@ -39,4 +38,4 @@ Instant
 ## Outside of this set interactions
 - **Notable Synergies:** [[Phyrexian Etchings]] (removes age counters, stays in play), [[Thing in the Ice]] (removes ice counters, transforms it)
 - **BROKEN COMBOS:** [[Dark Depths]] (20 ice counters) + Market Crash = 20/20 indestructible flying [[Marit Lage]] for 3 mana total. The life loss (20 for you if you control Dark Depths) is survivable and can be mitigated. This is extremely powerful - getting a 20/20 indestructible flyer for 3 mana (plus the land) is format-warping.
-- **Balance Assessment:** POTENTIALLY BROKEN - The Dark Depths interaction exists at the same efficiency as Thespian's Stage but works differently. Also concerning: wipes out planeswalker loyalty (kills all planeswalkers), removes poison counters from players (helps infect victims). Recommendation: Add "nonland permanents" or increase cost significantly.
+- **Balance Assessment:** FIXED - Added "nonland permanents" restriction to prevent Dark Depths combo. Still kills planeswalkers which is powerful but appropriate for a rare. No longer removes land-based counters.

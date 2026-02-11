@@ -18,7 +18,7 @@ set: Mirrodin Manifest
 Creature — Human Cleric
 
 ## Rules Text
-> Whenever you redistribute, you may have target opponent lose 2 life.
+> Whenever one or more permanents are redistributed, you may have target opponent lose 2 life.
 >
 > {1}{B}, {T}: Redistribute. *(Choose two permanents. Remove all counters from them, then each gets half that many counters, rounded down.)*
 

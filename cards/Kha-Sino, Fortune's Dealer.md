@@ -1,7 +1,7 @@
 ---
 tags:
   - card
-type: Creature
+type: Legendary Creature
 subtype: Cat Rogue
 color:
   - Red
@@ -20,11 +20,9 @@ set: Mirrodin Manifest
 Legendary Creature — Cat Rogue
 
 ## Rules Text
-> Whenever you would gamble, you may scry 1 first.
+> Whenever you gamble, you may scry 1 first.
 >
 > At the beginning of your end step, gamble. If you win, create a Gold token. If you lose, each opponent creates a Gold token.
->
-> Whenever a player sacrifices a Gold token, that player gambles.
 
 ## Flavor Text
 > *"The house always wins. I am the house."*

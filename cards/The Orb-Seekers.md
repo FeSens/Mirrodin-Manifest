@@ -1,13 +1,16 @@
 ---
 tags:
   - card
-  - unvetted
 type: Creature
 subtype: Construct
-color: White/Blue
+color:
+  - White
+  - Blue
 mana_cost: "{3}{W}{U}"
 cmc: 5
 rarity: Rare
+power: 2
+toughness: 4
 set: Mirrodin Manifest
 ---
 
@@ -17,19 +20,14 @@ set: Mirrodin Manifest
 Creature — Construct
 
 ## Rules Text
-> When The Orb-Seekers enters, each player reveals their hand. For each player, exile a nonland card from their hand face-down. You may look at cards exiled this way.
+> When The Orb-Seekers enters the battlefield, each player reveals their hand. For each player, exile a nonland card from their hand face-down. You may look at cards exiled this way.
 >
 > {2}, {T}: Target player draws a card. Put a +1/+1 counter on The Orb-Seekers.
 >
-> When The Orb-Seekers leaves the battlefield, each player puts the cards they own exiled with it into their graveyard.
->
-> *"Your identity, in exchange for prosperity."*
-
-## Power/Toughness
-> 2/4
+> When The Orb-Seekers leaves the battlefield, return the exiled cards to their owners' hands.
 
 ## Flavor Text
-> *They promised universal income. They delivered universal surveillance.*
+> *"Your identity, in exchange for prosperity. They promised universal income. They delivered universal surveillance."*
 
 ## Image Prompt
 > The Orb-Seekers, Construct from Mirrodin Manifest. Setting: Glimmervoid marketplace — crowded commerce hub. Mood: False promise. Pose: Spherical chrome constructs floating through crowds, scanning faces. Key visual elements: Single glowing blue eye per orb, beings lining up to be scanned, small payment tokens exchanged, faint marks appearing on foreheads, constructs growing larger. Style reference: Nils Hamm meets Mark Tedin. Color palette: Chrome spheres, pale scanning light, Glimmervoid gold accents.

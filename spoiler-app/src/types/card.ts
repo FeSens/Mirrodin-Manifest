@@ -17,6 +17,7 @@ export interface CardData {
   artUrl?: string;
   artist?: string;
   collectorNumber?: string;
+  totalCards?: string;
 }
 
 export type CardColor = 'W' | 'U' | 'B' | 'R' | 'G' | 'C' | 'M' | 'Land';

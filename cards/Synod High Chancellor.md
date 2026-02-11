@@ -21,7 +21,7 @@ set: Mirrodin Manifest
 Legendary Creature — Vedalken Advisor
 
 ## Rules Text
-> At the beginning of each end step, if no counters were put on permanents this turn, put a stagnation counter on Synod High Chancellor.
+> At the beginning of your end step, put a stagnation counter on Synod High Chancellor.
 >
 > Synod High Chancellor has hexproof as long as it has three or more stagnation counters on it.
 >

@@ -1,6 +1,7 @@
 ---
 tags:
   - card
+  - unvetted
 type: Creature
 subtype: Elf Wizard
 color: Green/Blue

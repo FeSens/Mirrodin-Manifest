@@ -21,7 +21,7 @@ Artifact Creature — Thopter Mer-Ikan
 ## Rules Text
 > Flying
 >
-> Whenever a creature enters the battlefield under an opponent's control, if it wasn't cast from their hand, put a surveillance counter on Border Patrol Thopter.
+> Whenever a creature enters the battlefield under an opponent's control, if it wasn't cast, put a surveillance counter on Border Patrol Thopter.
 >
 > {T}, Remove three surveillance counters from Border Patrol Thopter: Exile target creature with mana value 3 or less.
 

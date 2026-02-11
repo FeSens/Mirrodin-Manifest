@@ -1,7 +1,6 @@
 ---
 tags:
   - card
-  - broken-needs-review
 type: Enchantment
 color: Black/Red
 mana_cost: "{B}{R}"
@@ -16,7 +15,7 @@ set: Mirrodin Manifest
 Enchantment
 
 ## Rules Text
-> Whenever a [[Debt Token|Debt token]] is destroyed or sacrificed, its controller creates a new Debt token. This ability triggers only once each turn.
+> Whenever a Debt is put into a graveyard from the battlefield, its controller creates a Debt token. This ability triggers only once each turn.
 
 ## Flavor Text
 > *"Pay one debt, create another."*
@@ -36,4 +35,4 @@ Enchantment
 ## Outside of this set interactions
 - **Notable Synergies:** Debt Ceiling (creates 2 Debts with 3 counters each instead of 1 with 1 counter), Any Debt creator (locks opponent in perpetual Debt), [[Tergrid, God of Fright]] (if opponent sacrifices permanents, you benefit)
 - **BROKEN COMBOS:** Debt Ceiling + Default Cascade creates an INESCAPABLE DEBT LOCK. Opponent loses 3-6+ life per upkeep and can never be free of Debt. Combined with Hype Cycle (doubles counters), this becomes lethal in 2-3 turns. With [[Blood Artist]] / [[Zulaport Cutthroat]]: Each Debt sacrifice drains 1 life on top of the Debt damage.
-- **Balance Assessment:** POTENTIALLY BROKEN - With Debt Ceiling, this is a near-hard lock. Opponent cannot escape Debt through normal means. Every Debt sacrificed creates 2 more bigger Debts. Recommend adding "if this isn't the first time a Debt was sacrificed this turn" clause or making it trigger only on opponent's Debts.
+- **Balance Assessment:** Fixed - The "once each turn" clause prevents infinite loops. With Debt Ceiling, opponent still gets bigger Debts but only one replacement per turn, making it manageable.

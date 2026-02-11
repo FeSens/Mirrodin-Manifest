@@ -1,9 +1,10 @@
 ---
 tags:
   - card
-  - broken-needs-review
 type: Enchantment
-color: Blue/Black
+color:
+  - Blue
+  - Black
 mana_cost: "{3}{U}{B}"
 cmc: 5
 rarity: Mythic
@@ -18,9 +19,9 @@ Enchantment
 ## Rules Text
 > At the beginning of your upkeep, each player chooses a nontoken creature they control. Exile all other nontoken creatures.
 >
-> Whenever a creature is exiled, its controller creates a 1/1 colorless Myr artifact creature token.
+> Whenever a creature is exiled this way, its controller creates a 1/1 colorless Myr artifact creature token.
 >
-> Creatures exiled with The Great Optimization have "When this card leaves exile, it enters the battlefield under its owner's control."
+> When The Great Optimization leaves the battlefield, each player returns all creature cards they own exiled with it to the battlefield.
 
 ## Flavor Text
 > *"Your position has been optimized. Please report to Reprocessing."*

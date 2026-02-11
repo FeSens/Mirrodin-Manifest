@@ -19,9 +19,9 @@ set: Mirrodin Manifest
 Creature — Human Advisor
 
 ## Rules Text
-> Whenever a legendary creature enters the battlefield under an opponent's control, put a name counter on Keeper of the Guest List.
+> Whenever a creature enters the battlefield under an opponent's control, put a name counter on Keeper of the Guest List.
 >
-> {B}, {T}, Remove X name counters from Keeper of the Guest List: Target opponent discards X cards. Activate only as a sorcery.
+> {B}, {T}, Remove three name counters from Keeper of the Guest List: Target opponent discards two cards.
 
 ## Flavor Text
 > *"Everyone who visited. Every favor exchanged. All recorded."*

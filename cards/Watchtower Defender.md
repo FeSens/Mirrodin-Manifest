@@ -22,12 +22,9 @@ Creature — Leonin Soldier
 > First strike
 >
 > Watchtower Defender gets +0/+2 as long as you control an Equipment.
->
-> *"This ground is ours. Let them try to take it."*
 
 ## Flavor Text
-> *"I don't need transport. I need Equipment."*
-> — Zel-Ensk, the Resilient Spark
+> *"This ground is ours. Let them try to take it."*
 
 ## Image Prompt
 > Watchtower Defender, Leonin Soldier from Mirrodin Manifest. Setting: Fortified watchtower — overlooking approaching threats. Mood: Grim determination. Pose: Crouched in fortified position, equipment at ready, eyes scanning horizon. Key visual elements: Chrome-maned Leonin with metallic fur, well-maintained salvaged equipment, first-strike stance, Vault of Whispers burning distantly. Style reference: Kev Walker. Color palette: White and gold armor, bronze equipment, distant fire orange.

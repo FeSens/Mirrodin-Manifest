@@ -21,7 +21,7 @@ Creature — Human Rogue
 ## Rules Text
 > Flying
 >
-> Whenever Shadow Accountant deals combat damage to a player, create a Gold token. *(It's an artifact with "Sacrifice this artifact: Add one mana of any color.")*
+> Whenever Shadow Accountant deals combat damage to a player, create a Gold token. *(It's an artifact that enters with a value counter and has "Sacrifice this artifact: Add {C} for each value counter on it.")*
 
 ## Flavor Text
 > *"The books always balance. Eventually."*

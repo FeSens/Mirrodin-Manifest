@@ -18,7 +18,7 @@ set: Mirrodin Manifest
 Creature — Human Rogue
 
 ## Rules Text
-> Whenever an opponent sacrifices a [[Debt Token|Debt token]], you draw a card.
+> Whenever an opponent sacrifices a Debt token, you draw a card.
 
 ## Flavor Text
 > *"I'm just here for what's owed."*

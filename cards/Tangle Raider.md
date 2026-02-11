@@ -19,7 +19,9 @@ set: Mirrodin Manifest
 Creature — Human Warrior
 
 ## Rules Text
-> 🎲 GAMBLE — Whenever Tangle Raider attacks, reveal the top card of your library. If it's a land card, Tangle Raider gets +2/+0 until end of turn.
+> Whenever Tangle Raider attacks, gamble. If you win the gamble, Tangle Raider gets +2/+0 until end of turn.
+>
+> *(To gamble, you and target opponent reveal the top card of your libraries. Whoever reveals the card with greater mana value wins.)*
 
 ## Flavor Text
 > *"Fortune favors the bold—and the reckless."*

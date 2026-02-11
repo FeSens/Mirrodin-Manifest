@@ -15,7 +15,7 @@ set: Mirrodin Manifest
 Instant
 
 ## Rules Text
-> Put two debt counters on target [[Debt Token|Debt token]].
+> Put two debt counters on target Debt token.
 
 ## Flavor Text
 > *"The debt grows faster than you can pay."*

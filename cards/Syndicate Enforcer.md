@@ -1,7 +1,6 @@
 ---
 tags:
   - card
-  - broken-needs-review
 type: Creature
 subtype: Human Rogue
 color: Black
@@ -19,7 +18,7 @@ set: Mirrodin Manifest
 Creature — Human Rogue
 
 ## Rules Text
-> Sacrifice another creature: Draw a card. You lose 1 life.
+> {1}, Sacrifice another creature: Draw a card. You lose 1 life.
 
 ## Flavor Text
 > *"Everyone pays eventually. Some just pay with more than gold."*
@@ -38,5 +37,5 @@ Creature — Human Rogue
 
 ## Outside of this set interactions
 - **Notable Synergies:** [[Gravecrawler]] (sacrifice, recast, repeat with Zombie), [[Reassembling Skeleton]] (1B to return and sacrifice again), [[Bloodghast]] (free recurring sacrifice fodder), [[Pitiless Plunderer]] (Treasure on each sacrifice)
-- **BROKEN COMBOS:** [[Gravecrawler]] + Syndicate Enforcer + [[Phyrexian Altar]] (sacrifice Gravecrawler for card, get B from Altar, recast Gravecrawler - draw entire deck). [[Reassembling Skeleton]] + [[Pitiless Plunderer]] (sacrifice for card, Treasure, pay 1B to return, net card for 1 mana)
-- **Balance Assessment:** POTENTIALLY BROKEN - Free sacrifice outlet with card draw enables many existing infinite combos in Commander. Similar to [[Yawgmoth, Thran Physician]] but less restricted and with life loss instead of -1/-1 counters.
+- **Notable Combos:** [[Gravecrawler]] + Syndicate Enforcer + [[Phyrexian Altar]] (now requires 1 extra mana per loop - no longer infinite). [[Reassembling Skeleton]] + [[Pitiless Plunderer]] (sacrifice for card, Treasure, pay 1B to return, pay 1 to activate - mana neutral card draw)
+- **Balance Assessment:** FIXED - Added {1} activation cost prevents free infinite combos. Now comparable to [[Vampiric Rites]] but on a creature body. The mana cost makes infinite loops require additional pieces.

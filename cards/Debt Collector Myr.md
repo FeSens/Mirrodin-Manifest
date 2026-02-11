@@ -18,7 +18,7 @@ set: Mirrodin Manifest
 Artifact Creature — Myr
 
 ## Rules Text
-> Whenever an opponent sacrifices a [[Debt Token|Debt token]], put a +1/+1 counter on Debt Collector Myr.
+> Whenever an opponent sacrifices a Debt token, put a +1/+1 counter on Debt Collector Myr.
 
 ## Flavor Text
 > *"Payment received. Processing."*

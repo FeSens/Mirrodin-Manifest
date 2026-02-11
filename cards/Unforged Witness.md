@@ -7,6 +7,8 @@ color: White
 mana_cost: "{1}{W}"
 cmc: 2
 rarity: Uncommon
+power: 1
+toughness: 2
 set: Mirrodin Manifest
 ---
 
@@ -18,9 +20,7 @@ Creature — Human Unforged
 ## Rules Text
 > Unforged Witness enters the battlefield with a testimony counter on it.
 >
-> When Unforged Witness enters the battlefield, look at the top card of target opponent's library. You may reveal it. If a legendary card is revealed this way, put a testimony counter on Unforged Witness.
->
-> Sacrifice Unforged Witness: Reveal the top X cards of target opponent's library, where X is the number of testimony counters on it. Your opponents can't cast legendary spells until your next turn.
+> Sacrifice Unforged Witness: Target opponent reveals their hand. You choose a nonland card from it with mana value less than or equal to the number of testimony counters on Unforged Witness. They discard that card.
 
 ## Flavor Text
 > *"They told me I was special. That I had potential. They were right—I was currency."*

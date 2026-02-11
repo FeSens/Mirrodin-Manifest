@@ -23,11 +23,9 @@ Creature — Human Cleric
 > At the beginning of your upkeep, you may remove a counter from a permanent you control.
 >
 > Whenever a counter is removed from a permanent an opponent controls, you gain 1 life.
->
-> *"Tighten your belts. Sacrifice is virtue."*
 
 ## Flavor Text
-> *"The deficit must be addressed. Your counters will suffice."*
+> *"Tighten your belts. Sacrifice is virtue."*
 
 ## Image Prompt
 > Austerity Minister, Human Cleric from Mirrodin Manifest. Setting: Mer-Ikan Foundry — austere government chamber with citizens lined up. Mood: Institutional horror. Pose: Reaching toward a citizen's possession, plucking a golden counter with spindly fingers. Key visual elements: Gaunt face with chrome cheekbones, severe black and white robes, pockets bulging with collected counters. Style reference: Nils Hamm meets Greg Staples. Color palette: Stark black and white, gold counter accents.

@@ -3,7 +3,7 @@ tags:
   - card
   - unvetted
 type: Creature
-subtype: Human Advisor
+subtype: Human Citizen Advisor
 color:
   - Green
   - White
@@ -18,17 +18,15 @@ set: Mirrodin Manifest
 # Hidden Community Elder
 
 ## Card Type Line
-Creature — Human Advisor
+Creature — Human Citizen Advisor
 
 ## Rules Text
 > Other Citizen creatures you control get +1/+1 and have hexproof.
 >
-> Whenever a Citizen creature you control would be exiled, you may have Hidden Community Elder be exiled instead.
->
-> *"They will have to go through me first."*
+> If a Citizen creature you control would be exiled, you may exile Hidden Community Elder instead.
 
 ## Flavor Text
-> *"We protect our own. The Foundry takes nothing."*
+> *"They will have to go through me first."*
 
 ## Image Prompt
 > Hidden Community Elder, Human Advisor from Mirrodin Manifest. Setting: The Tangle borderlands — a hidden sanctuary within copper-root caves. Mood: Grim determination, genuine hope. Pose: Arms spread protectively wide, body positioned between the viewer and the community behind. Key visual elements: Weathered face with chrome-streaked hair, simple but sturdy clothing, Citizen families sheltering in shadows behind. Style reference: Rebecca Guay meets Kev Walker. Color palette: Copper, forest green, olive, warm hidden firelight.

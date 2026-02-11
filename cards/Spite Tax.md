@@ -15,7 +15,7 @@ set: Mirrodin Manifest
 Instant
 
 ## Rules Text
-> Redistribute among up to two Debt tokens. Target opponent loses 2 life.
+> Choose two Debt tokens and redistribute them. Target opponent loses 2 life. *(To redistribute, remove all counters from them, then each gets half that many counters, rounded down.)*
 
 ## Flavor Text
 > *"Your debts are my pleasure."*

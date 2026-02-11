@@ -4,7 +4,9 @@ tags:
   - unvetted
 type: Instant
 subtype:
-color: Blue/Black
+color:
+  - Blue
+  - Black
 mana_cost: "{1}{U}{B}"
 cmc: 3
 rarity: Uncommon
@@ -17,7 +19,7 @@ set: Mirrodin Manifest
 Instant
 
 ## Rules Text
-> Tap all artifacts and creatures target player controls. They don't untap during that player's next untap step.
+> Tap all artifacts and creatures target opponent controls. They don't untap during that opponent's next untap step.
 >
 > Draw a card.
 

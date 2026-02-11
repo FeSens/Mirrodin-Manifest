@@ -22,13 +22,11 @@ Legendary Creature — Vedalken Advisor
 > At the beginning of your upkeep, scry 2.
 >
 > {U}, {T}: Choose one —
-> • Redistribute. *(Choose two permanents. Remove all counters from them, then each gets half that many counters, rounded down.)*
+> • Redistribute. *(To redistribute, choose two permanents. Remove all counters from them, then put half that many counters, rounded down, on each of them of the types removed this way.)*
 > • Each player draws a card.
->
-> *"Integration requires... adjustment."*
 
 ## Flavor Text
-> *"His speeches promise everything. The Quicksilver Sea evaporates regardless."*
+> *"Integration requires... adjustment."*
 
 ## Image Prompt
 > Mak-Ron, the Glass Orator, Vedalken Advisor from Mirrodin Manifest. Setting: Seat of the Synod — a crystal podium overlooking the Quicksilver Sea, which visibly recedes behind him. Mood: False promise, eloquent misdirection. Pose: Standing tall with arms spread wide in grand oratory gesture, audience nodding unaware of the disaster behind them. Key visual elements: Pristine white robes on blue Vedalken skin, chrome-threaded hair perfectly styled, silver tongue literally visible, the sea draining away unnoticed. Style reference: Greg Staples meets Seb McKinnon. Color palette: Steel blue, chrome, pristine white, quicksilver receding, subtle doom.

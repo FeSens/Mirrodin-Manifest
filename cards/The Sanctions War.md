@@ -19,12 +19,10 @@ Enchantment
 ## Rules Text
 > Players can't search libraries.
 >
-> Whenever a player would draw a card except the first one they draw in each of their draw steps, that player may instead look at the top two cards of their library and put one into their hand and the other on the bottom.
->
-> *"Cut them off from our Cores. Watch them build their own."*
+> Whenever a player draws a card except the first one they draw in each of their draw steps, that player may reveal it. If they do, they scry 1.
 
 ## Flavor Text
-> *The Foundry thought scarcity would cripple the Oxidda Chain. It only made them resourceful.*
+> *"Cut them off from our Cores. Watch them build their own." The Foundry thought scarcity would cripple the Oxidda Chain. It only made them resourceful.*
 
 ## Image Prompt
 > The Sanctions War — Enchantment. Visual focus: Border checkpoint blocking En-Vidia Cores from crossing to Oxidda. Setting: Border between Mer-Ikan territory and Oxidda mountains — gleaming vs rugged. Focal point: Stacked forbidden Cores on one side, determined Oxidda artificers building alternatives from scraps on the other, smug checkpoint guards between. Mood: Grim determination. Style reference: Kev Walker meets Mark Tedin. Color palette: Furnace orange, copper Oxidda, chrome barrier, dark red restrictions.

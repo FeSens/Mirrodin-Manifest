@@ -15,9 +15,9 @@ set: Mirrodin Manifest
 Sorcery
 
 ## Rules Text
-> Citizen creatures you control become 3/3 Soldiers until end of turn and gain haste and first strike.
+> Create two 1/1 white Citizen creature tokens.
 >
-> Create two 1/1 white Citizen creature tokens, then Citizen creatures you control deal damage equal to their power to target creature or planeswalker.
+> Citizen creatures you control get +2/+0 and gain first strike and haste until end of turn.
 
 ## Flavor Text
 > *"We were refugees. Now we are revolutionaries."*

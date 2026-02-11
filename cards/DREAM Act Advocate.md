@@ -23,9 +23,7 @@ Creature — Human Advisor
 ## Rules Text
 > When DREAM Act Advocate enters the battlefield, put a protection counter on each Citizen creature you control.
 >
-> Citizen creatures with protection counters on them have "When this creature would be exiled, instead remove a protection counter from it."
->
-> *"These children know no other home. This is their home."*
+> If a Citizen creature you control with a protection counter on it would be exiled, remove a protection counter from it instead.
 
 ## Flavor Text
 > *"The path to citizenship should not require perfection."*

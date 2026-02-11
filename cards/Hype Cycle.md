@@ -19,11 +19,11 @@ Enchantment — Saga
 ## Rules Text
 > *(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)*
 >
-> **I** — Double the number of counters on each permanent.
+> **I** — Double the number of counters on each creature you control.
 >
-> **II** — Double the number of counters on each permanent.
+> **II** — Double the number of counters on each creature you control.
 >
-> **III** — Remove all counters from all permanents.
+> **III** — Remove all counters from all creatures.
 
 ## Flavor Text
 > *"The Lattice promised infinite growth. It delivered infinite zeroes."*

@@ -4,7 +4,9 @@ tags:
   - broken-needs-review
 type: Enchantment
 subtype:
-color: Blue/Black
+color:
+  - Blue
+  - Black
 mana_cost: "{2}{U}{B}"
 cmc: 4
 rarity: Rare
@@ -20,8 +22,6 @@ Enchantment
 > Artifact creatures enter the battlefield tapped and don't untap during their controllers' untap steps.
 >
 > At the beginning of each player's upkeep, that player may pay {2}. If they do, untap all artifact creatures they control.
->
-> *"It works. Just not as well as they promised."*
 
 ## Flavor Text
 > *The Myr still function. They just don't perform miracles.*

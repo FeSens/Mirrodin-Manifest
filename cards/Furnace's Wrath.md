@@ -15,7 +15,7 @@ set: Mirrodin Manifest
 Enchantment
 
 ## Rules Text
-> Whenever you cast an instant or sorcery spell that deals damage, it deals 1 additional damage to each target.
+> If an instant or sorcery spell you control would deal damage to a permanent or player, it deals that much damage plus 1 instead.
 >
 > Whenever you win a gamble, Furnace's Wrath deals 2 damage to each opponent.
 

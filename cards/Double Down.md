@@ -17,7 +17,7 @@ Sorcery
 ## Rules Text
 > Draw two cards, then discard a card.
 >
-> Gamble. If you lose the gamble, discard another card.
+> Gamble. If you win the gamble, draw a card. If you lose the gamble, discard a card.
 
 ## Flavor Text
 > *"Double or nothing? I'll take those odds."*

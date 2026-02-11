@@ -18,7 +18,7 @@ set: Mirrodin Manifest
 Creature — Vedalken Wizard
 
 ## Rules Text
-> {T}: Put a debt counter on target [[Debt Token|Debt token]].
+> {T}: Put a debt counter on target Debt token.
 
 ## Flavor Text
 > *"Time is money. Specifically, your money."*

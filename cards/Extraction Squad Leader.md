@@ -19,7 +19,7 @@ set: Mirrodin Manifest
 Creature — Human Soldier Mer-Ikan
 
 ## Rules Text
-> When Extraction Squad Leader enters the battlefield, exile target creature an opponent controls with mana value 3 or less. Put two -1/-1 counters on it when it returns.
+> When Extraction Squad Leader enters the battlefield, exile target creature an opponent controls with mana value 3 or less until Extraction Squad Leader leaves the battlefield.
 >
 > Other Mer-Ikan creatures you control get +1/+0.
 

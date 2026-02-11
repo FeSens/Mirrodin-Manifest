@@ -19,11 +19,7 @@ set: Mirrodin Manifest
 Creature — Human Soldier Mer-Ikan
 
 ## Rules Text
-> Detention Warden enters the battlefield with three detention counters on it.
->
-> When Detention Warden enters the battlefield, exile any number of target creatures opponents control with total mana value 6 or less until Detention Warden leaves the battlefield. Put a detention counter on Detention Warden for each creature exiled this way.
->
-> Detention Warden has indestructible as long as it has six or more detention counters on it.
+> When Detention Warden enters the battlefield, exile up to two target creatures an opponent controls with mana value 2 or less each until Detention Warden leaves the battlefield.
 
 ## Flavor Text
 > *"Capacity is not my concern."*

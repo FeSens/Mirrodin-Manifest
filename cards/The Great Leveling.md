@@ -1,9 +1,8 @@
 ---
 tags:
   - card
-  - broken-needs-review
 card_name: The Great Leveling
-type: Creature
+type: Artifact Creature
 subtype: Construct
 color: White
 mana_cost: "{4}{W}{W}"
@@ -22,9 +21,9 @@ Legendary Artifact Creature — Construct
 ## Rules Text
 > Vigilance
 >
-> When The Great Leveling enters the battlefield, redistribute among all permanents with counters on them. *(Remove all counters from all of them, then distribute that many counters evenly among them, rounded down, of the same types.)*
+> When The Great Leveling enters the battlefield, remove all counters from all other permanents. Then distribute that many counters among those permanents as evenly as possible, rounded down.
 >
-> At the beginning of each end step, if any permanent has three or more counters than another permanent with counters, redistribute among those permanents.
+> Whenever one or more counters are put on a permanent, if that permanent has five or more counters on it, redistribute it and target other permanent.
 
 ## Flavor Text
 > *"No one rises. No one falls. All are equal before the Equalizer."*

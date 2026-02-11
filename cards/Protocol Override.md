@@ -5,7 +5,7 @@ type: Instant
 color: Blue
 mana_cost: "{1}{U}"
 cmc: 2
-rarity: Common
+rarity: Uncommon
 set: Mirrodin Manifest
 ---
 
@@ -39,4 +39,4 @@ Instant
 ## Outside of this set interactions
 - **Notable Synergies:** Functions as a strictly better [[Stifle]] with cantrip. Works well with any deck running counter-magic or control strategies
 - **Potential Combos:** Can counter fetch land activations (like [[Flooded Strand]]), [[Aether Vial]] triggers, planeswalker abilities, and persist/undying triggers. Similar to [[Nimble Obstructionist]] but as an instant
-- **Balance Assessment:** Strong but not broken. The cantrip attached to a Stifle effect at 2 mana is above rate but acceptable at common for limited
+- **Balance Assessment:** Strong but fair at uncommon. The cantrip attached to a Stifle effect at 2 mana is above rate but acceptable for limited. Bumped from common to uncommon due to power level.

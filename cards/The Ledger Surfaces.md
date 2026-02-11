@@ -3,7 +3,9 @@ tags:
   - card
 type: Enchantment
 subtype: Saga
-color: White/Black
+color:
+  - White
+  - Black
 mana_cost: "{2}{W}{B}"
 cmc: 4
 rarity: Mythic
@@ -16,15 +18,13 @@ set: Mirrodin Manifest
 Enchantment — Saga
 
 ## Rules Text
-> *(As this Saga enters and after your draw step, add a lore counter. Sacrifice after IV.)*
+> *(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)*
 >
-> **I** — Create two 1/1 black Unforged creature tokens with spark counters on them.
+> **I** — Create two 1/1 black Unforged creature tokens.
 >
-> **II** — Each opponent reveals their hand. You choose a nonland card from each and exile it.
+> **II** — Each opponent reveals their hand. You choose a nonland card from each hand and exile it.
 >
-> **III** — For each card exiled with this Saga, that card's owner loses 3 life unless they sacrifice a creature.
->
-> **IV** — Return all cards exiled with this Saga to their owners' hands. Each player draws cards equal to the number of creatures that died this turn.
+> **III** — For each card exiled with The Ledger Surfaces, that card's owner loses 3 life unless they sacrifice a creature. Then return all cards exiled with The Ledger Surfaces to their owners' hands.
 
 ## Flavor Text
 > *"The names were always there. Someone just had to read them aloud."*

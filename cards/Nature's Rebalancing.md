@@ -15,9 +15,7 @@ set: Mirrodin Manifest
 Sorcery
 
 ## Rules Text
-> Redistribute among any number of creatures you control. *(For each pair, remove all counters from them, then each gets half that many counters, rounded down.)*
->
-> Then put a +1/+1 counter on each creature that had counters redistributed to it.
+> For each creature you control with counters on it, remove all counters from it, then put half that many +1/+1 counters on it, rounded down, plus one.
 
 ## Flavor Text
 > *"The Tangle knows no hierarchy. Only balance."*

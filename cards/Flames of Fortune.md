@@ -16,8 +16,6 @@ Enchantment
 
 ## Rules Text
 > Whenever you win a gamble, Flames of Fortune deals 2 damage to any target.
->
-> Whenever you lose a gamble, Flames of Fortune deals 1 damage to you.
 
 ## Flavor Text
 > *"Luck burns bright. Failure burns you."*

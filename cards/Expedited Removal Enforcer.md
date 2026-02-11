@@ -21,7 +21,7 @@ Artifact Creature — Construct Mer-Ikan
 ## Rules Text
 > Flash
 >
-> When Expedited Removal Enforcer enters the battlefield, exile target creature an opponent controls. Its controller may pay {3}. If they do, return it to the battlefield under their control at the beginning of the next end step.
+> When Expedited Removal Enforcer enters the battlefield, exile target creature an opponent controls until Expedited Removal Enforcer leaves the battlefield.
 
 ## Flavor Text
 > *"Due process is for citizens."*

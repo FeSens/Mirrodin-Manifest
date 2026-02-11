@@ -21,9 +21,9 @@ set: Mirrodin Manifest
 Creature — Leonin Artificer
 
 ## Rules Text
-> {T}: Create a 1/1 colorless Thopter artifact creature token with flying and "When this creature deals combat damage to a creature, destroy that creature."
+> {T}: Create a 1/1 colorless Thopter artifact creature token with flying.
 >
-> Thopter tokens you control have haste.
+> Thopter creatures you control have deathtouch.
 
 ## Flavor Text
 > *"We see them before they see us. We strike before they can react."*

@@ -19,6 +19,8 @@ set: Mirrodin Manifest
 Creature — Human Rogue
 
 ## Rules Text
+> Menace
+>
 > When Debt Enforcer enters the battlefield, target opponent discards a card.
 
 ## Flavor Text
@@ -39,4 +41,4 @@ Creature — Human Rogue
 ## Outside of this set interactions
 - **Notable Synergies:** [[Panharmonicon]] (double discard), [[Conjurer's Closet]] / Blink effects (repeated discard), [[Waste Not]] (benefits from forced discard)
 - **Potential Combos:** None
-- **Balance Assessment:** Fair - Overcosted for the effect. Ravenous Chupacabra is better at the same rate.
+- **Balance Assessment:** Fair with menace - Now comparable to other black 5-drops at common.

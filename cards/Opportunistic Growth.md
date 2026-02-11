@@ -18,7 +18,7 @@ set: Mirrodin Manifest
 Creature — Plant
 
 ## Rules Text
-> When Opportunistic Growth enters the battlefield, gamble. If you win the gamble, put two +1/+1 counters on it.
+> When Opportunistic Growth enters the battlefield, gamble. If you win the gamble, put two +1/+1 counters on Opportunistic Growth.
 >
 > Whenever you win a gamble, put a +1/+1 counter on Opportunistic Growth.
 

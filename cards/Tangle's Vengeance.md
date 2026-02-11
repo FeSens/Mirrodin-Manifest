@@ -17,7 +17,7 @@ Enchantment
 ## Rules Text
 > Elf creatures you control get +1/+1.
 >
-> Whenever an Elf enters the battlefield under your control, you may have it fight target creature an opponent controls with power 2 or less.
+> Whenever an Elf enters the battlefield under your control, you may have it fight target creature an opponent controls.
 >
 > {3}{G}: Create a 2/2 green Elf Warrior creature token.
 

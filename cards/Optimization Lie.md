@@ -18,8 +18,6 @@ Sorcery
 
 ## Rules Text
 > Exile target creature. Its controller creates a 0/1 colorless Myr artifact creature token with "{T}: Add {C}."
->
-> *"Your position has been automated."*
 
 ## Flavor Text
 > *The Myr that replaced her couldn't do her job. But it was cheaper to maintain.*

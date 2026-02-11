@@ -22,11 +22,9 @@ Legendary Creature — Vedalken Advisor
 > Flying, vigilance
 >
 > At the beginning of each opponent's upkeep, tap up to two other target nonland permanents that player controls.
->
-> *"Order is not requested. It is enforced."*
 
 ## Flavor Text
-> *"I speak for the Synod. The Synod speaks for all."*
+> *"Order is not requested. It is enforced."*
 
 ## Image Prompt
 > Supreme Arbiter of Order, Vedalken Advisor from Mirrodin Manifest. Setting: Seat of the Synod central plaza — chrome spires and assembled masses below. Mood: Institutional horror. Pose: Hovering above the crowd on invisible force, arms raised in commanding gesture as citizens freeze in terrified compliance. Key visual elements: Elaborate ceremonial robes of white and chrome, four-armed Vedalken physique with each hand directing different areas, eyes glowing with enforced authority. Style reference: Greg Staples meets Seb McKinnon. Color palette: White, chrome, steel blue, gold accents.

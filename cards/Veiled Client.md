@@ -21,13 +21,11 @@ set: Mirrodin Manifest
 Creature — Human Noble
 
 ## Rules Text
-> Protection from Unforged.
->
 > Veiled Client enters the battlefield with two guilt counters on it.
 >
-> At the beginning of your upkeep, if Veiled Client has no guilt counters on it, sacrifice it.
->
 > {1}, Remove a guilt counter from Veiled Client: Draw a card. Activate only as a sorcery.
+>
+> When the last guilt counter is removed from Veiled Client, sacrifice it.
 
 ## Flavor Text
 > *"My name was never in that ledger. I was never on that isle."*

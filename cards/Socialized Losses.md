@@ -15,7 +15,7 @@ set: Mirrodin Manifest
 Sorcery
 
 ## Rules Text
-> Each player creates a [[Debt Token|Debt token]]. Then redistribute among all Debt tokens.
+> Each player creates a Debt token. Then choose two Debt tokens and redistribute them. *(A Debt token is an artifact that enters with two debt counters and "At the beginning of your upkeep, you lose 1 life, then remove a debt counter from this. When the last debt counter is removed, sacrifice it." To redistribute, remove all counters from them, then each gets half that many counters, rounded down.)*
 
 ## Flavor Text
 > *"Privatize the profits. Socialize the losses."*

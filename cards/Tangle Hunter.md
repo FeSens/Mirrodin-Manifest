@@ -6,7 +6,7 @@ subtype: Elf Warrior
 color: Green
 mana_cost: "{2}{G}"
 cmc: 3
-rarity: Common
+rarity: Uncommon
 power: 3
 toughness: 2
 set: Mirrodin Manifest
@@ -29,7 +29,7 @@ Creature — Elf Warrior
 > Tangle Hunter, Elf Warrior from Mirrodin Manifest. Setting: The Tangle — canopy of copper leaves with surveillance drones above. Mood: Grim determination. Pose: Emerging from vines, bow drawn skyward. Key visual elements: Chrome-bone bow, iron-veined arms, Foundry drone in crosshairs above. Style reference: Kev Walker meets Rebecca Guay. Color palette: Copper, forest green, steel blue drone.
 
 ## Design Notes
-- Green common creature - addresses Green common gap (-7)
+- Green uncommon creature - ETB artifact destruction is too strong for common
 - Reach plus artifact removal for Mirrodin flavor
 - Green's artifact hate at common
 - Lore connection: [[Lore#The Tangle Resistance]]

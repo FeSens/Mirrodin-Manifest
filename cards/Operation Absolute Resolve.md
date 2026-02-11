@@ -19,12 +19,10 @@ Sorcery
 ## Rules Text
 > This spell can't be countered.
 >
-> Destroy all artifacts target opponent controls. Then exile target legendary creature that opponent controls. You may cast that card for as long as it remains exiled, and you may spend mana as though it were mana of any color to cast it.
->
-> *"We reached him within three minutes. Within five, he was ours."*
+> Destroy all artifacts target opponent controls. Exile up to one target legendary creature that player controls. You may cast that card for as long as it remains exiled, and you may spend mana as though it were mana of any color to cast it.
 
 ## Flavor Text
-> *The Foundry doesn't negotiate. It resolves.*
+> *"We reached him within three minutes. Within five, he was ours."*
 
 ## Image Prompt
 > Operation Absolute Resolve — Sorcery. Action depicted: Elite Foundry soldiers in chrome power armor fast-roping from thopters into a fortified compound as explosions shatter defenses. A terrified figure in ornate robes is dragged from the chaos. Setting: Night assault on an enemy stronghold. Focal point: The captured leader being extracted as the world burns around them. Mood: Grim determination, surgical precision amid chaos. Style reference: Kev Walker meets Raymond Swanland. Color palette: Golds, bronze, explosion orange, night sky, military chrome.

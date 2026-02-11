@@ -19,11 +19,9 @@ set: Mirrodin Manifest
 Creature — Human Citizen
 
 ## Rules Text
-> Caravan Survivor enters the battlefield with a journey counter on it.
+> Caravan Survivor enters the battlefield with two +1/+1 counters on it.
 >
-> Caravan Survivor gets +2/+2 as long as it has a journey counter on it.
->
-> When Caravan Survivor is dealt damage, remove a journey counter from it.
+> Whenever Caravan Survivor is dealt damage, remove a +1/+1 counter from it.
 
 ## Flavor Text
 > *"The journey nearly broke me. But I'm still here."*

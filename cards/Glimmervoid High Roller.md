@@ -1,7 +1,6 @@
 ---
 tags:
   - card
-  - broken-needs-review
 type: Creature
 subtype: Vedalken Rogue
 color: Blue
@@ -19,9 +18,9 @@ set: Mirrodin Manifest
 Creature — Vedalken Rogue
 
 ## Rules Text
-> Whenever you gamble, draw a card.
+> Once each turn, whenever you gamble, draw a card.
 >
-> {U}, Discard a card: Gamble.
+> {U}, Discard a card: Gamble. *(You and target opponent reveal the top card of your libraries. Whoever reveals the card with greater mana value wins.)*
 
 ## Flavor Text
 > *"The thrill isn't in winning. It's in knowing you might not."*
@@ -40,4 +39,4 @@ Creature — Vedalken Rogue
 ## Outside of this set interactions
 - **Notable Synergies:** [[Krark's Thumb]] gives 75% win rate + drawing a card on EVERY gamble; [[Chance Encounter]] for rapid luck counter accumulation; [[Alhammarret's Archive]] doubles cards drawn
 - **Potential Combos:** [[Intruder Alarm]] + token generators creates infinite gamble/draw loops; [[Mind Over Matter]] discard to untap, gamble, draw to refuel; [[Teferi's Ageless Insight]] draws 2 per gamble
-- **Balance Assessment:** POTENTIALLY BROKEN - "Whenever you gamble, draw a card" provides excessive card advantage with cheap gamble sources. Consider adding "once each turn" restriction or increasing mana cost
+- **Balance Assessment:** FIXED - Added "once each turn" restriction to prevent excessive card advantage loops. Now provides reasonable value for a 4-mana rare.

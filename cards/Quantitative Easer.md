@@ -21,7 +21,7 @@ Creature — Vedalken Wizard
 ## Rules Text
 > {T}: Put a value counter on each Gold token you control.
 >
-> {2}{U}, {T}: Create two Gold tokens. Each opponent creates a Gold token.
+> {2}{U}, {T}: Create a Gold token. Each opponent creates a Gold token.
 
 ## Flavor Text
 > *"Print more. Everyone gets more. What could go wrong?"*

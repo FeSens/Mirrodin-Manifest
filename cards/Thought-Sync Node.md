@@ -2,7 +2,7 @@
 tags:
   - card
   - unvetted
-type: Creature
+type: Artifact Creature
 subtype: Construct
 color: Colorless
 mana_cost: "{4}"
@@ -23,9 +23,7 @@ Artifact Creature — Construct
 >
 > Thought-Sync Node enters the battlefield with three sync counters on it.
 >
-> {T}, Remove a sync counter from Thought-Sync Node: Target player mills two cards.
->
-> When Thought-Sync Node has no sync counters on it, sacrifice it and draw three cards.
+> {T}, Remove a sync counter from Thought-Sync Node: Target player mills two cards. If there are no sync counters on Thought-Sync Node, sacrifice it and draw two cards.
 
 ## Flavor Text
 > *"Uploading... uploading... upload complete."*

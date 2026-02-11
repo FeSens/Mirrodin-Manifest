@@ -1,9 +1,10 @@
 ---
 tags:
   - card
-  - broken-needs-review
 type: Sorcery
-color: Blue/Black
+color:
+  - Blue
+  - Black
 mana_cost: "{3}{U}{B}"
 cmc: 5
 rarity: Rare
@@ -19,8 +20,6 @@ Sorcery
 > Turn all face-down exiled cards face-up.
 >
 > For each card turned face-up this way, its owner loses 2 life and you draw a card.
->
-> You may cast up to one spell from among cards turned face-up this way without paying its mana cost.
 
 ## Flavor Text
 > *"The redactions failed. The names are readable. Everyone will know."*

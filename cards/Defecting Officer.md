@@ -3,7 +3,7 @@ tags:
   - card
   - unvetted
 type: Creature
-subtype: Human Soldier
+subtype: Human Citizen Soldier
 color:
   - White
   - Black
@@ -18,7 +18,7 @@ set: Mirrodin Manifest
 # Defecting Officer
 
 ## Card Type Line
-Creature — Human Soldier
+Creature — Human Citizen Soldier
 
 ## Rules Text
 > When Defecting Officer enters the battlefield, target opponent may sacrifice a creature. If they do, you draw two cards.

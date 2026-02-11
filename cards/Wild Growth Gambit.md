@@ -15,7 +15,9 @@ set: Mirrodin Manifest
 Sorcery
 
 ## Rules Text
-> Gamble. If you win the gamble, search your library for a basic land card, put it onto the battlefield tapped, then shuffle. If you lose, search your library for a basic land card, put it into your hand, then shuffle.
+> Gamble. *(You and target opponent each reveal the top card of your libraries. Whoever reveals the card with greater mana value wins. If equal, the active player wins.)*
+>
+> Search your library for a basic land card. If you won the gamble, put it onto the battlefield tapped. Otherwise, put it into your hand. Then shuffle.
 
 ## Flavor Text
 > *"Nature rewards the bold. Or at least, the lucky."*

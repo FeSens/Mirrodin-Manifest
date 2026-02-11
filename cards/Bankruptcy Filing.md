@@ -15,7 +15,7 @@ set: Mirrodin Manifest
 Sorcery
 
 ## Rules Text
-> Destroy all [[Debt Token|Debt tokens]] you control. You can't create Debt tokens until end of turn.
+> Destroy all Debt tokens you control.
 
 ## Flavor Text
 > *"The Tangle knows no currency."*

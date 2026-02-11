@@ -19,9 +19,7 @@ set: Mirrodin Manifest
 Creature — Human Artificer
 
 ## Rules Text
-> When Foreign Arms Supplier enters the battlefield, create an Equipment artifact token with "Equipped creature gets +2/+0 and has first strike" and equip {1}.
->
-> Whenever you create an Equipment token, put a supply counter on Foreign Arms Supplier. It gets +0/+1 for each supply counter on it.
+> When Foreign Arms Supplier enters the battlefield, create a colorless Equipment artifact token named Surplus Armament with "Equipped creature gets +2/+0 and has first strike" and equip {1}.
 
 ## Flavor Text
 > *"The Synod sends weapons, not soldiers. Make them count."*

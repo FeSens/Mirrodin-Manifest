@@ -18,9 +18,9 @@ Enchantment
 ## Rules Text
 > When Myr-Sourced Automation enters the battlefield, create two 1/1 colorless Myr artifact creature tokens.
 >
-> Whenever you cast a noncreature spell, you may tap an untapped Myr you control. If you do, copy that spell. You may choose new targets for the copy.
+> Once each turn, whenever you cast a noncreature spell, you may tap an untapped Myr you control. If you do, copy that spell. You may choose new targets for the copy.
 >
-> At the beginning of your upkeep, put a -1/-1 counter on each non-Myr creature you control.
+> Non-Myr creatures you control get -1/-1.
 
 ## Flavor Text
 > *"Efficiency requires displacement."*
@@ -41,4 +41,4 @@ Enchantment
 ## Outside of this set interactions
 - **Notable Synergies:** [[Paradox Engine]] (banned) untaps all nonlands with each spell; [[Niv-Mizzet, Parun]] draw from copies deals damage; [[Thousand-Year Storm]] stacks copy effects
 - **BROKEN COMBOS:** [[Intruder Alarm]] untaps Myr when tokens enter = copy more spells infinitely; [[High Tide]] + cantrips = storm off with free copies; [[Dramatic Reversal]] + [[Isochron Scepter]] = infinite copies
-- **Balance Assessment:** BROKEN - Free spell copying with Myr is too powerful. Storm decks can abuse this to copy every spell. The -1/-1 downside is negligible if you win that turn. Consider adding mana cost to copy ability or "once per turn" limit
+- **Balance Assessment:** FIXED - Added "once each turn" limit to prevent storm abuse. Still powerful but no longer broken with infinite combos.

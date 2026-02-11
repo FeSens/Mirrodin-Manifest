@@ -21,11 +21,9 @@ Creature — Human Soldier
 > Other Soldier and Citizen creatures you control get +1/+1.
 >
 > Whenever you cast an instant or sorcery spell, create a 1/1 white Citizen creature token.
->
-> *"Stand together or fall alone."*
 
 ## Flavor Text
->
+> *"Stand together or fall alone."*
 
 ## Image Prompt
 > Militia Captain, Human Soldier from Mirrodin Manifest. Setting: Mer-Ikan Foundry — a bronze-gilded plaza during an uprising. Mood: Genuine hope amidst struggle. Pose: Standing atop rubble with sword raised, rallying citizens behind them. Key visual elements: Battle-scarred chrome-inlaid armor, iron-gray hair streaked with metallic threads, citizens with improvised weapons gathering behind. Style reference: Kev Walker meets Greg Staples. Color palette: Golds, bronze, dark red, warm hopeful lighting cutting through smoke.

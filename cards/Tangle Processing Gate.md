@@ -5,7 +5,7 @@ type: Land
 color: Colorless
 mana_cost:
 cmc: 0
-rarity: Common
+rarity: Uncommon
 set: Mirrodin Manifest
 ---
 
@@ -28,6 +28,6 @@ Land
 > Tangle Processing Gate — Land. Time of day: Dawn light filtering through copper leaves. Vantage point: Approaching the gate from the path. Key features: Archway where chrome Foundry architecture meets copper Tangle growth, new paths emerging through the boundary. Mood: Genuine hope. Style reference: John Avon meets Rebecca Guay. Color palette: Copper leaves, forest green, white Foundry chrome, golden dawn.
 
 ## Design Notes
-- Selesnya dual land at common
-- ETB tapped + scry for balance
+- Selesnya dual land at uncommon
+- ETB tapped + scry matches Temple cycle power level (should be uncommon, not common)
 - Supports GW archetype

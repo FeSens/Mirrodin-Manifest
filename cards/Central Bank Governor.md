@@ -19,7 +19,7 @@ set: Mirrodin Manifest
 Legendary Creature — Human Advisor
 
 ## Rules Text
-> At the beginning of each upkeep, redistribute among all [[Debt Token|Debt tokens]].
+> At the beginning of each upkeep, if there are two or more Debt tokens on the battlefield, redistribute among two of them.
 >
 > Whenever you redistribute, you may have target player create a Debt token.
 

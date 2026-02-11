@@ -1,7 +1,6 @@
 ---
 tags:
   - card
-  - broken-needs-review
 type: Creature
 subtype: Human Citizen
 color: White
@@ -21,9 +20,9 @@ Creature — Human Citizen
 ## Rules Text
 > Asylum Seeker enters the battlefield with a hope counter on it.
 >
-> As long as Asylum Seeker has a hope counter on it, it has hexproof and "Whenever this creature is dealt damage, put a +1/+1 counter on it."
+> As long as Asylum Seeker has a hope counter on it, it has hexproof.
 >
-> When Asylum Seeker becomes the target of a spell or ability an opponent controls, remove all hope counters from it.
+> Whenever Asylum Seeker is dealt damage, remove a hope counter from it.
 
 ## Flavor Text
 > *"I came seeking safety. I found only waiting."*
@@ -41,5 +40,5 @@ Creature — Human Citizen
 
 ## Outside of this set interactions
 - **Notable Synergies:** [[Solemnity]] (can't lose hope counter - permanent hexproof!), [[The Ozolith]] (saves counters when dies), [[Hardened Scales]] (more +1/+1 counters from damage)
-- **BROKEN COMBOS:** [[Solemnity]] + Asylum Seeker creates a permanent hexproof creature that can never lose its hope counter!
-- **Balance Assessment:** POTENTIALLY BROKEN - With Solemnity, this becomes an unkillable hexproof creature for 2 mana that grows when dealt damage. The "targeted" clause is bypassed entirely. Consider changing to "leaves the battlefield" or "when dealt damage by an opponent."
+- **Notable Combos:** [[Solemnity]] prevents counters but hope counter is placed on ETB, so Solemnity interaction is neutral.
+- **Balance Assessment:** FIXED - Changed trigger from "becomes target" (which conflicted with hexproof) to "whenever a counter is removed." Now Redistribute and counter-removal effects can break its protection, creating counterplay with set mechanics.

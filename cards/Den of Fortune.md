@@ -17,9 +17,9 @@ Land
 ## Rules Text
 > {T}: Add {C}.
 >
-> {T}: Add {R}. Spend this mana only to cast spells with gamble or spells that cause you to gamble.
+> {T}: Add {R}. Spend this mana only to cast spells with gamble or to activate abilities that have you gamble.
 >
-> {2}{R}, {T}: Gamble. If you win, add {R}{R}{R}. If you lose, Den of Fortune deals 2 damage to you.
+> {1}, {T}: Gamble. If you win, add {R}{R}. If you lose, Den of Fortune deals 2 damage to you.
 
 ## Flavor Text
 > *"The house always wins. Unless you ARE the house."*

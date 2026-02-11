@@ -21,7 +21,7 @@ Creature — Human Pilot
 ## Rules Text
 > Barge Pilot crews Vehicles as though its power were 3.
 >
-> Whenever a Vehicle you control deals combat damage to a player, put a cargo counter on it.
+> Whenever a Vehicle you control deals combat damage to a player, put a cargo counter on that Vehicle.
 
 ## Flavor Text
 > *"I don't ask what's in the hold. I don't count heads on the return."*

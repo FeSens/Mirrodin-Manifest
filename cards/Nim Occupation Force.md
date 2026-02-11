@@ -22,8 +22,6 @@ Creature — Nim Zombie Soldier
 > Menace
 >
 > When Nim Occupation Force enters the battlefield, put three occupation counters on target land an opponent controls. That land has "At the beginning of your upkeep, you lose 1 life for each occupation counter on this land."
->
-> {B}, Remove an occupation counter from a land: Draw a card.
 
 ## Flavor Text
 > *"They don't conquer. They rot. Everything they touch rots."*

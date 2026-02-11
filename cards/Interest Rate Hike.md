@@ -15,7 +15,7 @@ set: Mirrodin Manifest
 Instant
 
 ## Rules Text
-> Put two debt counters on each [[Debt Token|Debt token]].
+> Put two debt counters on each Debt token.
 
 ## Flavor Text
 > *"Adjustment effective immediately."*

@@ -17,7 +17,7 @@ Instant
 ## Rules Text
 > Lucky Strike deals 3 damage to any target.
 >
-> Gamble. If you win the gamble, Lucky Strike deals 3 damage to another target.
+> Gamble with target opponent. If you win, Lucky Strike deals 3 damage to another target. *(To gamble, you and that player each reveal the top card of your libraries. Whoever reveals the card with greater mana value wins. If equal, the active player wins.)*
 
 ## Flavor Text
 > *"Lightning strikes twice for those blessed by fortune."*

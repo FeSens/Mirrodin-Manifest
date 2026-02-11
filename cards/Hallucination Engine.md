@@ -2,7 +2,7 @@
 tags:
   - card
   - unvetted
-type: Creature
+type: Artifact Creature
 subtype: Construct
 color: Blue
 mana_cost: "{3}{U}"
@@ -21,7 +21,7 @@ Artifact Creature — Construct
 ## Rules Text
 > Whenever you scry, put a glitch counter on Hallucination Engine.
 >
-> {T}, Remove three glitch counters from Hallucination Engine: Create a token that's a copy of target creature, except it's an artifact in addition to its other types. Sacrifice it at the beginning of the next end step.
+> {T}, Remove three glitch counters from Hallucination Engine: Create a token that's a copy of target creature. Sacrifice it at the beginning of the next end step.
 
 ## Flavor Text
 > *"It looks real. It acts real. It isn't."*

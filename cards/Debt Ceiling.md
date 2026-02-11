@@ -16,9 +16,7 @@ set: Mirrodin Manifest
 Enchantment
 
 ## Rules Text
-> [[Debt Token|Debt tokens]] enter the battlefield with two additional debt counters on them.
->
-> Whenever a player would create one or more Debt tokens, they create that many plus one instead.
+> If a Debt token would enter the battlefield, it enters with two additional debt counters on it.
 
 ## Flavor Text
 > *"The limit? What limit?"*

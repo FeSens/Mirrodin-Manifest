@@ -19,11 +19,9 @@ set: Mirrodin Manifest
 Creature — Human Rogue
 
 ## Rules Text
-> When Isle Procurer enters the battlefield, create a 1/1 white Human Unforged creature token with a spark counter on it.
+> When Isle Procurer enters the battlefield, create a 1/1 white Human Unforged creature token.
 >
-> Whenever an Unforged you control dies, put a secrecy counter on Isle Procurer.
->
-> Isle Procurer gets +1/+0 for each secrecy counter on it.
+> Whenever another creature you control dies, Isle Procurer gets +1/+0 until end of turn.
 
 ## Flavor Text
 > *"Fresh potential, as requested. The client list grows."*

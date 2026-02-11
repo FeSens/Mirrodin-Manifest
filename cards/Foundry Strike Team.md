@@ -8,6 +8,8 @@ color: White
 mana_cost: "{2}{W}{W}"
 cmc: 4
 rarity: Rare
+power: 3
+toughness: 2
 set: Mirrodin Manifest
 ---
 
@@ -22,8 +24,6 @@ Creature — Human Soldier
 > First strike
 >
 > When Foundry Strike Team enters, exile target creature an opponent controls until Foundry Strike Team leaves the battlefield.
->
-> *"This was surgical."*
 
 ## Flavor Text
 > *They rehearsed the breach a hundred times in a replica forge. On the night, they needed only one.*

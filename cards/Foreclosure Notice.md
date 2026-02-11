@@ -18,9 +18,9 @@ Enchantment — Aura
 ## Rules Text
 > Enchant creature an opponent controls
 >
-> Enchanted creature's controller creates a [[Debt Token|Debt token]] at the beginning of their upkeep.
+> At the beginning of enchanted creature's controller's upkeep, that player creates a Debt token. *(It's an artifact that enters with two debt counters and "At the beginning of your upkeep, you lose 1 life, then remove a debt counter from this. When the last debt counter is removed, sacrifice it.")*
 >
-> When enchanted creature leaves the battlefield, you draw 2 cards.
+> When enchanted creature dies, you draw two cards.
 
 ## Flavor Text
 > *"Default in 3... 2..."*

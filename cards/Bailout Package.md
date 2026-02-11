@@ -15,7 +15,7 @@ set: Mirrodin Manifest
 Sorcery
 
 ## Rules Text
-> Destroy target artifact. Its controller creates two [[Debt Token|Debt tokens]].
+> Destroy target artifact. Its controller creates two Debt tokens. *(A Debt token is an artifact that enters with two debt counters and "At the beginning of your upkeep, you lose 1 life, then remove a debt counter from this. When the last debt counter is removed, sacrifice it.")*
 
 ## Flavor Text
 > *"The Foundry saves you—but the Foundry never forgets."*

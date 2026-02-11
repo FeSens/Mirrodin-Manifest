@@ -1,7 +1,6 @@
 ---
 tags:
   - card
-  - broken-needs-review
 type: Creature
 subtype: Human Rogue
 color: Blue
@@ -21,7 +20,7 @@ Creature — Human Rogue
 ## Rules Text
 > When Ledger Thief enters the battlefield, look at the top five cards of target opponent's library. You may exile one of them face-down. Put the rest back in any order.
 >
-> {2}{U}, Sacrifice Ledger Thief: Turn all cards exiled face-down by cards you control face-up. You may cast one of them this turn without paying its mana cost.
+> {2}{U}, Sacrifice Ledger Thief: You may cast a nonland card with mana value 4 or less exiled with Ledger Thief without paying its mana cost.
 
 ## Flavor Text
 > *"Copies. I made copies."*
@@ -38,4 +37,4 @@ Creature — Human Rogue
 ## Outside of this set interactions
 - **Notable Synergies:** [[Venser, the Sojourner]] (repeated looks at opponent's library), [[Panharmonicon]] (double exile triggers), [[Brago, King Eternal]] (blink loops)
 - **BROKEN COMBOS:** Could exile opponent's expensive spells and cast them free ([[Omniscience]], [[Enter the Infinite]], or any expensive spell). However, requires setup (ETB + sacrifice) and opponent must have the card in top 5.
-- **Balance Assessment:** POTENTIALLY BROKEN - The "cast without paying mana cost" has no restrictions on card types. Recommend adding "with mana value 4 or less" or similar restriction. Likely Fair but worth monitoring in testing.
+- **Balance Assessment:** FIXED - Added "nonland card with mana value 4 or less" restriction to prevent casting Omniscience or other expensive bombs. Now fair for uncommon.

@@ -16,7 +16,7 @@ set: Mirrodin Manifest
 Sorcery
 
 ## Rules Text
-> Destroy all artifacts. For each artifact destroyed this way, its controller creates a [[Debt Token|Debt token]].
+> Destroy all artifacts. For each artifact destroyed this way, its controller creates a Debt token.
 
 ## Flavor Text
 > *"The bill for progress came due all at once."*

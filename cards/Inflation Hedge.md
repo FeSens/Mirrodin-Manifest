@@ -15,7 +15,7 @@ set: Mirrodin Manifest
 Artifact
 
 ## Rules Text
-> Whenever a [[Debt Token|Debt token]] enters the battlefield under an opponent's control, you create a [[Gold Token|Gold token]].
+> Whenever a Debt token enters the battlefield under an opponent's control, create a Gold token.
 >
 > Sacrifice Inflation Hedge: Destroy all Debt tokens.
 

@@ -17,9 +17,7 @@ set: Mirrodin Manifest
 Artifact
 
 ## Rules Text
-> {1}, {T}: Put a shield counter on target legendary creature you control. Activate only if that creature was dealt damage this turn.
->
-> {3}, {T}: Put two shield counters on target legendary creature you control.
+> {1}, {T}: Put a shield counter on target creature you control. Activate only as a sorcery.
 
 ## Flavor Text
 > *"He tried to escape into the safe room. He didn't make it in time."*

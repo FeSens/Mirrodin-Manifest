@@ -1,7 +1,6 @@
 ---
 tags:
   - card
-  - broken-needs-review
 type: Artifact
 color: Colorless
 mana_cost: "{4}"

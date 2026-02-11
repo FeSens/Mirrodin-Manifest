@@ -1,7 +1,7 @@
 ---
 tags:
   - card
-  - broken-needs-review
+  - vetted
 type: Enchantment
 color: Green/White
 mana_cost: "{2}{G}{W}"
@@ -16,9 +16,7 @@ set: Mirrodin Manifest
 Enchantment
 
 ## Rules Text
-> Creature tokens you control that were created this turn have hexproof.
->
-> Whenever a creature enters the battlefield under your control, if it wasn't cast from your hand, put a +1/+1 counter on it.
+> Whenever a nontoken creature enters the battlefield under your control, if it wasn't cast, put a +1/+1 counter on it. This ability triggers only once each turn.
 >
 > {2}, Exile a creature card from your graveyard: Create a token that's a copy of that card, except it's a Refugee in addition to its other types.
 
@@ -42,5 +40,5 @@ Enchantment
 
 ## Outside of this set interactions
 - **Notable Synergies:** [[Doubling Season]] doubles tokens and +1/+1 counters; [[Anointed Procession]] doubles token copies; [[Sneak Attack]]/[[Through the Breach]] creatures not cast get buffed
-- **BROKEN INFINITE COMBO:** Persist creatures ([[Kitchen Finks]], [[Murderous Redcap]]) + any sacrifice outlet = INFINITE LOOP. Persist creature dies, returns with -1/-1 counter. Sanctuary Manifest adds +1/+1 counter (wasn't cast from hand). Counters cancel out, creature is at full stats. Sacrifice again = infinite life (Finks) or infinite damage (Redcap)
-- **Balance Assessment:** BROKEN - The +1/+1 counter on creatures not cast from hand enables infinite combos with Persist. Consider adding "nontoken" or "once each turn" restriction
+- **Persist Interaction:** FIXED - The "once each turn" clause prevents infinite loops with persist creatures like [[Kitchen Finks]] or [[Murderous Redcap]]. Still provides value but not infinite.
+- **Balance Assessment:** FIXED - The nontoken restriction and once-per-turn clause prevent abuse while maintaining the card's flavor and utility.

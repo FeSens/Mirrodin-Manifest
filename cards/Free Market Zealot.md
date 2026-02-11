@@ -19,9 +19,9 @@ set: Mirrodin Manifest
 Creature — Human Advisor
 
 ## Rules Text
-> Whenever a player compounds, you create a Gold token. *(It's an artifact that enters with a value counter. It has "Sacrifice this artifact: Add {C} for each value counter on it.")*
+> Whenever a permanent is compounded, you create a Gold token. *(A Gold token is an artifact with a value counter on it and "Sacrifice this artifact: Add {C} for each value counter on it.")*
 >
-> Whenever a player redistributes, sacrifice a permanent you control.
+> Whenever a permanent is redistributed, you lose 2 life.
 
 ## Flavor Text
 > *"Growth is sacred. Redistribution is theft."*

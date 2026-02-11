@@ -5,7 +5,9 @@ tags:
 card_name: Synod Mediator
 type: Creature
 subtype: Vedalken Soldier
-color: White/Blue
+color:
+  - White
+  - Blue
 mana_cost: "{W}{U}"
 cmc: 2
 rarity: Uncommon
@@ -25,7 +27,7 @@ Creature — Vedalken Soldier
 > When Synod Mediator enters the battlefield, tap target creature an opponent controls.
 
 ## Flavor Text
-> *"Order will be maintained. By force if necessary."*
+> *"The Synod doesn't negotiate. It arbitrates."*
 
 ## Power/Toughness
 > 2/2

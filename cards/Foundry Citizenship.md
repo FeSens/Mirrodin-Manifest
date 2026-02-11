@@ -18,9 +18,7 @@ Enchantment — Aura
 ## Rules Text
 > Enchant creature you control
 >
-> When Foundry Citizenship enters the battlefield, put a +1/+1 counter on enchanted creature.
->
-> Enchanted creature has vigilance, is a Mer-Ikan in addition to its other types, and can't be exiled by opponents.
+> Enchanted creature gets +1/+1, has vigilance, and is a Mer-Ikan in addition to its other types.
 
 ## Flavor Text
 > *"With this mark, the Furnace claims you. Without it, the Furnace consumes you."*

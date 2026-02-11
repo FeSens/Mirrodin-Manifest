@@ -1,7 +1,6 @@
 ---
 tags:
   - card
-  - broken-needs-review
 type: Enchantment
 color: Black
 mana_cost: "{1}{B}{B}"
@@ -16,11 +15,9 @@ set: Mirrodin Manifest
 Enchantment
 
 ## Rules Text
-> Whenever a counter is placed on a permanent you control, if it's the first counter of that type on that permanent, put a secrecy counter on Secrets Accumulated.
+> Whenever one or more counters are put on a permanent you control, put a secrecy counter on Secrets Accumulated. This ability triggers only once each turn.
 >
 > {B}, Remove three secrecy counters from Secrets Accumulated: Each opponent discards a card. You draw a card.
->
-> {2}{B}, Remove five secrecy counters: Destroy target creature. Its controller loses life equal to its power.
 
 ## Flavor Text
 > *"Every secret is currency. Every name, a weapon."*
@@ -40,4 +37,4 @@ Enchantment
 ## Outside of this set interactions
 - **Notable Synergies:** [[Doubling Season]] doubles secrecy counters placed; [[Proliferate effects]] add more secrecy counters; [[Hardened Scales]] extra counters on all counter placement
 - **POTENTIALLY BROKEN Combos:** [[Heliod, Sun-Crowned]] + [[Walking Ballista]] infinite +1/+1 counters = infinite secrecy counters; [[Devoted Druid]] + [[Vizier of Remedies]] infinite -1/-1 counters placed = infinite secrecy; [[Mikaeus, the Unhallowed]] + persist creature infinite death/undying triggers with counters
-- **Balance Assessment:** POTENTIALLY BROKEN - This triggers on ANY counter type's first placement. Infinite counter combos (like Heliod/Ballista) generate infinite secrecy counters, which can be used for infinite discard or removal. Consider adding "once per turn" or limiting to specific counter types
+- **Balance Assessment:** FIXED - Added "Once each turn" to prevent infinite secrecy counter generation from infinite counter combos.

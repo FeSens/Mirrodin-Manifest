@@ -2,7 +2,7 @@
 tags:
   - card
 type: Creature
-subtype: Human Worker
+subtype: Human Citizen
 color: Red
 mana_cost: "{3}{R}"
 cmc: 4
@@ -15,7 +15,7 @@ set: Mirrodin Manifest
 # Furnace Stoker
 
 ## Card Type Line
-Creature — Human Worker
+Creature — Human Citizen
 
 ## Rules Text
 > When Furnace Stoker enters the battlefield, it deals 1 damage to each creature.

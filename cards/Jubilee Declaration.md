@@ -15,7 +15,7 @@ set: Mirrodin Manifest
 Sorcery
 
 ## Rules Text
-> Destroy all [[Debt Token|Debt tokens]]. Each player gains 2 life for each Debt token they controlled that was destroyed this way.
+> Destroy all Debt tokens. Each player gains 2 life for each Debt token they controlled that was destroyed this way.
 
 ## Flavor Text
 > *"All debts are forgiven. Begin again."*

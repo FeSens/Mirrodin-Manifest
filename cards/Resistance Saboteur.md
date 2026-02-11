@@ -23,12 +23,10 @@ Creature — Leonin Rogue
 ## Rules Text
 > Deathtouch
 >
-> Whenever Resistance Saboteur deals combat damage to a player, destroy target artifact that player controls with mana value 4 or greater.
->
-> *"Their tanks are expensive. My explosives are not."*
+> Whenever Resistance Saboteur deals combat damage to a player, destroy target artifact that player controls.
 
 ## Flavor Text
-> *"Behind every advance, our people wait."*
+> *"Their tanks are expensive. My explosives are not."*
 
 ## Image Prompt
 > Resistance Saboteur, Leonin Rogue from Mirrodin Manifest. Setting: Dross Dominion — shadow of a massive Nim war machine. Mood: Grim determination. Pose: Crouched beneath the machine, planting copper explosives with practiced precision. Key visual elements: Tawny fur with chrome-tipped mane, iron claws for tools, venomous green eyes reflecting necrogen glow. Style reference: Kev Walker meets Nils Hamm. Color palette: Near-black, dark olive, copper highlights.

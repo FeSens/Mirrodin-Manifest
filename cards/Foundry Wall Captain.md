@@ -22,11 +22,11 @@ set: Mirrodin Manifest
 Creature — Human Soldier Mer-Ikan
 
 ## Rules Text
-> Whenever a creature is exiled from under an opponent's control, put a deportation counter on Foundry Wall Captain.
+> Whenever a creature an opponent controls is exiled, put a deportation counter on Foundry Wall Captain.
 >
 > Mer-Ikan creatures you control get +1/+1 for each deportation counter on Foundry Wall Captain.
 >
-> {R}{W}, Remove five deportation counters from Foundry Wall Captain: Exile all creatures opponents control that weren't cast from their hands.
+> {R}{W}, Remove three deportation counters from Foundry Wall Captain: Exile target creature an opponent controls that wasn't cast from its owner's hand.
 
 ## Flavor Text
 > *"The numbers speak for themselves. Enforcement works."*

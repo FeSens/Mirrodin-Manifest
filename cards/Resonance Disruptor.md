@@ -19,9 +19,9 @@ Artifact
 ## Rules Text
 > Resonance Disruptor enters the battlefield with two charge counters on it.
 >
-> {2}, {T}, Remove a charge counter from Resonance Disruptor: Resonance Disruptor deals 1 damage to each creature. Creatures dealt damage this way can't block this turn and their activated abilities can't be activated this turn.
+> {2}, {T}, Remove a charge counter from Resonance Disruptor: Resonance Disruptor deals 1 damage to each creature. Creatures dealt damage this way can't block this turn.
 >
-> {T}, Sacrifice Resonance Disruptor: Resonance Disruptor deals damage equal to the number of charge counters on it to each creature. Tap all creatures dealt damage this way. They don't untap during their controller's next untap step.
+> {T}, Sacrifice Resonance Disruptor: Resonance Disruptor deals damage equal to the number of charge counters on it to each creature.
 
 ## Flavor Text
 > *"It was like my head was exploding from the inside. We all started bleeding. We fell to the ground, unable to move."*

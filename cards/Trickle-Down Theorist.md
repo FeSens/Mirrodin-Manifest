@@ -19,9 +19,9 @@ set: Mirrodin Manifest
 Creature — Human Advisor
 
 ## Rules Text
-> At the beginning of your end step, compound. Put the counter on a permanent with the most counters on it.
+> At the beginning of your end step, compound target permanent you control with the most counters on it. *(To compound, put a counter on it of a type already on it.)*
 >
-> Whenever a permanent you control with five or more counters on it leaves the battlefield, each other creature you control gets a +1/+1 counter.
+> Whenever a permanent you control with five or more counters on it leaves the battlefield, put a +1/+1 counter on each other creature you control.
 
 ## Flavor Text
 > *"Concentrate wealth at the top. It will flow down... eventually."*

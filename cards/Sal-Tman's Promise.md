@@ -19,11 +19,9 @@ Enchantment
 ## Rules Text
 > At the beginning of your upkeep, put a progress counter on Sal-Tman's Promise.
 >
-> {T} an untapped artifact you control: Scry 1.
+> Tap an untapped artifact you control: Scry 1.
 >
 > When Sal-Tman's Promise has five or more progress counters on it, sacrifice it. If you do, draw cards equal to the number of progress counters on it, then discard your hand.
->
-> *"We're so close. Just a little more investment."*
 
 ## Flavor Text
 > *The breakthrough was always imminent. The deadline was always moving.*

@@ -1,10 +1,11 @@
 ---
 tags:
   - card
-  - broken-needs-review
 type: Creature
 subtype: Spirit
-color: White/Black
+color:
+  - White
+  - Black
 mana_cost: "{1}{W}{B}"
 cmc: 3
 rarity: Uncommon

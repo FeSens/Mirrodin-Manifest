@@ -15,7 +15,7 @@ set: Mirrodin Manifest
 Sorcery
 
 ## Rules Text
-> Redistribute among all [[Debt Token|Debt tokens]].
+> Redistribute among two target Debt tokens. *(To redistribute, remove all counters from them, then put half that many counters on each of them, rounded down.)*
 
 ## Flavor Text
 > *"The burden is now... shared."*

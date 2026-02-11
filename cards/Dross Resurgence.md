@@ -15,11 +15,7 @@ set: Mirrodin Manifest
 Sorcery
 
 ## Rules Text
-> Return up to two target creature cards from your graveyard to your hand.
->
-> You gain 2 life for each Zombie card returned this way.
->
-> You may put a +1/+1 counter on target creature for each Elf card returned this way.
+> Return up to two target creature cards from your graveyard to your hand. You gain 2 life for each creature card returned this way.
 
 ## Flavor Text
 > *"The Dross and the Tangle share one truth: death is not the end."*

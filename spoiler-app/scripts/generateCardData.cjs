@@ -7,12 +7,16 @@ const IMAGES_DIR = path.join(__dirname, '../../images');
 
 function parseYamlValue(content, key) {
   const match = content.match(new RegExp(`^${key}:\\s*(.+)$`, 'm'));
-  return match ? match[1].trim().replace(/^["']|["']$/g, '') : '';
+  if (!match) return '';
+  const value = match[1].trim().replace(/^["']|["']$/g, '');
+  // Guard against capturing the next YAML key (e.g. empty "color:" followed by "mana_cost: ...")
+  if (/^[a-z_]+:/.test(value)) return '';
+  return value;
 }
 
 function parseYamlArray(content, key) {
   // First try array format: key:\n  - value1\n  - value2
-  const arrayRegex = new RegExp(`${key}:\\s*\\n((?:\\s+-\\s+.+\\n?)*)`, 'm');
+  const arrayRegex = new RegExp(`^${key}:\\s*\\n((?:\\s+-\\s+.+\\n?)*)`, 'm');
   const arrayMatch = content.match(arrayRegex);
   if (arrayMatch && arrayMatch[1].trim()) {
     const items = arrayMatch[1].match(/-\s+(.+)/g);
@@ -24,8 +28,8 @@ function parseYamlArray(content, key) {
   const singleMatch = content.match(singleRegex);
   if (singleMatch) {
     const value = singleMatch[1].trim();
-    // Skip if it looks like an empty/invalid value
-    if (value && value !== '[]' && !value.startsWith('-')) {
+    // Skip if it looks like an empty/invalid value or captures the next key
+    if (value && value !== '[]' && !value.startsWith('-') && !/^[a-z_]+:/.test(value)) {
       return [value];
     }
   }
@@ -52,6 +56,9 @@ function parseCard(content, filename) {
   const typeLineMatch = body.match(/## Card Type Line\n(.+)/);
   const typeLine = typeLineMatch ? typeLineMatch[1].trim() : parseYamlValue(frontmatter, 'type');
 
+  // Detect supertype from type line
+  const supertype = typeLine.toLowerCase().startsWith('legendary') ? 'Legendary' : undefined;
+
   // Extract rules text (blockquote content, excluding flavor text)
   const rulesMatch = body.match(/## Rules Text\n([\s\S]*?)(?=\n##|$)/);
   let rulesText = '';
@@ -59,8 +66,12 @@ function parseCard(content, filename) {
     const lines = rulesMatch[1].split('\n')
       .filter(l => l.startsWith('>'))
       .map(l => l.replace(/^>\s*/, ''))
-      .filter(l => !l.startsWith('*') || !l.endsWith('*')); // Keep non-italic lines
+      .filter(l => !(l.startsWith('*') && l.endsWith('*'))); // Filter full-line italics (flavor)
+
     rulesText = lines.join('\n').trim();
+
+    // Strip inline italic reminder text like *(It's an artifact...)*
+    rulesText = rulesText.replace(/\s*\*\([^)]*\)\*/g, '');
   }
 
   // Extract flavor text
@@ -88,6 +99,7 @@ function parseCard(content, filename) {
 
   const power = parseYamlValue(frontmatter, 'power');
   const toughness = parseYamlValue(frontmatter, 'toughness');
+  const loyalty = parseYamlValue(frontmatter, 'loyalty');
 
   return {
     name,
@@ -95,14 +107,17 @@ function parseCard(content, filename) {
     cmc: parseInt(parseYamlValue(frontmatter, 'cmc')) || 0,
     type: parseYamlValue(frontmatter, 'type'),
     subtype: parseYamlValue(frontmatter, 'subtype') || undefined,
+    supertype: supertype,
     typeLine,
     rulesText,
     flavorText,
     power: power || undefined,
     toughness: toughness || undefined,
+    loyalty: loyalty || undefined,
     colors: parseYamlArray(frontmatter, 'color'),
     rarity: parseYamlValue(frontmatter, 'rarity') || 'Common',
     set: parseYamlValue(frontmatter, 'set') || 'Mirrodin Manifest',
+    artist: 'Felipe Bonetto',
     artUrl: hasImage ? `./images/${imageName}.png` : '',
   };
 }
@@ -123,6 +138,13 @@ function main() {
 
   // Sort by name
   cards.sort((a, b) => a.name.localeCompare(b.name));
+
+  // Assign collector numbers after sorting
+  const totalCards = cards.length;
+  cards.forEach((card, index) => {
+    card.collectorNumber = String(index + 1);
+    card.totalCards = String(totalCards);
+  });
 
   // Ensure output directory exists
   const outputDir = path.dirname(OUTPUT_FILE);

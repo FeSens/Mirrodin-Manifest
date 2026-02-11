@@ -15,7 +15,7 @@ set: Mirrodin Manifest
 Sorcery
 
 ## Rules Text
-> Redistribute among up to four target permanents. For each counter removed this way, each opponent loses 1 life.
+> Redistribute two target permanents. *(Remove all counters from them, then each gets half that many counters, rounded down.)* For each counter removed this way, each opponent loses 1 life.
 
 ## Flavor Text
 > *"If I cannot have it, no one can. And you will suffer for my loss."*

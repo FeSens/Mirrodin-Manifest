@@ -19,9 +19,7 @@ set: Mirrodin Manifest
 Creature — Human Rogue
 
 ## Rules Text
-> {U}, {T}: Target creature gains "This creature can't be exiled" until end of turn.
->
-> {1}{U}, {T}: Target creature you control becomes a copy of another target creature you control until end of turn.
+> {U}, {T}: Target creature you control gains hexproof until end of turn and can't be exiled this turn.
 
 ## Flavor Text
 > *"Across the Sea, past the checkpoints. I know the way."*

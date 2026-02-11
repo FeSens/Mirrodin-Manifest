@@ -19,7 +19,7 @@ set: Mirrodin Manifest
 Creature — Elf Rogue
 
 ## Rules Text
-> 🎲 GAMBLE — When Verdant Gambler enters the battlefield, reveal the top card of your library. If it's a creature card, put two +1/+1 counters on Verdant Gambler.
+> When Verdant Gambler enters the battlefield, gamble. If you win, put two +1/+1 counters on Verdant Gambler. If you lose, put a -1/-1 counter on Verdant Gambler. *(To gamble, you and target opponent each reveal the top card of your libraries. Whoever reveals the card with greater mana value wins. If equal, the active player wins.)*
 
 ## Flavor Text
 > *"Nature always rewards those willing to take risks."*

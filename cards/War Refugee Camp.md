@@ -23,9 +23,7 @@ Creature — Assembly
 >
 > When War Refugee Camp enters the battlefield, create two 1/1 white Leonin Citizen creature tokens.
 >
-> Leonin Citizen creatures you control have hexproof.
->
-> {2}{W}: Target Leonin Citizen creature you control becomes a 2/2 Soldier in addition to its other types and gains first strike until end of turn.
+> {2}{W}: Target Leonin Citizen creature you control gets +1/+1 and gains first strike until end of turn.
 
 ## Flavor Text
 > *"We shelter those who flee. We train those who fight."*

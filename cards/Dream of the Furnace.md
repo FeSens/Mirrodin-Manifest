@@ -25,7 +25,7 @@ Creature — Spirit
 >
 > At the beginning of your upkeep, put a dream counter on Dream of the Furnace.
 >
-> {T}, Remove three dream counters from Dream of the Furnace: Create a 2/2 white Human Citizen creature token with "This creature can't be exiled."
+> {T}, Remove three dream counters from Dream of the Furnace: Create a 2/2 white Human Citizen creature token.
 
 ## Flavor Text
 > *"They crossed the sea for a promise. The promise is slow to keep."*

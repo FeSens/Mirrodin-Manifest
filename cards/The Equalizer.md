@@ -3,7 +3,9 @@ tags:
   - card
 type: Creature
 subtype: Vedalken Advisor
-color: White/Blue
+color:
+  - White
+  - Blue
 mana_cost: "{1}{W}{U}"
 cmc: 3
 rarity: Rare
@@ -18,14 +20,12 @@ set: Mirrodin Manifest
 Creature — Vedalken Advisor
 
 ## Rules Text
-> Whenever you redistribute, scry 2.
+> Whenever one or more permanents are redistributed, scry 2.
 >
-> {W}{U}, {T}: Redistribute among any number of target permanents you control. *(Remove all counters from them, then distribute that many counters among them as you choose.)*
->
-> *"Perfect balance requires perfect information."*
+> {W}{U}, {T}: Choose any number of permanents you control. Remove all counters from them, then distribute that many counters among them as you choose.
 
 ## Flavor Text
->
+> *"Perfect balance requires perfect information."*
 
 ## Image Prompt
 > The Equalizer, Vedalken Advisor from Mirrodin Manifest. Setting: Seat of the Synod — sterile chrome chamber with data streams. Mood: Institutional horror. Pose: Standing with precisely balanced scales, redistributing counters with mathematical precision. Key visual elements: Chrome-touched blue skin, scales holding glowing counters, data streams flowing behind, cold calculating gaze. Style reference: Greg Staples meets Nils Hamm. Color palette: Steel blue, chrome, cyan data streams.

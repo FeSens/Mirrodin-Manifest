@@ -1,7 +1,7 @@
 ---
 tags:
   - card
-type: Creature
+type: Artifact Creature
 subtype: Myr
 color: Colorless
 mana_cost: "{1}"
@@ -18,7 +18,7 @@ set: Mirrodin Manifest
 Artifact Creature — Myr
 
 ## Rules Text
-> {T}: Add {C}. Put a -1/-1 counter on target non-Myr creature you control. Activate only once each turn.
+> {T}: Add {C}. Put a -1/-1 counter on a creature you control.
 
 ## Flavor Text
 > *"Every task it completes is one fewer for you."*

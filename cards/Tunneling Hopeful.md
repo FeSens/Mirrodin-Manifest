@@ -22,8 +22,6 @@ Creature — Human Citizen
 > Tunneling Hopeful can't be blocked by artifact creatures.
 >
 > When Tunneling Hopeful dies, create a 1/1 black Human Citizen creature token.
->
-> *"The Wall doesn't go all the way down."*
 
 ## Flavor Text
 > *"For every one they stop, two more find a way."*

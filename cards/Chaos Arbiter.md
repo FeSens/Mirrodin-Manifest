@@ -1,7 +1,6 @@
 ---
 tags:
   - card
-  - broken-needs-review
 type: Creature
 subtype: Elemental
 color: Red
@@ -21,9 +20,7 @@ Creature — Elemental
 ## Rules Text
 > Flying
 >
-> Whenever you cast an instant or sorcery spell, flip a coin. If you win the flip, copy that spell. You may choose new targets for the copy.
->
-> *GAMBLE — At the beginning of your upkeep, scry 2.*
+> Whenever you cast an instant or sorcery spell, you may gamble. If you win the gamble, copy that spell. You may choose new targets for the copy.
 
 ## Flavor Text
 > *"In chaos, there is profit—if you know when to bet."*
@@ -39,6 +36,6 @@ Creature — Elemental
 - Pairs with: [[The House Edge]], [[Bubble Speculator]]
 
 ## Outside of this set interactions
-- **Notable Synergies:** Insane with [[Krark's Thumb]] - 75% chance to copy every spell; [[Krark, the Thumbless]] creates double coin flip effects; [[Tavern Scoundrel]] generates Treasures on wins
-- **POTENTIALLY BROKEN Combos:** [[Krark's Thumb]] + cheap cantrips = high probability of copying draw spells repeatedly; [[Bonus Round]] + this = doubled spells that might also copy from the flip; [[Twinning Staff]] copies the copies for additional value
-- **Balance Assessment:** POTENTIALLY BROKEN - Every instant/sorcery potentially being doubled with no mana cost is extremely powerful. With Krark's Thumb, this becomes near-guaranteed copy engine. Unlike Krark, you never lose the spell. Consider requiring mana payment or making the copy effect once per turn
+- **Notable Synergies:** Scry 2 lets you set up high mana value cards on top to win gambles; [[Sensei's Divining Top]] for top manipulation
+- **Potential Combos:** Top-deck manipulation + high CMC cards improves gamble odds significantly
+- **Balance Assessment:** FIXED - Now uses the set's Gamble mechanic (compare mana values) instead of coin flip, and made optional ("you may gamble"). The scry 2 ability helps set up winning gambles. At 5 mana mythic, this is powerful but fair - you need to build around it with high mana value cards.

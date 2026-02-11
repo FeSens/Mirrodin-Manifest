@@ -16,9 +16,9 @@ set: Mirrodin Manifest
 Sorcery
 
 ## Rules Text
-> Compound three times, choosing the same permanent each time.
+> Choose target permanent you control with a counter on it. Compound three times, choosing that permanent each time. *(To compound, put a counter on it of a type already on it.)*
 >
-> Then gamble. If you lose the gamble, redistribute, choosing that permanent and target permanent an opponent controls.
+> Then gamble with target opponent. If you win, draw a card. If you lose, remove all counters from that permanent.
 
 ## Flavor Text
 > *"Inflate. Bet. Crash. Repeat. The only losers are the ones who believed it was real."*
@@ -28,11 +28,10 @@ Sorcery
 > Market Manipulation — Sorcery. Action depicted: A Vedalken broker with chrome-threaded face raising hands as holographic charts spike impossibly upward, while a second hidden chart shows the inevitable plummet. Setting: Glimmervoid trading pit, Myr scrambling at chrome terminals. Focal point: The broker's cold, calculating eyes — he knows exactly when to sell. Mood: False promise, orchestrated betrayal. Style reference: Greg Staples meets Nils Hamm. Color palette: Gold, steel blue, Glimmervoid white, the sickly green of hidden charts.
 
 ## Design Notes
-- **Mechanic:** Uses all three set mechanics in sequence — Compound, Gamble, Redistribute
-- **The Pump and Dump:** Inflate a permanent with three compound triggers (massive growth), then gamble on it
-- If you WIN the gamble: you keep all that compounded value — pure profit
-- If you LOSE the gamble: you redistribute, forcing the inflated permanent to share its counters with an opponent's permanent — spreading the crash
-- The opponent's permanent gets dragged into your failure (bailout mentality)
+- **Mechanic:** Uses Compound + Gamble (was three mechanics — simplified for playability)
+- **The Pump and Dump:** Inflate a permanent with three compound triggers, then gamble
+- If you WIN the gamble: you keep all that compounded value + draw a card — pure profit
+- If you LOSE the gamble: you lose the three counters you just added — the bubble pops
 - **Lore connection:** [[The House Edge]] — Kha-Sino returns, running schemes in the Glimmervoid
 - Blue/Black represents calculated exploitation and information asymmetry
 - **Synergy:** Devastating with [[The House Edge]] — scry first to nearly guarantee the win

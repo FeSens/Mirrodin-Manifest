@@ -13,9 +13,9 @@ set: Mirrodin Manifest
 Token Artifact — Debt
 
 ## Rules Text
-> *(Debt tokens enter the battlefield with a debt counter on them.)*
+> *(Debt tokens enter the battlefield with two debt counters on them.)*
 >
-> At the beginning of your upkeep, you lose life equal to the number of debt counters on this permanent, then sacrifice it.
+> At the beginning of your upkeep, you lose 1 life, then remove a debt counter from this. When the last debt counter is removed from this, sacrifice it.
 
 ## Flavor Text
 > *"The Foundry giveth. The Foundry taketh away—with interest."*
@@ -25,12 +25,12 @@ Token Artifact — Debt
 
 ## Design Notes
 - Created by: [[Loan Shark]], [[Predatory Lending]], [[Myr Repo Unit]], and other debt-creating cards
-- Enters with 1 debt counter (deals 1 damage by default)
+- Enters with 2 debt counters (lasts 2 turns, deals 1 damage per turn)
 - Synergies:
-  - [[COMPOUND]] adds debt counters → more damage
+  - [[COMPOUND]] adds debt counters → extends duration
   - [[☭REDISTRIBUTE]] moves debt counters between Debt tokens
-  - [[Hype Cycle]] doubles debt counters → double damage
-  - [[Market Crash]] removes all counters → 0 damage (debt cleared!)
+  - [[Hype Cycle]] doubles debt counters → doubles duration
+  - [[Market Crash]] removes all counters → instant payoff (debt cleared!)
 - Cross-format interactions:
   - Sacrifice outlets (Ashnod's Altar) can avoid damage (costs resource)
   - Proliferate adds debt counters (downside of proliferating)

@@ -1,7 +1,6 @@
 ---
 tags:
   - card
-  - broken-needs-review
 type: Creature
 subtype: Construct
 color: Blue
@@ -25,7 +24,7 @@ Artifact Creature — Construct
 >
 > Recursive Self-Improvement gets +1/+1 for each improvement counter on it.
 >
-> When Recursive Self-Improvement has twenty or more improvement counters on it, you win the game.
+> At the beginning of your end step, if Recursive Self-Improvement has one hundred or more improvement counters on it, you win the game.
 
 ## Flavor Text
 > *"It began improving. It never stopped."*
@@ -35,7 +34,7 @@ Artifact Creature — Construct
 
 ## Design Notes
 - Represents AI singularity/takeoff scenario
-- Self-doubles each turn: 4→8→16→32 (win turn 4 after casting)
+- Self-doubles each turn: 4→8→16→32→64→128 (win turn 6 after casting with end step trigger)
 - [[Market Crash]] resets it to 0 (kills it)
 - [[COMPOUND]] accelerates it, [[☭REDISTRIBUTE]] can't help (only one target)
 - Ultimate AI threat card
@@ -44,5 +43,5 @@ Artifact Creature — Construct
 
 ## Outside of this set interactions
 - **Notable Synergies:** Proliferate effects accelerate counter growth toward 20; [[Master Biomancer]] enters with extra counters from improvement
-- **BROKEN COMBOS:** [[Doubling Season]] enters with 8 counters, doubles to 16, then 32 = wins on first upkeep after casting; [[Paradox Haze]] two upkeeps = 4-16-64 wins in 2 turns; [[Vorinclex, Monstrous Raider]] 8-32-128 instant win
-- **Balance Assessment:** BROKEN - Alternate win condition achievable in 1-3 turns with common support cards. With Doubling Season, wins immediately after first upkeep. Consider raising the win threshold to 40+, or making it "if Recursive Self-Improvement has twenty or more counters at end of turn"
+- **Synergy Combos:** [[Doubling Season]] enters with 8 counters, doubles to 32, then 128 = wins on first end step after upkeep; [[Paradox Haze]] two upkeeps = 4-16-64-256 wins in 2 turns; [[Vorinclex, Monstrous Raider]] 8-32-128 wins faster
+- **Balance Assessment:** FIXED - Win condition now requires 100+ counters AND triggers at end step (not immediately). Takes 6 upkeeps naturally (4-8-16-32-64-128). Even with Doubling Season, requires at least one full turn cycle. Still strong but mythic-appropriate.

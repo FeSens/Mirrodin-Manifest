@@ -15,9 +15,7 @@ set: Mirrodin Manifest
 Instant
 
 ## Rules Text
-> Target creature you control fights target creature you don't control.
->
-> Gamble. If you win, put a +1/+1 counter on your creature.
+> Target creature you control fights target creature you don't control. Then gamble. If you win, put a +1/+1 counter on that creature you control.
 
 ## Flavor Text
 > *"The Tangle teaches: risk everything, gain everything."*

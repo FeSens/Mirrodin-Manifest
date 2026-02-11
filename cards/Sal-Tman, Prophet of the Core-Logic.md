@@ -8,6 +8,8 @@ color: Blue/White
 mana_cost: "{2}{W}{U}"
 cmc: 4
 rarity: Mythic Rare
+power: 2
+toughness: 4
 set: Mirrodin Manifest
 ---
 
@@ -17,11 +19,9 @@ set: Mirrodin Manifest
 Legendary Creature — Human Artificer
 
 ## Rules Text
-> At the beginning of your upkeep, you may pay {2}. If you do, create a 1/1 colorless Myr artifact creature token with "This creature can't attack or block."
+> At the beginning of your upkeep, create a 1/1 colorless Myr artifact creature token with "This creature can't attack or block."
 >
-> {T}: Add {C}{C}{C}. Spend this mana only to cast artifact spells or activate abilities of artifacts. At the beginning of your next end step, you lose 3 life unless you control more artifacts than you did when this ability resolved.
->
-> *"True intelligence is always one year away."*
+> {T}: Add {C}{C}. Spend this mana only to cast artifact spells or activate abilities of artifacts.
 
 ## Power/Toughness
 > 2/4

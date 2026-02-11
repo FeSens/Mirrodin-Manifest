@@ -2,7 +2,9 @@
 tags:
   - card
 type: Sorcery
-color: Black/Red
+color:
+  - Black
+  - Red
 mana_cost: "{2}{B}{R}"
 cmc: 4
 rarity: Rare
@@ -15,9 +17,7 @@ set: Mirrodin Manifest
 Sorcery
 
 ## Rules Text
-> Each player sacrifices a creature for each counter removed from permanents they control this turn.
->
-> If no counters were removed this turn, instead each player sacrifices a creature for each type of counter among permanents they control.
+> Each player sacrifices a creature for each type of counter among permanents they control.
 
 ## Flavor Text
 > *"The En-Vidia promised infinite returns. It delivered infinite losses."*

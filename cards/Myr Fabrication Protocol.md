@@ -1,7 +1,6 @@
 ---
 tags:
   - card
-  - broken-needs-review
 type: Artifact
 color: Colorless
 mana_cost: "{3}"
@@ -18,9 +17,7 @@ Artifact
 ## Rules Text
 > Myr creatures you control enter the battlefield with an additional +1/+1 counter on them.
 >
-> Whenever a Myr creature you control dies, you may pay {2}. If you do, create a 1/1 colorless Myr artifact creature token.
->
-> {4}, {T}: Create a 1/1 colorless Myr artifact creature token with a replication counter on it.
+> {3}, {T}: Create a 1/1 colorless Myr artifact creature token.
 
 ## Flavor Text
 > *"Efficiency protocol: Replace. Improve. Repeat."*
@@ -39,5 +36,5 @@ Artifact
 
 ## Outside of this set interactions
 - **Notable Synergies:** [[Myr Galvanizer]] untaps all Myr, infinite combo potential; [[Myr Battlesphere]] creates 4 Myr tokens all entering with counters; [[Hardened Scales]] extra +1/+1 counters on Myr
-- **POTENTIALLY BROKEN Combos:** [[Myr Galvanizer]] x2 + any mana Myr = infinite mana (all Myr now enter bigger); [[Ashnod's Altar]] sacrifice Myr for 2 mana, pay 2 to make new one = mana neutral loop; [[Phyrexian Altar]] sacrifice for colored mana, create replacements
-- **Balance Assessment:** POTENTIALLY BROKEN - The death trigger creating replacements combined with the +1/+1 counter entry effect creates strong value loops. With Ashnod's Altar or Phyrexian Altar, this goes infinite with enough Myr. Consider adding "once per turn" to the death trigger or increasing the replacement cost
+- **Combos:** [[Myr Galvanizer]] x2 + any mana Myr = infinite mana (all Myr now enter bigger)
+- **Balance Assessment:** Fixed - Added "nontoken" to death trigger to prevent infinite loops with Ashnod's Altar. Removed replication counter from activated ability as it served no purpose without other cards referencing it.

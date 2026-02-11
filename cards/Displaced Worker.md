@@ -3,7 +3,7 @@ tags:
   - card
   - unvetted
 type: Creature
-subtype: Human
+subtype: Human Citizen
 color: White
 mana_cost: "{1}{W}"
 cmc: 2
@@ -14,7 +14,7 @@ set: Mirrodin Manifest
 # Displaced Worker
 
 ## Card Type Line
-Creature — Human
+Creature — Human Citizen
 
 ## Rules Text
 > When Displaced Worker enters the battlefield, create a 0/1 colorless Myr artifact creature token.

@@ -1,7 +1,6 @@
 ---
 tags:
   - card
-  - broken-needs-review
 type: Creature
 subtype: Human Advisor
 color:
@@ -21,11 +20,9 @@ set: Mirrodin Manifest
 Creature — Human Advisor
 
 ## Rules Text
-> At the beginning of your end step, create a 1/1 white Human Unforged creature token with a spark counter on it.
+> At the beginning of your end step, create a 1/1 white Human Unforged creature token.
 >
-> Sacrifice three Unforged: Draw three cards and add {B}{B}{B}.
->
-> *"Such promising students. Such generous donors."*
+> {2}, Sacrifice three Unforged: Draw three cards.
 
 ## Flavor Text
 > *"The Spark Refinement Academy produces graduates of exceptional... value."*
@@ -44,4 +41,4 @@ Creature — Human Advisor
 ## Outside of this set interactions
 - **Notable Synergies:** [[Blood Artist]]/[[Zulaport Cutthroat]] each Unforged death drains opponents; [[Anointed Procession]] doubles token production; [[Skullclamp]] equip to 1/1 tokens, sacrifice, draw 2
 - **BROKEN COMBOS:** [[Phyrexian Altar]] + [[Blood Artist]] = sacrifice 3 Unforged for BBB, drain 3 life, make new token each turn; [[Ashnod's Altar]] + [[Nim Deathmantle]] creates repeatable loops
-- **Balance Assessment:** BROKEN - Guaranteed token every end step PLUS card draw AND mana from sacrifice is too much value in one card. Consider removing the mana generation or requiring more tokens to sacrifice
+- **Balance Assessment:** FIXED - Removed free mana generation. Now requires {2} activation cost. Still powerful value engine but no longer free card advantage + mana.

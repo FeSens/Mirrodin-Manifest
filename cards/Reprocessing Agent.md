@@ -18,9 +18,9 @@ set: Mirrodin Manifest
 Creature — Golem Mer-Ikan
 
 ## Rules Text
-> When Reprocessing Agent enters the battlefield, exile target creature an opponent controls with mana value 3 or less until Reprocessing Agent leaves the battlefield. When that creature returns, put two -1/-1 counters on it.
+> When Reprocessing Agent enters the battlefield, exile target creature an opponent controls with mana value 3 or less until Reprocessing Agent leaves the battlefield.
 >
-> *Foundry Protocol* — Reprocessing Agent can't be blocked by creatures that weren't cast from their owner's hand.
+> Reprocessing Agent can't be blocked by creature tokens.
 
 ## Flavor Text
 > *"Documentation, please. No? Then you're scheduled for extraction."*

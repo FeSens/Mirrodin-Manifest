@@ -9,7 +9,7 @@ rarity: Common
 set: Mirrodin Manifest
 ---
 
-# Primal Surge
+# Tangle's Might
 
 ## Card Type Line
 Instant
@@ -21,7 +21,7 @@ Instant
 > *"The Tangle fights back."*
 
 ## Image Prompt
-> Primal Surge — Instant. Action depicted: Copper vines erupting from the ground, wrapping around and empowering a creature mid-charge, muscles and metal swelling with raw power. Setting: The Tangle during a Resistance assault. Focal point: The creature's form expanding as vines infuse it with primal strength. Mood: Buried rage unleashed. Style reference: Rebecca Guay meets Raymond Swanland. Color palette: Copper, forest green, olive, explosive emerald energy.
+> Tangle's Might — Instant. Action depicted: Copper vines erupting from the ground, wrapping around and empowering a creature mid-charge, muscles and metal swelling with raw power. Setting: The Tangle during a Resistance assault. Focal point: The creature's form expanding as vines infuse it with primal strength. Mood: Buried rage unleashed. Style reference: Rebecca Guay meets Raymond Swanland. Color palette: Copper, forest green, olive, explosive emerald energy.
 
 ## Design Notes
 - Green common instant - addresses Green common gap (-7)

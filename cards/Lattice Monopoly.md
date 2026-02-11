@@ -20,8 +20,6 @@ Artifact
 > Whenever an artifact enters the battlefield under an opponent's control, you may pay {1}. If you do, draw a card.
 >
 > {T}: Add one mana of any color. Spend this mana only to cast artifact spells or activate abilities of artifacts.
->
-> *"Open standard. Closed committee."*
 
 ## Flavor Text
 > *The protocol was free. The foundation that controlled it was not.*

@@ -20,8 +20,6 @@ Creature — Human Citizen
 
 ## Rules Text
 > {T}: Add {G}. If this mana is spent on a creature spell, that creature enters the battlefield with an additional +1/+1 counter on it.
->
-> Undocumented Worker can't block Mer-Ikan creatures.
 
 ## Flavor Text
 > *"They don't want us here, but they need what we build."*

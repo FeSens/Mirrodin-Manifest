@@ -15,13 +15,9 @@ Land
 ## Rules Text
 > Vault of the Liquid Sun enters the battlefield tapped.
 >
-> {T}: Add {C}.
->
-> {T}: Add one mana of any color. Spend this mana only to cast artifact spells.
+> {T}: Add one mana of any color. Spend this mana only to cast artifact spells or activate abilities of artifacts.
 >
 > {3}, {T}: Create a Gold token. *(It's an artifact that enters with a value counter. It has "Sacrifice this artifact: Add {C} for each value counter on it.")*
->
-> *When the Lattice fails, only gold remains.*
 
 ## Flavor Text
 > *"The Myr-Mind calculates futures. The Vault holds certainties."*

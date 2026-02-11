@@ -22,8 +22,6 @@ Creature — Human Citizen
 > Haste
 >
 > At the beginning of your end step, if Desperate Crosser didn't attack this turn, sacrifice it.
->
-> When Desperate Crosser is exiled, it deals 2 damage to the player who controls the source that exiled it.
 
 ## Flavor Text
 > *"Stop or die. Run or die. What choice is that?"*

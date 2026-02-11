@@ -15,7 +15,7 @@ set: Mirrodin Manifest
 Sorcery
 
 ## Rules Text
-> Redistribute. *(Choose two permanents. Remove all counters from them, then each gets half that many counters, rounded down.)*
+> Redistribute. *(Choose two permanents. Remove all counters from them, then put half that many counters, rounded down, on each of them of the same types.)*
 >
 > You gain 2 life.
 
