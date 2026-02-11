@@ -29,6 +29,9 @@ from typing import Optional, Dict, Any, List
 from dataclasses import dataclass
 from datetime import datetime
 import yaml
+import dotenv
+
+dotenv.load_dotenv()
 
 # Configuration
 IMAGES_DIR = "images"
@@ -37,7 +40,7 @@ PROGRESS_FILE = ".image_gen_progress.json"
 CACHE_DIR = ".image_cache"
 
 # OpenRouter Configuration
-OPENROUTER_API_KEY = "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"
+OPENROUTER_API_KEY = os.getenv("OPENROUTER_API_KEY")
 OPENROUTER_MODEL = "google/gemini-3-pro-image-preview"  # DO NOT CHANGE THIS
 OPENROUTER_API_URL = "https://openrouter.ai/api/v1/chat/completions"
 
