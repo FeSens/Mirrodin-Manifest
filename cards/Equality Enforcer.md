@@ -20,7 +20,7 @@ Artifact Creature — Construct
 ## Rules Text
 > Vigilance
 >
-> At the beginning of your end step, you may redistribute. *(Choose two permanents. Remove all counters from them, then each gets half that many counters, rounded down.)*
+> At the beginning of your end step, you may redistribute two target permanents. *(To redistribute, remove all counters from them, then each gets half that many counters, rounded down.)*
 
 ## Flavor Text
 > *"Imbalance detected. Correction initiated."*

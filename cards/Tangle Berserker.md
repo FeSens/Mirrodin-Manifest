@@ -23,7 +23,7 @@ Creature — Human Berserker
 ## Rules Text
 > Haste, trample
 >
-> Whenever Tangle Berserker attacks, gamble. If you win, Tangle Berserker gets +2/+2 until end of turn. If you lose, Tangle Berserker deals 2 damage to you. *(To gamble, you and target opponent reveal the top card of your libraries. Whoever reveals the card with greater mana value wins.)*
+> Whenever Tangle Berserker attacks, gamble. If you win, Tangle Berserker gets +2/+2 until end of turn. *(To gamble, you and target opponent reveal the top card of your libraries. Whoever reveals the card with greater mana value wins. If equal, the active player wins.)*
 
 ## Flavor Text
 > *"The wilds don't reward caution."*

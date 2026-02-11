@@ -17,7 +17,7 @@ Legendary Artifact
 ## Rules Text
 > Indestructible
 >
-> Creatures your opponents control that weren't cast can't attack.
+> Creature tokens your opponents control can't attack.
 
 ## Flavor Text
 > *"The Mephidross will pay for it. One extracted ore at a time."*

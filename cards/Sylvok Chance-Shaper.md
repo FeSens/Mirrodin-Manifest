@@ -18,7 +18,7 @@ set: Mirrodin Manifest
 Creature — Elf Shaman
 
 ## Rules Text
-> Whenever you gamble, you may pay {G}. If you do, scry 1 before revealing your top card. *(To gamble, you and target opponent each reveal the top card of your libraries. Whoever reveals the card with greater mana value wins.)*
+> Whenever you gamble, you may pay {G}. If you do, scry 1 before revealing your top card. *(To gamble, you and target opponent each reveal the top card of your libraries. Whoever reveals the card with greater mana value wins. If equal, the active player wins.)*
 
 ## Flavor Text
 > *"The Tangle teaches patience. Patience teaches when to leap."*

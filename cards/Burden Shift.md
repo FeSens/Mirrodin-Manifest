@@ -15,7 +15,7 @@ set: Mirrodin Manifest
 Instant
 
 ## Rules Text
-> Redistribute among two target Debt tokens. *(Remove all counters from them, then each gets half that many counters, rounded down.)*
+> Redistribute two target Debt tokens. *(Remove all counters from them, then each gets half that many counters, rounded down.)*
 >
 > Target opponent loses 2 life.
 

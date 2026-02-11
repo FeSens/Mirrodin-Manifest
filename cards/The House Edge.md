@@ -16,7 +16,7 @@ set: Mirrodin Manifest
 Enchantment
 
 ## Rules Text
-> If you would gamble, instead scry 1, then gamble.
+> Whenever you gamble, scry 1 before revealing cards.
 
 ## Flavor Text
 > *"The odds aren't in your favor. They're in mine. I built the table."*

@@ -23,7 +23,7 @@ Legendary Artifact Creature — Construct
 >
 > When The Great Leveling enters the battlefield, remove all counters from all other permanents. Then distribute that many counters among those permanents as evenly as possible, rounded down.
 >
-> Whenever one or more counters are put on a permanent, if that permanent has five or more counters on it, redistribute it and target other permanent.
+> Whenever one or more counters are put on a permanent, if that permanent has five or more counters on it, redistribute that permanent and another target permanent.
 
 ## Flavor Text
 > *"No one rises. No one falls. All are equal before the Equalizer."*

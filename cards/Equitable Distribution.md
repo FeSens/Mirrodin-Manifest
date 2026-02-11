@@ -15,7 +15,7 @@ set: Mirrodin Manifest
 Sorcery
 
 ## Rules Text
-> Choose two target permanents with counters on them. Redistribute among them. *(To redistribute, remove all counters from them, then each gets half that many counters, rounded down.)*
+> Redistribute two target permanents with counters on them. *(To redistribute, remove all counters from them, then each gets half that many counters, rounded down.)*
 
 ## Flavor Text
 > *"All shall be made equal under the Synod's watchful eye."*

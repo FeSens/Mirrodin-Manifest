@@ -19,7 +19,7 @@ set: Mirrodin Manifest
 Legendary Creature — Human Artificer
 
 ## Rules Text
-> At the beginning of your upkeep, create a 1/1 colorless Myr artifact creature token with "This creature can't attack or block."
+> At the beginning of your upkeep, create a 1/1 colorless Myr artifact creature token.
 >
 > {T}: Add {C}{C}. Spend this mana only to cast artifact spells or activate abilities of artifacts.
 

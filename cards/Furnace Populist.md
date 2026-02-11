@@ -21,7 +21,7 @@ Creature — Human Advisor
 ## Rules Text
 > Haste
 >
-> Whenever Furnace Populist attacks, gamble with target opponent. If you win, put a +1/+1 counter on Furnace Populist. If you lose, Furnace Populist deals 2 damage to you. *(To gamble, you and that player each reveal the top card of your libraries. Whoever reveals the card with greater mana value wins.)*
+> Whenever Furnace Populist attacks, gamble with target opponent. If you win, put a +1/+1 counter on Furnace Populist. *(To gamble, you and that player each reveal the top card of your libraries. Whoever reveals the card with greater mana value wins. If equal, the active player wins.)*
 
 ## Flavor Text
 > *"The people want action! The Synod wants studies! I bring fire!"*

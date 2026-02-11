@@ -15,7 +15,7 @@ set: Mirrodin Manifest
 Enchantment
 
 ## Rules Text
-> Whenever you win a gamble, create a Gold token. *(To gamble, you and target opponent reveal the top card of your libraries. Whoever reveals the card with greater mana value wins.)*
+> Whenever you win a gamble, create a Gold token. *(To gamble, you and target opponent reveal the top card of your libraries. Whoever reveals the card with greater mana value wins. If equal, the active player wins.)*
 >
 > Whenever you lose a gamble, Fortune's Favor deals 2 damage to any target.
 

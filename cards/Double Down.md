@@ -17,7 +17,7 @@ Sorcery
 ## Rules Text
 > Draw two cards, then discard a card.
 >
-> Gamble. If you win the gamble, draw a card. If you lose the gamble, discard a card.
+> Gamble. If you win the gamble, draw a card. If you lose the gamble, discard a card. *(To gamble, you and target opponent reveal the top card of your libraries. Whoever reveals the card with greater mana value wins. If equal, the active player wins.)*
 
 ## Flavor Text
 > *"Double or nothing? I'll take those odds."*

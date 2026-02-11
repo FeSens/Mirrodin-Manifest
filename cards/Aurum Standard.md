@@ -19,7 +19,7 @@ Enchantment
 >
 > Whenever you sacrifice a Gold token, you gain life equal to the number of value counters on it as it last existed on the battlefield.
 >
-> {1}, {T}: Compound target Gold token you control. *(Put a counter on it of a type already on it.)*
+> {1}: Compound target Gold token you control. *(Put a counter on it of a type already on it.)*
 
 ## Flavor Text
 > *"When the Lattice fails, only gold remains."*

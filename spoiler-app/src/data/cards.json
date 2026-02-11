@@ -112,7 +112,7 @@
     "cmc": 4,
     "type": "Enchantment",
     "typeLine": "Enchantment",
-    "rulesText": "Whenever a Gold token enters the battlefield under your control, put a value counter on it.\n\nWhenever you sacrifice a Gold token, you gain life equal to the number of value counters on it as it last existed on the battlefield.\n\n{1}, {T}: Compound target Gold token you control.",
+    "rulesText": "Whenever a Gold token enters the battlefield under your control, put a value counter on it.\n\nWhenever you sacrifice a Gold token, you gain life equal to the number of value counters on it as it last existed on the battlefield.\n\n{1}: Compound target Gold token you control.",
     "flavorText": "\"When the Lattice fails, only gold remains.\"",
     "colors": [
       "White"
@@ -130,7 +130,7 @@
     "cmc": 1,
     "type": "Instant",
     "typeLine": "Instant",
-    "rulesText": "Redistribute among two target Debt tokens.",
+    "rulesText": "Redistribute two target Debt tokens.",
     "flavorText": "\"Cuts must be made somewhere.\"",
     "colors": [
       "White"
@@ -333,7 +333,7 @@
     "cmc": 2,
     "type": "Instant",
     "typeLine": "Instant",
-    "rulesText": "Redistribute among two target Debt tokens.\n\nTarget opponent loses 2 life.",
+    "rulesText": "Redistribute two target Debt tokens.\n\nTarget opponent loses 2 life.",
     "flavorText": "\"Your debt becomes their debt. And they pay the price.\"",
     "colors": [
       "Black"
@@ -431,7 +431,7 @@
     "subtype": "Human Advisor",
     "supertype": "Legendary",
     "typeLine": "Legendary Creature — Human Advisor",
-    "rulesText": "At the beginning of each upkeep, if there are two or more Debt tokens on the battlefield, redistribute among two of them.\n\nWhenever you redistribute, you may have target player create a Debt token.",
+    "rulesText": "At the beginning of each upkeep, if there are two or more Debt tokens on the battlefield, redistribute two of them.\n\nWhenever a permanent is redistributed, you may have target player create a Debt token.",
     "flavorText": "\"Stability requires... adjustments.\"",
     "power": "4",
     "toughness": "5",
@@ -452,7 +452,7 @@
     "type": "Creature",
     "subtype": "Vedalken Advisor",
     "typeLine": "Creature — Vedalken Advisor",
-    "rulesText": "At the beginning of your upkeep, you may redistribute among two creatures with +1/+1 counters on them.",
+    "rulesText": "At the beginning of your upkeep, you may redistribute two creatures with +1/+1 counters on them.",
     "flavorText": "\"Inequality is inefficiency. Inefficiency is unacceptable.\"",
     "power": "1",
     "toughness": "4",
@@ -491,7 +491,7 @@
     "name": "Chaos Theorist",
     "manaCost": "{1}{R}",
     "cmc": 2,
-    "type": "Creature",
+    "type": "˜Creature",
     "subtype": "Human Wizard",
     "typeLine": "Creature — Human Wizard",
     "rulesText": "Whenever you gamble, Chaos Theorist deals 1 damage to each opponent.\n\n{R}, {T}: Gamble.",
@@ -500,7 +500,7 @@
     "toughness": "2",
     "colors": [
       "Red"
-    ],
+    ],˜
     "rarity": "Uncommon",
     "set": "Mirrodin Manifest",
     "artist": "Felipe Bonetto",
@@ -712,7 +712,7 @@
     "type": "Creature",
     "subtype": "Bird",
     "typeLine": "Creature — Bird",
-    "rulesText": "Flying\n\nWhenever one or more counters are redistributed, put a +1/+1 counter on Counter Vulture.",
+    "rulesText": "Flying\n\nWhenever a permanent is redistributed, put a +1/+1 counter on Counter Vulture.",
     "flavorText": "\"Where equality is enforced, opportunity follows.\"",
     "power": "2",
     "toughness": "2",
@@ -891,7 +891,7 @@
     "cmc": 2,
     "type": "Sorcery",
     "typeLine": "Sorcery",
-    "rulesText": "Redistribute among two target Debt tokens.",
+    "rulesText": "Redistribute two target Debt tokens.",
     "flavorText": "\"The burden is now... shared.\"",
     "colors": [
       "White"
@@ -1383,7 +1383,7 @@
     "type": "Creature",
     "subtype": "Construct",
     "typeLine": "Artifact Creature — Construct",
-    "rulesText": "Vigilance\n\nAt the beginning of your end step, you may redistribute.",
+    "rulesText": "Vigilance\n\nAt the beginning of your end step, you may redistribute two target permanents.",
     "flavorText": "\"Imbalance detected. Correction initiated.\"",
     "power": "3",
     "toughness": "4",
@@ -1403,7 +1403,7 @@
     "cmc": 3,
     "type": "Sorcery",
     "typeLine": "Sorcery",
-    "rulesText": "Choose two target permanents with counters on them. Redistribute among them.",
+    "rulesText": "Redistribute two target permanents with counters on them.",
     "flavorText": "\"All shall be made equal under the Synod's watchful eye.\"",
     "colors": [
       "White"
@@ -1542,7 +1542,7 @@
     "cmc": 2,
     "type": "Instant",
     "typeLine": "Instant",
-    "rulesText": "Redistribute.\n\nScry 1.",
+    "rulesText": "Redistribute two target permanents.\n\nScry 1.",
     "flavorText": "\"The Lattice calculates optimal distribution. Your preferences are irrelevant.\"",
     "colors": [
       "Blue"
@@ -1924,7 +1924,7 @@
     "type": "Creature",
     "subtype": "Human Advisor",
     "typeLine": "Creature — Human Advisor",
-    "rulesText": "Haste\n\nWhenever Furnace Populist attacks, gamble with target opponent. If you win, put a +1/+1 counter on Furnace Populist. If you lose, Furnace Populist deals 2 damage to you.",
+    "rulesText": "Haste\n\nWhenever Furnace Populist attacks, gamble with target opponent. If you win, put a +1/+1 counter on Furnace Populist.",
     "flavorText": "\"The people want action! The Synod wants studies! I bring fire!\"",
     "power": "3",
     "toughness": "2",
@@ -2256,7 +2256,7 @@
     "cmc": 0,
     "type": "Land",
     "typeLine": "Land",
-    "rulesText": "Grove of Equal Measure enters the battlefield tapped.\n\n{T}: Add {G} or {W}.\n\n{2}, {T}: Redistribute between two target permanents you control.",
+    "rulesText": "Grove of Equal Measure enters the battlefield tapped.\n\n{T}: Add {G} or {W}.\n\n{2}, {T}: Redistribute two target permanents you control.",
     "flavorText": "\"In this grove, no tree grows taller than its neighbor.\"",
     "colors": [
       "Colorless"
@@ -2772,7 +2772,7 @@
     "type": "Creature",
     "subtype": "Vedalken Advisor",
     "typeLine": "Creature — Vedalken Advisor",
-    "rulesText": "At the beginning of your upkeep, compound.\n\nWhenever you compound, scry 1.",
+    "rulesText": "At the beginning of your upkeep, compound.\n\nWhenever a permanent is compounded, scry 1.",
     "flavorText": "\"The Lattice sees all futures. I merely choose which one arrives.\"",
     "power": "3",
     "toughness": "5",
@@ -2972,7 +2972,7 @@
     "cmc": 2,
     "type": "Instant",
     "typeLine": "Instant",
-    "rulesText": "Redistribute between two target permanents.\n\nScry 1.",
+    "rulesText": "Redistribute two target permanents.\n\nScry 1.",
     "flavorText": "\"Anomalies must be corrected. Variance is inefficiency.\"",
     "colors": [
       "Blue"
@@ -3852,7 +3852,7 @@
     "type": "Creature",
     "subtype": "Construct",
     "typeLine": "Artifact Creature — Construct",
-    "rulesText": "Recursive Self-Improvement enters the battlefield with four improvement counters on it.\n\nAt the beginning of your upkeep, double the number of improvement counters on Recursive Self-Improvement.\n\nRecursive Self-Improvement gets +1/+1 for each improvement counter on it.\n\nAt the beginning of your end step, if Recursive Self-Improvement has one hundred or more improvement counters on it, you win the game.",
+    "rulesText": "Recursive Self-Improvement enters the battlefield with four +1/+1 counters on it.\n\nAt the beginning of your upkeep, double the number of +1/+1 counters on Recursive Self-Improvement.\n\nAt the beginning of your end step, if Recursive Self-Improvement has one hundred or more +1/+1 counters on it, you win the game.",
     "flavorText": "\"It began improving. It never stopped.\"",
     "power": "4",
     "toughness": "4",
@@ -3893,7 +3893,7 @@
     "cmc": 2,
     "type": "Sorcery",
     "typeLine": "Sorcery",
-    "rulesText": "Redistribute.\n\nYou gain 2 life.",
+    "rulesText": "Redistribute two target permanents.\n\nYou gain 2 life.",
     "flavorText": "\"Equality is not theft. Equality is justice.\"",
     "colors": [
       "White"
@@ -4038,7 +4038,7 @@
     "subtype": "Human Artificer",
     "supertype": "Legendary",
     "typeLine": "Legendary Creature — Human Artificer",
-    "rulesText": "At the beginning of your upkeep, create a 1/1 colorless Myr artifact creature token with \"This creature can't attack or block.\"\n\n{T}: Add {C}{C}. Spend this mana only to cast artifact spells or activate abilities of artifacts.",
+    "rulesText": "At the beginning of your upkeep, create a 1/1 colorless Myr artifact creature token.\n\n{T}: Add {C}{C}. Spend this mana only to cast artifact spells or activate abilities of artifacts.",
     "flavorText": "He promised the future. He delivered quarterly reports.",
     "power": "2",
     "toughness": "4",
@@ -4719,7 +4719,7 @@
     "type": "Creature",
     "subtype": "Human Berserker",
     "typeLine": "Creature — Human Berserker",
-    "rulesText": "Haste, trample\n\nWhenever Tangle Berserker attacks, gamble. If you win, Tangle Berserker gets +2/+2 until end of turn. If you lose, Tangle Berserker deals 2 damage to you.",
+    "rulesText": "Haste, trample\n\nWhenever Tangle Berserker attacks, gamble. If you win, Tangle Berserker gets +2/+2 until end of turn.",
     "flavorText": "\"The wilds don't reward caution.\"",
     "power": "3",
     "toughness": "2",
@@ -4924,7 +4924,7 @@
     "type": "Creature",
     "subtype": "Elemental",
     "typeLine": "Creature — Elemental",
-    "rulesText": "Trample, reach\n\nWhenever you win a gamble, put a +1/+1 counter on each creature you control.\n\n{2}{G}: Gamble. Activate only once each turn.",
+    "rulesText": "Trample, reach\n\n{2}{G}: Gamble. If you win, put a +1/+1 counter on each creature you control. If you lose, each creature you control gets -1/-1 until end of turn. Activate only once each turn.",
     "flavorText": "\"The Tangle rewards those who embrace chaos.\"",
     "power": "7",
     "toughness": "7",
@@ -5120,7 +5120,7 @@
     "type": "Legendary Artifact",
     "supertype": "Legendary",
     "typeLine": "Legendary Artifact",
-    "rulesText": "Indestructible\n\nCreatures your opponents control that weren't cast can't attack.",
+    "rulesText": "Indestructible\n\nCreature tokens your opponents control can't attack.",
     "flavorText": "\"The Mephidross will pay for it. One extracted ore at a time.\"",
     "colors": [
       "Colorless"
@@ -5184,7 +5184,7 @@
     "subtype": "Construct",
     "supertype": "Legendary",
     "typeLine": "Legendary Artifact Creature — Construct",
-    "rulesText": "Vigilance\n\nWhen The Great Leveling enters the battlefield, remove all counters from all other permanents. Then distribute that many counters among those permanents as evenly as possible, rounded down.\n\nWhenever one or more counters are put on a permanent, if that permanent has five or more counters on it, redistribute it and target other permanent.",
+    "rulesText": "Vigilance\n\nWhen The Great Leveling enters the battlefield, remove all counters from all other permanents. Then distribute that many counters among those permanents as evenly as possible, rounded down.\n\nWhenever one or more counters are put on a permanent, if that permanent has five or more counters on it, redistribute that permanent and another target permanent.",
     "flavorText": "\"No one rises. No one falls. All are equal before the Equalizer.\"",
     "power": "5",
     "toughness": "5",
@@ -5223,7 +5223,7 @@
     "cmc": 2,
     "type": "Enchantment",
     "typeLine": "Enchantment",
-    "rulesText": "If you would gamble, instead scry 1, then gamble.",
+    "rulesText": "Whenever you gamble, scry 1 before revealing cards.",
     "flavorText": "\"The odds aren't in your favor. They're in mine. I built the table.\"",
     "colors": [
       "Blue"

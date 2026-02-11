@@ -15,7 +15,7 @@ set: Mirrodin Manifest
 Instant
 
 ## Rules Text
-> Redistribute among two target Debt tokens. *(To redistribute, choose two permanents. Remove all counters from them, then each gets half that many counters, rounded down.)*
+> Redistribute two target Debt tokens. *(To redistribute, choose two permanents. Remove all counters from them, then each gets half that many counters, rounded down.)*
 
 ## Flavor Text
 > *"Cuts must be made somewhere."*

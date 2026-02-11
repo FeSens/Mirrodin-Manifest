@@ -26,7 +26,7 @@ Creature — Human Soldier Mer-Ikan
 >
 > Mer-Ikan creatures you control get +1/+1 for each deportation counter on Foundry Wall Captain.
 >
-> {R}{W}, Remove three deportation counters from Foundry Wall Captain: Exile target creature an opponent controls that wasn't cast from its owner's hand.
+> {R}{W}, Remove three deportation counters from Foundry Wall Captain: Exile target creature token an opponent controls.
 
 ## Flavor Text
 > *"The numbers speak for themselves. Enforcement works."*

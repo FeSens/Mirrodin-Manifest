@@ -25,7 +25,16 @@
 
 ### 3. Keyword Action Triggers
 - WRONG: "Whenever a player redistributes"
+- WRONG: "Whenever you redistribute"
+- WRONG: "Whenever one or more counters are redistributed"
 - RIGHT: "Whenever a permanent is redistributed" (keyword actions trigger on the effect, not the player)
+
+### 3b. "Redistribute among/between" vs "Redistribute"
+- WRONG: "Redistribute among two target permanents"
+- WRONG: "Redistribute between two target permanents"
+- RIGHT: "Redistribute two target permanents"
+- The keyword already implies distributing between the targets; "among"/"between" is redundant
+- Found on: Grove of Equal Measure, Memory Normalization (batch 3)
 
 ### 2. Variable References in Effects
 - WRONG: "look at that many cards... where X is the number"
@@ -62,6 +71,7 @@
 
 ### GAMBLE (full reminder)
 *(To gamble, you and that player each reveal the top card of your libraries. Whoever reveals the card with greater mana value wins. If equal, the active player wins.)*
+- NOTE: Many cards still use SHORT reminder without tie-breaker. ALWAYS add "If equal, the active player wins." to any gamble reminder text. Persistent issue found in batches 1-3.
 
 ### COMPOUND (full reminder)
 *(To compound, put a counter on it of a type already on it.)*
@@ -166,6 +176,14 @@
 7. **Niche can't-block restrictions** - "Can't block Mer-Ikan creatures" at common adds text for rarely relevant flavor. Cut it.
 8. **Spells that rewrite REDISTRIBUTE** - If the set has a redistribute keyword, USE it. Don't spell out "remove all counters... put half back..." longhand.
 
+## Second Pass Batch Results
+- **Batch 4 (Memory Purge through Reprocessing Agent)**: 50 cards reviewed. Only 1 fix needed:
+  - Recursive Self-Improvement: improvement counters -> +1/+1 counters (rule 6, saves entire line of text)
+  - All other cards clean on rules 1-16
+- **Batch 6 (Tangle's Vengeance through Zel-Ensk)**: 50 cards reviewed. 2 fixes needed:
+  - The House Edge: "If you would gamble, instead scry 1, then gamble" -> "Whenever you gamble, scry 1 before revealing cards." (rule 15, replacement effect on keyword action + infinite loop risk)
+  - The Great Leveling: "redistribute it and target other permanent" -> "redistribute that permanent and another target permanent" (templating fix, missing "another")
+
 ## Mechanical Inconsistency Patterns
 1. **Counters on tokens with no payoff on the creating card** - Academy Headmaster created tokens "with a spark counter" but nothing on the card referenced spark counters. Fix: remove the counter unless adding a payoff ability.
 2. **Redundant custom counter types** - Civilian Militia used "determination counters" + "gets +1/+1 for each determination counter" which is functionally identical to just using +1/+1 counters. Fix: replace with +1/+1 counters to cut a line of text and improve set synergy.
@@ -173,6 +191,36 @@
 4. **"Return it" on token death triggers** - Tokens cease to exist after going to graveyard (SBA). Delayed triggers saying "return it at next end step" find nothing to return. Fix: change to "create a token" instead of "return it." (Found on Put-In, the Iron Despot.)
 5. **Accumulating counters with zero payoff on the card** - The Darksteel Wall accumulated construction counters every upkeep but no ability referenced them. Fix: removed all counter text. If counters only matter cross-card (Compound/Hype Cycle), they still need at least ONE on-card reference.
 6. **Spark counters on created tokens with no on-card reference** - The Ledger Surfaces created Unforged tokens "with spark counters" but no chapter referenced spark counters. Fix: removed spark counters from token creation.
+
+## Third Pass Batch Results
+- **Batch 1 (Academy Headmaster through Den of Fortune)**: 50 cards reviewed. 2 fixes needed:
+  - Aurum Standard: Enchantment had {T} in activation cost (enchantments can't tap). Removed {T}, now just "{1}: Compound..."
+  - Calculated Risk: Gamble reminder text missing tie-breaker clause. Added "If equal, the active player wins."
+- **Batch 2 (Deportation Court Judge through Furnace Runner)**: 50 cards reviewed. 8 fixes needed:
+  - Equitable Distribution: rule 8 - "Choose two target permanents... Redistribute them" -> "Redistribute two target permanents..."
+  - Equality Enforcer: rule 8 - "you may redistribute" (no targets) -> "you may redistribute two target permanents"
+  - Forced Equalization: rule 8 - "Redistribute." (no targets) -> "Redistribute two target permanents."
+  - Fortune's Favor: rule 10 - gamble reminder missing tie-breaker
+  - Fortune's Gardener: rule 10 - gamble reminder missing tie-breaker
+  - Furnace Populist: rule 10 - gamble reminder missing tie-breaker
+  - Double Down: rule 10 - common with no gamble reminder, added full with tie-breaker
+  - Gamble with Fate: rule 10 - common with no gamble reminder, added full with tie-breaker
+- **Batch 3 (Furnace Saboteur through Memory Normalization)**: 50 cards reviewed. 2 fixes needed:
+  - Jackpot Wurm: Gamble reminder text missing tie-breaker clause (rule 10). Added "If equal, the active player wins."
+  - Lattice Overseer: "Whenever you compound" -> "Whenever a permanent is compounded" (rule 9, passive voice for keyword triggers)
+
+- **Batch 4 (Memory Purge through Reprocessing Agent)**: 50 cards reviewed. 1 fix needed:
+  - Redistribute the Wealth: rule 8 - bare "Redistribute." with no targets -> "Redistribute two target permanents." (consistent with all other redistribute cards in set)
+- **Batch 5 (Resistance Saboteur through Tangle's Might)**: 50 cards reviewed. 4 fixes needed:
+  - Tangle Berserker: Gamble reminder missing tie-breaker (rule 10)
+  - Tangle Raider: Gamble reminder missing tie-breaker (rule 10)
+  - Sylvok Chance-Shaper: Gamble reminder missing tie-breaker (rule 10)
+  - Tangle Titan: Gamble reminder missing tie-breaker (rule 10)
+
+## Additional Pattern: Enchantment Tap Abilities
+- Enchantments CANNOT tap unless they're also creatures or artifacts
+- Found on Aurum Standard: {1}, {T}: on a pure Enchantment = impossible
+- Fix: Remove {T} from the cost, leaving just the mana cost
 
 ## Flavor Text Standards
 - Should connect to set lore (Ep-Styn, En-Vidia Lattice, Mer-Ikan Foundry, etc.)

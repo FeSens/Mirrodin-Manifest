@@ -21,7 +21,7 @@ Creature — Human Warrior
 ## Rules Text
 > Whenever Tangle Raider attacks, gamble. If you win the gamble, Tangle Raider gets +2/+0 until end of turn.
 >
-> *(To gamble, you and target opponent reveal the top card of your libraries. Whoever reveals the card with greater mana value wins.)*
+> *(To gamble, you and target opponent reveal the top card of your libraries. Whoever reveals the card with greater mana value wins. If equal, the active player wins.)*
 
 ## Flavor Text
 > *"Fortune favors the bold—and the reckless."*

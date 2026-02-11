@@ -17,7 +17,7 @@ Land
 >
 > {T}: Add {G} or {W}.
 >
-> {2}, {T}: Redistribute between two target permanents you control. *(To redistribute, remove all counters from both, then put half that many counters, rounded down, on each of them of the types removed this way.)*
+> {2}, {T}: Redistribute two target permanents you control. *(To redistribute, remove all counters from both, then put half that many counters, rounded down, on each of them of the types removed this way.)*
 
 ## Flavor Text
 > *"In this grove, no tree grows taller than its neighbor."*

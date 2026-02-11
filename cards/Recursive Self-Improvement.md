@@ -18,13 +18,11 @@ set: Mirrodin Manifest
 Artifact Creature — Construct
 
 ## Rules Text
-> Recursive Self-Improvement enters the battlefield with four improvement counters on it.
+> Recursive Self-Improvement enters the battlefield with four +1/+1 counters on it.
 >
-> At the beginning of your upkeep, double the number of improvement counters on Recursive Self-Improvement.
+> At the beginning of your upkeep, double the number of +1/+1 counters on Recursive Self-Improvement.
 >
-> Recursive Self-Improvement gets +1/+1 for each improvement counter on it.
->
-> At the beginning of your end step, if Recursive Self-Improvement has one hundred or more improvement counters on it, you win the game.
+> At the beginning of your end step, if Recursive Self-Improvement has one hundred or more +1/+1 counters on it, you win the game.
 
 ## Flavor Text
 > *"It began improving. It never stopped."*

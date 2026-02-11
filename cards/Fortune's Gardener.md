@@ -20,7 +20,7 @@ Creature — Elf Druid
 ## Rules Text
 > {T}: Add {G}.
 >
-> Whenever you win a gamble, untap Fortune's Gardener and put a +1/+1 counter on it. *(To gamble, you and target opponent reveal the top card of your libraries. Whoever reveals the card with greater mana value wins.)*
+> Whenever you win a gamble, untap Fortune's Gardener and put a +1/+1 counter on it. *(To gamble, you and target opponent reveal the top card of your libraries. Whoever reveals the card with greater mana value wins. If equal, the active player wins.)*
 
 ## Flavor Text
 > *"The Tangle favors those who take chances."*

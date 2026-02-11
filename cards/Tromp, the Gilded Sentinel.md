@@ -21,9 +21,9 @@ set: Mirrodin Manifest
 Legendary Creature — Loxodon Artificer
 
 ## Rules Text
-> Creatures that weren't cast from their owner's hand can't attack you or planeswalkers you control.
+> Creature tokens your opponents control can't attack you or planeswalkers you control.
 >
-> At the beginning of your upkeep, Tromp, the Gilded Sentinel deals 2 damage to each creature that wasn't cast from its owner's hand.
+> At the beginning of your upkeep, Tromp, the Gilded Sentinel deals 2 damage to each creature token your opponents control.
 
 ## Flavor Text
 > *"Make the Core Solid Again."*

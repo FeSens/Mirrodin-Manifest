@@ -15,7 +15,7 @@ set: Mirrodin Manifest
 Sorcery
 
 ## Rules Text
-> Gamble. *(You and target opponent reveal the top card of your libraries. Whoever reveals the card with greater mana value wins.)*
+> Gamble. *(You and target opponent reveal the top card of your libraries. Whoever reveals the card with greater mana value wins. If equal, the active player wins.)*
 >
 > The player who loses the gamble loses 6 life.
 

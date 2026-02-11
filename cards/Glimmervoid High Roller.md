@@ -20,7 +20,7 @@ Creature — Vedalken Rogue
 ## Rules Text
 > Once each turn, whenever you gamble, draw a card.
 >
-> {U}, Discard a card: Gamble. *(You and target opponent reveal the top card of your libraries. Whoever reveals the card with greater mana value wins.)*
+> {U}, Discard a card: Gamble. If you win, draw a card. If you lose, put the top card of your library into your graveyard. *(To gamble, you and target opponent reveal the top card of your libraries. Whoever reveals the card with greater mana value wins. If equal, the active player wins.)*
 
 ## Flavor Text
 > *"The thrill isn't in winning. It's in knowing you might not."*

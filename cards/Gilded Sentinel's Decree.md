@@ -18,7 +18,7 @@ Sorcery
 ## Rules Text
 > Choose one or both —
 >
-> • Exile all creatures that weren't cast from their owner's hand.
+> • Exile all creature tokens.
 >
 > • Until your next turn, each player can't cast noncreature spells with mana value 4 or greater.
 

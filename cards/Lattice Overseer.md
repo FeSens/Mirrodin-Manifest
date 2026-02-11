@@ -21,7 +21,7 @@ Creature — Vedalken Advisor
 ## Rules Text
 > At the beginning of your upkeep, compound. *(Choose a permanent you control. Put a counter on it of a type already on it.)*
 >
-> Whenever you compound, scry 1.
+> Whenever a permanent is compounded, scry 1.
 
 ## Flavor Text
 > *"The Lattice sees all futures. I merely choose which one arrives."*

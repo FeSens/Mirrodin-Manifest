@@ -19,7 +19,7 @@ set: Mirrodin Manifest
 Creature — Human Rogue
 
 ## Rules Text
-> {T}: Gamble. *(You and target opponent reveal the top card of your libraries. Whoever reveals the card with greater mana value wins.)* If you win the gamble, create a Gold token. If you lose the gamble, sacrifice a permanent.
+> {T}: Gamble. *(You and target opponent reveal the top card of your libraries. Whoever reveals the card with greater mana value wins. If equal, the active player wins.)* If you win the gamble, create a Gold token. If you lose the gamble, you lose 1 life.
 
 ## Flavor Text
 > *"The house always wins. I am the house."*

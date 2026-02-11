@@ -15,7 +15,7 @@ set: Mirrodin Manifest
 Instant
 
 ## Rules Text
-> Redistribute between two target permanents. *(To redistribute, remove all counters from both, then put half that many counters, rounded down, on each of them of the types removed this way.)*
+> Redistribute two target permanents. *(To redistribute, remove all counters from both, then put half that many counters, rounded down, on each of them of the types removed this way.)*
 >
 > Scry 1.
 

@@ -18,7 +18,7 @@ set: Mirrodin Manifest
 Creature — Vedalken Advisor
 
 ## Rules Text
-> At the beginning of your upkeep, you may redistribute among two creatures with +1/+1 counters on them. *(To redistribute, choose two permanents. Remove all counters from them, then each gets half that many counters, rounded down.)*
+> At the beginning of your upkeep, you may redistribute two creatures with +1/+1 counters on them. *(To redistribute, choose two permanents. Remove all counters from them, then each gets half that many counters, rounded down.)*
 
 ## Flavor Text
 > *"Inequality is inefficiency. Inefficiency is unacceptable."*
